@@ -1,0 +1,275 @@
+"https://www.asiasentinel.com/rss", Asia Sentinel
+"https://emergingvalue.substack.com/rss", Emerging Value
+"https://reidtandy.substack.com/rss", Growth Croissant
+"https://www.marginofsafetyinvesting.com/rss", Margin of Safety Investing
+"https://neckar.substack.com/rss", Neckar's Minds and Markets
+"https://pocketphilosopher.substack.com/rss", The Pocket Philosophers
+"https://sinocism.com/rss", Sinocism
+"https://ideabrunch.substack.com/rss", Sunday's Idea Brunch
+"https://thetranscript.substack.com/rss", The Transcript
+"https://www.valuedontlie.com/rss", Value Don't Lie
+"https://valueinvesting.substack.com/rss", Value Investing Substack
+"https://valueinvestingworld.substack.com/rss", Value Investing World
+"https://valuepunks.substack.com/rss", Value Punks
+"https://gordianknot.substack.com/rss", "Untying The Gordian Knot"
+"https://500hourproject.substack.com/rss", The 500 Hour Project
+"https://8percentpa.substack.com/rss", 8% Value Investhink Newsletter
+"https://investorclub.substack.com/rss", Abhishek’s Newsletter
+"https://antonhowes.substack.com/rss", Age of Invention, by Anton Howes
+"https://danco.substack.com/rss", Alex Danco's Newsletter
+"https://allocatorsasia.substack.com/rss", Allocators Asia
+"https://altaycap.substack.com/rss", Altay Capital - Mostly Value Investing
+"https://yhamiltonblog.substack.com/rss", Analyzing Good Businesses
+"https://andrewsinger.substack.com/rss", Andrew’s China Newsletter
+"https://ideacloner.substack.com/rss", Anil's investing journey
+"https://animationobsessive.substack.com/rss", Animation Obsessive
+"https://investorcow.substack.com/rss", Análisis de empresas
+"https://www.apricitas.io/rss", Apricitas Economics
+"https://avandelay.substack.com/rss", Art’s Newsletter
+"https://asialinks.substack.com/rss", Asia Links
+"https://jonrussell.substack.com/rss", Asia Tech Review
+"https://asiatravelreset.substack.com/rss", Asia Travel Re:Set
+"https://asiasascendance.substack.com/rss", Asia's Ascendance Insights
+"https://asianometry.substack.com/rss", The Asianometry Newsletter
+"https://astralcodexten.substack.com/rss", Astral Codex Ten
+"https://astutexai.substack.com/rss", astutex.ai #AlternativeData insights
+"https://asymmetricskew.substack.com/rss", Asymmetric Skew
+"https://twebs.substack.com/rss", The Asymmetry Infantry
+"https://autoinsights.substack.com/rss", Auto Insights
+"https://bankingweekly.substack.com/rss", The Banking & Insurance Journal
+"https://beached.substack.com/rss", Beached’s Newsletter
+"https://thebearcave.substack.com/rss", The Bear Cave
+"https://behindthebalancesheet.substack.com/rss", Behind the Balance Sheet
+"https://johanlunau.substack.com/rss", Blitz Finance
+"https://brettongoods.substack.com/rss", Bretton Goods
+"https://bubble3.substack.com/rss", Bubble 3.0
+"https://thebuildersbook.substack.com/rss", The Builders
+"https://canuckanalyst.substack.com/rss", Canuck Analyst's Blog
+"https://www.capitalemployed.com/rss", Capital Employed
+"https://www.russell-clark.com/rss", Capital Flows and Asset Markets
+"https://capitaleconomics.substack.com/rss", Capital Ideas
+"https://thecatalystcapitalist.substack.com/rss", The Catalyst Capitalist
+"https://chaoyang.substack.com/rss", Chaoyang Trap
+"https://cheapconvexity.substack.com/rss", Cheap Convexity
+"https://www.chinabigidea.info/rss", China BIG Idea
+"https://www.realchinacharts.com/rss", China Charts
+"https://neican.substack.com/rss", China Neican 内参 (MOVED AWAY)
+"https://chinaplaybook.substack.com/rss", China Playbook
+"https://blueflag.substack.com/rss", China Tech Shorts
+"https://chinarrative.substack.com/rss", Chinarrative
+"https://cloudvalley.substack.com/rss", Cloud Valley
+"https://compoundingcuriosity.substack.com/rss", Compounding Curiosity
+"https://www.consumeyourowntechinvesting.com/rss", Consume Your Own Tech Investing
+"https://kaizeninvesting.substack.com/rss", Continuous Improvement
+"https://contrarianpod.substack.com/rss", Contrarian Investor Premium
+"https://coreconvictions.substack.com/rss", Core Convictions
+"https://qiwang.substack.com/rss", Daily Reflection on China
+"https://dailywritinghabits.substack.com/rss", Daily Writing Habits
+"https://darimulut.substack.com/rss", Dari Mulut ke Mulut
+"https://dataisthenewoil.substack.com/rss", Data Is The New Oil
+"https://dataobservatory.substack.com/rss", The Data Observatory
+"https://dcchartbook.substack.com/rss", DC's Chartbook
+"https://deliberatecapital.substack.com/rss", Deliberate Capital By Corbin & Grayden
+"https://pau1.substack.com/rss", Deplatformable Newsletter
+"https://thedig.substack.com/rss", The Dig
+"https://bedrock.substack.com/rss", Dirty Laundry
+"https://hamish.substack.com/rss", Disjointed
+"https://diyinvestingstocks.substack.com/rss", DIY Investing Newsletter
+"https://djyresearch.substack.com/rss", DJY Research
+"https://dmtcapital.substack.com/rss", DMT Capital
+"https://docanarchy.substack.com/rss", Doc Anarchy
+"https://doomberg.substack.com/rss", Doomberg
+"https://drpippa.substack.com/rss", Dr. Pippa's Pen & Podcast
+"https://www.stockduediligence.com/rss", Due Diligence
+"https://eastmeetswest.substack.com/rss", East Meets West
+"https://edelweiss.substack.com/rss", Edelweiss Capital Research
+"https://dantescapital.substack.com/rss", Edmond Dantes’ Newsletter
+"https://elmerspud.substack.com/rss", Elmer's Spudstack
+"https://emergingmarketskeptic.substack.com/rss", Emerging Market Skeptic
+"https://emblog.substack.com/rss", Emerging Markets for Non-Idiots
+"https://eworld.substack.com/rss", Emerging World
+"https://emperors.substack.com/rss", The Emperor’s Clothes
+"https://enlightenedcapital.substack.com/rss", Enlightened Capital's Blog
+"https://eqwiki.substack.com/rss", Eqwiki
+"https://esghound.substack.com/rss", ESG Hound
+"https://alluvial.substack.com/rss", Exploring with Alluvial Capital
+"https://eysight.substack.com/rss", eysight
+"https://www.fabricatedknowledge.com/rss", Fabricated Knowledge
+"https://farrerwealth.substack.com/rss", Farrer Wealth Biweekly Blast
+"https://feathertop.substack.com/rss", Feathertop Capital
+"https://filpasini.substack.com/rss", fil_pasini’s Newsletter
+"https://findingmoatsinternational.substack.com/rss", Finding Moats International, Investment Research Service
+"https://fintechinside.substack.com/rss", Fintech Inside
+"https://frenchhiddenchampions.substack.com/rss", French Hidden Champions
+"https://frontmonth.substack.com/rss", Front Month
+"https://frontiermarketideas.substack.com/rss", Frontier Markets Ideas
+"https://gatorcapital.substack.com/rss", Gator Bites
+"https://stevensymes.substack.com/rss", Gears Of Time
+"https://generalsandworkouts.substack.com/rss", Generals and Workouts
+"https://partnershipinvesting.substack.com/rss", Global Quality Investing
+"https://greenshoe.substack.com/rss", The Greenshoe
+"https://gregor.substack.com/rss", The Gregor Letter
+"https://erictopol.substack.com/rss", Ground Truths
+"https://growgetters.substack.com/rss", Grow Getters
+"https://growthninja.substack.com/rss", Growth Ninja
+"https://stocksandmacro.substack.com/rss", Hammer Cap - Stocks & Macro
+"https://hardfork.substack.com/rss", The Hard Fork by Marvin Liao
+"https://haymaker.substack.com/rss", Haymaker
+"https://healthandwealth.substack.com/rss", Health & Wealth
+"https://hedgevision.substack.com/rss", Hedge Vision
+"https://huat.substack.com/rss", HF&G: Huat Fearful & Greedy
+"https://hiddenrockcapital.substack.com/rss", Hidden Rock Capital's Newsletter
+"https://hiddenvalueblog.substack.com/rss", Hidden Value Blog
+"https://fortisanalysis.substack.com/rss", Human Terrain
+"https://soju.substack.com/rss", Hunting for Growth
+"https://www.readthehypothesis.com/rss", The Hypothesis
+"https://indonesiaintelligencer.substack.com/rss", Indonesia Intelligencer
+"https://innermammal.substack.com/rss", Inner Mammal Institute Newsletter
+"https://innovestor.substack.com/rss", Innovestor Deep Dives
+"https://insiderideas.substack.com/rss", Insider Ideas
+"https://www.theinsight.org/rss", Insight
+"https://interconnect.substack.com/rss", Interconnected
+"https://theintersect.substack.com/rss", The Intersect
+"https://rogerlowenstein.substack.com/rss", Intrinsic Value by Roger Lowenstein
+"https://introspectivecap.substack.com/rss", Introspective Capital’s Writeups
+"https://invariant.substack.com/rss", Invariant
+"https://brosef.substack.com/rss", Investing brosef
+"https://investingineurope.substack.com/rss", Investing in Europe
+"https://invest.substack.com/rss", Investing On Substack
+"https://investingwithwes.substack.com/rss", InvestingWithWes Newsletter
+"https://investmenttalk.substack.com/rss", Investment Talk
+"https://www.investoraudio.io/rss", Investor Audio
+"https://richardkatz.substack.com/rss", Japan Economy Watch
+"https://thejewishtable.substack.com/rss", The Jewish Table
+"https://jhcapital.substack.com/rss", Jhcapital's Blog
+"https://jonahlupton.substack.com/rss", Jonah’s Deep Dives
+"https://karlstack.substack.com/rss", Karlstack
+"https://keubiko.substack.com/rss", Keubiko’s Musings
+"https://kimspaper.substack.com/rss", Kim's Paper
+"https://klendathucap.substack.com/rss", The Klendathu Capitalist
+"https://aella.substack.com/rss", Knowingless
+"https://konekoresearch.substack.com/rss", Koneko Research
+"https://thelastbearstanding.substack.com/rss", The Last Bear Standing
+"https://www.libertyrpf.com/rss", Liberty’s Highlights
+"https://librariancapital.substack.com/rss", Librarian Capital's Research Updates
+"https://wferrell.substack.com/rss", Links and Learnings
+"https://lonewolves.substack.com/rss", Lone Wolves
+"https://lordfed.substack.com/rss", Lord Fed's Gazette
+"https://www.thelundloop.com/rss", The Lund Loop
+"https://macroops.substack.com/rss", Macro Ops Musings
+"https://posts.themacrotourist.com/rss", The MacroTourist
+"https://macrovalue.substack.com/rss", MacroValue’s Newsletter
+"https://makansiang.substack.com/rss", Makan Siang Dibayarin
+"https://mananainvesting.substack.com/rss", Manana Investing’s Newsletter
+"https://www.readmargins.com/rss", Margins by Ranjan Roy and Can Duruk
+"https://marketsentiment.substack.com/rss", Market Sentiment
+"https://martinshkreli.substack.com/rss", Martin’s Newsletter
+"https://mathnotmagic.substack.com/rss", Math Not Magic
+"https://maverickequityresearch.substack.com/rss", Maverick Equity Research
+"https://philo.substack.com/rss", MD&A
+"https://themetastack.substack.com/rss", MetaStack
+"https://moatmaster.substack.com/rss", Moat Master's Newsletter
+"https://maroonmacro.substack.com/rss", Monetary Mechanics
+"https://themoneycorner.substack.com/rss", The Money Corner
+"https://moneyinsideout.exantedata.com/rss", Money: Inside and Out
+"https://monthly10k.substack.com/rss", Monthly 10-K
+"https://mtcapital.substack.com/rss", MT Capital Research
+"https://joshuatai.substack.com/rss", Multibaggers
+"https://murrayhunter.substack.com/rss", Murray Hunter
+"https://mazwoodcap.substack.com/rss", Musings by Mazwood
+"https://stockpicking.substack.com/rss", Nat Stewart - Stock Picking Newsletter
+"https://www.netinterest.co/rss", Net Interest
+"https://www.thenewfatherhood.org/rss", The New Fatherhood
+"https://newvilaresearch.substack.com/rss", New Vila Equity Research
+"https://newmooncap.substack.com/rss", Newmoon Capital
+"https://nexteconomy.substack.com/rss", The Next Economy by Florian Kronawitter
+"https://jcvpartners.substack.com/rss", nipponNuggets
+"https://noahpinion.substack.com/rss", Noahpinion
+"https://microvalue.substack.com/rss", A Nomad’s Investment Diary
+"https://numbersovernarratives.substack.com/rss", Numbers, not narratives.
+"https://nuscommods.substack.com/rss", NUS Commodities Society
+"https://on.substack.com/rss", On Substack
+"https://onefootbars.substack.com/rss", One-Foot Bars
+"https://openinsights.substack.com/rss", Open Insights
+"https://outliers.substack.com/rss", Outliers
+"https://www.overlookedalpha.com/rss", Overlooked Alpha
+"https://theovershoot.co/rss", The Overshoot
+"https://irvingsoh.substack.com/rss", Pareto's Compounding Newsletter
+"https://parqor.substack.com/rss", The PARQOR Substack
+"https://partingtheclouds.substack.com/rss", Parting the Clouds
+"https://patchesakf.substack.com/rss", Patches AKF
+"https://petition.substack.com/rss", PETITION
+"https://www.piggyback.one/rss", PiggyBack
+"https://pineconemacroresearch.substack.com/rss", Pinecone Weekly Brief
+"https://philippejkurzweil.substack.com/rss", PJ's SMID Cap Investment Ideas
+"https://vanck.substack.com/rss", Planes, Trains, &...Trucks
+"https://plumcapital.substack.com/rss", Plum Capital
+"https://polymerist.substack.com/rss", The Polymerist
+"https://professionalvalue.substack.com/rss", Professional Value
+"https://proximities.substack.com/rss", Proximities
+"https://perspectiveix.substack.com/rss", Pulse
+"https://punchcardinvestor.substack.com/rss", Punch Card Investor
+"https://www.pyramidsandpagodas.com/rss", Pyramids and Pagodas
+"https://quoththeraven.substack.com/rss", QTR’s Fringe Finance
+"https://questfor30irrs.substack.com/rss", Quest for 30+ IRRs Newsletter
+"https://rationalreasoning.substack.com/rss", Rational Reasoning
+"https://rationalreflections.substack.com/rss", Rational Reflections
+"https://rationalresearch.substack.com/rss", Rational Research
+"https://genehoots.substack.com/rss", Reflections on "Going Down Tobacco Road" and Investing
+"https://resglostocks.substack.com/rss", Researching Global Stocks
+"https://rodrigoethe.substack.com/rss", Rodrigo’s Newsletter
+"https://roiss.substack.com/rss", Roiss' Conclusions
+"https://therossreport.substack.com/rss", Ross Report
+"https://salmanrushdie.substack.com/rss", Salman's Sea of Stories
+"https://www.scuttlebutt.co/rss", Scuttlebutt
+"https://secretmoneymanager.substack.com/rss", Secret’s Newsletter
+"https://semiliterate.substack.com/rss", Semi-Literate
+"https://shortbooknotes.substack.com/rss", Short B
+"https://speedwellsnippets.substack.com/rss", Speedwell Snippets
+"https://spotlight.finmasters.com/rss", Stock Spotlight
+"https://writser.substack.com/rss", Stocks and stuff
+"https://stoicvestor.substack.com/rss", Stoic Investor’s Newsletter
+"https://read.substack.com/rss", Substack Reads
+"https://arjunmurti.substack.com/rss", Super-Spiked
+"https://superfluousvalue.substack.com/rss", Superfluous Value
+"https://tabbushreport.substack.com/rss", Tabbush Report
+"https://firstadopter.substack.com/rss", Tae’s Newsletter
+"https://taipology.substack.com/rss", Taipology
+"https://mattnisbet.substack.com/rss", Technē Review
+"https://www.websitenewsletter.com/rss", Ted’s Website Newsletter 📈
+"https://tidefall.substack.com/rss", Tidefall Capital
+"https://topdowncharts.substack.com/rss", Topdown Charts
+"https://thetorquest.substack.com/rss", The Torquest - Your Daily Auto Fix
+"https://traction.substack.com/rss", Traction
+"https://traditionkitchens.substack.com/rss", Tradition Kitchens
+"https://treasurehunting.substack.com/rss", Treasure Hunting
+"https://trustbutverifyit.substack.com/rss", Trust, but verify (Doveryai, no proveryai)
+"https://thescienceofhitting.com/rss", TSOH Investment Research Service
+"https://ttooddaayy.substack.com/rss", ttooddaayy
+"https://turtles.substack.com/rss", Turtles all the way down!
+"https://twoandtwenty.substack.com/rss", Two and Twenty
+"https://underfollowedstocks.substack.com/rss", Under-Followed-Stocks
+"https://undervaluedjapan.substack.com/rss", undervaluedjapan
+"https://upper20sstcapital.substack.com/rss", Upper’s Newsletter
+"https://uproarcapital.substack.com/rss", Uproar Capital
+"https://valuabl.substack.com/rss", Valuabl
+"https://gilescapital.substack.com/rss", Value Investing and Trading by Giles Capital
+"https://valueinvesting2.substack.com/rss", Value Investing Substack NEWS
+"https://valuesits.substack.com/rss", Value Situations
+"https://valuechaininvesting.substack.com/rss", ValueChain’s Newsletter
+"https://desertcapital.substack.com/rss", ValueCreation Equity
+"https://valueteddy.substack.com/rss", ValueTeddy’s Write-ups
+"https://vestrule.substack.com/rss", Vestrule
+"https://aviewfromthekitchen.substack.com/rss", A View from the Kitchen
+"https://vitaliy.substack.com/rss", Vitaliy Katsenelson's ContrarianEdge
+"https://dynamcapital.substack.com/rss", Viva Vietnam
+"https://vosscapital.substack.com/rss", Voss Capital
+"https://wangxiangwei.substack.com/rss", Wang Xiangwei's Thought of the Day on China
+"https://chartstorm.substack.com/rss", The Weekly S&P500 #ChartStorm
+"https://writinghacks.substack.com/rss", Writing Hacks
+"https://yemjam.substack.com/rss", Yem Jam
+"https://michaelwgreen.substack.com/rss", Yes, I give a FIG... thoughts on markets from Michael Green/Profplum99
+"https://yetanothervalueblog.substack.com/rss", Yet Another Value Blog
+"https://yolocapmgt.substack.com/rss", YoloCapMgt’s Newsletter
+"https://yourlocalepidemiologist.substack.com/rss", Your Local Epidemiologist
+"https://zerosummation.substack.com/rss", ZeroSummation

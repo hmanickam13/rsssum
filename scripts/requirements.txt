@@ -1,0 +1,9 @@
+# This contains all the dependencies of the project.
+# setup.sh from scripts will refer to this file during installation.
+
+python-dotenv==1.0.0
+feedparser
+beautifulsoup4
+requests
+openai
+sendgrid
