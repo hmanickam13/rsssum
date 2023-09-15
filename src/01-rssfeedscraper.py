@@ -121,5 +121,5 @@ class RSSFeedScraper:
         print(f"\nMain URLs and RSS feeds written to {self.output_db_filename}")
 
 if __name__ == "__main__":
-    rss_scraper = RSSFeedScraper(url_list_filename='dbs/links/urllist.txt', output_db_filename='dbs/rss_sum.db')
+    rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/urllist.txt', output_db_filename='src/dbs/rss_sum.db')
     rss_scraper.scrape_rss_feeds()
