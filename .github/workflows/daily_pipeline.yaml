@@ -24,7 +24,7 @@ jobs:
     - name: Generate Digest 
       run: |
         cd src
-        python action.py
+        python actions.py
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
