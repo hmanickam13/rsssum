@@ -8,7 +8,8 @@ import datetime
 
 load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
-
+FROM_EMAIL = os.getenv('FROM_EMAIL')
+TO_EMAIL = os.getenv('TO_EMAIL')
 
 class GenerateMarkdown:
     def __init__(self, db_filename):
@@ -192,8 +193,8 @@ class GenerateMarkdown:
                     html_content = html_file.read()
                     # Create an HTML email message
                     message = Mail(
-                        from_email='hariharanm.1013@gmail.com',
-                        to_emails='hm32@illinois.edu',
+                        from_email=FROM_EMAIL,
+                        to_emails=TO_EMAIL,
                         subject='Test email from Sendgrid API',
                         html_content=html_content)
                     
