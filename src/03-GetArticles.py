@@ -243,7 +243,7 @@ class GetArticlesMetadata:
             return False
 
 if __name__ == "__main__":
-    generator = GetArticlesMetadata(db_filename='dbs/rss_sum.db')
+    generator = GetArticlesMetadata(db_filename='src/dbs/rss_sum.db')
     attributes_to_keep = ['title', 'guid', 'published', 'updated', 'author', 'content']
     generator.fetch_feed_entries_and_store_to_json(attributes_to_keep)
     generator.does_content_exist()

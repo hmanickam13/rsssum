@@ -189,6 +189,6 @@ class SummarizeArticles:
         self.c.close()
 
 if __name__ == '__main__':
-    db_filename = 'dbs/rss_sum.db'
+    db_filename = 'src/dbs/rss_sum.db'
     get_articles_metadata = SummarizeArticles(db_filename)
     get_articles_metadata.check_if_content_exists()

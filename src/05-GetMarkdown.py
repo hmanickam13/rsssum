@@ -213,7 +213,7 @@ class GenerateMarkdown:
 
 
 if __name__ == "__main__":
-    generator = GenerateMarkdown(db_filename='dbs/rss_sum.db')
+    generator = GenerateMarkdown(db_filename='src/dbs/rss_sum.db')
     output_directory = '.'  # Change this to the desired output directory
     # generator.generate_markdown(output_directory)
     generator.generate_html(output_directory)

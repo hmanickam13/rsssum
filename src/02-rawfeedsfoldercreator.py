@@ -29,5 +29,5 @@ class RawFeedsFolderCreator:
         conn.close()
 
 if __name__ == "__main__":
-    folder_creator = RawFeedsFolderCreator(db_filename='dbs/rss_sum.db')
+    folder_creator = RawFeedsFolderCreator(db_filename='src/dbs/rss_sum.db')
     folder_creator.create_folders()
