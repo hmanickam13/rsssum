@@ -29,3 +29,10 @@ jobs:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
         TO_EMAIL: ${{ secrets.TO_EMAIL }}
+    - name: Commit and Push
+      run: |
+        # Configure git
+        git config --local user.email "hmanickam13@gmail.com"
+        git config --local user.name "hmanickam13"
+
+        git diff --exit-code || git add src/dbs/rss_sum.db && git commit -m "Add/Update SQLite DB" && git push
