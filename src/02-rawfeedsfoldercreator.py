@@ -4,7 +4,7 @@ import sqlite3
 class RawFeedsFolderCreator:
     def __init__(self, db_filename):
         self.db_filename = db_filename
-        self.output_folder = 'dbs/raw_feeds'
+        self.output_folder = 'src/dbs/raw_feeds'
 
     def create_folders(self):
         if not os.path.exists(self.output_folder):
@@ -29,5 +29,8 @@ class RawFeedsFolderCreator:
         conn.close()
 
 if __name__ == "__main__":
+    current_directory = os.getcwd()
+    parent_directory = os.path.dirname(current_directory)
+    os.chdir(parent_directory)
     folder_creator = RawFeedsFolderCreator(db_filename='src/dbs/rss_sum.db')
     folder_creator.create_folders()

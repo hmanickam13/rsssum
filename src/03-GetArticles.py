@@ -96,15 +96,27 @@ class GetArticlesMetadata:
 
     def extract_date(self, feed_id, article_id, published, updated):
         print(f"Extracting date for id: {feed_id}, id_article: {article_id}...")
+        date_formats = [
+            '%a, %d %b %Y %H:%M:%S %z',  # For 'Mon, 11 Sep 2023 16:03:00 +0000'
+            '%a, %d %b %Y %H:%M:%S GMT' # For 'Mon, 11 Jul 2022 12:03:33 GMT'
+        ]
+
+        def parse_date(date_str):
+            for fmt in date_formats:
+                try:
+                    return datetime.strptime(date_str, fmt)
+                except ValueError:
+                    continue
+            raise ValueError(f"Date string {date_str} doesn't match any known format")
+
         try:
             conn = sqlite3.connect(self.db_filename)
             cursor = conn.cursor()
             
             if published:
-                published_date = datetime.strptime(published, '%a, %d %b %Y %H:%M:%S %z')
+                published_date = parse_date(published)
                 published_date_only = published_date.date()
-                if self.is_date_within_last_10_days(published_date_only):
-                    value = 1
+                value = 1 if self.is_date_within_last_10_days(published_date_only) else 0
                 print(f"Within last 10 days: {value}")
                 cursor.execute('''
                     UPDATE Metadata
@@ -114,10 +126,9 @@ class GetArticlesMetadata:
                 conn.commit()
             
             if updated and updated.lower() != 'none':
-                updated_date = datetime.strptime(updated, '%a, %d %b %Y %H:%M:%S %z')
+                updated_date = parse_date(updated)
                 updated_date_only = updated_date.date()
-                if self.is_date_within_last_10_days(updated_date_only):
-                    value = 1
+                value = 1 if self.is_date_within_last_10_days(updated_date_only) else 0
                 cursor.execute('''
                     UPDATE Metadata
                     SET updated_date = ?, updated_within_10_days = ?
@@ -141,13 +152,26 @@ class GetArticlesMetadata:
         conn.commit()
         conn.close()
 
+    def is_date_within_last_10_days(self, date):
+        # Convert the published date from a string to a datetime object
+        # published_date = datetime.strptime(date, '%a, %d %b %Y %H:%M:%S %z').date()
+
+        # Calculate the difference between today's date and the published date
+        difference = datetime.now().date() - date
+
+        # Check if the difference is less than or equal to 10 days
+        if difference.days <= 10:
+            return True
+        else:
+            return False
+
     def does_content_exist(self):
         print("Checking if content exists for each article...")
         # Extract unique feed IDs from the LINKS table
         self.c.execute('SELECT DISTINCT id FROM LINKS')
         feed_ids = self.c.fetchall()
         # For each feed ID
-        for feed_id in feed_ids[:3]:
+        for feed_id in feed_ids[:]:
             feed_id = feed_id[0]  # Extract the integer value from the tuple
 
             # Read the JSON file
@@ -182,7 +206,7 @@ class GetArticlesMetadata:
         feed_data = cursor.fetchall()
 
         print("Fetching feed entries from the database...")
-        for idx_feed, (feed_id, url) in enumerate(feed_data[:3], start=1):
+        for idx_feed, (feed_id, url) in enumerate(feed_data[:], start=1):
             print(f"\n#{idx_feed}: Fetching entries from {url}")
             try:
                 feed = feedparser.parse(url)
@@ -209,6 +233,8 @@ class GetArticlesMetadata:
 
                 if 'updated' not in selected_attributes:
                     selected_attributes['updated'] = 'None'
+                if 'author' not in selected_attributes:
+                    selected_attributes['author'] = 'None'
                 
                 json_entries.append(selected_attributes)
                 
@@ -229,21 +255,8 @@ class GetArticlesMetadata:
 
         print("\n---------------------\nAll feed entries completed.\n---------------------\n")
 
-    def is_date_within_last_10_days(self, date):
-        # Convert the published date from a string to a datetime object
-        # published_date = datetime.strptime(date, '%a, %d %b %Y %H:%M:%S %z').date()
-
-        # Calculate the difference between today's date and the published date
-        difference = datetime.now().date() - date
-
-        # Check if the difference is less than or equal to 10 days
-        if difference.days >= 10:
-            return True
-        else:
-            return False
-
 if __name__ == "__main__":
-    generator = GetArticlesMetadata(db_filename='src/dbs/rss_sum.db')
+    generator = GetArticlesMetadata(db_filename='dbs/rss_sum.db')
     attributes_to_keep = ['title', 'guid', 'published', 'updated', 'author', 'content']
     generator.fetch_feed_entries_and_store_to_json(attributes_to_keep)
     generator.does_content_exist()
