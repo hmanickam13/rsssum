@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import sqlite3
 from urllib.parse import urlparse, urlunparse, urljoin
+import os
 
 class RSSFeedScraper:
     def __init__(self, url_list_filename, output_db_filename):
@@ -121,5 +122,6 @@ class RSSFeedScraper:
         print(f"\nMain URLs and RSS feeds written to {self.output_db_filename}")
 
 if __name__ == "__main__":
-    rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/urllist.txt', output_db_filename='src/dbs/rss_sum.db')
+    db_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/rss_sum.db')
+    rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/urllist.txt', output_db_filename=db_path)
     rss_scraper.scrape_rss_feeds()
