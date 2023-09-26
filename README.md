@@ -70,7 +70,7 @@ python 04-SummarizeArticle.py
 -----
 
 
-Tasks completed: 
+Tasks completed last week: 
 - Limits the number of attempts to summarize an article to 2
 - Checks if the article was published within the last 10 days (could be extended to updated date also)
 - Fetch articles/summaries from last 10 days (For now I have not enforced this but all the code is ready)
@@ -83,8 +83,20 @@ Tasks completed:
 - Github action set to automatically run every day at 1PM from sunday to thursday
 
 
-Later:
-- timeout for openai call (Sometimes the openai never responds and that just causes the whole thing to get stuck)
-- Should print No summary is available ?? (Currently, if no summary will not be added in html)
-- github pages
-- pull it into wordpress
+Completed this week:
+- db stored on github in compressed format
+- processed more feeds
+- filter articles if it was published in the last 10 days
+- handles OpenAI call timeouts
+- html format slighly better
+- generate summary of API calls
+- Google chat integration
+
+
+To do:
+- reprocess failed links (some feeds are html responses instead of XML)
+- github pages or wordpress?
+- Handle case when no summary is available
+- Author seems to be relevant (show example in html)
+- async API calls or batch API calls?
+- test complete run on github actions

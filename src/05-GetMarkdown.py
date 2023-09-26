@@ -5,6 +5,7 @@ import sqlite3
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 import datetime
+import requests
 
 load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
@@ -14,7 +15,14 @@ TO_EMAIL = os.getenv('TO_EMAIL')
 class GenerateMarkdown:
     def __init__(self, db_filename):
         self.db_filename = db_filename
-        self.create_newsletter_table()
+        self.conn = sqlite3.connect(self.db_filename)
+        self.c = self.conn.cursor()
+        # self.create_newsletter_table()
+        self.articles_to_extract = []
+        self.summary_status_1 = 0
+        self.summary_status_2 = 0
+        self.summary_status_3 = 0
+        self.summary_status_4 = 0
 
     def create_newsletter_table(self):
         conn = sqlite3.connect(self.db_filename)
@@ -125,15 +133,35 @@ class GenerateMarkdown:
 
             print(f"Markdown file for feed {feed_id} created: {markdown_file_path}")
 
-    def generate_html(self, output_dir):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute("SELECT id FROM LINKS")
-        feed_ids = [row[0] for row in cursor.fetchall()]
-        conn.close()
+    def generate_html(self):
+        # Specific feed and article pairs to be extracted
+        specific_articles = self.articles_to_extract
 
-        for feed_id in feed_ids:
-            feed_folder = os.path.join(output_dir, 'dbs/raw_feeds', str(feed_id))
+        html_content = ""  # Initialize html_content outside the loop
+        base_html = """
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Feed Summary</title>
+            <style>
+                body {{ font-family: Arial, sans-serif; margin: 40px; }}
+                h1 {{ color: #333366; }}
+                p {{ margin: 10px 0; }}
+                hr {{ border: 0; height: 1px; background-color: #ddd; margin: 20px 0; }}
+                .article {{ margin-bottom: 20px; }}
+                .link {{ color: #0066cc; text-decoration: none; }}
+            </style>
+        </head>
+        <body>
+            {content}
+        </body>
+        </html>
+        """
+
+        for feed_id, article_id in specific_articles:
+            feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
             feed_json_path = os.path.join(feed_folder, 'feed.json')
 
             if not os.path.exists(feed_json_path):
@@ -143,46 +171,98 @@ class GenerateMarkdown:
             with open(feed_json_path, 'r', encoding='utf-8') as json_file:
                 json_data = json.load(json_file)
 
-            html_content = ""
             for entry in json_data:
-                conn = sqlite3.connect(self.db_filename)
-                cursor = conn.cursor()
-                cursor.execute('''
-                    SELECT summarize_status
-                    FROM Metadata
-                    WHERE id = ? AND id_article = ?
-                ''', (entry['id'], entry['id_article']))
-                summary_status = cursor.fetchone()
-                print(f"summary_status: {summary_status}")
-                conn.close()
+                if entry['id'] == feed_id and entry['id_article'] == article_id:
+                    article_html = """
+                    <div class="article">
+                        <h1>{title}</h1>
+                        <p><strong>Link:</strong> <a href="{guid}" class="link" target="_blank">{guid}</a></p>
+                        <p><strong>Summary:</strong> {summary}</p>
+                        <hr>
+                    </div>
+                    """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
+                    
+                    html_content += article_html
 
-                if summary_status[0] == 0 or summary_status[0] == 2:
-                    print(f"Summary does not exist for feed {feed_id}, article {entry['id_article']}. Skipping...")
-                elif summary_status[0] == 1:
-                    print(f"Summary exists for feed {feed_id}, article {entry['id_article']}. Converting to HTML...")
-                    # Customize the HTML format here
-                    html_content += f"<h1>{entry['title']}</h1>"
-                    # html_content += f"<p><strong>Published:</strong> {entry['published']}</p>"
-                    html_content += f"<p><strong>Author:</strong> {entry['author']}</p>"
-                    html_content += f"<p><strong>Link:</strong> {entry['guid']}</p>"
-                    html_content += f"<p><strong>Summary:</strong> {entry['summary']}</p>"
-                    html_content += "<hr>"
+        # Inject the accumulated content into the base HTML
+        final_html = base_html.format(content=html_content)
 
-                    self.update_generated_html(feed_id, entry['id_article'], 1)
+        # Define the path to save the combined articles html file
+        combined_html_file_path = os.path.join('combined_feed.html')
 
-            html_file_path = os.path.join(feed_folder, 'feed.html')
-            with open(html_file_path, 'w', encoding='utf-8') as html_file:
-                html_file.write(html_content)
+        with open(combined_html_file_path, 'w', encoding='utf-8') as html_file:
+            html_file.write(final_html)
 
-            print(f"HTML file for feed {feed_id} created: {html_file_path}")
-    
+        print(f"HTML file with combined articles created: {combined_html_file_path}")
+
+    def gpost(self,txt):
+        chat_url = "https://chat.googleapis.com/v1/spaces/AAAA96mzfGA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vw0dOFogbncJTJhKf8rhvI6KVqAVRw0z_bEYSZRaxmY"
+        data = {
+                'text': txt
+               }
+        headers = {
+                    'Content-Type': 'application/json'
+                  }
+
+        response = requests.post(chat_url, json=data, headers=headers)
+
+        # Check for successful response
+        if response.status_code == 200:
+            print("Message sent successfully")
+        else:
+            print(f"Error sending message: {response.status_code} - {response.text}")
+
+    def find_statistics(self):
+        self.c.execute('SELECT DISTINCT id FROM LINKS')
+        feed_ids = self.c.fetchall()
+
+        for feed_id in feed_ids[:]:
+            feed_id = feed_id[0]  # Extract the integer value from the tuple
+            # Select all articles for that specific feed
+            self.c.execute('''
+                SELECT id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days
+                FROM Metadata
+                WHERE id = ?
+            ''', (feed_id,))
+            rows = self.c.fetchall()
+            for row in rows[:]:
+                id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days = row
+                if published_within_10_days == 1 and content_exists == 1:
+                    if summarize_status == 1:
+                        self.summary_status_1 += 1
+                        self.articles_to_extract.append((feed_id, id_article))
+                        # print(f"Set: {feed_id}, {id_article}")
+                    elif summarize_status == 2:
+                        self.summary_status_2 += 1
+                    elif summarize_status == 3:
+                        self.summary_status_3 += 1
+                    elif summarize_status == 4:
+                        self.summary_status_4 += 1
+        self.c.close()
+
+        print(f"articles to extract: {self.articles_to_extract}")
+
+        print(f"Summary status 1: {self.summary_status_1}")
+        print(f"Summary status 2: {self.summary_status_2}")
+        print(f"Summary status 3: {self.summary_status_3}")
+        print(f"Summary status 4: {self.summary_status_4}")
+        print(f"Sending summary statistics to google chat...")
+        message_text = f"""Summary Stats for today, {datetime.datetime.now().strftime("%Y-%m-%d")} :
+
+Successfully summarized : {self.summary_status_1}
+Exceeded token limit    : {self.summary_status_2}
+Failed to summarize     : {self.summary_status_3}
+API Request timeout     : {self.summary_status_4}
+Link to combined html feed: <link will be inserted>"""
+        self.gpost(message_text)
+
     def send_email(self, output_dir):
         conn = sqlite3.connect(self.db_filename)
         cursor = conn.cursor()
         cursor.execute("SELECT id FROM LINKS")
         feed_ids = [row[0] for row in cursor.fetchall()]
 
-        for feed_id in feed_ids[:2]:
+        for feed_id in feed_ids[5:7]:
             
             feed_folder = os.path.join(output_dir, 'dbs/raw_feeds', str(feed_id))
             html_file_path = os.path.join(feed_folder, 'feed.html')
@@ -211,10 +291,9 @@ class GenerateMarkdown:
                             error_message = str(e)
                         print("Error sending email:", error_message)
 
-
 if __name__ == "__main__":
-    generator = GenerateMarkdown(db_filename='src/dbs/rss_sum.db')
-    output_directory = '.'  # Change this to the desired output directory
+    generator = GenerateMarkdown(db_filename='dbs/rss_sum.db')
     # generator.generate_markdown(output_directory)
-    generator.generate_html(output_directory)
-    generator.send_email(output_directory)
+    generator.find_statistics()
+    generator.generate_html()
+    # generator.send_email()

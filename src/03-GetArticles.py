@@ -14,6 +14,7 @@ class GetArticlesMetadata:
         self.create_metadata_table()
         self.conn = sqlite3.connect(self.db_filename)
         self.c = self.conn.cursor()
+        self.has_printed = False
 
     def create_metadata_table(self):
         conn = sqlite3.connect(self.db_filename)
@@ -77,7 +78,8 @@ class GetArticlesMetadata:
         existing_title = cursor.fetchone()
 
         if existing_title and existing_title[0] == dict_article['title']:
-            print(f"Title already exists. Skipping..\n---------------------")
+            # print(f"Title already exists. Skipping..\n---------------------")
+            pass
             # return 1
         else:
             # Insert the new row
@@ -89,13 +91,15 @@ class GetArticlesMetadata:
                 dict_article['guid'], dict_article['published'], dict_article['updated'], dict_article['author']
             ))
             conn.commit()
-            print("Metadata inserted successfully.\n---------------------")
+            # print("Metadata inserted successfully.\n---------------------")
 
         conn.close()
         # return 0
 
     def extract_date(self, feed_id, article_id, published, updated):
-        print(f"Extracting date for id: {feed_id}, id_article: {article_id}...")
+        if not self.has_printed:
+            print(f"Extracting dates...")
+            self.has_printed = True
         date_formats = [
             '%a, %d %b %Y %H:%M:%S %z',  # For 'Mon, 11 Sep 2023 16:03:00 +0000'
             '%a, %d %b %Y %H:%M:%S GMT' # For 'Mon, 11 Jul 2022 12:03:33 GMT'
@@ -117,7 +121,7 @@ class GetArticlesMetadata:
                 published_date = parse_date(published)
                 published_date_only = published_date.date()
                 value = 1 if self.is_date_within_last_10_days(published_date_only) else 0
-                print(f"Within last 10 days: {value}")
+                # print(f"Within last 10 days: {value}")
                 cursor.execute('''
                     UPDATE Metadata
                     SET published_date = ?, published_within_10_days = ?

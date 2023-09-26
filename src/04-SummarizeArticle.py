@@ -41,33 +41,44 @@ class SummarizeArticles:
     def api_call(self, content):
         # API call to summarize the content
         MODEL = "gpt-3.5-turbo"
-        timeout = 15  # in seconds
         # use the model with longer context window
         try:
             response = openai.ChatCompletion.create(
                 model=MODEL,
                 messages=[
-                    {"role": "system", "content": "You are a friendly and helpful assistant. Your job is to parse the input html content and summarize it and give it back in plain human readable text. When you summarize, make sure to not repeat yourself. Be concise and to the point. Always maintain the overall context of the article when summarizing. I want a maximum of 4-5 sentences as the summary."},
-                    {"role": "system", "content": "When you process the content, you will probably have one of the following outcomes: 0 - No relevant article in the content given. 1 - successfully summarized given content. You have to attach a 0 or 1 at the end of your response depending on which case it is."},
-                    # {"role": "system", "content": "For case 0, you need not summarize anything. For case 1, you have to summarize in the requested manner. For case 2, you have to return the hyperlink with the attached number. "},
-                    {"role": "system", "content": "I will extract this number by using str(response['choices'][0]['message']['content'])[-1]."},
-                    {"role": "system", "content": "You also have to double check your response because sometimes the relevant article may contain a link, you should not wrongly classify the case."},
-                    {"role": "system", "content": "Example on how to attach the number at the end of the response for 2 cases: Case 0 - 'No relevant article. 0'; Case 1 - '<full summary>. 1"},
-                    {"role": "system", "content": "Ensure there are no extra characters after the number by verifying if the following code extracts the number: number = str(response['choices'][0]['message']['content'])[-1]"},
-                    {"role": "user", "content": f"This is the article that you have to summarize {content}"}
-                ],
+                            {
+                                "role": "system", 
+                                "content": """
+                                Generate a concise, entity-dense summary of the given article, following these steps:
+                                1. Read the article and identify the most important entities.
+                                2. Write a dense summary, keeping it ~200 words long.
+                                
+                                Guidelines & Characteristics of the summary:
+                                - Relevant to the main article.
+                                - True to the article's content.
+                                - Make sure your summaries are self-contained and clear without needing the article.
+                                - Ensure the summary does not contain any irrelevant information or characters.
+                                """
+                            },
+                            {"role": "user", "content": f"This is the article that you have to summarize: {content}"}
+                        ],
                 temperature=0,
+                request_timeout=30
             )
             summary = response["choices"][0]["message"]["content"]
+            print(f"Summary: \n{summary}\n")
+            number = 1
         except openai.error.InvalidRequestError as e:
             if "maximum context length" in str(e):
-                summary = "The article is too lengthy to be summarized. 2"
+                summary = "The article is too lengthy to be summarized."
+                number = 2
             else:
-                summary = "An error occurred while summarizing the article. 3"
-        except openai.error.TimeoutError as e:
-            summary = "The API call timed out. Handle this as needed. 4"
-        
-        return summary
+                summary = "An error occurred while summarizing the article."
+                number = 3
+        except openai.error.Timeout as e:
+            summary = "The API call timed out. Handle this as needed."
+            number = 4
+        return summary, number
 
     def process_content(self, feed_id, id_article):
         # Read the JSON file
@@ -96,24 +107,18 @@ class SummarizeArticles:
             # print(f"Content: \n{content}")
 
             # Call the API to summarize the content
-            summary = self.api_call(content)
+            summary, number = self.api_call(content)
             # print(f"Summary: \n{summary}\n------------------\n")
-
-            number = str(summary)[-1]
-            # print(f"number: {number}")
+            print(f"Summary status: {number}\n------------------\n")
             # Update the Metadata table with the summary
             self.update_summarize_status(feed_id, id_article, number)
-            # if number == '1':
-            # If this date exists, it means that the article was attempted to be summarized today
             self.update_summarized_date(feed_id, id_article)
 
             # Find the last occurrence of a full stop in the summary
-            last_full_stop_index = summary.rfind('.')
-
-            # Check if a full stop was found
-            if last_full_stop_index != -1:
-                # Remove everything after the last full stop
-                summary = summary[:last_full_stop_index+1]
+            # last_full_stop_index = summary.rfind('.')
+            # if last_full_stop_index != -1:
+            #     # Remove everything after the last full stop
+            #     summary = summary[:last_full_stop_index+1]
 
             # Update the JSON with the summary
             article_entry['summary'] = summary
@@ -154,41 +159,31 @@ class SummarizeArticles:
                 WHERE id = ?
             ''', (feed_id,))
             rows = self.c.fetchall()
-            # for each feed, for each article, check if content exists
-            # if content exists, check if summary exists before summarizing
-            # if summary exists, skip
-            # if summary does not exist, summarize
             for row in rows[:]:
                 id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days = row
                 # print(f"summary_status: {summarize_status}")
                 # check if content exists
                 if content_exists == 0:
-                    print(f"No content for id: {feed_id}, id_article: {id_article}, skipping...")
+                    # print(f"No content for id: {feed_id}, id_article: {id_article}, skipping...")
+                    continue
                 elif content_exists == 1:
-                    # Uncomment this to filter last 10 days
-                    if published_within_10_days == 1 or updated_within_10_days == 1:
-
-                        # check if summary exists
-                        if summarize_status == 0 or summarize_status == 3:       
-                            # print(f"Summary status {summarize_status} for id: {feed_id}, id_article: {id_article}, processing...")
-
+                    # If published within 10 days
+                    if published_within_10_days == 1:
+                        # If summary doesn't exist, or failed previously (status 3 or 4)
+                        if summarize_status == 0 or summarize_status == 3 or summarize_status == 4:
+                            # If summary_attempts is less than 2
                             if summary_attempts <= 2:
+                                print(f"Parsing content for id: {feed_id}, id_article: {id_article}")
                                 self.process_content(feed_id, id_article)
                             else:
                                 print(f"Summary attempts exceeded for id: {feed_id}, id_article: {id_article}, skipping...")
                         elif summarize_status == 1:
                             print(f"Summary exists for id: {feed_id}, id_article: {id_article}, skipping...")
-                            # print(f"Checking if it was updated today...")
-                            # self.check_date(published, updated, summarized_date)
-                            # if result == 1:
-                            #     print(f"Yes, it was updated. Processing...")
-                            #     self.process_content(feed_id, id_article)
-                            # else:
-                            #     print(f"No, it was not updated. Skipping...")
-
+                        elif summarize_status == 2:
+                            print(f"Summary is too long for id: {feed_id}, id_article: {id_article}, skipping...")
         self.c.close()
 
 if __name__ == '__main__':
-    db_filename = 'src/dbs/rss_sum.db'
+    db_filename = 'dbs/rss_sum.db'
     get_articles_metadata = SummarizeArticles(db_filename)
     get_articles_metadata.check_if_content_exists()
