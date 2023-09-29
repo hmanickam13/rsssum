@@ -8,6 +8,7 @@ import datetime
 import requests
 # from datetime import datetime
 import shutil
+from util import get_filepath
 
 load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
@@ -28,10 +29,7 @@ class GenerateMarkdown:
         self.summary_status_5 = 0
 
     def create_newsletter_table(self):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-
-        cursor.execute('''
+        self.c.execute('''
             CREATE TABLE IF NOT EXISTS Newsletter (
                 id INTEGER,
                 id_article INTEGER,
@@ -40,58 +38,44 @@ class GenerateMarkdown:
                 latest_mailing_timestamp TEXT              
            )
         ''')
-
-        conn.commit()
-        conn.close()
+        self.conn.commit()
 
     def populate_newsletter_table(self, dict_article):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-
         # Check if a row with the same id and id_article exists
-        cursor.execute('''
+        self.c.execute('''
             SELECT title
             FROM Newsletter
             WHERE id = ? AND id_article = ?
         ''', (dict_article['id'], dict_article['id_article']))
 
         current_tmsp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        existing_row = cursor.fetchone()
+        existing_row = self.c.fetchone()
 
         if existing_row:
             print("Row already exists. Skipping...\n---------------------")
         else:
             # Insert the new row
-            cursor.execute('''
+            self.c.execute('''
                 INSERT INTO Newsletter (id, id_article, published, updated, latest_mailing_timestamp)
                 VALUES (?, ?, ?, ?, ?)
             ''', (
                 dict_article['id'], dict_article['id_article'], dict_article['published'],
                 dict_article['updated'], current_tmsp
             ))
-            conn.commit()
+            self.conn.commit()
             print("Newsletter data inserted successfully.\n---------------------")
 
-        conn.close()
-        # return 0
-
     def update_generated_html(self, feed_id, article_id, number):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute('''
+        self.c.execute('''
             UPDATE Metadata
             SET generated_html = ?
             WHERE id = ? AND id_article = ?
             ''', (number, feed_id, article_id))
-        conn.commit()
-        conn.close()
+        self.conn.commit()
 
     def generate_markdown(self, output_dir):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute("SELECT id FROM LINKS")
-        feed_ids = [row[0] for row in cursor.fetchall()]
-        conn.close()
+        self.c.execute("SELECT id FROM LINKS")
+        feed_ids = [row[0] for row in self.c.fetchall()]
 
         for feed_id in feed_ids:
             feed_folder = os.path.join(output_dir, 'dbs/raw_feeds', str(feed_id))
@@ -106,16 +90,13 @@ class GenerateMarkdown:
 
             markdown_content = ""
             for entry in json_data:
-                conn = sqlite3.connect(self.db_filename)
-                cursor = conn.cursor()
-                cursor.execute('''
+                self.c.execute('''
                     SELECT summarize_status
                     FROM Metadata
                     WHERE id = ? AND id_article = ?
                 ''', (entry['id'], entry['id_article']))
-                summary_status = cursor.fetchone()
+                summary_status = self.c.fetchone()
                 print(f"summary_status: {summary_status}")
-                conn.close()
 
                 if summary_status[0] == 0 or summary_status[0] == 2:
                     print(f"Summary does not exist for feed {feed_id}, article {entry['id_article']}. Skipping...")
@@ -316,7 +297,8 @@ Link to combined html feed: <link will be inserted>"""
                         print("Error sending email:", error_message)
 
 if __name__ == "__main__":
-    generator = GenerateMarkdown(db_filename='dbs/rss_sum.db')
+    db_path = get_filepath('dbs/rss_sum.db')
+    generator = GenerateMarkdown(db_filename=db_path)
     # generator.generate_markdown(output_directory)
     generator.find_statistics()
     generator.generate_html()

@@ -180,5 +180,5 @@ if __name__ == "__main__":
 
     rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, direct_feed_filename=direct_feed_filepath, db_filename=db_path)
     rss_scraper.scrape_rss_feeds()
-    rss_scraper.add_direct_feeds()
+    # rss_scraper.add_direct_feeds()
     # rss_scraper.clean_links()
