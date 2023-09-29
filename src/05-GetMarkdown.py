@@ -6,6 +6,8 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 import datetime
 import requests
+# from datetime import datetime
+import shutil
 
 load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
@@ -23,6 +25,7 @@ class GenerateMarkdown:
         self.summary_status_2 = 0
         self.summary_status_3 = 0
         self.summary_status_4 = 0
+        self.summary_status_5 = 0
 
     def create_newsletter_table(self):
         conn = sqlite3.connect(self.db_filename)
@@ -160,7 +163,7 @@ class GenerateMarkdown:
         </html>
         """
 
-        for feed_id, article_id in specific_articles:
+        for feed_id, article_id in specific_articles[:5]:
             feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
             feed_json_path = os.path.join(feed_folder, 'feed.json')
 
@@ -173,6 +176,7 @@ class GenerateMarkdown:
 
             for entry in json_data:
                 if entry['id'] == feed_id and entry['id_article'] == article_id:
+                    print(f"entry attributes: {entry.keys()} for feed {feed_id}, article {article_id}")
                     article_html = """
                     <div class="article">
                         <h1>{title}</h1>
@@ -187,8 +191,23 @@ class GenerateMarkdown:
         # Inject the accumulated content into the base HTML
         final_html = base_html.format(content=html_content)
 
-        # Define the path to save the combined articles html file
-        combined_html_file_path = os.path.join('combined_feed.html')
+        current_directory = os.getcwd()
+        parent_directory = os.path.dirname(current_directory)
+        os.chdir(parent_directory)
+
+        # Create directories if they don't exist
+        if not os.path.exists('pages'):
+            os.mkdir('pages')
+        if not os.path.exists('pages/oldhtmls'):
+            os.mkdir('pages/oldhtmls')
+
+        # Before writing the new file, check and move the old one if it exists
+        today = datetime.datetime.today().strftime('%Y-%m-%d')
+        combined_html_file_path = os.path.join('pages', f'{today}.html')
+        if os.path.exists(combined_html_file_path):
+            old_html_destination = os.path.join('pages', 'oldhtmls', f'{today}.html')
+            shutil.move(combined_html_file_path, old_html_destination)
+            print(f"Old HTML file moved to: {old_html_destination}")
 
         with open(combined_html_file_path, 'w', encoding='utf-8') as html_file:
             html_file.write(final_html)
@@ -238,23 +257,28 @@ class GenerateMarkdown:
                         self.summary_status_3 += 1
                     elif summarize_status == 4:
                         self.summary_status_4 += 1
+                    elif summarize_status == 5:
+                        self.summary_status_5 += 1
+
         self.c.close()
 
-        print(f"articles to extract: {self.articles_to_extract}")
-
+        print(f"articles to extract: {self.articles_to_extract}\n")
+        
         print(f"Summary status 1: {self.summary_status_1}")
         print(f"Summary status 2: {self.summary_status_2}")
         print(f"Summary status 3: {self.summary_status_3}")
         print(f"Summary status 4: {self.summary_status_4}")
+        print(f"Summary status 5: {self.summary_status_5}")
         print(f"Sending summary statistics to google chat...")
         message_text = f"""Summary Stats for today, {datetime.datetime.now().strftime("%Y-%m-%d")} :
 
 Successfully summarized : {self.summary_status_1}
-Exceeded token limit    : {self.summary_status_2}
-Failed to summarize     : {self.summary_status_3}
-API Request timeout     : {self.summary_status_4}
+Not relevant            : {self.summary_status_2}
+Exceeded token limit    : {self.summary_status_3}
+Failed to summarize     : {self.summary_status_4}
+API Request timeout     : {self.summary_status_5}
 Link to combined html feed: <link will be inserted>"""
-        self.gpost(message_text)
+        # self.gpost(message_text)
 
     def send_email(self, output_dir):
         conn = sqlite3.connect(self.db_filename)

@@ -4,10 +4,11 @@ from dotenv import load_dotenv # to load env variables
 import json
 import openai
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 load_dotenv()
 openai.api_key  = os.getenv('OPENAI_API_KEY')
-
+# openai.Model.list()
 class SummarizeArticles:
     def __init__(self, db_filename):
         self.db_filename = db_filename
@@ -40,8 +41,11 @@ class SummarizeArticles:
 
     def api_call(self, content):
         # API call to summarize the content
-        MODEL = "gpt-3.5-turbo"
-        # use the model with longer context window
+        # MODEL = "gpt-3.5-turbo"
+        MODEL = "gpt-3.5-turbo-16k"
+        # MODEL = "gpt-4"
+        # MODEL = "gpt-4-32k"
+        openai.Model.list()
         try:
             response = openai.ChatCompletion.create(
                 model=MODEL,
@@ -51,13 +55,13 @@ class SummarizeArticles:
                                 "content": """
                                 Generate a concise, entity-dense summary of the given article, following these steps:
                                 1. Read the article and identify the most important entities.
-                                2. Write a dense summary, keeping it ~200 words long.
-                                
+                                2. Write a dense summary, keeping it approximately 200 words long.
+
                                 Guidelines & Characteristics of the summary:
                                 - Relevant to the main article.
                                 - True to the article's content.
                                 - Make sure your summaries are self-contained and clear without needing the article.
-                                - Ensure the summary does not contain any irrelevant information or characters.
+                                - Ensure the summary does not contain any irrelevant content, information or characters.
                                 """
                             },
                             {"role": "user", "content": f"This is the article that you have to summarize: {content}"}
@@ -65,26 +69,30 @@ class SummarizeArticles:
                 temperature=0,
                 request_timeout=30
             )
+                                # 3. If the content I feed to you is not an article and is instead an update on logistics, DO NOT SUMMARIZE IT. Just print "Not relevant".
+                                # 4. Double check that you don't wrongly misclassify an article as an update on logistics.
             summary = response["choices"][0]["message"]["content"]
             print(f"Summary: \n{summary}\n")
             number = 1
+            if "not relevant" in summary.lower():
+                number = 2
         except openai.error.InvalidRequestError as e:
             if "maximum context length" in str(e):
                 summary = "The article is too lengthy to be summarized."
-                number = 2
+                number = 3
             else:
                 summary = "An error occurred while summarizing the article."
-                number = 3
+                number = 4
         except openai.error.Timeout as e:
             summary = "The API call timed out. Handle this as needed."
-            number = 4
+            number = 5
         return summary, number
 
     def process_content(self, feed_id, id_article):
         # Read the JSON file
         feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
         feed_json_path = os.path.join(feed_folder, 'feed.json')
-        # In json file,
+        # In json file,im 
         with open(feed_json_path, 'r', encoding='utf-8') as json_file:
             json_data = json.load(json_file)
 
@@ -102,10 +110,15 @@ class SummarizeArticles:
             title = article_entry['title']
             content = article_entry['content'][0]['value']
 
+            # Use BeautifulSoup to parse HTML and extract text
+            # soup = BeautifulSoup(content, 'html.parser')
+            # parsed_content = soup.get_text()
+            # print(f"Content: \n{parsed_content}\n------------------\n")
+            
             print(f"Processing content for id: {feed_id}, id_article: {id_article}")
             # print(f"Title: {title}")
             # print(f"Content: \n{content}")
-
+            
             # Call the API to summarize the content
             summary, number = self.api_call(content)
             # print(f"Summary: \n{summary}\n------------------\n")
@@ -170,7 +183,7 @@ class SummarizeArticles:
                     # If published within 10 days
                     if published_within_10_days == 1:
                         # If summary doesn't exist, or failed previously (status 3 or 4)
-                        if summarize_status == 0 or summarize_status == 3 or summarize_status == 4:
+                        if summarize_status == 0 or summarize_status == 4 or summarize_status == 5 or summarize_status==1 or summarize_status==2:
                             # If summary_attempts is less than 2
                             if summary_attempts <= 2:
                                 print(f"Parsing content for id: {feed_id}, id_article: {id_article}")
@@ -180,6 +193,8 @@ class SummarizeArticles:
                         elif summarize_status == 1:
                             print(f"Summary exists for id: {feed_id}, id_article: {id_article}, skipping...")
                         elif summarize_status == 2:
+                            print(f"Summary is not relevant for id: {feed_id}, id_article: {id_article}, skipping...")
+                        elif summarize_status == 3:
                             print(f"Summary is too long for id: {feed_id}, id_article: {id_article}, skipping...")
         self.c.close()
 
