@@ -1,14 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
 import sqlite3
-from urllib.parse import urlparse, urlunparse, urljoin
+from urllib.parse import urlparse, urlunparse
 import os
 import re
-import feedparser
+from util import get_filepath
+
 class RSSFeedScraper:
-    def __init__(self, url_list_filename, output_db_filename):
+    def __init__(self, url_list_filename, direct_feed_filename, db_filename):
         self.url_list_filename = url_list_filename
-        self.output_db_filename = output_db_filename
+        self.direct_feed_filename = direct_feed_filename
+        self.db_filename = db_filename
+        self.conn = sqlite3.connect(self.db_filename)
+        self.c = self.conn.self.c()
         self.rss_feeds = []
 
     def normalize_url(self, url):
@@ -37,11 +41,8 @@ class RSSFeedScraper:
         with open(self.url_list_filename) as file:
             urls = eval(file.read())
 
-        conn = sqlite3.connect(self.output_db_filename)
-        cursor = conn.cursor()
-
         # Create tables to store the main URLs, RSS feed URLs, and failed URLs
-        cursor.execute('''
+        self.c.execute('''
             CREATE TABLE IF NOT EXISTS LINKS (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 main TEXT,
@@ -49,17 +50,17 @@ class RSSFeedScraper:
                 type TEXT
             )
         ''')
-        cursor.execute('CREATE TABLE IF NOT EXISTS FAILED_LINKS (main TEXT)')
-        cursor.execute('CREATE TABLE IF NOT EXISTS FAILED_PARSE (main TEXT)')
+        self.c.execute('CREATE TABLE IF NOT EXISTS FAILED_LINKS (main TEXT)')
+        self.c.execute('CREATE TABLE IF NOT EXISTS FAILED_PARSE (main TEXT)')
 
         for url in urls:
             normalized_url = self.normalize_url(url)
 
             # Check if the URL exists in LINKS or FAILED_LINKS table
-            cursor.execute('SELECT * FROM LINKS WHERE main = ?', (normalized_url,))
-            existing_link = cursor.fetchone()
-            cursor.execute('SELECT * FROM FAILED_LINKS WHERE main = ?', (normalized_url,))
-            existing_failed_link = cursor.fetchone()
+            self.c.execute('SELECT * FROM LINKS WHERE main = ?', (normalized_url,))
+            existing_link = self.c.fetchone()
+            self.c.execute('SELECT * FROM FAILED_LINKS WHERE main = ?', (normalized_url,))
+            existing_failed_link = self.c.fetchone()
 
             if existing_link or existing_failed_link:
                 continue
@@ -75,14 +76,9 @@ class RSSFeedScraper:
                 else:
                     soup = BeautifulSoup(response.content, 'html.parser')
                     # print(f"Soup: \n{soup}\n------------------\n")
-
-            # except requests.exceptions.RequestException as e:
-            #     cursor.execute('INSERT INTO FAILED_LINKS VALUES (?)', (normalized_url,))
-            #     conn.commit()
-            #     continue
             except:
-                cursor.execute('INSERT INTO FAILED_PARSE VALUES (?)', (normalized_url,))
-                conn.commit()
+                self.c.execute('INSERT INTO FAILED_PARSE VALUES (?)', (normalized_url,))
+                self.conn.commit()
                 continue
 
             # Find the RSS feed link in the website's HTML
@@ -102,27 +98,24 @@ class RSSFeedScraper:
                     continue
 
         # Insert main URLs and corresponding RSS feed URLs into the database
-        cursor.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', self.rss_feeds)
-        conn.commit()
-        conn.close()
+        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', self.rss_feeds)
+        self.conn.commit()
+        self.conn.close()
         print(f"Done. Added {len(self.rss_feeds)} RSS feeds to LINKS table.")
 
-    def add_direct_feeds(self, direct_feed_filename):
+    def add_direct_feeds(self):
         print("Adding RSS feeds from Feed URLs...")
-        with open(direct_feed_filename, 'r') as file:
+        with open(self.direct_feed_filename, 'r') as file:
             feed_links = [link.strip() for link in file.readlines()]
-
-        conn = sqlite3.connect(self.output_db_filename)
-        cursor = conn.cursor()
 
         direct_feeds = []
 
         for feed_link in feed_links:
             # Check existence in LINKS or FAILED_LINKS table
-            cursor.execute('SELECT * FROM LINKS WHERE main = ?', (feed_link,))
-            existing_link = cursor.fetchone()
-            cursor.execute('SELECT * FROM FAILED_LINKS WHERE main = ?', (feed_link,))
-            existing_failed_link = cursor.fetchone()
+            self.c.execute('SELECT * FROM LINKS WHERE main = ?', (feed_link,))
+            existing_link = self.c.fetchone()
+            self.c.execute('SELECT * FROM FAILED_LINKS WHERE main = ?', (feed_link,))
+            existing_failed_link = self.c.fetchone()
 
             if existing_link or existing_failed_link:
                 continue
@@ -141,28 +134,26 @@ class RSSFeedScraper:
                     direct_feeds.append((feed_link, feed_link, feed_type))
                     # print(f"Added {feed_link} to LINKS table")
                 else:
-                    cursor.execute('INSERT INTO FAILED_LINKS VALUES (?)', (feed_link,))
-                    conn.commit()
+                    self.c.execute('INSERT INTO FAILED_LINKS VALUES (?)', (feed_link,))
+                    self.conn.commit()
             except requests.exceptions.RequestException:
-                cursor.execute('INSERT INTO FAILED_LINKS VALUES (?)', (feed_link,))
-                conn.commit()
+                self.c.execute('INSERT INTO FAILED_LINKS VALUES (?)', (feed_link,))
+                self.conn.commit()
                 continue
 
-        cursor.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', direct_feeds)
-        conn.commit()
-        conn.close()
+        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', direct_feeds)
+        self.conn.commit()
+        self.conn.close()
         print(f"Done. Added {len(direct_feeds)} RSS feeds to LINKS table.")
 
     def clean_links(self):
         print("Adding RSS feeds from Feed URLs...")
-
-        conn = sqlite3.connect(self.output_db_filename)
-        cursor = conn.cursor()
-        cursor.execute('''
+        
+        self.c.execute('''
             SELECT main
             FROM FAILED_LINKS
         ''')
-        rows = cursor.fetchall()
+        rows = self.c.fetchall()
 
         cleaned_links = []
 
@@ -181,55 +172,13 @@ class RSSFeedScraper:
                 file.write(f"    '{link}',\n")
             file.write(']\n')
 
-    def is_github_action(self):
-        """Detect if we are running in a GitHub Actions environment."""
-        return os.environ.get('GITHUB_WORKSPACE') is not None
-
-    def get_filepath(self,filename):
-        """Return the appropriate filepath depending on the environment."""
-        if self.is_github_action():
-            base_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src')
-        else:
-            base_path = 'src'
-        return os.path.join(base_path, filename)
-
-# if __name__ == "__main__":
-#     # current_directory = os.getcwd()
-#     # parent_directory = os.path.dirname(current_directory)
-#     # os.chdir(parent_directory)
-#     # url_list_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/urllist.txt')
-#     # direct_feed_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/unique_feed_links.txt')
-#     # db_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/rss_sum.db')
-#     rss_scraper = RSSFeedScraper(url_list_filename='dbs/links/urllist.txt', output_db_filename='dbs/rss_sum.db')
-#     # rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/cleaned_links.txt', output_db_filename='src/dbs/rss_sum.db')
-#     rss_scraper.scrape_rss_feeds()
-#     rss_scraper.add_direct_feeds(direct_feed_filename='dbs/links/unique_feed_links.txt')
-#     # rss_scraper.clean_links()
-
 if __name__ == "__main__":
-    
-    def is_github_action():
-        """Detect if we are running in a GitHub Actions environment."""
-        return os.environ.get('GITHUB_WORKSPACE') is not None
-
-    def get_filepath(filename):
-        """Return the appropriate filepath depending on the environment."""
-        if is_github_action():
-            base_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src')
-        else:
-            base_path = ''
-        return os.path.join(base_path, filename)
-    
     
     url_list_filepath = get_filepath('dbs/links/urllist.txt')
     direct_feed_filepath = get_filepath('dbs/links/unique_feed_links.txt')
     db_path = get_filepath('dbs/rss_sum.db')
 
-    print(f"url_list_filepath: {url_list_filepath}")
-    print(f"direct_feed_filepath: {direct_feed_filepath}")
-    print(f"db_path: {db_path}")
-
-    rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, output_db_filename=db_path)
+    rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, direct_feed_filename=direct_feed_filepath, db_filename=db_path)
     rss_scraper.scrape_rss_feeds()
-    rss_scraper.add_direct_feeds(direct_feed_filename=direct_feed_filepath)
+    rss_scraper.add_direct_feeds()
     # rss_scraper.clean_links()
