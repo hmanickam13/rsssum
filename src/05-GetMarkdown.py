@@ -157,17 +157,19 @@ class GenerateMarkdown:
 
             for entry in json_data:
                 if entry['id'] == feed_id and entry['id_article'] == article_id:
-                    print(f"entry attributes: {entry.keys()} for feed {feed_id}, article {article_id}")
-                    article_html = """
-                    <div class="article">
-                        <h1>{title}</h1>
-                        <p><strong>Link:</strong> <a href="{guid}" class="link" target="_blank">{guid}</a></p>
-                        <p><strong>Summary:</strong> {summary}</p>
-                        <hr>
-                    </div>
-                    """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
-                    
-                    html_content += article_html
+                    # if summary attribute exists in entry
+                    if 'summary' in entry.keys():
+                        # print(f"entry attributes: {entry.keys()} for feed {feed_id}, article {article_id}")
+                        article_html = """
+                        <div class="article">
+                            <h1>{title}</h1>
+                            <p><strong>Link:</strong> <a href="{guid}" class="link" target="_blank">{guid}</a></p>
+                            <p><strong>Summary:</strong> {summary}</p>
+                            <hr>
+                        </div>
+                        """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
+                        
+                        html_content += article_html
 
         # Inject the accumulated content into the base HTML
         final_html = base_html.format(content=html_content)
