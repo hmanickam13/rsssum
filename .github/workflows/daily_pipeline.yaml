@@ -31,12 +31,11 @@ jobs:
         TO_EMAIL: ${{ secrets.TO_EMAIL }}
     - name: Commit and Push
       run: |
-        # ls -al pages/
         # Configure git
         git config --local user.email "hmanickam13@gmail.com"
         git config --local user.name "hmanickam13"
   
         # Check for changes and commit if necessary
-        git add src/dbs/rss_sum.db pages/
+        git add src/dbs/rss_sum.db docs/
         # git add -A
-        git diff-index --quiet HEAD || git commit -m "update db & pages" && git push
+        git diff-index --quiet HEAD || git commit -m "update db & docs" && git push
