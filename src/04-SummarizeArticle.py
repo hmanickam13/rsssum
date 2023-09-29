@@ -177,10 +177,10 @@ class SummarizeArticles:
                 elif content_exists == 1:
                     # If published within 10 days
                     if published_within_10_days == 1: # add check with or 0 to test
-                        # If summary doesn't exist, or failed previously (status 3 or 4)
-                        if summarize_status == 0 or summarize_status == 4 or summarize_status == 5 or summarize_status==1 or summarize_status==2:
+                        # If summary doesn't exist, or failed previously (status 4 or 5)
+                        if summarize_status == 0 or summarize_status == 4 or summarize_status == 5:
                             # If summary_attempts is less than 2
-                            if summary_attempts <= 2:
+                            if summary_attempts <= 3:
                                 print(f"Parsing content for id: {feed_id}, id_article: {id_article}")
                                 self.process_content(feed_id, id_article)
                             else:
