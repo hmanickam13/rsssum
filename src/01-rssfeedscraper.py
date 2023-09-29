@@ -100,7 +100,7 @@ class RSSFeedScraper:
         # Insert main URLs and corresponding RSS feed URLs into the database
         self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', self.rss_feeds)
         self.conn.commit()
-        self.conn.close()
+        # self.conn.close()
         print(f"Done. Added {len(self.rss_feeds)} RSS feeds to LINKS table.")
 
     def add_direct_feeds(self):
