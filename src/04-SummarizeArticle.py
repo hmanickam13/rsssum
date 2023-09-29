@@ -67,7 +67,7 @@ class SummarizeArticles:
                                 # 3. If the content I feed to you is not an article and is instead an update on logistics, DO NOT SUMMARIZE IT. Just print "Not relevant".
                                 # 4. Double check that you don't wrongly misclassify an article as an update on logistics.
             summary = response["choices"][0]["message"]["content"]
-            print(f"Summary: \n{summary}\n")
+            # print(f"Summary: \n{summary}\n")
             number = 1
             if "not relevant" in summary.lower():
                 number = 2
@@ -110,14 +110,14 @@ class SummarizeArticles:
             # parsed_content = soup.get_text()
             # print(f"Content: \n{parsed_content}\n------------------\n")
             
-            print(f"Processing content for id: {feed_id}, id_article: {id_article}")
+            # print(f"Processing content for id: {feed_id}, id_article: {id_article}")
             # print(f"Title: {title}")
             # print(f"Content: \n{content}")
             
             # Call the API to summarize the content
             summary, number = self.api_call(content)
             # print(f"Summary: \n{summary}\n------------------\n")
-            print(f"Summary status: {number}\n------------------\n")
+            # print(f"Summary status: {number}\n------------------\n")
             # Update the Metadata table with the summary
             self.update_summarize_status(feed_id, id_article, number)
             self.update_summarized_date(feed_id, id_article)
