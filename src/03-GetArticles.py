@@ -8,12 +8,12 @@ class GetArticlesMetadata:
     def __init__(self, db_filename):
         self.db_filename = db_filename
         # self.output_filename = output_filename
+        self.conn = sqlite3.connect(self.db_filename)
+        self.c = self.conn.cursor()
         self.articles_count = []
         self.entries = []
         self.dict_entries = []
         self.create_metadata_table()
-        self.conn = sqlite3.connect(self.db_filename)
-        self.c = self.conn.cursor()
         self.has_printed = False
 
     def create_metadata_table(self):
