@@ -144,7 +144,7 @@ class GenerateMarkdown:
         </html>
         """
 
-        for feed_id, article_id in specific_articles[:5]:
+        for feed_id, article_id in specific_articles[:]:
             feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
             feed_json_path = os.path.join(feed_folder, 'feed.json')
 
