@@ -177,16 +177,16 @@ class GenerateMarkdown:
         # os.chdir(parent_directory)
 
         # Create directories if they don't exist
-        if not os.path.exists('pages'):
-            os.mkdir('pages')
-        if not os.path.exists('pages/oldhtmls'):
-            os.mkdir('pages/oldhtmls')
+        if not os.path.exists('docs'):
+            os.mkdir('docs')
+        if not os.path.exists('docs/oldhtmls'):
+            os.mkdir('docs/oldhtmls')
 
         # Before writing the new file, check and move the old one if it exists
         today = datetime.datetime.today().strftime('%Y-%m-%d')
-        combined_html_file_path = os.path.join('pages', f'{today}.html')
+        combined_html_file_path = os.path.join('docs', f'{today}.html')
         if os.path.exists(combined_html_file_path):
-            old_html_destination = os.path.join('pages', 'oldhtmls', f'{today}.html')
+            old_html_destination = os.path.join('docs', 'oldhtmls', f'{today}.html')
             shutil.move(combined_html_file_path, old_html_destination)
             print(f"Old HTML file moved to: {old_html_destination}")
 
