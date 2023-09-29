@@ -22,9 +22,9 @@ class RawFeedsFolderCreator:
 
             if not os.path.exists(folder_path):
                 os.makedirs(folder_path)
-                # print(f"Created folder: {folder_path}")
-            # else:
-            #     print(f"Folder already exists: {folder_path}")
+                print(f"Created folder: {folder_path}")
+            else:
+                print(f"Folder already exists: {folder_path}")
 
         self.conn.close()
 
