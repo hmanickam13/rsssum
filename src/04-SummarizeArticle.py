@@ -16,28 +16,22 @@ class SummarizeArticles:
         self.c = self.conn.cursor()
     
     def update_summarize_status(self, feed_id, article_id, number):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute('''
+        self.c.execute('''
             UPDATE Metadata
             SET summarize_status = ?
             WHERE id = ? AND id_article = ?
             ''', (number, feed_id, article_id))
-        conn.commit()
-        conn.close()
+        self.conn.commit()
 
     def update_summarized_date(self, feed_id, article_id):
         today_date = str(datetime.today().strftime('%Y-%m-%d'))
         # print(f"Today's date: {today_date}")
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute('''
+        self.c.execute('''
             UPDATE Metadata
             SET summarized_date = ?
             WHERE id = ? AND id_article = ? AND summarize_status = ?
             ''', (str(today_date), feed_id, article_id, 1))
-        conn.commit()
-        conn.close()
+        self.conn.commit()
 
     def api_call(self, content):
         # API call to summarize the content
@@ -172,7 +166,7 @@ class SummarizeArticles:
                 WHERE id = ?
             ''', (feed_id,))
             rows = self.c.fetchall()
-            for row in rows[:]:
+            for row in rows[:10]:
                 id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days = row
                 # print(f"summary_status: {summarize_status}")
                 # check if content exists

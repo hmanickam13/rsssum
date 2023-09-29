@@ -189,15 +189,15 @@ class GetArticlesMetadata:
 
         print("Fetching feed entries from the database...")
         for idx_feed, (feed_id, url) in enumerate(feed_data[:], start=1):
-            print(f"\n#{idx_feed}: Fetching entries from {url}")
+            # print(f"\n#{idx_feed}: Fetching entries from {url}")
             try:
                 feed = feedparser.parse(url)
             except Exception as e:
-                print(f"Error parsing feed for {url}: {e}")
+                # print(f"Error parsing feed for {url}: {e}")
                 continue
 
             articles_count = len(feed.entries)  # Count of articles for this feed
-            print(f"Total Articles: {articles_count}")
+            # print(f"Total Articles: {articles_count}")
             self.articles_count.append(articles_count)  # Store for later use
             # print(f"\nself.articles_count: {self.articles_count}")
 
@@ -230,7 +230,7 @@ class GetArticlesMetadata:
             with open(feed_json_path, 'w', encoding='utf-8') as json_file:
                 json.dump(json_entries, json_file, indent=4)
 
-            print(f"{feed_json_path} saved successfully.")
+            # print(f"{feed_json_path} saved successfully.")
 
         print("\n---------------------\nAll feed entries completed.\n---------------------\n")
 
