@@ -231,7 +231,7 @@ class GenerateMarkdown:
             rows = self.c.fetchall()
             for row in rows[:]:
                 id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days = row
-                if published_within_10_days == 0 and content_exists == 1: # change to 1
+                if published_within_10_days == 1 and content_exists == 1: # change published_within_10_days to 0 to test
                     if summarize_status == 1:
                         self.summary_status_1 += 1
                         self.articles_to_extract.append((feed_id, id_article))
@@ -263,7 +263,7 @@ Exceeded token limit    : {self.summary_status_3}
 Failed to summarize     : {self.summary_status_4}
 API Request timeout     : {self.summary_status_5}
 Link to combined html feed: <link will be inserted>"""
-        # self.gpost(message_text)
+        self.gpost(message_text)
 
     def send_email(self, output_dir):
         conn = sqlite3.connect(self.db_filename)

@@ -176,7 +176,7 @@ class SummarizeArticles:
                     continue
                 elif content_exists == 1:
                     # If published within 10 days
-                    if published_within_10_days == 1 or updated_within_10_days == 0: # remove 0
+                    if published_within_10_days == 1: # add check with or 0 to test
                         # If summary doesn't exist, or failed previously (status 3 or 4)
                         if summarize_status == 0 or summarize_status == 4 or summarize_status == 5 or summarize_status==1 or summarize_status==2:
                             # If summary_attempts is less than 2

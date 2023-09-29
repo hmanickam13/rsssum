@@ -32,6 +32,3 @@ if __name__ == "__main__":
     db_path = get_filepath('dbs/rss_sum.db')
     folder_creator = RawFeedsFolderCreator(db_filename=db_path)
     folder_creator.create_folders()
-
-
-
