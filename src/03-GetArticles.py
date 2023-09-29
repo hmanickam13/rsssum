@@ -3,7 +3,7 @@ import feedparser
 import sqlite3
 import json
 from datetime import datetime
-
+from util import get_filepath
 class GetArticlesMetadata:
     def __init__(self, db_filename):
         self.db_filename = db_filename
@@ -235,7 +235,8 @@ class GetArticlesMetadata:
         print("\n---------------------\nAll feed entries completed.\n---------------------\n")
 
 if __name__ == "__main__":
-    generator = GetArticlesMetadata(db_filename='dbs/rss_sum.db')
+    db_path = get_filepath('dbs/rss_sum.db')
+    generator = GetArticlesMetadata(db_filename=db_path)
     attributes_to_keep = ['title', 'guid', 'published', 'updated', 'author', 'content']
     generator.fetch_feed_entries_and_store_to_json(attributes_to_keep)
     generator.does_content_exist()
