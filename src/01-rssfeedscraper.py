@@ -184,14 +184,14 @@ class RSSFeedScraper:
 
 
 if __name__ == "__main__":
-    current_directory = os.getcwd()
-    parent_directory = os.path.dirname(current_directory)
-    os.chdir(parent_directory)
+    # current_directory = os.getcwd()
+    # parent_directory = os.path.dirname(current_directory)
+    # os.chdir(parent_directory)
     # url_list_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/urllist.txt')
     # direct_feed_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/unique_feed_links.txt')
     # db_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/rss_sum.db')
-    rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/urllist.txt', output_db_filename='src/dbs/rss_sum.db')
+    rss_scraper = RSSFeedScraper(url_list_filename='dbs/links/urllist.txt', output_db_filename='dbs/rss_sum.db')
     # rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/cleaned_links.txt', output_db_filename='src/dbs/rss_sum.db')
     rss_scraper.scrape_rss_feeds()
-    rss_scraper.add_direct_feeds(direct_feed_filename='src/dbs/links/unique_feed_links.txt')
+    rss_scraper.add_direct_feeds(direct_feed_filename='dbs/links/unique_feed_links.txt')
     # rss_scraper.clean_links()
