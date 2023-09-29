@@ -12,7 +12,7 @@ class RSSFeedScraper:
         self.direct_feed_filename = direct_feed_filename
         self.db_filename = db_filename
         self.conn = sqlite3.connect(self.db_filename)
-        self.c = self.conn.self.c()
+        self.c = self.conn.cursor()
         self.rss_feeds = []
 
     def normalize_url(self, url):
@@ -148,7 +148,7 @@ class RSSFeedScraper:
 
     def clean_links(self):
         print("Adding RSS feeds from Feed URLs...")
-        
+
         self.c.execute('''
             SELECT main
             FROM FAILED_LINKS
