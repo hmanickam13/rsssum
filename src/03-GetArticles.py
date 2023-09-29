@@ -188,7 +188,7 @@ class GetArticlesMetadata:
         feed_data = self.c.fetchall()
 
         print("Fetching feed entries from the database...")
-        for idx_feed, (feed_id, url) in enumerate(feed_data[:3], start=1): # remove limit of 3
+        for idx_feed, (feed_id, url) in enumerate(feed_data[:2], start=1): # remove limit of 3
             # print(f"\n#{idx_feed}: Fetching entries from {url}")
             try:
                 feed = feedparser.parse(url)

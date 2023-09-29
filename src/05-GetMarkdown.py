@@ -194,6 +194,8 @@ class GenerateMarkdown:
             html_file.write(final_html)
 
         print(f"HTML file with combined articles created: {combined_html_file_path}")
+        # print full path of combined html file
+        print("Combined html file path:", os.path.abspath(combined_html_file_path))
         # print full cwd path
         print("Current working directory:", os.getcwd())
 
