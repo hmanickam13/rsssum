@@ -181,17 +181,57 @@ class RSSFeedScraper:
                 file.write(f"    '{link}',\n")
             file.write(']\n')
 
+    def is_github_action(self):
+        """Detect if we are running in a GitHub Actions environment."""
+        return os.environ.get('GITHUB_WORKSPACE') is not None
 
+    def get_filepath(self,filename):
+        """Return the appropriate filepath depending on the environment."""
+        if self.is_github_action():
+            base_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src')
+        else:
+            base_path = 'src'
+        return os.path.join(base_path, filename)
+
+# if __name__ == "__main__":
+#     # current_directory = os.getcwd()
+#     # parent_directory = os.path.dirname(current_directory)
+#     # os.chdir(parent_directory)
+#     # url_list_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/urllist.txt')
+#     # direct_feed_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/unique_feed_links.txt')
+#     # db_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/rss_sum.db')
+#     rss_scraper = RSSFeedScraper(url_list_filename='dbs/links/urllist.txt', output_db_filename='dbs/rss_sum.db')
+#     # rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/cleaned_links.txt', output_db_filename='src/dbs/rss_sum.db')
+#     rss_scraper.scrape_rss_feeds()
+#     rss_scraper.add_direct_feeds(direct_feed_filename='dbs/links/unique_feed_links.txt')
+#     # rss_scraper.clean_links()
 
 if __name__ == "__main__":
-    # current_directory = os.getcwd()
-    # parent_directory = os.path.dirname(current_directory)
-    # os.chdir(parent_directory)
-    # url_list_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/urllist.txt')
-    # direct_feed_filepath = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/links/unique_feed_links.txt')
-    # db_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src/dbs/rss_sum.db')
-    rss_scraper = RSSFeedScraper(url_list_filename='dbs/links/urllist.txt', output_db_filename='dbs/rss_sum.db')
-    # rss_scraper = RSSFeedScraper(url_list_filename='src/dbs/links/cleaned_links.txt', output_db_filename='src/dbs/rss_sum.db')
+    
+    def is_github_action():
+        """Detect if we are running in a GitHub Actions environment."""
+        return os.environ.get('GITHUB_WORKSPACE') is not None
+
+    def get_filepath(filename):
+        """Return the appropriate filepath depending on the environment."""
+        if is_github_action():
+            base_path = os.path.join(os.environ['GITHUB_WORKSPACE'], 'src')
+        else:
+            base_path = ''
+        return os.path.join(base_path, filename)
+    
+    
+    url_list_filepath = get_filepath('dbs/links/urllist.txt')
+    direct_feed_filepath = get_filepath('dbs/links/unique_feed_links.txt')
+    db_path = get_filepath('dbs/rss_sum.db')
+
+    print(f"url_list_filepath: {url_list_filepath}")
+    print(f"direct_feed_filepath: {direct_feed_filepath}")
+    print(f"db_path: {db_path}")
+
+    rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, output_db_filename=db_path)
+
+
     rss_scraper.scrape_rss_feeds()
-    rss_scraper.add_direct_feeds(direct_feed_filename='dbs/links/unique_feed_links.txt')
+    # rss_scraper.add_direct_feeds(direct_feed_filename=direct_feed_filepath)
     # rss_scraper.clean_links()
