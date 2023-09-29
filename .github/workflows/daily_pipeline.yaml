@@ -36,5 +36,5 @@ jobs:
         git config --local user.name "hmanickam13"
   
         # Check for changes and commit if necessary
-        git add src/dbs/rss_sum.db
-        git diff-index --quiet HEAD || git commit -m "Add/Update SQLite DB" && git push
+        git add src/dbs/rss_sum.db pages
+        git diff-index --quiet HEAD || git commit -m "update db & pages" && git push

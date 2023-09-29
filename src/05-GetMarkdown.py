@@ -227,7 +227,7 @@ class GenerateMarkdown:
             rows = self.c.fetchall()
             for row in rows[:]:
                 id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days = row
-                if published_within_10_days == 1 and content_exists == 1:
+                if published_within_10_days == 0 and content_exists == 1: # change to 1
                     if summarize_status == 1:
                         self.summary_status_1 += 1
                         self.articles_to_extract.append((feed_id, id_article))
