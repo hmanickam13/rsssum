@@ -172,9 +172,9 @@ class GenerateMarkdown:
         # Inject the accumulated content into the base HTML
         final_html = base_html.format(content=html_content)
 
-        current_directory = os.getcwd()
-        parent_directory = os.path.dirname(current_directory)
-        os.chdir(parent_directory)
+        # current_directory = os.getcwd()
+        # parent_directory = os.path.dirname(current_directory)
+        # os.chdir(parent_directory)
 
         # Create directories if they don't exist
         if not os.path.exists('pages'):
