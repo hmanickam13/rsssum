@@ -194,6 +194,8 @@ class GenerateMarkdown:
             html_file.write(final_html)
 
         print(f"HTML file with combined articles created: {combined_html_file_path}")
+        # print full cwd path
+        print("Current working directory:", os.getcwd())
 
     def gpost(self,txt):
         chat_url = "https://chat.googleapis.com/v1/spaces/AAAA96mzfGA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vw0dOFogbncJTJhKf8rhvI6KVqAVRw0z_bEYSZRaxmY"
