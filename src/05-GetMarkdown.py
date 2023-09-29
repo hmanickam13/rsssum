@@ -158,7 +158,7 @@ class GenerateMarkdown:
             for entry in json_data:
                 if entry['id'] == feed_id and entry['id_article'] == article_id:
                     # if summary attribute exists in entry
-                    if 'summary' in entry.keys():
+                    if entry['summary']:
                         # print(f"entry attributes: {entry.keys()} for feed {feed_id}, article {article_id}")
                         article_html = """
                         <div class="article">
