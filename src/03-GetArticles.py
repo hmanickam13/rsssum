@@ -17,10 +17,7 @@ class GetArticlesMetadata:
         self.has_printed = False
 
     def create_metadata_table(self):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-
-        cursor.execute('''
+        self.c.execute('''
             CREATE TABLE IF NOT EXISTS Metadata (
                 id INTEGER,
                 id_article INTEGER,
@@ -40,42 +37,33 @@ class GetArticlesMetadata:
                 generated_html INTEGER DEFAULT 0
             )
         ''')
-
         # Check if the column already exists before adding it
-        cursor.execute('PRAGMA table_info(LINKS)')
-        columns = [column[1] for column in cursor.fetchall()]
+        self.c.execute('PRAGMA table_info(LINKS)')
+        columns = [column[1] for column in self.c.fetchall()]
         if 'total_articles' not in columns:
-            cursor.execute('''
+            self.c.execute('''
                 ALTER TABLE LINKS
                 ADD COLUMN total_articles INTEGER DEFAULT 0
             ''')
-
-        conn.commit()
-        conn.close()
+        self.conn.commit()
 
     def update_total_articles(self, feed_id, total_articles):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute('''
+        self.c.execute('''
             UPDATE LINKS
             SET total_articles = ?
             WHERE id = ?
         ''', (total_articles, feed_id))
-        conn.commit()
-        conn.close()
+        self.conn.commit()
     
     def populate_metadata_table(self, dict_article):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-
         # Check if a row with the same id and id_article exists
-        cursor.execute('''
+        self.c.execute('''
             SELECT title
             FROM Metadata
             WHERE id = ? AND id_article = ?
         ''', (dict_article['id'], dict_article['id_article']))
 
-        existing_title = cursor.fetchone()
+        existing_title = self.c.fetchone()
 
         if existing_title and existing_title[0] == dict_article['title']:
             # print(f"Title already exists. Skipping..\n---------------------")
@@ -83,17 +71,15 @@ class GetArticlesMetadata:
             # return 1
         else:
             # Insert the new row
-            cursor.execute('''
+            self.c.execute('''
                 INSERT INTO Metadata (id, id_article, title, guid, published, updated, author)
                 VALUES (?, ?, ?, ?, ?, ?, ?)
             ''', (
                 dict_article['id'], dict_article['id_article'], dict_article['title'],
                 dict_article['guid'], dict_article['published'], dict_article['updated'], dict_article['author']
             ))
-            conn.commit()
+            self.conn.commit()
             # print("Metadata inserted successfully.\n---------------------")
-
-        conn.close()
         # return 0
 
     def extract_date(self, feed_id, article_id, published, updated):
@@ -113,48 +99,40 @@ class GetArticlesMetadata:
                     continue
             raise ValueError(f"Date string {date_str} doesn't match any known format")
 
-        try:
-            conn = sqlite3.connect(self.db_filename)
-            cursor = conn.cursor()
-            
+        try:            
             if published:
                 published_date = parse_date(published)
                 published_date_only = published_date.date()
                 value = 1 if self.is_date_within_last_10_days(published_date_only) else 0
                 # print(f"Within last 10 days: {value}")
-                cursor.execute('''
+                self.c.execute('''
                     UPDATE Metadata
                     SET published_date = ?, published_within_10_days = ?
                     WHERE id = ? AND id_article = ?
                 ''', (str(published_date_only), value, feed_id, article_id))
-                conn.commit()
+                self.conn.commit()
             
             if updated and updated.lower() != 'none':
                 updated_date = parse_date(updated)
                 updated_date_only = updated_date.date()
                 value = 1 if self.is_date_within_last_10_days(updated_date_only) else 0
-                cursor.execute('''
+                self.c.execute('''
                     UPDATE Metadata
                     SET updated_date = ?, updated_within_10_days = ?
                     WHERE id = ? AND id_article = ?
                 ''', (str(updated_date_only), value, feed_id, article_id))
-                conn.commit()
-
-            conn.close()
+                self.conn.commit()
 
         except Exception as e:
             print(f"An error occurred: {e}")
 
     def update_content_exists(self, feed_id, article_id):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute('''
+        self.c.execute('''
             UPDATE Metadata
             SET content_exists = ?
             WHERE id = ? AND id_article = ?
             ''', (1, feed_id, article_id))
-        conn.commit()
-        conn.close()
+        self.conn.commit()
 
     def is_date_within_last_10_days(self, date):
         # Convert the published date from a string to a datetime object
@@ -203,11 +181,11 @@ class GetArticlesMetadata:
             except FileNotFoundError:
                 print(f"JSON file not found for feed_id {feed_id}. Skipping...")
 
+        self.conn.close()
+
     def fetch_feed_entries_and_store_to_json(self, attributes_to_keep):
-        conn = sqlite3.connect(self.db_filename)
-        cursor = conn.cursor()
-        cursor.execute("SELECT id, feed FROM LINKS")
-        feed_data = cursor.fetchall()
+        self.c.execute("SELECT id, feed FROM LINKS")
+        feed_data = self.c.fetchall()
 
         print("Fetching feed entries from the database...")
         for idx_feed, (feed_id, url) in enumerate(feed_data[:], start=1):
@@ -253,9 +231,6 @@ class GetArticlesMetadata:
                 json.dump(json_entries, json_file, indent=4)
 
             print(f"{feed_json_path} saved successfully.")
-
-        # Close the database connection
-        conn.close()
 
         print("\n---------------------\nAll feed entries completed.\n---------------------\n")
 
