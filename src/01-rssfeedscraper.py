@@ -229,8 +229,7 @@ if __name__ == "__main__":
     print(f"direct_feed_filepath: {direct_feed_filepath}")
     print(f"db_path: {db_path}")
 
-    # rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, output_db_filename=db_path)
-
-    # rss_scraper.scrape_rss_feeds()
-    # rss_scraper.add_direct_feeds(direct_feed_filename=direct_feed_filepath)
+    rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, output_db_filename=db_path)
+    rss_scraper.scrape_rss_feeds()
+    rss_scraper.add_direct_feeds(direct_feed_filename=direct_feed_filepath)
     # rss_scraper.clean_links()
