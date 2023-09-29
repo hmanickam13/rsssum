@@ -5,6 +5,7 @@ import json
 import openai
 from datetime import datetime
 from bs4 import BeautifulSoup
+from util import get_filepath
 
 load_dotenv()
 openai.api_key  = os.getenv('OPENAI_API_KEY')
@@ -193,6 +194,6 @@ class SummarizeArticles:
         self.c.close()
 
 if __name__ == '__main__':
-    db_filename = 'dbs/rss_sum.db'
-    get_articles_metadata = SummarizeArticles(db_filename)
+    db_path = get_filepath('dbs/rss_sum.db')
+    get_articles_metadata = SummarizeArticles(db_path)
     get_articles_metadata.check_if_content_exists()
