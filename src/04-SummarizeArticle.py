@@ -83,7 +83,7 @@ class SummarizeArticles:
             number = 5
         return summary, number
 
-    def add_summary_to_json(feed_id, article_id, summary, file_path):
+    def add_summary_to_json(self, feed_id, article_id, summary, file_path):
         
         # Check if the file already exists
         if os.path.exists(file_path):
