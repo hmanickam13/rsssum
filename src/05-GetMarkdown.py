@@ -198,13 +198,7 @@ class GenerateMarkdown:
         # Now, write (or overwrite) the new data to 'index.html'
         with open(current_html_path, 'w', encoding='utf-8') as html_file:
             html_file.write(final_html)
-
-
-        print(f"HTML file with combined articles created: {combined_html_file_path}")
-        # print full path of combined html file
-        print("Combined html file path:", os.path.abspath(combined_html_file_path))
-        # print full cwd path
-        print("Current working directory:", os.getcwd())
+            print(f"HTML file created: {current_html_path}")
 
     def gpost(self,txt):
         chat_url = "https://chat.googleapis.com/v1/spaces/AAAA96mzfGA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vw0dOFogbncJTJhKf8rhvI6KVqAVRw0z_bEYSZRaxmY"
