@@ -145,34 +145,34 @@ class GenerateMarkdown:
         </html>
         """
 
-        for feed_id, article_id in specific_articles[:]:
-            feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
-            feed_json_path = os.path.join(feed_folder, 'feed.json')
+        # for feed_id, article_id in specific_articles[:]:
+        #     feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
+        #     feed_json_path = os.path.join(feed_folder, 'feed.json')
+        summary_path = os.path.join('docs', 'summaries.json')
+        if not os.path.exists(summary_path):
+            print(f"Summary file not found...")
+            # continue
 
-            if not os.path.exists(feed_json_path):
-                print(f"JSON file not found for feed {feed_id}. Skipping...")
-                continue
+        with open(summary_path, 'r', encoding='utf-8') as json_file:
+            json_data = json.load(json_file)
 
-            with open(feed_json_path, 'r', encoding='utf-8') as json_file:
-                json_data = json.load(json_file)
-
-            for entry in json_data:
-                if entry['id'] == feed_id and entry['id_article'] == article_id:
-                    # if summary attribute exists in entry
-                    if entry.get('summary'):
-                        print(f"Adding feed {feed_id}, article {article_id} to HTML...")
-                        article_html = """
-                        <div class="article">
-                            <h1>{title}</h1>
-                            <p><strong>Link:</strong> <a href="{guid}" class="link" target="_blank">{guid}</a></p>
-                            <p><strong>Summary:</strong> {summary}</p>
-                            <hr>
-                        </div>
-                        """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
-                        
-                        html_content += article_html
-                    else:
-                        print(f"Summary does not exist for feed {feed_id}, article {article_id}. Skipping...")
+        for entry in json_data:
+            # if entry['id'] == feed_id and entry['id_article'] == article_id:
+                # if summary attribute exists in entry
+                if entry.get('summary'):
+                    print(f"Adding feed {entry['feed_id']}, article {entry['article_id']} to HTML...")
+                    article_html = """
+                    <div class="article">
+                        <h1>{title}</h1>
+                        <p><strong>Link:</strong> <a href="{guid}" class="link" target="_blank">{guid}</a></p>
+                        <p><strong>Summary:</strong> {summary}</p>
+                        <hr>
+                    </div>
+                    """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
+                    
+                    html_content += article_html
+                # else:
+                #     print(f"Summary does not exist for feed {feed_id}, article {article_id}. Skipping...")
         # Inject the accumulated content into the base HTML
         final_html = base_html.format(content=html_content)
 
