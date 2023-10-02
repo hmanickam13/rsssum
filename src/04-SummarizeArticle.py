@@ -83,7 +83,7 @@ class SummarizeArticles:
             number = 5
         return summary, number
 
-    def add_summary_to_json(self, feed_id, article_id, title, summary, file_path):
+    def add_summary_to_json(self, feed_id, article_id, title, guid, summary, file_path):
         
         # Check if the file already exists
         if os.path.exists(file_path):
@@ -97,6 +97,7 @@ class SummarizeArticles:
             "feed_id": feed_id,
             "article_id": article_id,
             "title": title,
+            "guid": guid,
             "summary": summary
         })
 
@@ -124,6 +125,7 @@ class SummarizeArticles:
 
             # Extract information from the article entry
             title = article_entry['title']
+            guid = article_entry['guid']
             content = article_entry['content'][0]['value']
 
             # Use BeautifulSoup to parse HTML and extract text
@@ -153,7 +155,7 @@ class SummarizeArticles:
             if not os.path.exists('docs'):
                 os.mkdir('docs')
             summary_path = os.path.join('docs', 'summaries.json')
-            self.add_summary_to_json(feed_id, id_article, title, summary, summary_path)
+            self.add_summary_to_json(feed_id, id_article, title, guid, summary, summary_path)
 
             # Update the JSON with the summary
             article_entry['summary'] = summary
