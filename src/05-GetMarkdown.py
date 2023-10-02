@@ -186,19 +186,19 @@ class GenerateMarkdown:
         if not os.path.exists('docs/oldhtmls'):
             os.mkdir('docs/oldhtmls')
 
-        # Check if current 'index.html' exists in 'docs' and if it does, 
-        # copy it to 'oldhtmls' directory with a filename matching today's date
+        # Define paths for 'index.html' and the backup file with today's date
         current_html_path = os.path.join('docs', 'index.html')
-        if os.path.exists(current_html_path):
-            today = datetime.datetime.today().strftime('%Y-%m-%d')
-            backup_html_path = os.path.join('docs', 'oldhtmls', f'{today}.html')
-            shutil.copy2(current_html_path, backup_html_path)
-            print(f"HTML file {current_html_path} backed up to: {backup_html_path}")
+        today = datetime.datetime.today().strftime('%Y-%m-%d')
+        backup_html_path = os.path.join('docs', 'oldhtmls', f'{today}.html')
 
-        # Now, write (or overwrite) the new data to 'index.html'
+        # Write the new data to 'index.html'
         with open(current_html_path, 'w', encoding='utf-8') as html_file:
             html_file.write(final_html)
             print(f"HTML file created: {current_html_path}")
+
+        # Make a copy of the new 'index.html' with today's date
+        shutil.copy2(current_html_path, backup_html_path)
+        print(f"HTML file {current_html_path} backed up to: {backup_html_path}")
 
     def gpost(self,txt):
         chat_url = "https://chat.googleapis.com/v1/spaces/AAAA96mzfGA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vw0dOFogbncJTJhKf8rhvI6KVqAVRw0z_bEYSZRaxmY"
