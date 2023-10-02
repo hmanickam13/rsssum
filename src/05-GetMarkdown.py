@@ -9,6 +9,7 @@ import requests
 # from datetime import datetime
 import shutil
 from util import get_filepath
+import glob
 
 load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
@@ -185,14 +186,17 @@ class GenerateMarkdown:
         if not os.path.exists('docs/oldhtmls'):
             os.mkdir('docs/oldhtmls')
 
+        # Before writing the new file, move all old .html files if they exist
+        html_files = glob.glob('docs/*.html')
+        for html_file in html_files:
+            file_name = os.path.basename(html_file)
+            old_html_destination = os.path.join('docs', 'oldhtmls', file_name)
+            shutil.move(html_file, old_html_destination)
+            print(f"HTML file {html_file} moved to: {old_html_destination}")
+
         # Before writing the new file, check and move the old one if it exists
         today = datetime.datetime.today().strftime('%Y-%m-%d')
         combined_html_file_path = os.path.join('docs', f'{today}.html')
-        if os.path.exists(combined_html_file_path):
-            old_html_destination = os.path.join('docs', 'oldhtmls', f'{today}.html')
-            shutil.move(combined_html_file_path, old_html_destination)
-            print(f"Old HTML file moved to: {old_html_destination}")
-
         with open(combined_html_file_path, 'w', encoding='utf-8') as html_file:
             html_file.write(final_html)
 
