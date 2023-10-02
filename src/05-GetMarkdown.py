@@ -186,19 +186,19 @@ class GenerateMarkdown:
         if not os.path.exists('docs/oldhtmls'):
             os.mkdir('docs/oldhtmls')
 
-        # Before writing the new file, move all old .html files if they exist
-        html_files = glob.glob('docs/*.html')
-        for html_file in html_files:
-            file_name = os.path.basename(html_file)
-            old_html_destination = os.path.join('docs', 'oldhtmls', file_name)
-            shutil.move(html_file, old_html_destination)
-            print(f"HTML file {html_file} moved to: {old_html_destination}")
+        # Check if current 'index.html' exists in 'docs' and if it does, 
+        # copy it to 'oldhtmls' directory with a filename matching today's date
+        current_html_path = os.path.join('docs', 'index.html')
+        if os.path.exists(current_html_path):
+            today = datetime.datetime.today().strftime('%Y-%m-%d')
+            backup_html_path = os.path.join('docs', 'oldhtmls', f'{today}.html')
+            shutil.copy2(current_html_path, backup_html_path)
+            print(f"HTML file {current_html_path} backed up to: {backup_html_path}")
 
-        # Before writing the new file, check and move the old one if it exists
-        today = datetime.datetime.today().strftime('%Y-%m-%d')
-        combined_html_file_path = os.path.join('docs', f'{today}.html')
-        with open(combined_html_file_path, 'w', encoding='utf-8') as html_file:
+        # Now, write (or overwrite) the new data to 'index.html'
+        with open(current_html_path, 'w', encoding='utf-8') as html_file:
             html_file.write(final_html)
+
 
         print(f"HTML file with combined articles created: {combined_html_file_path}")
         # print full path of combined html file
