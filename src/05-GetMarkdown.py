@@ -158,8 +158,8 @@ class GenerateMarkdown:
             for entry in json_data:
                 if entry['id'] == feed_id and entry['id_article'] == article_id:
                     # if summary attribute exists in entry
-                    if entry['summary']:
-                        # print(f"entry attributes: {entry.keys()} for feed {feed_id}, article {article_id}")
+                    if entry.get('summary'):
+                        print(f"Adding feed {feed_id}, article {article_id} to HTML...")
                         article_html = """
                         <div class="article">
                             <h1>{title}</h1>
@@ -170,7 +170,8 @@ class GenerateMarkdown:
                         """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
                         
                         html_content += article_html
-
+                    else:
+                        print(f"Summary does not exist for feed {feed_id}, article {article_id}. Skipping...")
         # Inject the accumulated content into the base HTML
         final_html = base_html.format(content=html_content)
 

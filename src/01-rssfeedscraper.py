@@ -47,7 +47,8 @@ class RSSFeedScraper:
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 main TEXT,
                 feed TEXT,
-                type TEXT
+                type TEXT,
+                total_articles INTEGER DEFAULT 0
             )
         ''')
         self.c.execute('CREATE TABLE IF NOT EXISTS FAILED_LINKS (main TEXT)')
@@ -98,7 +99,7 @@ class RSSFeedScraper:
                     continue
 
         # Insert main URLs and corresponding RSS feed URLs into the database
-        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', self.rss_feeds)
+        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?, NULL)', self.rss_feeds)
         self.conn.commit()
         # self.conn.close()
         print(f"Done. Added {len(self.rss_feeds)} RSS feeds to LINKS table.")
@@ -141,7 +142,7 @@ class RSSFeedScraper:
                 self.conn.commit()
                 continue
 
-        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?)', direct_feeds)
+        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?, NULL)', direct_feeds)
         self.conn.commit()
         self.conn.close()
         print(f"Done. Added {len(direct_feeds)} RSS feeds to LINKS table.")
@@ -180,5 +181,5 @@ if __name__ == "__main__":
 
     rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, direct_feed_filename=direct_feed_filepath, db_filename=db_path)
     rss_scraper.scrape_rss_feeds()
-    rss_scraper.add_direct_feeds()
+    # rss_scraper.add_direct_feeds()
     # rss_scraper.clean_links()
