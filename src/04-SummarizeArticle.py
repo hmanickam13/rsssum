@@ -83,6 +83,26 @@ class SummarizeArticles:
             number = 5
         return summary, number
 
+    def add_summary_to_json(feed_id, article_id, summary, file_path):
+        
+        # Check if the file already exists
+        if os.path.exists(file_path):
+            with open(file_path, 'r') as json_file:
+                data = json.load(json_file)
+        else:
+            data = []
+
+        # Append the new summary data to the list
+        data.append({
+            "feed_id": feed_id,
+            "article_id": article_id,
+            "summary": summary
+        })
+
+        # Save the updated list back to the file
+        with open(file_path, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+
     def process_content(self, feed_id, id_article):
         # Read the JSON file
         feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
@@ -127,6 +147,12 @@ class SummarizeArticles:
             # if last_full_stop_index != -1:
             #     # Remove everything after the last full stop
             #     summary = summary[:last_full_stop_index+1]
+
+            # Create directories if they don't exist
+            if not os.path.exists('docs'):
+                os.mkdir('docs')
+            summary_path = os.path.join('docs', 'summaries.json')
+            self.add_summary_to_json(feed_id, id_article, summary, summary_path)
 
             # Update the JSON with the summary
             article_entry['summary'] = summary
