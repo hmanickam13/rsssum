@@ -187,7 +187,7 @@ class SummarizeArticles:
         self.c.execute('SELECT DISTINCT id FROM LINKS')
         feed_ids = self.c.fetchall()
 
-        for feed_id in feed_ids[:75]:
+        for feed_id in feed_ids[:]:
             feed_id = feed_id[0]  # Extract the integer value from the tuple
             # Select all articles for that specific feed
             self.c.execute('''
