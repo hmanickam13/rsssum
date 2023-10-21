@@ -1,8 +1,9 @@
 import subprocess
 
 
-# print current wd
-print(f"Current working directory: {subprocess.run(['pwd'], capture_output=True, text=True).stdout}")
+# print current wd using os
+import os
+print(os.getcwd())
 
 # Define the Python scripts you want to run
 scripts_to_run = ["src/01-RSSFeedScraper.py",
