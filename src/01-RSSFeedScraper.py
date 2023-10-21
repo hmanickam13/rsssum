@@ -194,6 +194,7 @@ if __name__ == "__main__":
 
     json_status_file_name = get_filepath('status.json')
     print(f"Current working directory: {os.getcwd()}")
+    print(f"Status file path: {json_status_file_name}")
 
     try:    
         with open(json_status_file_name, 'r') as f:
