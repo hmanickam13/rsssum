@@ -194,8 +194,9 @@ if __name__ == "__main__":
 
     json_status_file_name = get_filepath('status.json')
     print(f"Current working directory: {os.getcwd()}")
-        
-    with open(json_status_file_name, 'r') as f:
+
+    try:    
+        with open(json_status_file_name, 'r') as f:
             existing_status = json.load(f)
     except FileNotFoundError:
         existing_status = {} # If file doesn't exist, create an empty dict
