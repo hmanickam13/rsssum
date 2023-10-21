@@ -270,7 +270,7 @@ if __name__ == '__main__':
                 'status': 'Failed',
                 'message': 'GetArticles failed so this has not run'
             }
-        elif today_date in existing_status and 'GetArticles' in existing_status[today_date] and existing_status[today_date]['GetArticles']['status'] == 'Failed':
+        elif today_date in existing_status and 'GetArticles' in existing_status[today_date] and existing_status[today_date]['GetArticles']['status'] == 'Success':
             try:
                 db_path = get_filepath('dbs/rss_sum.db')
                 summarize_articles = SummarizeArticles(db_path)
