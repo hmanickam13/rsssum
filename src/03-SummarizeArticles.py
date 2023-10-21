@@ -250,7 +250,7 @@ class SummarizeArticles:
 
 if __name__ == '__main__':
     today_date = datetime.datetime.today().strftime('%Y-%m-%d')
-    json_status_file_name = get_filepath('src/status.json')
+    json_status_file_name = get_filepath('status.json')
 
     # two_days_ago = datetime.datetime.today() - datetime.timedelta(days=1)
     # two_days_ago_date = two_days_ago.strftime('%Y-%m-%d')

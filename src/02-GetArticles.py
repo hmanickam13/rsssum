@@ -234,7 +234,7 @@ class GetArticles:
 if __name__ == "__main__":
 
     today_date = datetime.datetime.today().strftime('%Y-%m-%d')
-    json_status_file_name = get_filepath('src/status.json')
+    json_status_file_name = get_filepath('status.json')
 
     try:
         with open(json_status_file_name, 'r') as f:
