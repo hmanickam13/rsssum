@@ -400,7 +400,7 @@ if __name__ == "__main__":
                 'status': 'Failed',
                 'message': 'SummarizeArticles failed so this has not run'
             }
-        elif today_date in existing_status and 'SummarizeArticles' in existing_status[today_date] and existing_status[today_date]['SummarizeArticles']['status'] == 'Failed':
+        elif today_date in existing_status and 'SummarizeArticles' in existing_status[today_date] and existing_status[today_date]['SummarizeArticles']['status'] == 'Success':
             try:
                 db_path = get_filepath('dbs/rss_sum.db')
                 generator = GenerateHTML(db_filename=db_path)
