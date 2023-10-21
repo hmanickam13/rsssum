@@ -226,3 +226,5 @@ if __name__ == "__main__":
 
     with open(json_status_file_name, 'w') as f:
         json.dump(existing_status, f, indent=4)
+
+
