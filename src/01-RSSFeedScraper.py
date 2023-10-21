@@ -16,6 +16,7 @@ class RSSFeedScraper:
         self.c = self.conn.cursor()
         self.rss_feeds = []
         self.direct_feeds = []
+        self.deleted_links_count = 0
 
     def normalize_url(self, url):
         parsed_url = urlparse(url)
@@ -175,16 +176,16 @@ class RSSFeedScraper:
         self.c.execute('SELECT main FROM LINKS')
         all_db_links = [row[0] for row in self.c.fetchall()]
 
-        counter = 0
+        self.deleted_links_count = 0
         for db_link in all_db_links:
             if db_link not in combined_links:
-                counter += 1
+                self.deleted_links_count += 1
                 print(f"Deleting {db_link} from LINKS table...")
 
                 self.c.execute('DELETE FROM LINKS WHERE main = ?', (db_link,))
                 self.conn.commit()
         
-        print(f"Done. Deleted {counter} RSS feeds from LINKS table.")
+        print(f"Done. Deleted {self.deleted_links_count} RSS feeds from LINKS table.")
 
 if __name__ == "__main__":
 
