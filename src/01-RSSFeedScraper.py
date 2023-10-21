@@ -5,6 +5,7 @@ from urllib.parse import urlparse, urlunparse
 from util import get_filepath
 import datetime
 import json
+import os
 
 class RSSFeedScraper:
     def __init__(self, webpage_links_filename, feed_links_filename, db_filename):
@@ -192,7 +193,8 @@ if __name__ == "__main__":
     # two_days_ago_date = two_days_ago.strftime('%Y-%m-%d')
 
     json_status_file_name = get_filepath('status.json')
-    try:
+    print(f"Current working directory: {os.getcwd()}")
+        
         with open(json_status_file_name, 'r') as f:
             existing_status = json.load(f)
     except FileNotFoundError:
