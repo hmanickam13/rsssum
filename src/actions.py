@@ -13,9 +13,9 @@ scripts_to_run = ["src/01-RSSFeedScraper.py",
 
 # Loop through and run each script
 for script in scripts_to_run:
-    print(f"Running {script}...")
+    # print(f"Running {script}...")
     try:
         subprocess.run(["python", script], check=True)
     except subprocess.CalledProcessError as e:
         print(f"Error running {script}: {e}")
-    print(f"Finished running. Starting next script...")
+    # print(f"Finished running. Starting next script...")

@@ -118,7 +118,7 @@ class SummarizeArticles:
         with open(file_path, 'w') as json_file:
             json.dump(data, json_file, indent=4)
 
-    def process_content(self, feed_id, id_article, published_date):
+    def process_content(self, feed_id, id_article, title,  published_date):
 
         # Read the JSON file
         feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
@@ -130,7 +130,7 @@ class SummarizeArticles:
         # Find entry (article) in the JSON file
         for entry in json_data:
             # print(f"Entry: {entry}")
-            if entry.get('id_article') == id_article:
+            if entry.get('id_article') == id_article or entry.get('title') == title:
                 article_entry = entry
                 print(f"Found article for id: {feed_id}, id_article: {id_article}")
                 break
@@ -202,7 +202,7 @@ class SummarizeArticles:
             # print(f"feed_id: {feed_id}")
             # Select all articles for that specific feed
             self.c.execute('''
-                SELECT id_article, summarize_status, summary_attempts, published_date
+                SELECT id_article, title, summarize_status, summary_attempts, published_date
                 FROM Metadata
                 WHERE id = ?
             ''', (feed_id,))
@@ -210,7 +210,7 @@ class SummarizeArticles:
             if len(rows) > 0:
                 for row in rows[:]:
                     
-                    id_article, summarize_status, summary_attempts, published_date = row
+                    id_article, title, summarize_status, summary_attempts, published_date = row
                     # print(f"Feed ID: {feed_id}: Article: {id_article}: Row length: {len(rows)}")
                     # check if content exists
                     # if content_exists == 0:
@@ -228,7 +228,7 @@ class SummarizeArticles:
                         # If summary_attempts is less than 2
                         if summary_attempts <= 3:
                             print(f"Parsing content for id: {feed_id}, id_article: {id_article}")
-                            self.process_content(feed_id, id_article, published_date)
+                            self.process_content(feed_id, id_article, title, published_date)
                             continue
                         else:
                             self.summary_attempts_limit_exceeded += 1
@@ -236,7 +236,7 @@ class SummarizeArticles:
                             continue
                     elif summarize_status == 1:
                         self.summary_already_exists += 1
-                        print(f"Summary exists for id: {feed_id}, id_article: {id_article}, skipping...")
+                        # print(f"Summary exists for id: {feed_id}, id_article: {id_article}, skipping...")
                         continue
                     elif summarize_status == 2:
                         self.summarized_but_not_relevant += 1
