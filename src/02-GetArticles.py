@@ -239,20 +239,22 @@ if __name__ == "__main__":
     try:
         with open(json_status_file_name, 'r') as f:
             existing_status = json.load(f)
-    
+
+
+
         # default status
         status_data = {
                 'status': 'Did not run',
                 'message': 'if elif conditions not met, check code'
             }
         
-        if today_date in existing_status and 'RSSFeedScraper' in existing_status and existing_status['RSSFeedScraper']['status'] == 'Failed':
+        if today_date in existing_status and 'RSSFeedScraper' in existing_status and existing_status[today_date]['RSSFeedScraper']['status'] == 'Failed':
             status_data = {
                 'status': 'Failed',
                 'message': 'RSSFeedScraper failed so this has not run'
             }
 
-        elif today_date in existing_status and 'RSSFeedScraper' in existing_status and existing_status['RSSFeedScraper']['status'] == 'Success':
+        elif today_date in existing_status and 'RSSFeedScraper' in existing_status and existing_status[today_date]['RSSFeedScraper']['status'] == 'Success':
             try:
                 db_path = get_filepath('dbs/rss_sum.db')
                 generator = GetArticles(db_filename=db_path)
