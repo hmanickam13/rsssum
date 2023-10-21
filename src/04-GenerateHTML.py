@@ -16,7 +16,7 @@ SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
 FROM_EMAIL = os.getenv('FROM_EMAIL')
 TO_EMAIL = os.getenv('TO_EMAIL')
 
-class GenerateMarkdown:
+class GenerateHTML:
     def __init__(self, db_filename):
         self.db_filename = db_filename
         self.conn = sqlite3.connect(self.db_filename)
@@ -28,6 +28,8 @@ class GenerateMarkdown:
         self.summary_status_3 = 0
         self.summary_status_4 = 0
         self.summary_status_5 = 0
+        self.new_summaries_today_counter = 0
+        self.last_10_days_summaries_counter = 0
 
     def create_newsletter_table(self):
         self.c.execute('''
@@ -118,11 +120,16 @@ class GenerateMarkdown:
 
             print(f"Markdown file for feed {feed_id} created: {markdown_file_path}")
 
-    def generate_html(self):
-        # Specific feed and article pairs to be extracted
-        specific_articles = self.articles_to_extract
+    def truncate_summary(self, summary, word_limit=50):
+        words = summary.split()
+        if len(words) > word_limit:
+            return ' '.join(words[:word_limit]) + '...'
+        else:
+            return summary
 
-        html_content = ""  # Initialize html_content outside the loop
+    def generate_html(self):
+        index_html_content = ""  # Initialize html_content outside the loop
+        today_html_content = ""
         base_html = """
         <!DOCTYPE html>
         <html lang="en">
@@ -131,54 +138,105 @@ class GenerateMarkdown:
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Feed Summary</title>
             <style>
-                body {{ font-family: Arial, sans-serif; margin: 40px; }}
-                h1 {{ color: #333366; }}
-                p {{ margin: 10px 0; }}
-                hr {{ border: 0; height: 1px; background-color: #ddd; margin: 20px 0; }}
-                .article {{ margin-bottom: 20px; }}
-                .link {{ color: #0066cc; text-decoration: none; }}
+                body {{
+                    font-family: 'Arial', sans-serif;
+                    line-height: 1.5;
+                    padding: 20px;
+                }}
+
+                .articles-container {{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 20px;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }}
+
+                .article {{
+                    margin-bottom: 20px;
+                    padding: 15px;
+                    border: 1px solid #e0e0e0;
+                    border-radius: 5px;
+                    background-color: #f9f9f9;
+                    box-sizing: border-box;
+                }}
+
+                .article p {{
+                    margin-bottom: 10px;
+                }}
+
+                .article .link {{
+                    color: #0077cc;
+                    text-decoration: none;
+                }}
+
+                .article .link:hover, .article .link.more:hover {{
+                    text-decoration: underline;
+                }}
+
+                .article .more {{
+                    font-style: italic;
+                    font-weight: normal;
+                }}
+
+                hr {{
+                    border: 0;
+                    height: 1px;
+                    background: #ccc;
+                    margin: 20px 0;
+                }}
+
+                @media (max-width: 768px) {{
+                    .articles-container {{
+                        grid-template-columns: 1fr;
+                    }}
+                }}
             </style>
         </head>
         <body>
-            {content}
+            <div class="articles-container">
+                {content}
+            </div>
         </body>
         </html>
         """
 
-        # for feed_id, article_id in specific_articles[:]:
-        #     feed_folder = os.path.join('dbs/raw_feeds', str(feed_id))
-        #     feed_json_path = os.path.join(feed_folder, 'feed.json')
-        summary_path = os.path.join('docs', 'summaries.json')
+        summary_path = os.path.join('docs', 'summaries.json') 
+        # pwd = os.getcwd()
+        # print(pwd)
+        # print(f"summary_path: {summary_path}")
         if not os.path.exists(summary_path):
             print(f"Summary file not found...")
-            # continue
 
         with open(summary_path, 'r', encoding='utf-8') as json_file:
             json_data = json.load(json_file)
 
-        for entry in json_data:
-            # if entry['id'] == feed_id and entry['id_article'] == article_id:
-                # if summary attribute exists in entry
-                if entry.get('summary'):
-                    print(f"Adding feed {entry['feed_id']}, article {entry['article_id']} to HTML...")
-                    article_html = """
-                    <div class="article">
-                        <h1>{title}</h1>
-                        <p><strong>Link:</strong> <a href="{guid}" class="link" target="_blank">{guid}</a></p>
-                        <p><strong>Summary:</strong> {summary}</p>
-                        <hr>
-                    </div>
-                    """.format(title=entry['title'], guid=entry['guid'], summary=entry['summary'])
-                    
-                    html_content += article_html
-                # else:
-                #     print(f"Summary does not exist for feed {feed_id}, article {article_id}. Skipping...")
-        # Inject the accumulated content into the base HTML
-        final_html = base_html.format(content=html_content)
+        current_date = datetime.datetime.today().date()
+        ten_days_ago = current_date - datetime.timedelta(days=10)
 
-        # current_directory = os.getcwd()
-        # parent_directory = os.path.dirname(current_directory)
-        # os.chdir(parent_directory)
+        for entry in json_data:
+            summarized_date = (datetime.datetime.strptime(entry["summarized_date"], '%Y-%m-%d')).date()
+            # if summary attribute exists in entry
+            if entry.get('summary'):
+                # print(f"Adding feed {entry['feed_id']}, article {entry['article_id']} to HTML...")
+                truncated_summary = self.truncate_summary(entry['summary'])
+                article_html = """
+                <div class="article">
+                    <p>{summary} <a href="{guid}" class="link more" target="_blank">more »</a></p>
+                    <hr>
+                </div>
+                """.format(guid=entry['guid'], summary=truncated_summary)
+
+                if current_date >= summarized_date >= ten_days_ago:
+                    self.last_10_days_summaries_counter += 1
+                    index_html_content += article_html
+                if summarized_date == current_date:
+                    self.new_summaries_today_counter += 1
+                    today_html_content += article_html
+
+        # Inject the accumulated content into the base HTML
+        index_html = base_html.format(content=index_html_content)
+        today_html = base_html.format(content=today_html_content)
 
         # Create directories if they don't exist
         if not os.path.exists('docs'):
@@ -187,18 +245,26 @@ class GenerateMarkdown:
             os.mkdir('docs/oldhtmls')
 
         # Define paths for 'index.html' and the backup file with today's date
-        current_html_path = os.path.join('docs', 'index.html')
-        today = datetime.datetime.today().strftime('%Y-%m-%d')
-        backup_html_path = os.path.join('docs', 'oldhtmls', f'{today}.html')
+        index_html_path = os.path.join('docs', 'index.html')
+        today = current_date.strftime('%Y-%m-%d')
+        today_html_path = os.path.join('docs', 'oldhtmls', f'{today}.html')
+        backup_html_path = os.path.join('docs', 'oldhtmls', f'last_10_days.html')
 
+        # print(f"Last 10 days summaries: {self.last_10_days_summaries_counter}")
         # Write the new data to 'index.html'
-        with open(current_html_path, 'w', encoding='utf-8') as html_file:
-            html_file.write(final_html)
-            print(f"HTML file created: {current_html_path}")
+        with open(index_html_path, 'w', encoding='utf-8') as html_file:
+            html_file.write(index_html)
+            print(f"\nindex.html created: {index_html_path}")
 
         # Make a copy of the new 'index.html' with today's date
-        shutil.copy2(current_html_path, backup_html_path)
-        print(f"HTML file {current_html_path} backed up to: {backup_html_path}")
+        shutil.copy2(index_html_path, backup_html_path)
+        print(f"\nindex.html backed up inside oldhtmls")
+
+        # print(f"New summaries today: {self.new_summaries_today_counter}")
+        if self.new_summaries_today_counter > 0:
+            with open(today_html_path, 'w', encoding='utf-8') as html_file:
+                html_file.write(today_html)
+                print(f"\nToday's HTML file created inside oldhtmls: {today_html_path}")
 
     def gpost(self,txt):
         chat_url = "https://chat.googleapis.com/v1/spaces/AAAA96mzfGA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vw0dOFogbncJTJhKf8rhvI6KVqAVRw0z_bEYSZRaxmY"
@@ -225,30 +291,32 @@ class GenerateMarkdown:
             feed_id = feed_id[0]  # Extract the integer value from the tuple
             # Select all articles for that specific feed
             self.c.execute('''
-                SELECT id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days
+                SELECT id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days, summarized_date
                 FROM Metadata
                 WHERE id = ?
             ''', (feed_id,))
             rows = self.c.fetchall()
             for row in rows[:]:
-                id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days = row
-                if published_within_10_days == 1 and content_exists == 1: # change published_within_10_days to 0 to test
-                    if summarize_status == 1:
-                        self.summary_status_1 += 1
-                        self.articles_to_extract.append((feed_id, id_article))
-                        # print(f"Set: {feed_id}, {id_article}")
-                    elif summarize_status == 2:
-                        self.summary_status_2 += 1
-                    elif summarize_status == 3:
-                        self.summary_status_3 += 1
-                    elif summarize_status == 4:
-                        self.summary_status_4 += 1
-                    elif summarize_status == 5:
-                        self.summary_status_5 += 1
+                id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days, summarized_date = row
+                today_date = str(datetime.datetime.today().strftime('%Y-%m-%d'))
+                if summarized_date == today_date:
+                    if published_within_10_days == 1 and content_exists == 1: # change published_within_10_days to 0 to test
+                        if summarize_status == 1:
+                            self.summary_status_1 += 1
+                            self.articles_to_extract.append((feed_id, id_article))
+                            # print(f"Set: {feed_id}, {id_article}")
+                        elif summarize_status == 2:
+                            self.summary_status_2 += 1
+                        elif summarize_status == 3:
+                            self.summary_status_3 += 1
+                        elif summarize_status == 4:
+                            self.summary_status_4 += 1
+                        elif summarize_status == 5:
+                            self.summary_status_5 += 1
 
-        self.c.close()
+        # self.conn.close()
 
-        print(f"articles to extract: {self.articles_to_extract}\n")
+        # print(f"articles to extract: {self.articles_to_extract}\n")
         
         print(f"Summary status 1: {self.summary_status_1}")
         print(f"Summary status 2: {self.summary_status_2}")
@@ -264,7 +332,7 @@ Exceeded token limit    : {self.summary_status_3}
 Failed to summarize     : {self.summary_status_4}
 API Request timeout     : {self.summary_status_5}
 Link to combined html feed: <link will be inserted>"""
-        self.gpost(message_text)
+        # self.gpost(message_text)
 
     def send_email(self, output_dir):
         conn = sqlite3.connect(self.db_filename)
@@ -302,9 +370,58 @@ Link to combined html feed: <link will be inserted>"""
                         print("Error sending email:", error_message)
 
 if __name__ == "__main__":
-    db_path = get_filepath('dbs/rss_sum.db')
-    generator = GenerateMarkdown(db_filename=db_path)
     # generator.generate_markdown(output_directory)
-    generator.find_statistics()
-    generator.generate_html()
+    # generator.find_statistics()
+    # generator.generate_html()
     # generator.send_email()
+    # generator.conn.close()
+
+    # print(f"\nNew summaries today: {generator.new_summaries_today_counter}")
+    # print(f"\nLast 10 days summaries: {generator.last_10_days_summaries_counter}\n")
+    
+    today_date = datetime.datetime.today().strftime('%Y-%m-%d')
+    json_status_file_name = get_filepath('src/status.json')
+
+    # two_days_ago = datetime.datetime.today() - datetime.timedelta(days=1)
+    # two_days_ago_date = two_days_ago.strftime('%Y-%m-%d')
+
+    try:
+        with open(json_status_file_name, 'r') as f:
+            existing_status = json.load(f)
+    
+        # default status
+        status_data = {
+                'status': 'Did not run',
+                'message': 'if elif conditions not met, check code'
+            }
+            
+        if today_date in existing_status and 'SummarizeArticles' in existing_status and existing_status['SummarizeArticles']['status'] == 'Failed':
+            status_data = {
+                'status': 'Failed',
+                'message': 'SummarizeArticles failed so this has not run'
+            }
+        elif today_date in existing_status and 'SummarizeArticles' in existing_status and existing_status['SummarizeArticles']['status'] == 'Failed':
+            try:
+                db_path = get_filepath('dbs/rss_sum.db')
+                generator = GenerateHTML(db_filename=db_path)
+                generator.generate_html()
+                generator.conn.close()
+                status_data = {
+                    'status': 'Success',
+                    'new_summaries_today': generator.new_summaries_today_counter,
+                    'last_10_days_summaries_counter': generator.last_10_days_summaries_counter
+                }
+            except Exception as e:
+                status_data = {
+                    'status': 'Failed',
+                    'message': str(e)
+                }
+
+            existing_status[today_date]['GenerateHTML'] = status_data
+
+        with open(json_status_file_name, 'w') as f:
+            # print(f"Opened file")
+            json.dump(existing_status, f, indent=4)
+    
+    except FileNotFoundError:
+        print(f"FileNotFoundError: {json_status_file_name} not found.")

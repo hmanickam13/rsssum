@@ -2,18 +2,19 @@ import requests
 from bs4 import BeautifulSoup
 import sqlite3
 from urllib.parse import urlparse, urlunparse
-import os
-import re
 from util import get_filepath
+import datetime
+import json
 
 class RSSFeedScraper:
-    def __init__(self, url_list_filename, direct_feed_filename, db_filename):
-        self.url_list_filename = url_list_filename
-        self.direct_feed_filename = direct_feed_filename
+    def __init__(self, webpage_links_filename, feed_links_filename, db_filename):
+        self.webpage_links_filename = webpage_links_filename
+        self.feed_links_filename = feed_links_filename
         self.db_filename = db_filename
         self.conn = sqlite3.connect(self.db_filename)
         self.c = self.conn.cursor()
         self.rss_feeds = []
+        self.direct_feeds = []
 
     def normalize_url(self, url):
         parsed_url = urlparse(url)
@@ -29,17 +30,14 @@ class RSSFeedScraper:
         return normalized_url
 
     def is_valid_rss(self, response_content):
-        """
-        Checks if the given content is a valid RSS feed based on some heuristics.
-        """
         content_str = response_content.decode() if isinstance(response_content, bytes) else response_content
         return content_str.startswith('<?xml') and ('<rss' in content_str or '<feed' in content_str)
 
     def scrape_rss_feeds(self):
         print("Scraping RSS feeds from URLs...")
         # Read the list of URLs from the file
-        with open(self.url_list_filename) as file:
-            urls = eval(file.read())
+        with open(self.webpage_links_filename) as file:
+            urls = [link.strip() for link in file.readlines()]
 
         # Create tables to store the main URLs, RSS feed URLs, and failed URLs
         self.c.execute('''
@@ -54,8 +52,11 @@ class RSSFeedScraper:
         self.c.execute('CREATE TABLE IF NOT EXISTS FAILED_LINKS (main TEXT)')
         self.c.execute('CREATE TABLE IF NOT EXISTS FAILED_PARSE (main TEXT)')
 
+        normalized_urls = []
         for url in urls:
+            # print(f"Feed link: {url}")
             normalized_url = self.normalize_url(url)
+            normalized_urls.append(normalized_url)
 
             # Check if the URL exists in LINKS or FAILED_LINKS table
             self.c.execute('SELECT * FROM LINKS WHERE main = ?', (normalized_url,))
@@ -91,10 +92,10 @@ class RSSFeedScraper:
                     # if first 20 chars contain 'xml', add xml as the 3rd column
                     if 'xml' in response.text[:20]:
                         self.rss_feeds.append((normalized_url, rss_link['href'], 'xml'))
-                        # print(f"Added {normalized_url} to LINKS table")
+                        print(f"Added {normalized_url} to LINKS table")
                     elif 'html' in response.text[:20]:
                         self.rss_feeds.append((normalized_url, rss_link['href'], 'html'))
-                        # print(f"Added {normalized_url} to LINKS table")
+                        print(f"Added {normalized_url} to LINKS table")
                 except requests.exceptions.RequestException:
                     continue
 
@@ -104,12 +105,17 @@ class RSSFeedScraper:
         # self.conn.close()
         print(f"Done. Added {len(self.rss_feeds)} RSS feeds to LINKS table.")
 
+        # Write back the normalized URLs to the file
+        with open(self.webpage_links_filename, 'w') as file:
+            for n_url in normalized_urls:
+                file.write(n_url + '\n')
+
+        return len(self.rss_feeds)
+
     def add_direct_feeds(self):
         print("Adding RSS feeds from Feed URLs...")
-        with open(self.direct_feed_filename, 'r') as file:
+        with open(self.feed_links_filename, 'r') as file:
             feed_links = [link.strip() for link in file.readlines()]
-
-        direct_feeds = []
 
         for feed_link in feed_links:
             # Check existence in LINKS or FAILED_LINKS table
@@ -128,12 +134,12 @@ class RSSFeedScraper:
 
                 if 'xml' in content_type:
                     feed_type = 'xml'
-                    direct_feeds.append((feed_link, feed_link, feed_type))
-                    # print(f"Added {feed_link} to LINKS table")
+                    self.direct_feeds.append((feed_link, feed_link, feed_type))
+                    print(f"Added {feed_link} to LINKS table")
                 elif 'html' in content_type and self.is_valid_rss(response.content):
                     feed_type = 'html'
-                    direct_feeds.append((feed_link, feed_link, feed_type))
-                    # print(f"Added {feed_link} to LINKS table")
+                    self.direct_feeds.append((feed_link, feed_link, feed_type))
+                    print(f"Added {feed_link} to LINKS table")
                 else:
                     self.c.execute('INSERT INTO FAILED_LINKS VALUES (?)', (feed_link,))
                     self.conn.commit()
@@ -142,44 +148,78 @@ class RSSFeedScraper:
                 self.conn.commit()
                 continue
 
-        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?, NULL)', direct_feeds)
+        self.c.executemany('INSERT INTO LINKS VALUES (NULL, ?, ?, ?, NULL)', self.direct_feeds)
         self.conn.commit()
-        self.conn.close()
-        print(f"Done. Added {len(direct_feeds)} RSS feeds to LINKS table.")
+        # self.conn.close()
+        print(f"Done. Added {len(self.direct_feeds)} RSS feeds to LINKS table.")
 
-    def clean_links(self):
-        print("Adding RSS feeds from Feed URLs...")
+    def delete_links(self):
+        print("Deleting RSS feeds not present in the provided file lists...")
 
-        self.c.execute('''
-            SELECT main
-            FROM FAILED_LINKS
-        ''')
-        rows = self.c.fetchall()
+        # Load the links from webpage_links_filepath
+        with open(self.webpage_links_filename, 'r') as file:
+            webpage_links_links = [link.strip() for link in file.readlines()]
 
-        cleaned_links = []
+        # Load the links from feed_links_filepath
+        with open(self.feed_links_filename, 'r') as file:
+            feed_links_links = [link.strip() for link in file.readlines()]
 
-        for row in rows[:]:
-            failed_link = row[0]
-            print(f"Failed link: {failed_link}")
-            # Remove everything after .com
-            cleaned_link = re.sub(r'(\.com).*', r'\1', failed_link)
-            cleaned_links.append(cleaned_link)  # Store the cleaned link in the list
-            print(f"Cleaned link: {cleaned_link}")
+        combined_links = set(webpage_links_links + feed_links_links)  # Convert to set for faster lookups
 
-        # Write cleaned links to file in list format
-        with open('src/dbs/links/cleaned_links.txt', 'w') as file:
-            file.write('[\n')
-            for link in cleaned_links:
-                file.write(f"    '{link}',\n")
-            file.write(']\n')
+        # print(f"Total links in webpage_links: {len(webpage_links_links)}")
+        # print(f"Total links in direct_feed: {len(feed_links_links)}")
+        # print(f"Total links in combined_links: {len(combined_links)}")
+
+        # Fetch all links from LINKS table
+        self.c.execute('SELECT main FROM LINKS')
+        all_db_links = [row[0] for row in self.c.fetchall()]
+
+        counter = 0
+        for db_link in all_db_links:
+            if db_link not in combined_links:
+                counter += 1
+                print(f"Deleting {db_link} from LINKS table...")
+
+                self.c.execute('DELETE FROM LINKS WHERE main = ?', (db_link,))
+                self.conn.commit()
+        
+        print(f"Done. Deleted {counter} RSS feeds from LINKS table.")
 
 if __name__ == "__main__":
-    
-    url_list_filepath = get_filepath('dbs/links/urllist.txt')
-    direct_feed_filepath = get_filepath('dbs/links/unique_feed_links.txt')
-    db_path = get_filepath('dbs/rss_sum.db')
 
-    rss_scraper = RSSFeedScraper(url_list_filename=url_list_filepath, direct_feed_filename=direct_feed_filepath, db_filename=db_path)
-    rss_scraper.scrape_rss_feeds()
-    rss_scraper.add_direct_feeds()
-    # rss_scraper.clean_links()
+    today_date = datetime.datetime.today().strftime('%Y-%m-%d')
+    # two_days_ago = datetime.datetime.today() - datetime.timedelta(days=1)
+    # two_days_ago_date = two_days_ago.strftime('%Y-%m-%d')
+
+    json_status_file_name = get_filepath('src/status.json')
+    try:
+        with open(json_status_file_name, 'r') as f:
+            existing_status = json.load(f)
+    except FileNotFoundError:
+        existing_status = {} # If file doesn't exist, create an empty dict
+
+    status_data ={}
+    try:
+        webpage_links_filepath = get_filepath('dbs/links/webpage_links.txt')
+        feed_links_filepath = get_filepath('dbs/links/feed_links.txt')
+        db_path = get_filepath('dbs/rss_sum.db')
+        rss_scraper = RSSFeedScraper(webpage_links_filename=webpage_links_filepath, feed_links_filename=feed_links_filepath, db_filename=db_path)
+        rss_scraper.scrape_rss_feeds()
+        rss_scraper.add_direct_feeds()
+        rss_scraper.delete_links()
+        rss_scraper.conn.close()
+        status_data['RSSFeedScraper'] = {
+            'status': 'Success',
+            'links_or_feeds_added': len(rss_scraper.rss_feeds) + len(rss_scraper.direct_feeds),
+            'links_or_feeds_deleted': rss_scraper.deleted_links_count
+        }
+    except Exception as e:
+        status_data['RSSFeedScraper'] = {
+            'status': 'Failed',
+            'message': str(e)
+        }
+
+    existing_status = {today_date: status_data, **existing_status}
+
+    with open(json_status_file_name, 'w') as f:
+        json.dump(existing_status, f, indent=4)
