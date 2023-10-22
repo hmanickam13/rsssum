@@ -1,7 +1,7 @@
 ### AI Summarizer
 
 #### Configuration
-- Add your API_KEYS in your secret variables for HitHub Actions
+- Add your API_KEYS in your secret variables for GitHub Actions
 - Allow GitHub Actions to update the repo
 - Allow Github Pages to read from the docs folder
 
