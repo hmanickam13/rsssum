@@ -1,5 +1,275 @@
 [
     {
+        "feed_id": 317,
+        "article_id": 1,
+        "title": "Rusal (RUAL.MM; 0486.HK) \u2013 Aluminium Steels Itself Against Challenging Conditions",
+        "guid": "https://www.pyramidsandpagodas.com/p/rusal-rualmm-0486hk-aluminium-steels",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "Russian aluminum producer Rusal, the world's third-largest, is well-positioned to weather geopolitical challenges and capture market share when conditions normalize, according to a report by Altraman's Russia trip. Rusal has reduced its exposure to the US market due to trade barriers and tariffs on Russian imports, and has shifted its sales focus from Europe to Asia. The company is also seeking to conduct more sales in non-USD currencies and diversify its funding sources. Rusal's low-cost green aluminum advantages, stable demand profile, and prudent approach make it a strong player in the industry. However, the report notes that the lack of catalysts and ongoing geopolitical tensions will likely prevent a re-rating of the company's stock. The report also suggests that Rusal bonds could offer an attractive investment opportunity in the medium term, with an AA+ rating from China Chengxin Credit Ratings."
+    },
+    {
+        "feed_id": 311,
+        "article_id": 1,
+        "title": "Andrew Singer Talks About China",
+        "guid": "https://andrewsinger.substack.com/p/andrew-singer-talks-about-china-7a0",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "China is actively seeking to regain its historic position as a dominant world power and challenge the United States' role as the global leader. Chinese President Xi Jinping has been positioning himself as the chief advocate for China's rise to power. China's efforts to exert influence abroad include economic investments through the Belt and Road Initiative, linguistic influence by promoting closer relations with non-Western countries, political influence through initiatives like the Global Development Initiative, and information influence through propaganda and censorship. China's actions have gained traction abroad, as evidenced by a report released by the U.S Department of State on China's efforts to reshape the global information environment. However, maintaining influence is challenging and can easily be destroyed."
+    },
+    {
+        "feed_id": 307,
+        "article_id": 2,
+        "title": "Italian households keep the faith",
+        "guid": "https://moneyinsideout.exantedata.com/p/italian-households-keep-the-faith",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "Italian government bond yields, or BTPs, have performed well over the past year despite the increase in global yields. The spread between BTPs and bunds has remained below 200bps, compared to a spread of 300bps in 2018. The main buyers of BTPs have been Italian households and corporates, who have shifted their investments from broad money to government securities. The European Central Bank (ECB) has also played a role in supporting BTP performance through its purchases under the Pandemic Emergency Purchase Program (PEPP). However, the ECB's purchases have been relatively small and cannot fully explain the positive performance of BTPs. Overall, the contained yield spreads and strong demand from domestic investors have contributed to the favorable performance of Italian government bonds."
+    },
+    {
+        "feed_id": 305,
+        "article_id": 2,
+        "title": "Age of Invention: Lessons from the Rise of Coal",
+        "guid": "https://www.ageofinvention.xyz/p/age-of-invention-lessons-from-the",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The author discusses some key insights he gained while researching the transition to burning coal for the UK's innovation agency, Nesta. He highlights the importance of finding ways to exploit lower-grade, cheaper coals and the inventors involved in this transition. He also points out the overlooked significance of lime in agriculture and its impact on productivity. Additionally, the author explores how the availability of coal led to an increase in grain production and the abundance of muscle power, particularly horses, which were used for various industrial tasks. The author also mentions the collapse of the Dutch Republic's industries during its Golden Age and dismisses the theory that it was due to a lack of energy sources. Overall, the author provides a glimpse into his research findings and the importance of understanding historical energy transitions."
+    },
+    {
+        "feed_id": 295,
+        "article_id": 14,
+        "title": "Nasdaq Correction",
+        "guid": "https://contrarianpod.substack.com/p/nasdaq-correction",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "Tech stocks experienced a steep sell-off, with the Nasdaq entering correction territory, due to concerns over weaker ad sales. Meta initially beat earnings estimates but reversed course during the conference call, leading to a negative outlook for ad sales. As a result, stock index futures are pointing to a lower open, particularly in the tech sector. Bonds have not been affected by the sell-off, with the 10-year yield remaining unchanged. In terms of commodities, WTI crude oil is down 1.5% while copper is up 0.6%. Several companies, including UPS, Hershey, Northrop Gruman, and Southwest Airlines, have reported earnings, with mixed results. After the market close, Amazon, Intel, Chipotle, and Ford are among the companies expected to report earnings. Economic data to be released includes the European Central Bank's decision on interest rates, third-quarter GDP growth, durable goods orders, initial jobless claims, and pending home sales. The tech sell-off may indicate a broader slowdown in ad spending, which could lead to job losses and impact the services sector. While the situation is currently isolated to tech, it could spread to other sectors."
+    },
+    {
+        "feed_id": 280,
+        "article_id": 12,
+        "title": "Links - 10/25/2023",
+        "guid": "https://valueinvestingworld.substack.com/p/links-10252023",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses the concept of the credit cycle using the metaphor of a window. The credit cycle refers to the availability of financing and borrowing money. When the \"credit window\" is open, financing is easily obtained, and when it is closed, it becomes difficult to borrow money. The article highlights that the credit cycle is influenced by various factors such as economic conditions, interest rates, and investor sentiment. It also mentions that understanding the credit cycle is important for businesses and investors to make informed decisions about borrowing and lending. The article concludes by emphasizing the need for caution during periods of easy credit, as it can lead to excessive borrowing and financial instability."
+    },
+    {
+        "feed_id": 276,
+        "article_id": 5,
+        "title": "The Virus Takes a Detour in its Evolutionary Arc",
+        "guid": "https://erictopol.substack.com/p/the-virus-takes-a-detour-in-its-evolutionary",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "Recent reports suggest that population immunity from prior infections and vaccinations is the main driver of SARS-CoV-2 evolution. Currently, the leading variant in the United States is HV.1, a descendant of EG.5.1 and the family of recombinant XBB variants. However, a hyper-mutated variant called BA.2.86, also known as \"Pirola,\" has emerged and carries over 40 new mutations, including 34 in the spike protein alone. This variant is concerning because it has a high affinity for the ACE2 receptor and may have enhanced transmissibility. Another variant, JN.1, has shown a weak neutralizing antibody response to breakthrough infections. The L455S mutation in JN.1 promotes immune evasion. JN.1 has been detected in several countries, including France, the UK, and the US. It is unclear whether JN.1 will lead to a significant rise in Covid cases or how well our immune response will protect against it. The emergence of these new variants highlights the need for better vaccines to combat the evolving virus. In the meantime, getting a booster shot is recommended, especially for older individuals or those with compromised immune systems. Non-pharmacologic measures, such as preventive measures against respiratory viruses, are also important."
+    },
+    {
+        "feed_id": 273,
+        "article_id": 8,
+        "title": "Buffett Resumes Occidental Purchases",
+        "guid": "https://rationalwalk.substack.com/p/buffett-resumes-occidental-purchases",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "Warren Buffett has resumed his purchases of Occidental Petroleum after a four-month hiatus, acquiring 3,921,835 shares at an average cost of $62.83. This is the highest price Buffett has paid for the stock, as he has typically not been willing to pay over $60. Berkshire now owns 25.8% of Occidental's common stock. The purchases come as Chevron announced its intention to acquire Hess in a $53 billion all-stock deal, and Exxon made a deal to acquire Pioneer Natural Resources for $60 billion. Buffett's investments in Occidental and Chevron are seen as statements on the continuing importance of oil in the global economy. The potential for a broader conflict in the Middle East and recent dealmaking by Chevron and Exxon may have influenced Buffett's purchases. Berkshire is likely to release its third-quarter earnings soon, which may reveal additional purchases of Chevron stock."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 15,
+        "title": "Sharp China: Tension Simmering in the South China Sea; The Five Eyes and More Spies; Foxconn and Jon Stewart; The New Yorker on Xi",
+        "guid": "https://sinocism.com/p/sharp-china-tension-simmering-in",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses various events and developments related to China and its relations with other countries. It highlights the confrontation between China and the Philippines in the South China Sea, with concerns about China's maritime tactics resembling an undeclared blockade. The article also mentions the removal of Qin Gang and Li Shangfu from the State Council, the disclosure of another citizen accused of spying for the US by the MSS, and the visit of leaders of the Five Eyes intelligence alliance to Silicon Valley and 60 Minutes. Other topics covered include heightened scrutiny of Foxconn ahead of Taiwan's presidential election, Tim Cook's visit to China, Jon Stewart leaving Apple, and an examination of sentiments in China after Xi Jinping's first decade in power."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 14,
+        "title": "Xi meets California Governor Newsom; Biden warns on Second Thomas Shoal; Aricle 23 coming to Hong Kong; Xi Thought on Culture",
+        "guid": "https://sinocism.com/p/xi-meets-california-governor-newsom",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "In this episode of the Sharp China podcast, Andrew and Bill discuss the latest confrontation between China and the Philippines in the South China Sea, highlighting China's maritime tactics that resemble an undeclared blockade. They also explore the possibility of the US getting involved in the situation. The podcast covers the formal removal of Qin Gang and Li Shangfu from the State Council, as well as the disclosure of details about another citizen accused of spying for the US by the MSS. The leaders of the Five Eyes intelligence alliance visit Silicon Valley and appear on 60 Minutes. The episode also mentions the increased scrutiny of Foxconn ahead of Taiwan's presidential election, Tim Cook's visit to China, Jon Stewart leaving Apple, and Evan Osnos' examination of public sentiment in China after Xi Jinping's first decade in power. The episode concludes with Xi Jinping meeting with California Governor Newsom, indicating Xi's interest in maintaining diplomatic relations with the US."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 8,
+        "title": "Israel-Palestine, Morocco, Senegal.",
+        "guid": "https://proximities.substack.com/p/israel-palestine-morocco-senegal",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "Al Jazeera, the news network funded by Qatar, has been asked by U.S. Secretary of State Antony Blinken to \"rein in\" its coverage of the Israel-Gaza war. This comes as the entire family of a veteran Gaza correspondent for Al Jazeera's Arabic-language channel was killed in an Israeli strike. The correspondent's wife, son, daughter, and grandson were all killed while sheltering in a house. In Morocco, residents of the town of Amizmiz, which was heavily affected by an earthquake last month, held a protest against local authorities. They have been living in tents since the earthquake and are concerned about the approaching winter. Authorities have promised to speed up aid. In Senegal, opposition leader Ousmane Sonko is in intensive care after resuming a hunger strike. Sonko, who plans to run in the presidential elections next February, accuses the government of trying to end his political career through criminal prosecutions."
+    },
+    {
+        "feed_id": 255,
+        "article_id": 4,
+        "title": "Alphabet: Core Ad Revenue Growth Back to Normal in Q3",
+        "guid": "https://librariancapital.substack.com/p/alphabet-core-ad-revenue-growth-back",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "Alphabet, the parent company of Google, released its Q3 2023 results, showing a 9.5% growth in ad revenues, including a 12.5% growth in YouTube ad revenues. Google Cloud revenue growth slowed but still reached 22%. The company's earnings per share (EPS) increased by 18.8% year-to-date. Despite a decline in pre-market trading, Alphabet shares are still up 37% since January 2021. The company believes that the post-results decline was an overreaction, as it neglects the strong growth in the core advertising business. Google Advertising has returned to its normal growth trajectory, with total advertising revenues showing a ~15% compound annual growth rate (CAGR) for each quarter this year. YouTube ad revenues have also rebounded, with a 12.5% year-on-year growth. Google Cloud revenues were up 22% year-on-year in Q3, although there was a slight deceleration from Q2. The company has shown cost discipline, with costs growing less than revenues in Q3. Alphabet's net income was 41.5% higher year-on-year in Q3, and its earnings before interest and taxes (EBIT) grew by 24.6%. The company's free cash flow (FCF) was $37.2 billion year-to-date, up 76% year-on-year. With a P/E ratio of 24.7x and a FCF yield of 2.8%, Alphabet shares are considered cheap, and the company is expected to return 83% by 2026."
+    },
+    {
+        "feed_id": 216,
+        "article_id": 4,
+        "title": "The Trap",
+        "guid": "https://www.nexteconomy.co/p/the-trap",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The author of this article discusses their views on the current market positioning and its implications for equities and bonds. They argue that there is high downside risk for equities and that the market is too optimistic on economic growth and interest rates. The author analyzes positioning data and charts to support their views. They also highlight the importance of reflexivity in understanding the interdependent variables in the economic world. The author concludes that the market may be setting a trap for investors who are expecting a year-end rally, and that there is more downside ahead for both equities and bonds. They share their own positioning, which is currently all-cash and betting on equity downside through puts. The author also mentions the upcoming Treasury quarterly refinancing statement as a major catalyst for the market. They provide their thoughts on various asset classes, including TIPS, commodities, Bitcoin, and tech stocks. The article ends with a disclaimer stating that the information provided is for educational purposes only and should not be taken as investment advice."
+    },
+    {
+        "feed_id": 213,
+        "article_id": 10,
+        "title": "WHEN THE MATH CHANGES",
+        "guid": "https://posts.themacrotourist.com/p/when-the-math-changes",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses the bear market in bonds and the rise in US 30-year yield from 4.75% to 5.09%. It mentions the relationship between stocks' earnings yield and interest rates and highlights the continued bear market in bonds."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 11,
+        "title": "\u2764\ufe0fNew Chapter 11 Bankruptcy Filing - Unconditional Love Inc. (Hello Bello)(Case Roster)\u2764\ufe0f",
+        "guid": "https://petition.substack.com/p/hello-bello-bankruptcy",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "Los Angeles-based company Unconditional Love Inc., backed by Kristen Bell and Dax Shepard, has filed for chapter 11 bankruptcy in Delaware. Unconditional Love Inc. is the company behind Hello Bello, a consumer products company that sells environmentally-friendly family products. The company experienced rapid growth during the pandemic, reaching 130,000 subscribers and generating $180 million in sales. However, the company faced challenges when its diaper manufacturer increased production costs by 18%, which they couldn't pass on to customers due to restrictions from wholesalers like Walmart and Amazon. The company attempted to vertically integrate its diaper manufacturing but faced issues, leading to financial struggles. Unconditional Love Inc. has been in \"strategic alternatives\" mode for a year and has secured a stalking horse asset purchase agreement with Bucky Acquisition HoldCo LLC for $65 million. The company has obtained a commitment for a $47 million debtor-in-possession financing to fund the sale process."
+    },
+    {
+        "feed_id": 204,
+        "article_id": 2,
+        "title": "Mid-Week Thoughts",
+        "guid": "https://www.lordfed.co.uk/p/mid-week-thoughts-3a5",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses the author's decision to turn bearish in August and the question of where to hide next. The author had predicted a sell-off and an increase in volatility, which turned out to be a successful decision. However, the article does not provide any specific information about where to hide next."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 12,
+        "title": "The Dangers of a \"Cashless\" Economy",
+        "guid": "https://quoththeraven.substack.com/p/the-dangers-of-a-cashless-economy",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses the dangers of eliminating cash and transitioning to a fully digital payment system. It explains that cash is recognized as legal money, while bank balances are one step removed from legal money. The total cash in the economy, including bank reserves and cash held outside the banking system, is known as the monetary base. However, most of the money supply is composed of bank credit money not backed by reserves. The article highlights the risks of relying solely on electronic payments, such as infrastructure problems and the potential seizure of funds. It provides examples of bank accounts being frozen or closed for political reasons. The article also warns against the implementation of central bank digital currencies, as it would give governments the power to freeze accounts and restrict access to financial resources. The author argues that digital currencies pose a threat to civil liberties and should be stopped."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 23,
+        "title": "Himalayan Rivers and Communities in Crisis",
+        "guid": "https://www.asiasentinel.com/p/himalayan-rivers-communities-crisis",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The collapse of the Chungthang dam in Sikkim, India, has raised concerns about the safety and viability of other mega dams in the Himalayas. The dam failure resulted in the deaths of at least 22 people and left over 100 missing. Environmentalists warn that similar projects in geologically risky areas, threatened by glacial lake outburst floods, earthquakes, climate change, and landslides, could lead to further devastation. The Teesta River, which is fed by glacial lakes, is particularly vulnerable to these risks. Despite opposition from local communities, the Indian government plans to construct three more \"mega Teestas\" in the Indian Himalayas. International organizations, such as International Rivers, urge the government to reconsider these plans, stating that hydropower is not a climate-friendly or sustainable energy solution. The construction of these dams also poses threats to the fragile Himalayan ecosystem and the livelihoods of indigenous communities. In addition to dam collapses, landslides and cracks in homes are concerns, as well as the disruption of migration routes and nesting areas for endangered species. The future of the Teesta River and its tributaries, including downstream in Bangladesh, is in jeopardy due to the proposed cascade of dams."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 22,
+        "title": "Ministers\u2019 Sacking Shows Cracks in China\u2019s Leadership",
+        "guid": "https://www.asiasentinel.com/p/ministers-sacking-cracks-china-leadership",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "Chinese President Xi Jinping's recent removal of four ministers and demotion of former foreign minister Qin Gang is seen as a display of power, but analysts believe it actually reveals weaknesses in his leadership. The dismissals and demotions, which include the defense minister, finance minister, and science and technology minister, suggest upheaval in China's leadership. The fact that Xi could not name a replacement for the defense minister indicates a lack of confidence in the loyalty and ability of his top military brass. The removal of Qin Gang, who was previously sacked as foreign minister, suggests Xi's failure to nurture capable diplomats. The lack of explanation for the dismissals and the downfall of Li Shangfu, the defense minister, and Qin Gang is seen as a sign of dysfunction and opacity in China's leadership. The removals also highlight the lack of pushback or disagreement with Xi's decisions, indicating his unchallenged position. However, there are still forces working to undermine Xi's position, as evidenced by the leaks and the tensions and distrust within the party leadership."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 21,
+        "title": "Time to Pull Back From The Mighty Greenback?",
+        "guid": "https://www.asiasentinel.com/p/time-pull-back-from-mighty-greenback",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "China is closer to the end of its crisis while the US is becoming more vulnerable to one. Beijing plans to issue RMB1 trillion in special central government bonds and transfer the funds to local governments for public infrastructure."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 15,
+        "title": "The Lund Loop Daily Update - 10/25/23",
+        "guid": "https://www.thelundloop.com/p/the-lund-loop-daily-update-102523",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The article is not provided. Please provide the article that needs to be summarized."
+    },
+    {
+        "feed_id": 158,
+        "article_id": 5,
+        "title": "Our investments in oil and natural gas stocks",
+        "guid": "https://vitaliy.substack.com/p/our-investments-in-oil-and-natural",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses the investment potential of oil and gas stocks. The author argues that despite the increasing focus on renewable energy, the demand for petrochemicals is not changing quickly, and the supply is likely to decline. This will result in higher prices for oil and gas. The author also highlights the negative perception of the industry, which has led to a decrease in enrollment in petrochemical engineering programs and a lack of qualified replacements for retiring engineers. Additionally, the vilification of oil companies by politicians and the exclusion of oil companies from ESG mandates further limit investment in the industry. The author believes that these factors, along with the potential weakening of the dollar, make oil and gas stocks an attractive investment opportunity. The author advises being selective and investing in low-cost producers with strong balance sheets."
+    },
+    {
+        "feed_id": 127,
+        "article_id": 2,
+        "title": "FAT PITCH value: Real estate as a service",
+        "guid": "https://emergingvalue.substack.com/p/fat-pitch-value-real-estate-as-a",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "IWG PLC, the world leader in coworking, is a financially solid company with a net debt/EBITDA of 1.6. It operates by leasing office buildings and selling flexible office space to individual and corporate clients. The company has two main business models: conventional leases and franchise agreements. IWG is focusing on expanding through partnerships and capital light business, with 382 out of 400 deals signed in H1 2023 being capital light. The company also has a digital business, which includes platforms like EasyOffices.com and Instant Group. IWG predicts 600% growth by 2030 and the global coworking industry is expected to reach over $30 billion in 2026. The company's valuation is cheap, with a price to real earnings of 7.5 and a market capitalization of \u00a31.28 billion. Opportunities for IWG include increasing occupancy, the growing trend of coworking and flexible working, and capital returns as debt is paid down. Risks include a recession that could reduce rates and occupancy, but could also increase occupancy if businesses downsize."
+    },
+    {
+        "feed_id": 125,
+        "article_id": 10,
+        "title": "Banks banks banks (redux) follow up",
+        "guid": "https://www.yetanothervalueblog.com/p/banks-banks-banks-redux-follow-up",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The author emphasizes the importance of investing in a \"basket\" of banks rather than focusing on individual banks due to the idiosyncratic risks associated with the banking industry. They believe that buying good, overcapitalized banks around book value can be a positive expected value bet, but with significant downside risks. The author also mentions that regional banks may engage in mergers and acquisitions to avoid regulatory burdens, which could lead to a wave of M&A activity in the future. They argue that the current environment is favorable for banks to make loans and generate positive earnings and asset values. The competitive landscape in banking has changed, with bankruptcies and funding challenges for fintech players, creating opportunities for well-capitalized banks to gain market share. The author suggests that investors should differentiate between banks by analyzing their balance sheets. Despite the fear in the market, the author believes that investing in a handful of good banks with a long-term view can result in excellent risk-adjusted returns."
+    },
+    {
+        "feed_id": 106,
+        "article_id": 3,
+        "title": "A Special Event for Founder Members",
+        "guid": "https://behindthebalancesheet.substack.com/p/a-special-event-for-founder-members",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "Russell Napier will be giving a presentation titled \"21 Lessons from Financial History for the Way We Live Now.\" The presentation will take place on Thursday, December 7 at 5:30 pm. The event is exclusive for founder members of a Substack and a special coupon code is required to attend."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 10,
+        "title": "The American socialist worldview is just totally broken (repost)",
+        "guid": "https://www.noahpinion.blog/p/the-american-socialist-worldview-4aa",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The author of this article criticizes the Western leftist movement, particularly its focus on Palestine and its views on foreign policy. The author argues that many Western leftists have prioritized the Palestinian cause above other oppressed groups and have used it as a wedge issue to push out more moderate members of the movement. The author also criticizes prominent leftists, such as Noam Chomsky and Nathan J. Robinson, for their views on foreign policy, including Chomsky's suggestion that Ukraine should make concessions to Russia and Robinson's assertion that U.S. defense spending constitutes \"plotting a genocide of Russian and Chinese people.\" The author further criticizes the socialist movement's theories of change, power, and public policy, including their embrace of faddish intellectual cults like degrowth and their opposition to housing construction and clean energy projects. The author concludes by expressing disappointment in the direction of the socialist movement and the potential for it to become a fringe group."
+    },
+    {
+        "feed_id": 93,
+        "article_id": 3,
+        "title": "Quick Value #190 - 10.23.23 ($FHN)",
+        "guid": "https://www.valuedontlie.com/p/quick-value-190-102323",
+        "published_date": "2023-10-23",
+        "summarized_date": "2023-10-26",
+        "summary": "First Horizon (FHN), a regional bank with $85 billion in assets, has seen its stock price drop from $25 to $10 after a deal to be acquired by TD Bank fell through. Despite the decline, the bank's balance sheet remains solid, with conservative financing and a strong capital position. Earnings have been affected by changes in the rate environment and a one-off credit charge, but normalized earnings suggest a more accurate valuation. Shareholders currently receive a quarterly dividend, and the bank has excess capital that could potentially be used for buybacks. First Horizon currently trades at a discount to its peers, but its fundamentals and loan book are sound. Using a historical industry heuristic, the bank's valuation could be around $12.80 per share. While the banking industry as a whole has had a challenging year, owning First Horizon may be a good investment opportunity given its potential for growth and its discounted valuation."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 27,
+        "title": "In war truth is the first causality: October 7",
+        "guid": "https://murrayhunter.substack.com/p/in-war-truth-is-the-first-causality",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The article does not provide any content or information to summarize."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 26,
+        "title": "Hello Miss Sarawak I Suggest We Introduce More Politics In Schools",
+        "guid": "https://murrayhunter.substack.com/p/hello-miss-sarawak-i-suggest-we-introduce",
+        "published_date": "2023-10-26",
+        "summarized_date": "2023-10-26",
+        "summary": "The article discusses the issue of schools in Sarawak, Malaysia getting involved in international conflicts and politics. The author supports the Minister of Education's stance that schools should not be involved in such matters. The author sarcastically suggests introducing more international politics in schools, including issues like the Rohingya crisis, Sudan Darfur genocide, Saudi Arabia and Yemen conflict, Turkey and Kurdish conflict, Pakistan and Taliban conflict, and Salafi and Ahlus Sunnah conflict. The author implies that this kind of political indoctrination in schools may lead to the production of international jihadis and even suggests that the Minister of Education should lead them on an international jihad. The article ends with the phrase \"one confirmed ticket masuk syurga,\" which means going to heaven."
+    },
+    {
+        "feed_id": 44,
+        "article_id": 1,
+        "title": "Quick Ideas #4",
+        "guid": "https://turtles.substack.com/p/quick-ideas-4",
+        "published_date": "2023-10-25",
+        "summarized_date": "2023-10-26",
+        "summary": "The author of the article discusses their investment decisions and positions in various stocks. They mention reducing their position in Hollysys (HOLI) due to a disappointing bid without a definitive agreement. They also express skepticism about the CEO's intentions and fear that they may block another buyer from taking the company private. The author also discusses their positions in other Chinese stocks, including 111 inc (YI), Toya (TOA), Emeren (SOL), and I-mab (IMAB). They highlight the potential of these stocks and the reasons for their investment decisions. The author acknowledges the risks involved but believes that these stocks have the potential for significant growth and value unlocking. They also mention the importance of conducting one's own due diligence before making any investment decisions."
+    },
+    {
         "feed_id": 295,
         "article_id": 13,
         "title": "Earnings Drivers",
