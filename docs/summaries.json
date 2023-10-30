@@ -1,5 +1,320 @@
 [
     {
+        "feed_id": 303,
+        "article_id": 3,
+        "title": "Astutex Trendspotting October 30",
+        "guid": "https://astutexai.substack.com/p/astutex-trendspotting-october-30",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The given article is not a complete article but rather a disclaimer stating that the report is for informational purposes only and does not provide investment recommendations. Therefore, there is no specific content to summarize."
+    },
+    {
+        "feed_id": 296,
+        "article_id": 9,
+        "title": "Why $INTC Only Fell By -3% on Yesterday's Announcement of NVIDIA's ARM-based PC Chips",
+        "guid": "https://valueinvesting.substack.com/p/intel-valueinvesting",
+        "published_date": "2023-10-24",
+        "summarized_date": "2023-10-30",
+        "summary": "The article discusses the concept of price versus value in investing. It highlights the idea that a good business may not necessarily be a good stock, and vice versa. The key is to identify the gap between price and value and determine if there is a significant mispricing. The author uses the example of Intel's stock price only declining slightly after NVIDIA's announcement, suggesting that the market may have already priced in the news or that Intel's stock was already undervalued. The article emphasizes the importance of considering both price and fundamental value when evaluating investments. It also mentions the concept of asymmetric risk-reward, where investing in undervalued stocks with low multiples can provide both downside protection and upside potential. The author concludes by mentioning that in the upcoming Part 2 report, they will delve into the future of Intel and address concerns surrounding the company."
+    },
+    {
+        "feed_id": 296,
+        "article_id": 7,
+        "title": "Intel Foundry Services: America\u2019s TSMC (Part 3)",
+        "guid": "https://valueinvesting.substack.com/p/intel3",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "Intel is planning to open up its internal foundry to other fabless companies, similar to TSMC, and this move is seen as strategically significant. The report discusses Intel's internal foundry, Intel IFS, and its potential to become an American version of TSMC. The report highlights the growth of the global semiconductor industry and the high barriers to entry in the leading-edge fabs market. It suggests that Intel IFS alone could justify Intel's entire valuation. The report draws an analogy to Warren Buffett's acquisition of Apple in 2016, stating that Intel could be in a similar position of maximum pessimism. The article also mentions a mindblowing observation about TSMC's business economics, where its CAPEX can be used to predict future revenues. Overall, the report emphasizes the potential of Intel IFS and its role in Intel's future growth."
+    },
+    {
+        "feed_id": 295,
+        "article_id": 17,
+        "title": "S&P Joins The Correction",
+        "guid": "https://contrarianpod.substack.com/p/s-and-p-joins-the-correction",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article is not provided. Please provide the article that you would like me to summarize."
+    },
+    {
+        "feed_id": 280,
+        "article_id": 15,
+        "title": "Links - 10/30/2023",
+        "guid": "https://valueinvestingworld.substack.com/p/links-10302023",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "In a podcast interview, legendary investor Charlie Munger discusses the advantages of making a few great investments and waiting. He highlights that this approach allows individuals to pay less to brokers, avoid listening to unnecessary advice, and potentially benefit from the tax system. Munger's interview is considered special as it is the only longform podcast interview he has done in his 99 years."
+    },
+    {
+        "feed_id": 268,
+        "article_id": 4,
+        "title": "The tale of two very different IPOs",
+        "guid": "https://www.asiatechreview.com/p/the-tale-of-two-very-different-ipos",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "Courier firm J&T Express raised $500 million in a downsized Hong Kong IPO, but shares fell 1.3% on its debut day. J&T Express, founded by Jet Lee and Tony Chen, focuses on solving logistics problems in tough markets like Indonesia and is backed by investors including Tencent and Temasek. The company represents China's interest in Southeast Asia and aims to help Chinese e-commerce firms and brands sell in the region. Meanwhile, group buying company WeBuy quietly went public in a $15 million US IPO. WeBuy plans to double down on Indonesia, where TikTok's social commerce service has been banned. In other news, multi-currency card startup YouTrip raised $50 million, Disney is nearing a deal to sell its India operations to Reliance, and a Singapore-based startup called Qosmosys has raised $100 million in a seed round to send its spacecraft to the moon."
+    },
+    {
+        "feed_id": 265,
+        "article_id": 3,
+        "title": "Weekly Insights - Edition 130",
+        "guid": "https://topdowncharts.substack.com/p/weekly-insights-edition-130",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article is a brief introduction to the Weekly Insights report, which presents key findings from an institutional research service. The report offers an affordable and comprehensive experience for readers."
+    },
+    {
+        "feed_id": 249,
+        "article_id": 7,
+        "title": "Sandpit",
+        "guid": "http://johnquiggin.com/?p=19049",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article introduces a new platform called the \"sandpit\" for regular commenters to engage in long side discussions, conspiracy theories, and idees fixes. It clarifies that the sandpit is not intended for visiting conspiracy theorists or trolls pretending to be such."
+    },
+    {
+        "feed_id": 249,
+        "article_id": 6,
+        "title": "The big one",
+        "guid": "http://johnquiggin.com/?p=19051",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The author predicts a more drastic and dangerous government shutdown in November. They believe that the Republicans in the House of Representatives will come up with extreme demands for a spending bill that will be unacceptable to President Biden and the Democrats. The author argues that the shutdown will continue until it causes serious damage to the US economy and society. They explore several possibilities for how the shutdown could end, including Johnson (a far-right extremist) cutting a deal with the Democrats, Biden capitulating under pressure, a few Republicans crossing the floor, or Biden invoking emergency powers to reopen the government. The author acknowledges that their prediction may be overestimating the difficulty of reaching a resolution, but they believe that a crisis is likely given the current political climate."
+    },
+    {
+        "feed_id": 213,
+        "article_id": 11,
+        "title": "WEEKLY WRAP-UP (s2023 e16)",
+        "guid": "https://posts.themacrotourist.com/p/weekly-wrap-up-s2023-e16",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "Stanley Druckenmiller, a renowned investor, recently discussed his bond positions in an interview with Paul Tudor Jones. Druckenmiller revealed that he is currently holding a \"steepener\" position in bonds, which means he is betting on the yield curve to steepen. This position involves buying long-term bonds and selling short-term bonds, with the expectation that long-term interest rates will rise faster than short-term rates. Druckenmiller also mentioned that he is shorting European bonds, as he believes they are overvalued. Additionally, he expressed concerns about the potential for inflation and the impact it could have on bond prices. Druckenmiller's insights are highly regarded in the investment community, and his bond positions provide valuable insights into his outlook on the market."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 14,
+        "title": "\ud83d\ude81New Chapter 11 Bankruptcy Filing - Air Methods Corp.\ud83d\ude81",
+        "guid": "https://petition.substack.com/p/air-methods-corporation",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "Air Methods Corp., the leading provider of air medical emergency services in the United States, and its 15 affiliates have filed for Chapter 11 bankruptcy. The company cites labor shortages, increased costs, challenges with payor reimbursements, and severe weather as factors impacting its performance. Air Methods states that while its business is operationally sound, it needs to restructure its substantial long-term debt and secure additional capital. One of the challenges the company faces is the No Surprise Act (NSA), which introduced a new process for resolving disputed claims. Although Air Methods resolved most claims favorably, the process took longer, affecting cash flows and debt servicing capabilities. The exact amount of debt is not mentioned in the article."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 13,
+        "title": "\ud83d\udca5New Chapter 11 Bankruptcy Filing - Akumin Inc.\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/akumin-bankruptcy",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "Akumin Inc. and its affiliates have filed for prepackaged chapter 11 bankruptcy in the Southern District of Texas. The plan aims to reduce the debt by approximately $585 million and transfer ownership to Stonepeak Partners. Akumin provides radiology and oncology screening services to over 1,100 hospital partners across 48 states. Following the filing, Akumin's shares rose by 51% as investors learned about the company's plans to pay $25 million and offer contingent value rights to shareholders."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 12,
+        "title": "\ud83d\udca5Ebix Needs a Fix\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/ebix-needs-a-fix",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "The article discusses various macroeconomic trends and indicators that have caught attention in the past week. These include the 10-year Treasury yield pushing above 5%, widening spreads and increasing yields in the high-yield bond market, a lack of new bond issuance, downgrades in ratings agencies causing problems for collateralized loan obligations (CLOs), rising interest rates affecting leveraged buyouts, a strong Q3 GDP print, an increase in subprime auto loan delinquencies and bankruptcies, and weaker investor protections in larger private credit deals. The article also mentions that core inflation is above the Fed's target rate, giving the Fed reason to continue hiking rates. The summary concludes by mentioning Ebix Inc. as a company to watch, as it provides software and e-commerce services to insurance, financial, and healthcare companies."
+    },
+    {
+        "feed_id": 206,
+        "article_id": 6,
+        "title": "Animating Gaza",
+        "guid": "https://animationobsessive.substack.com/p/animating-gaza",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The Animation Obsessive newsletter discusses the film \"Fatenah\" (2009), which is considered the first-ever Palestinian animated commercial film. The film tells the story of a Gazan woman named Fatenah who discovers a lump on her breast and fights to get a real diagnosis and proper medical care. Despite help from Israeli doctors and activists, she faces obstacles and cruelty from border guards. The film portrays the harsh reality of life in Gaza but also includes moments of humor and hope. The animation style is raw and uses basic 3D models in a mashed-up world of photos, 3D assets, and video footage. The film is based on the real-life story of Fatma Bargouth, a woman who died of breast cancer in 2004. The filmmakers aimed to humanize the individual stories behind the numbers and to shed light on the daily conditions of life in Gaza. The film received critical acclaim and was translated into English and Hebrew, screened at festivals, and won awards. The article also includes brief news updates from the animation industry."
+    },
+    {
+        "feed_id": 205,
+        "article_id": 3,
+        "title": "McKenna travels to teach at Stanford, Berkeley, and Ohio State",
+        "guid": "https://thedig.substack.com/p/mckenna-travels-to-teach-at-stanford",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "The author of the article discusses their recent travels and teaching experiences at various universities. They mention teaching a case on the KPMG/PCAOB scandal at Vanderbilt University, interviewing investigative reporter Zeke Faux in Philadelphia, and teaching a class at Stanford University. They also mention meeting with law professor Andrew Baker at Berkeley and speaking to his students about accounting research and insider trading. The author concludes by mentioning their presentation at Ohio State University. Overall, the article highlights the author's involvement in teaching and academic activities at different campuses."
+    },
+    {
+        "feed_id": 195,
+        "article_id": 4,
+        "title": "The Bear Cave #193",
+        "guid": "https://thebearcave.substack.com/p/the-bear-cave-193",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "DF Research has published a report alleging that Brookfield Infrastructure Partners has \"over ~70% downside to fair value\" due to aggressive accounting and overpayment of distributions. Muddy Waters has published a second report on Sunrun Inc, accusing the company of greatly exaggerating its subscriber numbers and potentially inflating its credit income by ~$200 million. Capybara Research has provided an update on FingerMotion, calling it \"one of the biggest stock promotions we have ever seen\" and highlighting oddities such as the company using copyright registration numbers as \"Patent Registration Numbers\" in its SEC filings. In terms of executive resignations, notable departures include the CEO of MarketWise Inc, the CFO of Disc Medicine Inc, the CFO of Parke Bancorp, the Vice Chairman of Wells Fargo, a board member of R1 RCM, the Chief Accounting Officer of Granite Ridge Resources, and a board member of Blue Bird Corp."
+    },
+    {
+        "feed_id": 189,
+        "article_id": 7,
+        "title": "Pro Tier\u2014If Doomberg Were King",
+        "guid": "https://doomberg.substack.com/p/pro-tierif-doomberg-were-king-aac",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article discusses a presentation called \"King Doomberg: A Comprehensive National Energy Strategy\" that focuses on sensible and pragmatic energy policy. The presentation aims to explore what could be achieved if there was a comprehensive national energy strategy in place. The article is targeted towards Doomberg Pro members and invites them to join the Doom Zoom session to learn more about the topic."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 13,
+        "title": "What Do You Want From Life?",
+        "guid": "https://pau1.substack.com/p/expectations",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article discusses the importance of managing expectations in order to lead a happy life. It highlights the views of Charlie Munger, a successful investor and business partner of Warren Buffett, who believes that having low expectations is the secret to happiness. Munger emphasizes the need to avoid envy, resentment, revenge, and self-pity, as they are detrimental to one's well-being. The article also shares a personal story of someone who set low expectations for themselves and found that their life exceeded those expectations, leading to happiness. It further explores the role of expectations in marketing and emphasizes the importance of setting realistic expectations for customers in order to build trust and maintain long-term relationships. The article concludes by encouraging readers to practice setting low expectations and using trust-building words in their marketing materials to ensure customer satisfaction and business success."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 15,
+        "title": "I Pray To God This Isn't World War III",
+        "guid": "https://quoththeraven.substack.com/p/i-pray-to-god-this-isnt-world-war",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The author expresses concern over the lack of nuance and reasoned thought in discussions surrounding the Israeli-Palestinian conflict. They highlight the horrifying scenes of a mob at an airport in Dagestan searching for Jewish people, comparing it to the mob mentality seen during protests in the US in 2020. The author questions why people would cheer on the death of innocents and criticizes the lack of moral compass in tearing down photographs of kidnapped Israelis. They argue that the conflict will only worsen until it reaches a point of no return and express worry about the absence of nuance in the dialogue. The author also discusses the division in the world, with the US, Ukraine, Israel, and Europe on one side and Russia, China, India, and most of the Middle East on the other. They fear that the world is on the brink of a Third World War and criticize the entitlement and lack of reason among activists who support causes without considering the consequences. The author concludes by expressing hope for peace and urging for a more nuanced and reasoned approach to the conflict."
+    },
+    {
+        "feed_id": 182,
+        "article_id": 3,
+        "title": "Softened Conditions",
+        "guid": "https://thetranscript.substack.com/p/10-30-2023-softened-conditions",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "Economic conditions are softening, with spending slowing down and consumers depleting their excess savings from the pandemic. Visa and Mastercard have not seen a significant change in consumer behavior, but overall, the commentary from various sectors of the economy is muted compared to previous weeks. Higher interest rates are impacting larger ticket items, and banks have tightened lending standards due to weakening consumer finances. TransUnion CEO Christopher Cartwright notes that cracks have appeared in consumer lending, particularly in the lower credit tiers."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 27,
+        "title": "Shinawatras Reassert Hold Over Thailand\u2019s Pheu Thai Party",
+        "guid": "https://www.asiasentinel.com/p/shinawatras-reassert-hold-pheu-thai-party",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The elevation of Paetongtarn Shinawatra, the daughter of telecoms billionaire Thaksin Shinawatra, to head Thailand's Pheu Thai Party indicates the family's ownership of the party and their ambitious economic agenda. However, the program has been stalled by the military and the elites. The party's proposal to distribute digital money to every Thai citizen has been met with resistance from the old guard forces. The coalition government, led by real estate magnate Srettha Thavasin, has struggled to implement its campaign promises due to opposition from the business and finance sectors. The government has had to surrender key ministries to its coalition partners, leaving Pheu Thai with limited influence. The once-dominant Move Forward Party has been sidelined. The need to revive the economy is growing critical after years of mismanagement. The policy paper outlined an ambitious plan to address debt, reduce energy costs, promote renewable energy, improve infrastructure, and resolve differences regarding the constitution. However, there is uncertainty about whether these plans will be implemented. The political turbulence in Thailand may affect foreign investors and trade partners."
+    },
+    {
+        "feed_id": 163,
+        "article_id": 11,
+        "title": "Emerging Market Links + The Week Ahead (October 30, 2023)",
+        "guid": "https://emergingmarketskeptic.substack.com/p/emerging-markets-week-october-30-2023",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "China's sovereign wealth fund, China Investment Corp, is buying exchange-traded funds (ETFs) in an attempt to support the country's stock market. The move comes as foreign fund outflows and concerns over the property sector have led to skittishness among local retail investors. Meanwhile, Colombia's leftist president, Gustavo Petro, has suffered a blow in local elections due to a lack of cross-party support for his plans to overhaul health, pension, and labor laws, as well as scandals involving his government and family. In other news, China Airlines frequent flyer miles are being used up by travelers to fly to Tokyo, with layovers in Taiwan due to a lack of redemption seats for Osaka. The travelers plan to visit temples and gardens in Kyoto and will provide trip reports focused on stocks encountered during their travels."
+    },
+    {
+        "feed_id": 148,
+        "article_id": 1,
+        "title": "Did Takahashi Korekiyo Save Japan?",
+        "guid": "https://undervaluedjapan.substack.com/p/did-takahashi-korekiyo-save-japan",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "Takahashi Korekiyo, a Japanese politician and bureaucrat, is often referred to as the \"Japanese Keynes\" for his adoption of Keynesian policies before John Maynard Keynes published his famous book. Takahashi served as the 20th Prime Minister of Japan and later as the Finance Minister during the Showa Depression of 1929-1932. He implemented a three-pillar strategy to revive the Japanese economy, which included currency depreciation, fiscal stimulus, and monetary expansion. Takahashi's policies were successful in ending the deflationary trend and restoring economic growth in Japan. He allowed the yen to depreciate, increased fiscal expenditures, and monetized the fiscal deficit by having the Bank of Japan buy government bonds. However, there is debate over which policy tool was the most effective in Japan's recovery. Some argue that the depreciation of the yen and changes in inflation expectations played a significant role, while others emphasize the role of fiscal expansion and the shift to a system of bureaucratic and military control. Despite the success of his policies, Takahashi was assassinated in 1936, leading to a loss of fiscal discipline and the transition to a wartime command economy."
+    },
+    {
+        "feed_id": 143,
+        "article_id": 2,
+        "title": "We Are Unhappy",
+        "guid": "https://gregor.substack.com/p/we-are-unhappy",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article discusses the current American gloom about the economy and the need for economists to explain it. Despite positive economic indicators such as rising wages, wealth, and job opportunities, there is a gap between perceptions and the data. The article suggests that one possible explanation for the gloom is the fear of inflation and its potential impact on wages. It also highlights the impact of long-term interest rates and the rising prices of goods and services that Americans don't experience on a daily basis. The article argues against the idea that Americans have been duped by the media into thinking the economy is bad when it is actually good. It also mentions the affordability of gasoline and its effect on economic sentiment. The article concludes by stating that higher gasoline prices are beneficial for the climate and energy transition. It downplays the significance of oil as a platform for economic growth and emphasizes the importance of electricity."
+    },
+    {
+        "feed_id": 125,
+        "article_id": 12,
+        "title": "Two and a half quick (premium) updates",
+        "guid": "https://www.yetanothervalueblog.com/p/two-and-a-half-quick-premium-updates",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "The article provides a quick update on the stock market, specifically mentioning the stock NEP. The author states that NEP has seen a nice increase in value since reporting Q3 results, and they are taking the opportunity to close out their position and make a quick profit."
+    },
+    {
+        "feed_id": 124,
+        "article_id": 1,
+        "title": "\u270d\ufe0f Maverick Charts - Macro & More - October 2023 Edition #12",
+        "guid": "https://maverickequityresearch.substack.com/p/maverick-charts-macro-and-more-october",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "The article provides a collection of charts and insights on various macroeconomic topics. Some key points include the possibility of the 10-year US yield reaching 6%, the ownership of the US treasuries market, the race to raise interest rates globally, the relationship between the Fed and the market on interest rate direction, the importance of real rates over nominal rates, the distribution of mortgage types in different countries, the growth of the global middle class, wealth per person in different countries, investment risk in 2023, bubble risk in property markets, global gold production, the demand for lithium, the number of democracies globally, carbon-intensive sectors, sustainable economies, global exports by country, and the top automotive exporters. The article concludes by encouraging readers to share the information with others."
+    },
+    {
+        "feed_id": 121,
+        "article_id": 4,
+        "title": "\"This Is Microsoft's Moment\"",
+        "guid": "https://thescienceofhitting.com/p/this-is-microsofts-moment",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "Microsoft's long-term results in the cloud business have been strong, with consistent revenue growth of 10% or higher for 25 out of the past 26 quarters. The company's Commercial Cloud businesses, including Azure and Office 365 Commercial, have seen significant growth since Satya Nadella became CEO in 2014. They exceeded their goal of $20 billion in annualized revenues by FY18 and have continued to grow since then. As of Q1 FY24, Microsoft Cloud's run rate revenues are at approximately $127 billion, larger than Microsoft's total annual revenues just five years ago. This growth has led to a shift in revenue mix, with Microsoft Cloud accounting for 56% of Q1 FY24 revenues. The cloud business has also seen improvements in gross margins, reaching around 72% in Q1 FY24. As a result, run rate Cloud gross profits reached $93 billion in Q1 FY24, a more than 5x increase since the end of fiscal 2018."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 13,
+        "title": "At least five interesting things to start your week (#18)",
+        "guid": "https://www.noahpinion.blog/p/at-least-five-interesting-things-ae2",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The author of this article discusses five interesting topics. First, they refute claims that the US is in a recession, citing strong economic indicators such as GDP growth, low unemployment rates, and narrowing wealth inequality. Second, they highlight China's rapid military buildup, including the construction of ships, planes, missiles, and nuclear weapons. The author argues that China's military capabilities far surpass those of the US. Third, the author addresses critiques of industrial policy, particularly the argument that it relies on low wages for international competitiveness. They argue that productivity and technological advancements are more important factors. Fourth, the author discusses the positive developments in solar power, including cost reductions and improvements in efficiency. Finally, the author examines the decline of humanities majors in universities, attributing it to economic factors and ideological shifts within academia."
+    },
+    {
+        "feed_id": 93,
+        "article_id": 4,
+        "title": "Quick Value #191 - John Wiley & Sons ($WLY)",
+        "guid": "https://www.valuedontlie.com/p/quick-value-191-john-wiley-and-sons",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "John Wiley & Sons (Wiley), a publishing company, is facing a turnaround situation due to poor capital allocation by the outgoing CEO. The new interim CEO has made significant open market purchases, indicating a change in management. The company's valuation is below its historical levels, mainly due to the previous mismanagement. Wiley is also selling businesses with a book value of $315 million and annualized sales of over $300 million, which accounts for more than 13% of its enterprise value. The stock has underperformed the market since 1989, but the fundamentals of the business are stable. The outgoing CEO made costly acquisitions that are now contributing nothing to the bottom line. Despite a projected 35% decline in earnings in FY24, the valuation of the stock remains cheap. Asset sales could potentially help improve the company's financial situation. Private equity firms have shown interest in the industry, indicating potential value in Wiley. FY24 is expected to be a challenging year, but it could also mark a trough in earnings, making Wiley an interesting stock to follow."
+    },
+    {
+        "feed_id": 80,
+        "article_id": 9,
+        "title": "One Of The Best Mean Reversion Trades Out There",
+        "guid": "https://www.overlookedalpha.com/p/one-of-the-best-ubiquiti-stock",
+        "published_date": "2023-10-29",
+        "summarized_date": "2023-10-30",
+        "summary": "Investors have been divided on a networking play, but shareholders have done well despite a decline in the stock. The decline seems to be factor-driven rather than due to real concerns in the business. The fundamentals of the company now look attractive and recent news suggests solid earnings in Q3. The recent market performance has created opportunities, making this stock one of the best options."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 32,
+        "title": "Anwar\u2019s Palestine Dilemma",
+        "guid": "https://murrayhunter.substack.com/p/anwars-palestine-dilemma",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "Malaysia's Prime Minister Anwar Ibrahim is facing a foreign policy dilemma due to the Israel-Palestine crisis. Anwar has taken a neutral position between the two superpowers, but his advocacy for the Palestinian people has faced criticism. He recently revealed that he was threatened by certain Western powers for his outspokenness. Anwar's declaration of \"Palestinian Solidarity Week\" in schools has also been met with opposition. Despite his close relationships with leaders across the world, Malaysia's long-held anti-Israel position has prevented Anwar from playing a role in bringing peace to the region. Instead, his recent MENA trip resulted in a commitment to support Saudi Arabia's bid for the 2034 World Cup. Malaysia's stance on the conflict has attracted international attention and raised concerns about its support for terrorism. The article suggests that if Malaysian foreign policy had been more relevant, Anwar could have played a major role in resolving the crisis."
+    },
+    {
+        "feed_id": 60,
+        "article_id": 4,
+        "title": "Open Thread 300",
+        "guid": "https://www.astralcodexten.com/p/open-thread-300",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The author of the article is working on another round of ACX Grants and is seeking additional funding. They are interested in donations of at least $50,000 and have provided an email address for inquiries. One of the previous grant recipients, Lars Doucet and Will Jarvis, are now working on coordinating support for a potential land value tax in Detroit. They are looking for assistance from Michigan residents in contacting their state representative. Lars also expresses gratitude to those who prayed for a sick family member, stating that the person is now in God's hands."
+    },
+    {
+        "feed_id": 40,
+        "article_id": 7,
+        "title": "Neurones: a stingy CEO with a largely diffused entrepreneurial spirit",
+        "guid": "https://frenchhiddenchampions.substack.com/p/neurones-a-stingy-ceo-with-a-largely",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "Neurones, a digital services company, has a strong focus on infrastructure services, which is its most important business unit. The company subcontracts the management of this service to Neurones as part of a multi-year contract, ensuring recurring revenue. This arrangement creates a narrow moat for Neurones, which widens as the contract duration increases."
+    },
+    {
+        "feed_id": 5,
+        "article_id": 7,
+        "title": "Sandpit",
+        "guid": "http://johnquiggin.com/?p=19049",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The article introduces a new platform called the \"sandpit\" for regular commenters to engage in long side discussions, conspiracy theories, and idees fixes. It clarifies that the sandpit is not intended for visiting conspiracy theorists or trolls pretending to be such."
+    },
+    {
+        "feed_id": 5,
+        "article_id": 6,
+        "title": "The big one",
+        "guid": "http://johnquiggin.com/?p=19051",
+        "published_date": "2023-10-30",
+        "summarized_date": "2023-10-30",
+        "summary": "The author predicts a more drastic and dangerous government shutdown in November. They believe that the Republicans in the House of Representatives will come up with extreme demands for a spending bill that will be unacceptable to President Biden and the Democrats. The author argues that the shutdown will continue until it causes serious damage to the US economy and society. They explore several possibilities for how the shutdown could end, including Johnson (a far-right extremist) cutting a deal with the Democrats, Biden capitulating under pressure, a few Republicans crossing the floor, or Biden invoking emergency powers to reopen the government. The author acknowledges that their prediction may be overestimating the difficulty of reaching a resolution, but they believe that a crisis is likely given the current political climate."
+    },
+    {
         "feed_id": 307,
         "article_id": 3,
         "title": "The Bernanke Review",
