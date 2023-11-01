@@ -1,6 +1,240 @@
 [
     {
         "feed_id": 295,
+        "article_id": 19,
+        "title": "Fed Day, Earnings, Economic Data Dump",
+        "guid": "https://contrarianpod.substack.com/p/fed-day-earnings-economic-data-dump",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The article is about the Daily Contrarian's morning look at events likely to move markets on Wednesday, November 1, which is Fed Day. The article does not provide any specific details or entities to summarize."
+    },
+    {
+        "feed_id": 280,
+        "article_id": 17,
+        "title": "Investing Notes",
+        "guid": "https://valueinvestingworld.substack.com/p/investing-notes-48f",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "The article discusses the author's observations on the valuation metrics of certain high-quality or defensive businesses. The author notes that these companies are currently trading at lower percentiles compared to their historical valuations. The author suggests that these companies may be worth considering for investment ideas, but cautions that further analysis is needed to determine if the dips in margins and earnings are temporary or permanent. The article also mentions that there is an interesting difference between the current and historical valuations of large holdings in market cap weighted ETFs. The author provides screenshots of various companies for reference."
+    },
+    {
+        "feed_id": 280,
+        "article_id": 16,
+        "title": "Links - 10/31/2023",
+        "guid": "https://valueinvestingworld.substack.com/p/links-10312023",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "The article discusses the rarity of having a successful idea or opportunity in one's lifetime. Charlie Munger, the vice chairman of Berkshire Hathaway, states that there are only a few times in a person's life when they know they have a great idea that will work. He emphasizes that many people who have early success often go broke because they underestimate the difficulty and rarity of such opportunities. The article also mentions various videos and podcasts that discuss the outlook for economies and markets, featuring individuals like Stan Druckenmiller, Paul Tudor Jones, and Chris Pavese."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 19,
+        "title": "Central Financial Work Conference; Biden and Xi to meet; Li Keqiang",
+        "guid": "https://sinocism.com/p/central-financial-work-conference",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "Li Keqiang, a prominent figure in Beijing, will be cremated on Thursday. The Central Financial Work Conference has concluded, with a focus on high-level goals and aspirations but lacking in specific details. The conference emphasized the need for a long-term mechanism to prevent and resolve local government debt risks, as well as optimizing the debt structure of central and local governments. The meeting also highlighted General Secretary Xi Jinping's important speech on the development of Marxist political economy."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 11,
+        "title": "Pakistan, Israel-Palestine, Kenya.",
+        "guid": "https://proximities.substack.com/p/pakistan-israel-palestine-kenya",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "Thousands of Afghans in Pakistan are rushing to the Afghanistan border as a deadline for them to return home voluntarily looms. Pakistani authorities have stated that \"illegal\" migrants must leave the country by October 31 or face being taken to deportation centers. Pakistan claims that there are about four million Afghans in the country, with 1.7 million of them living there illegally. Relations between Pakistan and Afghanistan's ruling Taliban have worsened recently due to suicide bomb attacks in Pakistan being blamed on Afghans. In Gaza, an Israeli air strike has hit the Jalabia refugee camp, causing a significant number of casualties. The Israeli army has admitted to striking the camp. The Kenya Human Rights Commission has called on Britain's King Charles to make a public apology for the brutal treatment inflicted on Kenyan citizens during the Mau Mau uprising. The commission's request comes as King Charles and Queen Camilla begin a four-day state visit to Kenya."
+    },
+    {
+        "feed_id": 250,
+        "article_id": 4,
+        "title": "Wisdom to start your week: Stanley Druckenmiller and Charlie Munger",
+        "guid": "https://alchemy.substack.com/p/wisdom-to-start-your-week-stanley",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "Charlie Munger and Stanley Druckenmiller, two successful investors, offer insights into long-term investing. Munger emphasizes the importance of intelligence, hard work, and luck in achieving success. He also highlights the need for patience and the ability to recognize and seize opportunities. Munger shares anecdotes about missed opportunities and the importance of learning from mistakes. Druckenmiller, on the other hand, focuses on the need to constantly adapt and evolve in response to changing market conditions. He discusses his approach to trading bonds and shares his views on the stock market, gold, and Bitcoin. Both Munger and Druckenmiller provide valuable lessons for investors, but it is important to understand that their strategies may not be directly applicable to everyone."
+    },
+    {
+        "feed_id": 228,
+        "article_id": 10,
+        "title": "Doing The Hard Thing: Staying Positive & Taking Action When The World Has Gone Mad",
+        "guid": "https://hardfork.substack.com/p/doing-the-hard-thing-staying-positive",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The article discusses the recent Hamas terrorist attacks in Israel and criticizes the response of ignorant college students and people in the West who justify these atrocities and blame Israel. The author expresses their anger and frustration at the senseless attack and rising anti-Semitism, as well as the ignorance of pro-Palestinian students. They argue that while they don't want to see Palestinian civilians killed, they believe Hamas leadership and militants are fair game. The author also reflects on the negative impact of social media and the state of the West and humanity. They suggest taking action by donating to organizations helping refugees and victims of war, learning about the conflict to avoid disinformation, and considering long-term solutions proposed by Dror Peleg and Noah Smith. The author emphasizes the importance of taking real action to make the situation better, especially in a world of disorder and a shift towards a multipolar world."
+    },
+    {
+        "feed_id": 221,
+        "article_id": 2,
+        "title": "EV transition on ICE?",
+        "guid": "https://valuesits.substack.com/p/ev-transition-on-ice",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The article discusses the challenges and potential delays in achieving the energy transition and net zero targets, particularly in relation to the demand for copper. It highlights the enormous future demand for copper due to the electrification of the world economy, which is metals-intensive and requires vast amounts of copper. The article also mentions the factors contributing to a global copper shortage, including under-investment, depletion of existing mines, long lead times for new mines, financing difficulties, obstructive regulations, and a labor/skills shortage. These factors pose significant obstacles to achieving decarbonization and the energy transition. The article suggests that the energy transition may not happen as policymakers expect or intend due to these supply-side constraints. As a result, the article explores investment opportunities in the auto sector, particularly in companies involved in catalytic converters and platinum group metals, which have a role in achieving net zero targets. The article concludes by presenting a contrarian investment idea in a specific public equity situation."
+    },
+    {
+        "feed_id": 221,
+        "article_id": 1,
+        "title": "Join the Value Situations Chat",
+        "guid": "https://valuesits.substack.com/p/join-the-value-situations-chat",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The author of the article is announcing a new addition to their Substack publication called the Value Situations subscriber chat. This chat is exclusively for paid subscribers and will be a space for discussions and updates. To join the chat, subscribers need to download the Substack app, which is available for both iOS and Android. The chats will be sent through the app, not via email, so subscribers are advised to turn on push notifications. The article provides instructions on how to download the app and access the chat."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 15,
+        "title": "\ud83d\udca5Another Brick in the (Maturity) Wall\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/another-brick-in-the-maturity-wall",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "Evercore Inc. ($EVR) and Houlihan Lokey ($HLI) have provided insights into the state of the restructuring industry during their recent earnings calls. Evercore's CEO, John Weinberg, stated that restructuring activity remains strong, driven by liability management and distressed financing advisory assignments. He also mentioned that the upcoming maturity wall in 2024 and 2025, along with higher interest rates, could lead to more companies needing restructuring advice. Houlihan Lokey's CEO, Scott Beiser, pointed to the maturity wall in 2024 and 2025 as a factor that could drive restructuring activity. However, he noted that the growth in new business slowed during the quarter, likely due to improving capital markets. Beiser also mentioned that refinancings are possible in the current interest rate environment but may not solve companies' problems. Both companies expect the restructuring industry to remain elevated in the coming years due to various factors such as business performance, interest rates, and the maturity wall."
+    },
+    {
+        "feed_id": 204,
+        "article_id": 3,
+        "title": "Q4 Competition",
+        "guid": "https://www.lordfed.co.uk/p/q4-competition",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "The article is about a competition that was forgotten for the fourth quarter but is now being held for the year-end. The winner of the competition will receive a prize of one thousand dollars."
+    },
+    {
+        "feed_id": 189,
+        "article_id": 8,
+        "title": "Reality Bites",
+        "guid": "https://doomberg.substack.com/p/reality-bites",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "Democracies with multi-party parliamentary systems have a flaw where alliances with far-leaning parties can give them substantial power. In Canada, the NDP, despite winning only 18% of the popular vote and 7.4% of seats, became a coalition partner to the Liberal Party, giving them significant influence. Similarly, in Germany, the Green Party, with just 16% of seats, has focused on destroying the country's energy sector, particularly nuclear power. Germany has shut down all its nuclear reactors, despite other countries relying on nuclear energy to replace fossil fuels. The Green Party now faces the consequences of their decision as winter approaches and the country grapples with how to power itself. The article questions whether the current rightward shift in German politics will lead to blowback for the Greens."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 16,
+        "title": "One Thing: 10/31/23",
+        "guid": "https://pau1.substack.com/p/oner-thing-103123",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "I'm sorry, but I cannot access external websites or specific articles. If you provide me with the main points or key information from the article, I would be happy to help you generate a summary."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 15,
+        "title": "Illustrated Frankenstein - Chapter 18",
+        "guid": "https://pau1.substack.com/p/illustrated-frankenstein-chapter-95b",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The protagonist, Victor Frankenstein, returns to Geneva but is unable to resume his work due to fear of the monster's vengeance. He contemplates visiting England to obtain knowledge from an English philosopher, but hesitates to take the first step. Victor's health improves, and his father tries to help him overcome his melancholy. Victor assures his father that he loves his cousin, Elizabeth, and plans to marry her. However, he is secretly horrified by the idea of an immediate union and is bound by a promise to the monster. Victor decides to travel to England to continue his work and requests his father's permission. His father agrees and arranges for Victor's friend, Clerval, to accompany him. Victor hopes that Clerval's presence will protect him from the monster. Victor and Clerval travel down the Rhine River and eventually arrive in England. They continue their journey to London, where Victor sees the famous landmarks."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 16,
+        "title": "Should Scientists Be Allowed To Tell The Truth?",
+        "guid": "https://quoththeraven.substack.com/p/should-scientists-be-allowed-to-tell",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "Dr. Paul Offit, a member of the FDA's Vaccines and Related Biological Products Advisory Committee, discusses the lack of open debate surrounding Covid-19 vaccine policies. He highlights two examples: the promotion of ineffective booster vaccines and the recommendation of boosters for everyone, rather than just high-risk groups. Offit argues that officials are not being honest about the potential side effects of the vaccines, such as myocarditis and pericarditis in young males. He suggests that officials would lie to parents to convince them to vaccinate their children, even if the disease is harmless to them. Offit also criticizes the lack of nuanced messaging, where officials fail to differentiate between who should and should not receive the vaccine. The article suggests that scientists should be allowed to tell the truth and engage in open debate, as truth has been under attack during the Covid-19 pandemic."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 29,
+        "title": "The Gaza War is Pushing the Middle East Away from the US",
+        "guid": "https://www.asiasentinel.com/p/gaza-war-pushing-middle-east-away-usa",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The US is facing a potential permanent shift in its ties with the Middle East as countries in the region downgrade their relations with Washington and expand ties with China and Russia. The recent conflict between Israel and Gaza has further exacerbated this trend, with major Middle Eastern states opposing the US and supporting Russia's call for a ceasefire. The UAE, a signatory of the Abraham Accords, has also opposed the US resolution in the United Nations Security Council and voted in favor of the Russian resolution. Arab states have criticized the US and Israel for violating international law and using the right to self-defense as a pretext for collective punishment. The failure of the US to influence the Middle East in favor of Israel presents an opportunity for China and Russia to expand their influence in the region. The US will need to navigate this growing divide and rebuild its ties in order to counter the rising influence of China and Russia, which remains its most important national security interest."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 20,
+        "title": "The Lund Loop Daily Update - 10/31/23",
+        "guid": "https://www.thelundloop.com/p/the-lund-loop-daily-update-103123",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "The article is not provided. Please provide the article that needs to be summarized."
+    },
+    {
+        "feed_id": 155,
+        "article_id": 3,
+        "title": "Timing a bottom and improving US-China relations",
+        "guid": "https://www.realchinacharts.com/p/timing-a-bottom-and-improving-us",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The article is not provided, so I cannot generate a summary."
+    },
+    {
+        "feed_id": 119,
+        "article_id": 1,
+        "title": "Best of Sept/Oct in Asia-Pacific",
+        "guid": "https://allocatorsasia.substack.com/p/bestof-0923",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The growing demand for rare metals used in renewable energy is causing a shake-up in the economics and geopolitics of the energy world. China, which dominates the processing capacity for these metals, is considering restricting exports, leading governments to seek alternative sources. Indonesia, the world's largest producer of nickel, has already banned exports of raw nickel and attracted foreign investment in nickel processing. However, the EU has challenged Indonesia's export controls at the World Trade Organization. In the technology industry in China, there is a cultural emphasis on being data-driven and user-driven, with decisions based on data feedback and user research. India, despite its massive population, is still a relatively poor country, but it has the potential to mobilize resources for limited projects. The race to deploy AI-powered submarines is seen as crucial for maintaining the balance of power globally, with the United States concerned about the Chinese Communist Party becoming the dominant power. In Hong Kong, the mastery of public relations and strategy in Singapore is admired, while Japan's efforts to block out the sun are noted. The streets of Beijing show progress, but many improvised cafes and galleries have been cleared away. A coffee brand in Vietnam emphasizes the importance of storytelling to add value to a product. The book \"The Alchemist\" is praised for its impact on the reader's life, while \"Invention: A Life\" by James Dyson is criticized for being self-serving. The biography of Elon Musk is recommended, and the author shares updates on their golf gear venture. The email concludes with a reminder to make the most of the limited time we have."
+    },
+    {
+        "feed_id": 117,
+        "article_id": 1,
+        "title": "Q3 2023 Letter",
+        "guid": "https://tidefall.substack.com/p/q3-2023-letter",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "The article discusses the potential benefits and challenges of using artificial intelligence (AI) in the healthcare industry. It highlights how AI can improve patient care, diagnosis accuracy, and treatment outcomes by analyzing large amounts of medical data and providing personalized recommendations. The article also mentions the use of AI in drug discovery and development, as well as in robotic surgery. However, it acknowledges the ethical and privacy concerns associated with AI, such as data security and bias in algorithms. The article concludes by emphasizing the need for collaboration between healthcare professionals and AI systems to ensure the responsible and effective use of AI in healthcare."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 14,
+        "title": "Asia is much more important to U.S. interests than the Middle East",
+        "guid": "https://www.noahpinion.blog/p/asia-is-much-more-important-to-us",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The United States needs to prioritize its focus on Asia rather than the Middle East. Asia is a strategically important region with developed countries that want to maintain their wealth and freedom, as well as developing countries that are experiencing significant growth. China's aggressive behavior poses a threat to the region, and the US is seen as indispensable in deterring Chinese power. On the other hand, the Middle East is trapped in a cycle of conflict and needs reform on various levels. However, US power cannot accomplish this and has often led to negative consequences, such as the Iraq War. Additionally, the Middle East is not economically important to the US, while Asia is a crucial trading partner. The US should maintain a light presence in the Middle East, intervening only in extreme cases, while focusing on strengthening its defensive power and engagement in Asia. This includes supplying defensive weapons to allies, re-engaging economically, and building strong alliances in the region. Despite emotional conflicts in the Middle East, the US must maintain discipline and prioritize its attention on Asia."
+    },
+    {
+        "feed_id": 80,
+        "article_id": 11,
+        "title": "Monthly Recap: October 2023",
+        "guid": "https://www.overlookedalpha.com/p/monthly-recap-october-2023",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The article provides a monthly recap of investment ideas and performance. The author discusses the performance of their recommendations, stating that their average return is 2.8% across 77 recommendations. They also highlight the success of their short ideas, which have generated an average return of 10%. On the long side, the average return is essentially zero. The author then discusses two specific investment ideas. The first is a short case for Expeditors International of Washington (EXPD), which hasn't worked out yet but may have downside potential due to competition and the potential for a U.S. recession. The second idea is a restaurant operator called Portillo's (PTLO), which the author believes is still a good long-term investment despite the stock price decline. The article also briefly mentions the third quarter earnings report of Orion Group Holdings (ORN), which the author sees as a positive step in the right direction. Overall, the author maintains a broad perspective on their investment ideas and continues to work on improving their idea generation."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 36,
+        "title": "Malaysia cannot afford a compromised prime minister",
+        "guid": "https://murrayhunter.substack.com/p/malaysia-cannot-afford-a-compromised",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "Malaysian Prime Minister Anwar Ibrahim's visit to Singapore is raising concerns about the potential for espionage and compromising situations. Foreign intelligence agencies are known to carry out espionage operations and set up honey-traps to collect evidence that could be used for political blackmail or bribery. China, Russia, the United States, and countries within the MENA region are particularly eager to compromise foreign dignitaries. This highlights the importance of Malaysian dignitaries being cautious and avoiding compromising situations while overseas, even within their hotel suites. The materials collected through espionage could be used to undermine the Malaysian government or passed on to local political groups. It is crucial for national leaders to be aware of the possibility of espionage when they are abroad."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 35,
+        "title": "UK Covid-19 inquiry: An insight into public policy and administration",
+        "guid": "https://murrayhunter.substack.com/p/uk-covid-19-inquiry-an-insight-into",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "The UK Covid-19 Inquiry sheds light on the flaws in public policy and administration during the pandemic. The testimonies reveal a culture of secrecy, with decisions based on political considerations rather than evidence and expert opinion. Lack of public scrutiny and the power of administrative law infringing on citizens' rights are highlighted. The inquiry emphasizes the incompetence and policies that cost lives rather than saving them. This case study serves as a warning about the lack of control governments have and the negative impact on citizens."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 34,
+        "title": "Madani Government becoming an enemy of the people",
+        "guid": "https://murrayhunter.substack.com/p/madani-government-becoming-an-enemy",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-01",
+        "summary": "Perbadanan Kemajuan Negeri Perak (PKNP) has been accused of violating a court order by encroaching on and destroying the land of six farmers in Kanthan, Tambun, Perak. The farmers have occupied the land for 70 years, but PKNP's actions have raised concerns about the government's respect for the law and justice. This incident also raises concerns about food security and the fight against rising prices, as shortages of vegetables in the area are expected to occur."
+    },
+    {
+        "feed_id": 41,
+        "article_id": 5,
+        "title": "Grow: How Amanda Yates Garcia\u2019s writing on witchcraft turned into a full-time income",
+        "guid": "https://on.substack.com/p/grow-34-amanda-yates-garcia",
+        "published_date": "2023-10-31",
+        "summarized_date": "2023-11-01",
+        "summary": "Amanda Yates Garcia, a writer and art witch, shares her insights on switching to Substack and growing her audience. She offers witchcraft, ritual, tarot, mythology, ecology, embodiment, belonging, animism, and enchantment for art witches with ADHD. Her content strategy includes publishing twice a week and offering essays, monthly live full-moon rituals, a monthly downloadable Witch Guide, live chats, a reading group, and surprise gifts. She finds Substack appealing because it allows her to go in-depth about witchcraft, unlike social media platforms where she feels like a carnival barker. She offers moon rituals as a subscription, which saves her time on marketing. Since joining Substack, she has experienced significant growth, with 13,000 subscribers and 430 paid subscribers. She plans to bring more of her followers from other social media platforms to Substack. Her advice for new writers is to focus on what makes them unique and consider what their readers need. She believes that artists deserve to be paid and that their success benefits everyone. She finds inspiration from other Substack writers, such as Paul Jarvis."
+    },
+    {
+        "feed_id": 295,
         "article_id": 18,
         "title": "Home Prices, Earnings",
         "guid": "https://contrarianpod.substack.com/p/home-prices-earnings",
