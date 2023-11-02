@@ -1,6 +1,294 @@
 [
     {
         "feed_id": 295,
+        "article_id": 20,
+        "title": "Mixed Messages From the Fed: Good Enough for Markets",
+        "guid": "https://contrarianpod.substack.com/p/mixed-messages-from-the-fed-good",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article is not provided. Please provide the article that you would like me to summarize."
+    },
+    {
+        "feed_id": 285,
+        "article_id": 5,
+        "title": "SiC as a Dog (Part 2)",
+        "guid": "https://www.fabricatedknowledge.com/p/sic-as-a-dog-part-2",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article discusses the current state of the Silicon Carbide (SiC) market, particularly focusing on On Semiconductor (ON) and its impact on SiC revenue. The article mentions that ON's SiC revenue has been affected by a reduction in demand from a large automotive OEM, which is implied to be Tesla. However, ON still expects to grow SiC revenue and believes the weakness is temporary. The article also highlights the ramp-up of SiC production by Chinese companies and suggests that Western OEMs may be underestimating China's ability to ramp up SiC. The article concludes by discussing the diverging aspects of SiC demand in the solar industry and the potential impact on ON. Overall, the article suggests that while there may be short-term challenges in the SiC market, the long-term outlook remains positive."
+    },
+    {
+        "feed_id": 276,
+        "article_id": 6,
+        "title": "James Zou: one of the most prolific and creative A.I. researchers in both life science and medicine",
+        "guid": "https://erictopol.substack.com/p/james-zou-one-of-the-most-prolific",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "James Zou, a computer scientist at Stanford University, discusses recent advancements in AI in life science and medicine in a podcast with Eric Topol. Some of the topics covered include the degradation of performance in GPT-4, the use of large language models for peer review, and the development of a visual-language model using pathology posts from Twitter. Zou emphasizes the importance of collaboration and the role of his team in his success. He also highlights the transformative power of transformer models in various applications, such as natural language processing and medical imaging. Zou's recent work includes the development of PLip, a visual-language model for pathology, and the use of large language models for providing feedback in peer review. He also discusses the limitations and challenges of AI, including the need for continuous monitoring of model behavior and the biases in AI detectors. Zou believes that the future of AI in medicine lies in the integration of different modalities and the exploration of causal relationships and mechanisms. He also addresses the interplay between academic labs and companies in AI research and the need for increased investment in computational resources. Overall, Zou's work demonstrates the potential of AI in advancing medical research and healthcare."
+    },
+    {
+        "feed_id": 273,
+        "article_id": 11,
+        "title": "Pilot's Founders vs. Berkshire Hathaway",
+        "guid": "https://rationalwalk.substack.com/p/pilots-founders-vs-berkshire-hathaway",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "Warren Buffett's Berkshire Hathaway has a reputation for being a friendly acquirer of family-owned businesses. Buffett himself is known for his integrity and has remarkably few enemies despite his vast wealth. However, a recent lawsuit filed by the Haslam family against Berkshire Hathaway alleges unfair treatment in the valuation of their remaining stake in Pilot. The lawsuit raises concerns about future capital deployment opportunities for Berkshire. The lawsuit comes after a joint press release in 2017 announced Berkshire's initial investment in Pilot. The terms of the agreement included Berkshire acquiring a 38.6% stake in Pilot and the Haslam family retaining a 20% stake. The lawsuit claims that Berkshire undervalued Pilot, resulting in the Haslam family receiving less than they were entitled to. The outcome of the lawsuit could have implications for Berkshire's reputation and future business dealings."
+    },
+    {
+        "feed_id": 273,
+        "article_id": 10,
+        "title": "The Digest #172",
+        "guid": "https://rationalwalk.substack.com/p/the-digest-172",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The founders of Pilot Travel Centers have filed a lawsuit against Berkshire Hathaway over a dispute regarding the valuation of their remaining 20% minority interest in the business. The lawsuit comes after Berkshire Hathaway's initial investment in Pilot in 2017 and subsequent transactions that would result in full ownership. The founders are skeptical that Berkshire Hathaway violated the terms of the agreement. In other news, the fixed rate for newly issued I Bonds has increased to 1.3% as of November 1. I Bonds also pay additional interest tied to the inflation rate. The current semi-annual inflation adjustment is 1.97%, resulting in a total composite rate of 5.27% for I Bonds issued between November 2023 and April 2024. The fixed rate of 1.3% is the highest offered since 2007. Comparatively, the real yield on five-year Treasury Inflation Protected Securities (TIPS) is 2.31%. I Bonds have an annual purchase limit of $10,000 and taxes can be deferred until redemption. TIPS, on the other hand, pay taxable interest semi-annually."
+    },
+    {
+        "feed_id": 270,
+        "article_id": 3,
+        "title": "Part 1: Deep dive on Sprinklr ($CXM)",
+        "guid": "https://smidcapdeepdives.substack.com/p/sprinklr-part1",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article provides information about Sprinklr, a company that went public in June 2021. Sprinklr is a customer experience management (CXM) platform that helps businesses manage their social media presence and engage with customers. The article mentions the company's IPO date, IPO price, current stock price, outstanding shares, 52-week high and low, market cap, net cash/debt, enterprise value, headquarters location, and number of employees. It also provides links to the company's investor relations page, Q2 FY 2024 earnings report, Q2 FY 2024 earnings presentation, and Sprinklr 2023 Investor Day. The article outlines various sections, including the introduction, company background, opportunity, business model, competitive advantages, risks, valuation, investment model, analysts, technicals, and conclusion."
+    },
+    {
+        "feed_id": 268,
+        "article_id": 5,
+        "title": "Tech In Asia gets the exit and acquirer we all expected",
+        "guid": "https://www.asiatechreview.com/p/tech-in-asia-gets-the-exit-and-acquirer",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "Singapore Press Holdings (SPH) has acquired Singapore-based media startup Tech In Asia (TIA) in a deal valued at $30 million. The acquisition will allow SPH to expand its technology coverage and gain access to TIA's events business, which specializes in tech shows in Singapore and Jakarta. TIA claims to be profitable, but financial data shows it lost SG$642,249 ($470,000) in 2022. The deal is expected to close by the end of the year, and initially, both TIA and SPH's Business Times will maintain their independence. SPH reorganized itself into a non-profit organization two years ago, which may have influenced the acquisition. This is the second notable media acquisition in Southeast Asia recently, following Japan's Nikkei's acquisition of Singapore-based Deal Street Asia in 2019."
+    },
+    {
+        "feed_id": 264,
+        "article_id": 8,
+        "title": "\ud83c\uddf2\ud83c\uddf2 1,000 days on in Myanmar, are things changing?",
+        "guid": "https://darimulut.substack.com/p/1000-days-on-in-myanmar-are-things",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article discusses two major stories: the ongoing conflict in Myanmar and the recent barangay elections in the Philippines. In Myanmar, the article highlights the 1,000-day milestone since the military coup and the escalating violence between the military junta and ethnic armed organizations. The article also mentions the impact of the conflict on the China-Myanmar border and the new sanctions imposed by Western countries. In the Philippines, the article focuses on the violence that occurred during the barangay elections, with 19 people reported killed. The article also mentions the issue of vote-buying and the participation of incarcerated individuals in the elections. Overall, the article emphasizes the ongoing challenges and violence in both Myanmar and the Philippines."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 21,
+        "title": "Sharp China: Li Keqiang and the Mourning Playbook; Wang Yi in DC and Xi to APEC; Gavin Newsom Goes to China; Rahm Emanuel and Resource Extraction",
+        "guid": "https://sinocism.com/p/sharp-china-li-keqiang-and-the-mourning",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The episode of Sharp China discusses the passing of Li Keqiang and the mourning process in China. It also touches on the lack of news about a third plenum for new economic policy, the US-China relationship, and the MSS's focus on meteorology. Other topics include Gavin Newsom's trip to China, China's strategic advantages in the global market, complaints about Rahm Emanuel's diplomacy approach, and Yao Ming's appearance for the NBA's opening week."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 20,
+        "title": "CFWC; US-China; Ray Dalio; AI Summit; Xi Jinping Thought on Culture and the Internet",
+        "guid": "https://sinocism.com/p/cfwc-us-china-ray-dalio-ai-summit",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The article discusses various topics related to China, including the passing of Li Keqiang, the protocols set in motion for mourning, the lack of news about a third plenum for new economic policy, the US-China relationship, the MSS's focus on meteorology, Gavin Newsom's trip to China, China's strategic advantages in the global market, the Foreign Ministry's complaints about Rahm Emanuel's approach to diplomacy, and Yao Ming's appearance for the NBA's opening week. The article also mentions the Central Financial Work Conference, but does not provide further details."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 12,
+        "title": "Israel-Palestine, Zimbabwe, Mexico.",
+        "guid": "https://proximities.substack.com/p/israel-palestine-zimbabwe-mexico",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "Al Jazeera has published a powerful piece of journalism that visualizes the death toll in Gaza and tells the stories of some of the people who have been killed. The article includes a video that displays the names and ages of the dead, as documented by the Gaza health ministry. The video is over five minutes long, highlighting the scale of the tragedy. In Zimbabwe, an opposition MP named Takudzwa Ngadziore claims he was kidnapped, tortured, injected with an unknown substance, and left naked in the bush. He posted a video on Facebook showing a man with a gun chasing him. This incident follows a similar abduction and torture of a former opposition MP, James Chidhakwa, a month ago. Opposition and human rights activists have been kidnapped in Zimbabwe before, but the ruling Zanu-PF party claims these abductions are staged. Lastly, it is the Day of the Dead in Mexico."
+    },
+    {
+        "feed_id": 255,
+        "article_id": 7,
+        "title": "NatWest: 0.7x TNAV, 8.7% Dividend Yield after Q3 Results",
+        "guid": "https://librariancapital.substack.com/p/natwest-07x-tnav-87-dividend-yield",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "NatWest's shares have fallen 14% since the release of its Q3 2023 results, largely due to concerns about its net interest margin (NIM). The bank's return on tangible equity (ROTE) was 14.7% in Q3, down from a peak of around 20% in Q1. However, deposits are starting to stabilize, and there are reasons to believe that NIM will stabilize in the coming quarters. NatWest is a value stock, trading at just 0.66x tangible net asset value (TNAV) and a price-to-earnings (P/E) ratio of 6.6x assuming a long-term average ROTE of 10%. The bank continues to target a ROTE of 14-16% in the medium term, but analysts only assume 10%. With shares at 178.2p, forecasts indicate a total return of 64% (18.2% annualized) by the end of 2026."
+    },
+    {
+        "feed_id": 216,
+        "article_id": 5,
+        "title": "The Treasury Blinked",
+        "guid": "https://www.nexteconomy.co/p/the-treasury-blinked",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The US Treasury has made a significant policy decision by adjusting the amount of long-term Treasury bonds to be issued below its previously communicated plans, in order to prioritize short-term debt. This decision is seen as a step towards a structurally higher inflation world. The Treasury's move to prioritize short-term debt, known as bills, over long-term bonds, known as coupons, is a response to the lack of demand for long-duration bonds. By reducing coupon supply and increasing bill issuance, the Treasury can overlook private sector inflation concerns in its funding. However, this decision is likely to contribute to entrenching inflation further and ultimately lead to higher long-term rates. In the near term, the loosened financial conditions resulting from this policy choice are expected to stimulate risk assets. The author suggests buying the Russell 2000 index as a trade until inflation concerns likely come back."
+    },
+    {
+        "feed_id": 194,
+        "article_id": 10,
+        "title": "OCTOBER NEWSLETTER AND PORTFOLIO",
+        "guid": "https://www.russell-clark.com/p/october-newsletter-and-portfolio",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The author of the article discusses their decision to close down a fund they were managing due to a lack of understanding of the markets. They explain that their old investing model no longer worked and they have been adjusting their approach to account for political changes. They mention that their predictions about markets are starting to come through and they are considering setting up a new fund management business. The author then shares their personal portfolio, noting that they have made no changes to it over the month. They also mention that they will disclose individual short positions in their portfolio."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 17,
+        "title": "Midjourney Playground #5",
+        "guid": "https://pau1.substack.com/p/midjourney-playground-5",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The article is about a new study that suggests that the COVID-19 pandemic has had a significant impact on people's mental health. The study found that rates of depression and anxiety have increased during the pandemic, with young adults being particularly affected. The researchers also found that individuals who experienced financial difficulties or had a pre-existing mental health condition were more likely to report worsening mental health during the pandemic. The study highlights the need for increased mental health support and resources, especially for vulnerable populations. The researchers recommend that policymakers prioritize mental health services and interventions to address the long-term impact of the pandemic on mental well-being. Overall, the study emphasizes the importance of recognizing and addressing the mental health consequences of the COVID-19 pandemic."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 31,
+        "title": "EU borrows China\u2019s playbook to impress Global South",
+        "guid": "https://www.asiasentinel.com/p/eu-borrow-china-playbook-impress-global-south",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The European Commission recently held its first Global Gateway Forum in Brussels, in an attempt to compete with China's Belt and Road Initiative Forum. The forum aimed to strengthen the EU's influence in developing countries, particularly in Africa. The EU is seeking to promote sustainable development and investment in these regions, while also addressing issues such as climate change and migration. The forum included discussions on infrastructure development, digital connectivity, and trade. The EU hopes to establish partnerships with countries in Africa and other regions to enhance economic cooperation and address common challenges. The forum also highlighted the EU's commitment to multilateralism and its desire to work with other global powers. However, it remains to be seen how successful the EU's efforts will be in countering China's growing influence in the developing world."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 30,
+        "title": "China Continues to Win Trade Contest",
+        "guid": "https://www.asiasentinel.com/p/china-continue-win-trade-contest",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "Former President Donald Trump's decision to withdraw from the Trans-Pacific Partnership trade pact in 2017, and President Joe Biden's decision not to rejoin it, is having negative consequences for the Indo-Pacific Economic Framework for Prosperity (IPEF). The IPEF, launched by the US in 2022, is struggling due to the absence of major economies like China and Japan, which are part of the Trans-Pacific Partnership. The IPEF aims to promote economic cooperation and development in the Indo-Pacific region, but without the participation of key players, its effectiveness is limited. The article argues that the US should reconsider its stance on the Trans-Pacific Partnership and rejoin the trade pact to strengthen its position in the Indo-Pacific region and counter China's influence. The absence of the US from the Trans-Pacific Partnership has allowed China to expand its economic influence in the region through initiatives like the Regional Comprehensive Economic Partnership. The article concludes that the US needs to prioritize its economic engagement in the Indo-Pacific and leverage multilateral trade agreements to maintain its leadership and influence in the region."
+    },
+    {
+        "feed_id": 173,
+        "article_id": 7,
+        "title": "Wastewater switch",
+        "guid": "https://yourlocalepidemiologist.substack.com/p/wastewater-switch",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The Centers for Disease Control and Prevention (CDC) has switched from using wastewater startup company Biobot to Verily, an arm of Google's parent company Alphabet, for processing wastewater samples for COVID-19 surveillance. The switch has caused confusion and concern, as Biobot's graphs were widely used and easily understood by the public. While the switch is not expected to create a significant data lag, it has led to a reduction in reporting frequency and a decrease in coverage. The CDC's website is considered the most comprehensive source of data, but its dashboard is difficult to navigate. The switch is currently being contested by Biobot, resulting in a stop work order for Verily. The impact of the switch on public health surveillance during the respiratory season remains uncertain. It is recommended that individuals stay informed by visiting alternative sources for data, such as the CDC website, and be aware of the reduced coverage and reporting frequency of Biobot's data."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 21,
+        "title": "The Lund Loop Daily Update - 11/01/23",
+        "guid": "https://www.thelundloop.com/p/the-lund-loop-daily-update-110123",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The article is not provided. Please provide the article that needs to be summarized."
+    },
+    {
+        "feed_id": 163,
+        "article_id": 12,
+        "title": "EM Fund Stock Picks & Country Commentaries (November 1, 2023)",
+        "guid": "https://emergingmarketskeptic.substack.com/p/em-fund-stock-picks-commentary-november-1-2023",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The article discusses the risks and opportunities of investing in China. It highlights the potential for government intervention and the possibility of losing a significant amount of money. It suggests that investing in China may be more suitable for tactical investors who can handle the volatility. On the other hand, the article also mentions the unloved Hong Kong stock market and its relatively good fundamentals. It points out that there are bright spots in the local Hong Kong economy that are benefiting certain sectors. The author also mentions their upcoming trip to Japan but assures readers that they will continue writing posts. The article concludes with a disclaimer stating that the information provided is for informational purposes only and does not constitute investment advice."
+    },
+    {
+        "feed_id": 127,
+        "article_id": 3,
+        "title": "October monthly update",
+        "guid": "https://emergingvalue.substack.com/p/october-monthly-update",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The author of the newsletter provides a brief update, mentioning personal and work challenges as well as distractions from the conflict in the Middle East. They express gratitude for their over 3200 subscribers and acknowledge the current downturn in small caps and value markets. The author highlights unusual falls in stock prices after earnings and warnings as a sign of a bear market. They mention analyzing Berentzen Group, a German drinks company, and note challenges due to cost explosion. The author also discusses the stock crash of Bastide le confort, a French healthcare serial acquirer, and the weak results of Berentzen Group. They mention weak results from UK consumer stocks and EM stocks but clarify that they are not impaired. The author briefly mentions Cafom, a furniture retailer in overseas France, and their decision not to buy a local airline out of bankruptcy. They discuss the increase in servicing revenue and costs for Intrum, a debt management company. The author shares their global view on rates, inflation, and government spending. They provide a list of selected stocks for quality or hidden champions characteristics and discuss the filter for the cheapest stocks in EMs and DMs based on P/E. The author mentions Jeremy from French hidden champions launching an investing service and shares 5 good ideas written in French and Spanish."
+    },
+    {
+        "feed_id": 124,
+        "article_id": 2,
+        "title": "\u270d\ufe0f Maverick Charts - Stocks & Bonds - October 2023 Edition #12",
+        "guid": "https://maverickequityresearch.substack.com/p/maverick-charts-stocks-and-bonds-4b6",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article provides a summary of the performance of stocks and bonds in the US and globally. It highlights that stocks have performed well in 2023, with the Nasdaq 100 experiencing a new bull market. However, long-term government bonds have seen negative returns. The article also discusses the historical returns of stocks, bonds, and bills in the US over the past 120 years, showing that stocks have outperformed bonds and bills. The author suggests that small-cap stocks in the US, Switzerland, and Europe may present investment opportunities. The article also discusses the performance of a 60/40 portfolio of stocks and bonds, noting that 2022 was a negative outlier. It mentions the safety of US treasury bonds and the appeal of long-dated bonds given the current market conditions. The article concludes with various charts and statistics related to the performance of tech stocks, the world's top defense companies, and the key investment themes of each decade."
+    },
+    {
+        "feed_id": 121,
+        "article_id": 5,
+        "title": "Meta: The Next Peak",
+        "guid": "https://thescienceofhitting.com/p/meta-the-next-peak",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "Meta's financial results show a significant change in the company's cost structure, with adjusted consolidated EBIT margins of 41% in Q3 FY23. Despite concerns in recent years, Meta has seen impressive growth, with over 3.14 billion daily users and projected revenues of $133 billion for FY23. The FOA segment, which includes Meta's Family of Apps, has seen growth in daily active users and engagement, leading to a 31% increase in ad impressions and a 6% decline in ad pricing. This has resulted in over 20% YoY growth in FOA revenues and a 2x increase in FOA operating income, with segment margins reaching 52%. Despite ongoing losses in the FRL segment, Meta is expected to report record non-GAAP EPS in FY23. Overall, Meta's financial performance and user base growth indicate a positive outlook for the company."
+    },
+    {
+        "feed_id": 99,
+        "article_id": 3,
+        "title": "America's Return to Strong Growth",
+        "guid": "https://www.apricitas.io/p/americas-return-to-strong-growth",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The Federal Reserve's rate-setting committee upgraded its assessment of US economic growth, with activity now seen as expanding at a \"strong\" pace. This follows the release of the Q3 GDP print, which showed America's real output growing at a 4.9% annualized rate, the fastest pace since the beginning of the Fed's tightening cycle in early 2022. Cumulative real GDP growth over the last year is now at 2.9%, returning to levels more in line with the high growth years of the 2010s. Even if GDP were to shrink in Q4, it would still match the median FOMC participants' growth projections. Nominal economic output also saw growth, with a year-on-year increase of 6.3%. Wage growth in the Employment Cost Index suggests that nominal gross labor income was stronger than previously thought. The combination of strong demand-side growth and easing supply-side constraints is allowing the US to experience strong real economic growth."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 38,
+        "title": "Growing Madani Totalitarianism?",
+        "guid": "https://murrayhunter.substack.com/p/growing-madani-totalitarianism",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article discusses the possibility of the Malaysian government requiring individuals to obtain licenses to use social media platforms such as Facebook, YouTube, WhatsApp, Instagram, and WeChat. The idea is being raised by Fahmi Fadzil, the minister for censorship, and has sparked controversy and criticism. The article highlights the importance of social media in today's world, with over 4.7 billion people using it globally. It mentions that social media can be both beneficial, helping people build communities, and problematic, facilitating disinformation and hate speech. The article questions the government's role in regulating the content shared on social media and expresses concerns about freedom of speech and communication in a multicultural country like Malaysia. It emphasizes the need for open communication and mutual trust in a connected world."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 37,
+        "title": "Fadhlina Sidek Minister of Education",
+        "guid": "https://murrayhunter.substack.com/p/fadhlina-sidek-minister-of-education",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "Fadhlina Sidek, the current Minister of Education in Malaysia, is facing criticism for her lack of experience and competence in the field. She was appointed as a minister due to her loyalty to Prime Minister Anwar Ibrahim. However, there has been little focus on important issues such as raising the standard of STEM education and addressing teacher absenteeism. Fadhlina's decision to hold a Palestine Solidarity Week in schools has also received international criticism and caused a rift among coalition partners. Critics argue that Fadhlina is more interested in covering up institutional problems rather than finding solutions. The introduction of an Islamic module in the curriculum is seen as further Islamization of schools. Overall, Fadhlina is seen as a puppet serving her superior rather than someone passionate about her responsibilities. There are calls for an urgent change of minister in the education portfolio."
+    },
+    {
+        "feed_id": 68,
+        "article_id": 5,
+        "title": "Kasha Varnishkes with Fall Veggies",
+        "guid": "https://thejewishtable.substack.com/p/kasha-varnishkes-with-fall-veggies",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The article is a recipe for kasha varnishkes with fall vegetables, which is described as comforting and delicious. The dish includes chewy egg or bowtie noodles, fragrant kasha (buckwheat groats), and a variety of fall vegetables such as butternut squash, Brussels sprouts, and mushrooms. The recipe is easy to make and can be customized with different vegetables based on personal preference. The author encourages readers to subscribe to their weekly newsletter to receive more recipes and stories."
+    },
+    {
+        "feed_id": 67,
+        "article_id": 4,
+        "title": "456: Hairy Charts & Moore's Law, David Senra, Post-Inflation Pricing Power, Industry Inflection Points, Collison Brothers, Visa + Mastercard, Malaria, and Martin Scorsese",
+        "guid": "https://www.libertyrpf.com/p/456-hairy-charts-and-moores-law-david",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "The author reflects on their recent experience at the first-ever OSV retreat, where they met their remote colleagues in person. They describe the camaraderie and intellectual conversations that took place during the retreat. The author also discusses the concept of inflection points in industries, using the example of cable companies transitioning from delivering video to providing broadband. They highlight the importance of vision and execution in identifying and capitalizing on these inflection points. The article also includes interviews with David Senra on the art of investing, the Collison brothers (co-founders of Stripe), and Jason Crawford on progress and the history of technology. Additionally, the author mentions the endorsement of a new malaria vaccine by the World Health Organization, which has shown promising results in preventing the disease in children. The article concludes with a discussion between Martin Scorsese and Timoth\u00e9e Chalamet about their work in the film industry."
+    },
+    {
+        "feed_id": 60,
+        "article_id": 7,
+        "title": "Hidden Open Thread 300.5",
+        "guid": "https://www.astralcodexten.com/p/hidden-open-thread-3005",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "I'm sorry, but I cannot generate a summary without the article. Please provide the article for me to summarize."
+    },
+    {
+        "feed_id": 60,
+        "article_id": 6,
+        "title": "Dictator Book Club: Chavez",
+        "guid": "https://www.astralcodexten.com/p/dictator-book-club-chavez",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "Hugo Chavez, the former president of Venezuela, was a masterful politician and showman who captivated the nation with his charismatic and unpredictable style. He used his control over the media and institutions to maintain his popularity and suppress opposition. Chavez was known for his marathon television appearances, where he would make impromptu decisions and announcements, often with no regard for the consequences. He would sing, dance, and perform various stunts to keep the public engaged. However, his rule was marked by mismanagement and corruption, leading to the collapse of the Venezuelan economy. Chavez's populist policies, such as land expropriation and price controls, led to shortages and economic decline. Despite his popularity, Chavez's legacy is one of missed opportunities and squandered potential. His successor, Nicolas Maduro, has continued his authoritarian rule, suspending elections and further suppressing dissent. The Venezuelan people continue to suffer under the weight of a failed state and a crumbling economy."
+    },
+    {
+        "feed_id": 53,
+        "article_id": 1,
+        "title": "JingDong-JD",
+        "guid": "https://investingwithwes.substack.com/p/jingdong-jd",
+        "published_date": "2023-11-01",
+        "summarized_date": "2023-11-02",
+        "summary": "JD.com, a Chinese e-commerce company and major competitor to Alibaba, is analyzed based on its fundamental health and business segments. The company's profit margin is in line with expectations for its low-margin, high-volume industry. JD's shares outstanding have increased due to using shares as currency for growth, but the company has since announced a share repurchase program. JD's business segments include JD Retail, JD Logistics, JD Health, JD Property, JD Industrials, and JD New Business. The management, led by founder Richard Liu, has experience and has shown good capital allocation skills, reinvesting in the business, buying back shares, and paying dividends. The bull case for JD includes the end of the tech crackdown and the company's low valuation, while the bear case includes the risk of delisting, slower revenue growth, and increased competition. Based on valuation metrics and a discounted cash flow model, JD is considered undervalued, with a buy price of $39.79 compared to the current stock price of $25.65."
+    },
+    {
+        "feed_id": 40,
+        "article_id": 8,
+        "title": "French Hidden Champions : portfolio moves 2/11/2023",
+        "guid": "https://frenchhiddenchampions.substack.com/p/french-hidden-champions-portfolio-4e1",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-02",
+        "summary": "The article does not provide any information or content to summarize."
+    },
+    {
+        "feed_id": 295,
         "article_id": 19,
         "title": "Fed Day, Earnings, Economic Data Dump",
         "guid": "https://contrarianpod.substack.com/p/fed-day-earnings-economic-data-dump",
