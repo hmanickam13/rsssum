@@ -1,5 +1,509 @@
 [
     {
+        "feed_id": 306,
+        "article_id": 4,
+        "title": "Interview #79 : Jordan Lampos (Midway Partners)",
+        "guid": "https://www.capitalemployed.com/p/interview-79-jordan-lampos-midway",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Jordan Lampos, Founder and Investment Manager of Midway Partners Capital Management, discusses his background and how he got involved in investing. He worked at Duff & Phelps in their investment banking division, where he gained experience in complex valuation work for both private and public companies. This experience served as the foundation for Midway Partners' intrinsic valuation approach. Lampos emphasizes that while his path to investing was not through other funds or investment companies, his background in fundamental intrinsic valuation was a great proving ground for their style of investing."
+    },
+    {
+        "feed_id": 302,
+        "article_id": 5,
+        "title": "Substack Reads: Sports heartbreak season, rigorous thinking, and remembering Matthew Perry",
+        "guid": "https://read.substack.com/p/substack-reads-69",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "This edition of Substack Reads features a variety of articles and content. David Coggins reflects on the heartbreak of sports, while Helen Lewis reminisces about the impact of Friends character Chandler Bing. The podcast discusses why Google's ChatGPT predecessor was never released, and Shalom Auslander offers a downloadable form for reduced misanthropy. Samantha Clark explores the concept of wetness, and Rosie Kellett shares a recipe for a sticky toffee pudding. Wes Kao discusses the importance of rigorous thinking in business, and Elif Shafak reflects on the timelessness of melancholy. The edition also includes a cartoon, a list of recently launched Substacks, and shoutouts to writers on the platform."
+    },
+    {
+        "feed_id": 295,
+        "article_id": 21,
+        "title": "Non-Farm Payrolls, Happy Days for Stocks",
+        "guid": "https://contrarianpod.substack.com/p/non-farm-payrolls-happy-days-for",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the upcoming Jobs Day and its potential impact on the market. It highlights the importance of the jobs report in providing insights into the health of the economy and influencing investor sentiment. The article also mentions the potential for market volatility and the need for caution in interpreting the data. Overall, the focus is on the significance of the jobs report and its potential implications for the market."
+    },
+    {
+        "feed_id": 294,
+        "article_id": 4,
+        "title": "Peloton's Q1 2024 Review: Incrementally More Colorful",
+        "guid": "https://openinsights.substack.com/p/pelotons-q1-2024-review-incrementally",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "Peloton's Q1 2024 results show that the company is still a decent investment despite negative cash flows and stable subscriber rates. The company's churn rates remain below 2%, and subscribers are spending more time on the platform, indicating customer loyalty. However, the company's app subscriptions experience a higher churn rate of 13%. Peloton announced several partnerships and initiatives for future growth, including a partnership with lululemon and the NBA/WNBA. The company also plans to tap into the college ecosystem through a partnership with the University of Michigan. Peloton's bike rental program is steadily growing, but the company is deliberately throttling back its growth to maintain an \"asset lite\" balance sheet. From a cash flow perspective, Peloton's cash burn is real, but the company expects to be cash flow positive for the final half of FY2024. The reintroduction of the previously recalled Tread+ will drive incremental revenue and cash flow. Overall, Peloton's low churn rates provide a steady base for growth, and the company's data-driven decision-making approach is expected to lead to success. The upcoming holiday season will be a crucial test for the popularity of the Peloton brand."
+    },
+    {
+        "feed_id": 281,
+        "article_id": 4,
+        "title": "OTIS: Compounding Lifetime Value",
+        "guid": "https://invariant.substack.com/p/otis-compounding-lifetime-value",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "Otis, a service-driven business, is experiencing pressures in its New Equipment segment, with Q3 NE orders decreasing by 10% year-on-year. However, the company's service segment continues to impress, with Q3 service adjusted net sales increasing by 10.3% and segment adjusted operating profits increasing by 14.6%. The company's focus on the Mod subsegment, which carries higher retention rates and allows for easier conversion of outside units into the service portfolio, has contributed to its success. Otis's full-year outlook for free cash flow conversion has been adjusted, but the company remains confident in its ability to meet targets. The company's maintenance portfolio continues to grow, with the number of units expected to reach 2.3 million by the end of the year. Despite challenges in the New Equipment segment, Otis's service-driven business model and strong performance in the service segment position the company well for the future."
+    },
+    {
+        "feed_id": 280,
+        "article_id": 20,
+        "title": "Links - 11/02/2023",
+        "guid": "https://valueinvestingworld.substack.com/p/links-11022023",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "Charlie Munger, the business partner of Warren Buffett, believes that three factors contribute to the success of individuals: intelligence, hard work, and luck. According to Munger, these three elements are essential for achieving exceptional results and being considered part of the super successful."
+    },
+    {
+        "feed_id": 280,
+        "article_id": 18,
+        "title": "Links - 11/04/2023",
+        "guid": "https://valueinvestingworld.substack.com/p/links-11042023",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the importance of reading for personal and professional success, as highlighted by Charlie Munger. Munger believes that reading is a key factor in his own economic success and that it is essential for gaining knowledge and becoming smarter. He emphasizes the importance of starting to read at a young age and continuing to do so throughout life. Munger's statement suggests that reading is a valuable tool for learning and personal growth."
+    },
+    {
+        "feed_id": 270,
+        "article_id": 4,
+        "title": "Part 2: Deep dive on Sprinklr ($CXM)",
+        "guid": "https://smidcapdeepdives.substack.com/p/sprinklr-part2",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "This article is a deep dive into Sprinklr, a company that provides customer experience management (CXM) software. The article discusses the company's background, the opportunity it presents, its business model, competitive advantages, and risks. It also touches on the company's valuation, investment model, analyst opinions, and technical analysis. The article is divided into two parts, with the second part focusing on valuation, investment models, analysts, and technicals. The author provides additional sources for further information."
+    },
+    {
+        "feed_id": 265,
+        "article_id": 4,
+        "title": "Monthly Asset Allocation Review - October 2023",
+        "guid": "https://topdowncharts.substack.com/p/monthly-asset-allocation-review-october-395",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "This email provides a summary of the key outputs from the Market Cycle Guidebook, focusing on asset allocation. It includes information on the global data pulse, policy monitor, valuation snapshot, global economy and risk outlook, and core views across asset classes in the short and medium term."
+    },
+    {
+        "feed_id": 264,
+        "article_id": 9,
+        "title": "\ud83c\uddf2\ud83c\uddfe Fighting words but little concrete support in Anwar's Palestine battle",
+        "guid": "https://darimulut.substack.com/p/fighting-words-but-little-concrete",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Malaysian Prime Minister Anwar Ibrahim has been a vocal supporter of Palestine, which is politically expedient in Malaysia due to growing religious conservatism. Western states, like the US, have urged Anwar to condemn Hamas, but Malaysia maintains its independent position. However, Malaysia's support for Palestine is called into question by writer Wael Qarssifi, who highlights the hypocrisy of Malaysian leaders who take a strong stance on the international stage but fail to help actual Palestinian refugees in Malaysia. In Thailand, Thai nationals are being held hostage in Gaza by Hamas, posing a test for the Thai government. Thai leaders are negotiating with Hamas to release and repatriate the hostages, with the Rafah border crossing being considered as the likely exit. The hostage-taking has put Thailand on the side of Israel in the conflict, drawing online attacks against those who sympathize with Palestinian civilians. Despite the dangers of war, many Thai migrant workers in Israel are unwilling to return to Thailand due to the higher earning potential."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 22,
+        "title": "Li Keqiang cremated; Financial system security; MIIT on development of humanoid robots; Zhejiang leadership visits Alibaba",
+        "guid": "https://sinocism.com/p/li-keqiang-cremated-financial-system",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The funeral service for Li Keqiang, a prominent figure in China, took place on Thursday. Xi Jinping and his wife Peng Liyuan attended the service, along with other important figures. The Central Financial Work Conference, which recently took place, has left people wondering about its implications for policies. The People's Daily published a commentary titled \"Unswervingly Follow the Path of Financial Development with Chinese Characteristics,\" which discusses the integration of Marxist financial theory with the realities of contemporary China and traditional Chinese culture. The commentary emphasizes the importance of risk prevention and control in financial development."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 13,
+        "title": "Uganda, Myanmar, Israel-Palestine.",
+        "guid": "https://proximities.substack.com/p/uganda-myanmar-israel-palestine",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "Ugandan security forces have captured the leader of an ISIS-linked militia, known as the Allied Democratic Forces, after a shootout that resulted in the death of six fighters. The group has been responsible for regular hit-and-run attacks, including the recent killing of a honeymooning couple from the UK and South Africa. In Myanmar, rebels have taken control of a significant town on the country's border with China, causing a loss of control for the military. The town of Chinshwehaw is a crucial trade route between the two countries. Israeli forces have pushed deeper into Gaza as part of their ground offensive, but they are facing fierce resistance from Hamas and Islamic Jihad. The death toll in Gaza has surpassed 9,000, according to the health ministry."
+    },
+    {
+        "feed_id": 256,
+        "article_id": 4,
+        "title": "Ideastorm #4",
+        "guid": "https://www.marketsentiment.co/p/ideastorm-4",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "A study found that even with a clear edge, most investors struggle to generate consistent alpha. Only 1% of day traders reliably generated a positive return two years in a row, compared to 13% of regular gamblers. Holding a concentrated stock position requires an average annualized alpha of 13% over the index to be worth the additional risk. However, the performance of most stocks is not as exceptional as those like Amazon, Google, and Tesla. The risk of capital destruction is high for concentrated stock positions, and the benefit of liquidating such positions outweighs the tax burden. Day trading is even riskier, with less than 1% of day traders able to generate a profit the following year. However, the top 0.1% of traders based on skill can earn strong returns. The persistence of active management performance was also analyzed, and it was found that outperformance in the first five years did not predict outperformance in subsequent years. Overall, investing in a low-cost, diversified portfolio is a safer option for most investors."
+    },
+    {
+        "feed_id": 255,
+        "article_id": 9,
+        "title": "Est\u00e9e Lauder: Recovery Again Postponed; Stock Back to 2017 Levels, Unfairly",
+        "guid": "https://librariancapital.substack.com/p/estee-lauder-recovery-again-postponed",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "Shares of Est\u00e9e Lauder (EL) fell 19% after the company reported disappointing Q1 FY24 results. The company is facing challenges due to de-stocking in Asia Travel Retail and slower-than-expected recovery in the Mainland China market. Net sales fell 10.7% in Q1 FY24, and the decline is expected to continue in Q2. However, management expects double-digit sales growth in the second half of the fiscal year. The company has announced an \"accelerated\" recovery plan to improve profitability, but it lacks transparency and credibility at present. Despite the current weak financials, the long-term growth prospects of the global beauty market remain strong. Est\u00e9e Lauder has a reasonable record of growth in the years before COVID-19. With shares trading at around $112, the stock is considered a bargain with a potential total return of 48% by June 2026. However, the company's financials and growth prospects are dependent on the completion of de-stocking and the successful execution of the recovery plan."
+    },
+    {
+        "feed_id": 255,
+        "article_id": 8,
+        "title": "PayPal: Stable Q3, New CEO Has Started Fixing Things",
+        "guid": "https://librariancapital.substack.com/p/paypal-stable-q3-new-ceo-has-started",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "PayPal's shares have risen 8.6% since the release of its Q3 2023 results, which were stable but worse than expected. The company's new CEO, Alex Chriss, presented his initial thoughts on strategy, addressing many of PayPal's key problems. He promised a tighter focus on core areas, more cost reductions, a focus on profit-accretive growth, and better financial reporting. The C-suite is also being remade, with a new CFO and CTO announced. PayPal's Q3 2023 results showed growth in Total Payment Volume and Net Revenues, but with a shift towards lower-margin business. The company's full-year 2023 guidance was cut modestly, but still shows revenue growth and EPS growth. PayPal's valuation is approximately 20x on Free Cash Flow, and the article predicts a total return of 115% by 2026 year-end. The bull case for PayPal is that it will remain an integral part of the payments ecosystem and continue to grow earnings overall."
+    },
+    {
+        "feed_id": 250,
+        "article_id": 5,
+        "title": "Journal: The Paradox of Happiness",
+        "guid": "https://alchemy.substack.com/p/journal-the-paradox-of-happiness",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article explores the paradox of happiness in a world of abundance. Despite having more wealth, convenience, and technology than ever before, people still struggle with anxiety, depression, loneliness, addiction, and suicide. The author argues that external abundance does not lead to happiness and that people are mistaken about what makes for a good life. The Harvard Study of Adult Development, which tracked the lives of several hundred people since 1938, found that good relationships are the key to a happy life. However, society often prioritizes money, achievements, and status over relationships. The author suggests that investing in warm relationships requires time, vulnerability, effort, and energy, which are not immediately tangible or profitable. The good life cannot be bought; it must be earned. The article concludes that enduring happiness is a process, not a destination, and requires commitment, action, and the courage to be different."
+    },
+    {
+        "feed_id": 242,
+        "article_id": 5,
+        "title": "Weekly S&P500 ChartStorm - 5 November 2023",
+        "guid": "https://www.chartstorm.info/p/weekly-s-and-p500-chartstorm-5-november",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The S&P500 rebounded strongly last week, setting a bullish technical tone after a series of failed breakdowns. Financial conditions have tightened significantly but are now at a peak. Seasonality is turning positive and sentiment has improved."
+    },
+    {
+        "feed_id": 229,
+        "article_id": 3,
+        "title": "Speculation Temptation",
+        "guid": "https://www.investmenttalk.co/p/speculation-temptation",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Speculation is a common occurrence in the stock market, fueled by the desire for quick gains and the belief in new trends. However, speculation can lead to bubbles and financial losses when investors become caught up in the hype and fail to consider the underlying fundamentals. The article highlights the importance of maintaining rationality and avoiding emotionally driven decisions, as well as the tendency for investors to forget the lessons of the past and engage in risky behavior during bull markets. It also discusses the role of news consumption and boredom in influencing speculative behavior. The article concludes by emphasizing the need for investors to focus on long-term returns and avoid getting caught up in speculative activities that could lead to financial ruin."
+    },
+    {
+        "feed_id": 228,
+        "article_id": 12,
+        "title": "The One Person Billion Dollar Company: A Possible Future of Business",
+        "guid": "https://hardfork.substack.com/p/the-one-person-billion-dollar-company",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the concept of companies shifting towards a smaller workforce and outsourcing non-essential tasks. The author argues that the traditional approach of adding more employees to scale a business is outdated and inefficient. Instead, companies should focus on selecting and managing vendors effectively to achieve greater results with fewer employees. The author suggests that the ability to outsource and manage vendors will be the most important business skill in the future. The article also mentions the idea of one-person businesses becoming more prevalent, with the potential for billion-dollar companies to be built by small teams. The rise of automation, AI, and remote work is seen as key factors in enabling this shift towards smaller, more efficient companies. The author believes that with the availability of contractor talent, distribution platforms, and AI technology, this trend will become more common in the future."
+    },
+    {
+        "feed_id": 228,
+        "article_id": 11,
+        "title": "Marvin\u2019s Best Weekly Reads November 5th, 2023",
+        "guid": "https://hardfork.substack.com/p/marvins-best-weekly-reads-november-a43",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the unique strategies and challenges in the B2B SaaS industry, where founders can forecast outcomes with a high level of certainty. The success of software companies lies not in what they do, but in how they do it, focusing on vision, culture, and adaptability. The author argues that the software industry is paradoxical, with common playbooks leading to unpredictable successes. In the investment world, the author suggests rewriting the traditional investment playbook to focus on corporate bonds, crypto, and emerging companies/tech, rather than traditional investments like dividend aristocrats and the S&P 500. The article also explores the economic possibilities for Gaza, highlighting the potential for software and finance industries to thrive with increased education and investment. Additionally, the importance of trust as the currency of the internet is emphasized, and the need to listen and offer support rather than advice is discussed. The article concludes with discussions on techno-optimism, the AI boom in Seattle, the challenges of disrupting the trucking industry, and the importance of finding the right market needs as an entrepreneur."
+    },
+    {
+        "feed_id": 223,
+        "article_id": 1,
+        "title": "Calgary CRE Mini-Tour: Office REIT Properties and Dream Alpine Park",
+        "guid": "https://konekoresearch.substack.com/p/calgary-cre-mini-tour-office-reit",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "Downtown Calgary has had a high office vacancy rate of over 25% for the past decade, but the city's economy remains strong and the downtown area is bustling. Despite the high vacancy, there has been no decay or abandonment. Office REITs have sold off most of their downtown properties over the past 10 years, reducing their exposure to the troubled market. The Calgary economy has rebounded in the past two years, with population growth, rising real estate investment, and increasing home prices. The downtown streets are busy, retail vacancies are low, and the crime rate is low. The Calgary office market has been flooded with premium office supply, leading to falling rents and occupancy rates. However, trophy towers with anchor tenants have maintained relatively healthy occupancy. REIT investors have reduced their exposure to the downtown market, except for Allied Properties, which has focused on acquiring heritage buildings with long-term potential. Dream Unlimited's Alpine Park residential development in Calgary is progressing rapidly, with completed homes and residents moving in. The development offers beautiful views and good connectivity. The author also provides information on the holdings and prospects of various REITs in the Calgary market."
+    },
+    {
+        "feed_id": 215,
+        "article_id": 4,
+        "title": "Private Lending",
+        "guid": "https://www.netinterest.co/p/private-lending",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Apollo Global Management, a private equity firm with $630 billion in assets under management, is shifting its focus towards private credit. The firm's co-founder, Marc Rowan, identified three major changes in market fundamentals during an earnings call. First, there is a decrease in public market liquidity, which could lead to more volatility and less liquidity in public markets. Second, banks are being marginalized due to tighter regulatory capital requirements, leading to the emergence of new financial products previously only found on bank balance sheets. Lastly, there is concern about the concentration caused by indexation, with just ten stocks making up nearly 35% of the S&P 500 index. Apollo positions itself as a beneficiary of these changes, with the ability to take advantage of market dislocations. Private credit, already a $1.6 trillion market, is expected to continue growing significantly. The article concludes by posing questions about the sustainability of private credit growth and the associated risks."
+    },
+    {
+        "feed_id": 206,
+        "article_id": 7,
+        "title": "An Interview with Katsuhiro Otomo",
+        "guid": "https://animationobsessive.substack.com/p/an-interview-with-katsuhiro-otomo",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "This article is about a long interview with Katsuhiro Otomo, the creator of Akira, that was conducted in the mid-1990s and has never been published in English before. The interview is from a Japanese book called The Memory of Memories and covers topics such as Otomo's anthology, the state of anime, and the rise of computers in animation. Otomo discusses his experience in the anime industry during the 1980s and how he witnessed the transition to digital animation. He also talks about a screening of three films in 1995 (Memories, Ghost in the Shell, Macross Plus) that he believes represented the future of animation. The interview includes artwork that originally appeared alongside it."
+    },
+    {
+        "feed_id": 205,
+        "article_id": 4,
+        "title": "Legal contingencies still a mystery at Uber: Can SEC comment letters shine a light?",
+        "guid": "https://thedig.substack.com/p/legal-contingencies-still-a-mystery",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Uber's legal contingency balance has remained unchanged despite numerous legal issues and accruals, raising questions about the company's accounting practices. The Securities and Exchange Commission (SEC) recently requested additional clarity from Uber regarding its inclusion or exclusion of specific charges in its \"certain legal, tax, and regulatory reserve changes and settlements\" adjustment, which is used to calculate Adjusted EBITDA, a non-GAAP metric. The use of non-GAAP metrics and the weaknesses in accounting standards that allow for obfuscation are highlighted in a newsletter by Olga Usvyatsky and Francine McKenna. PwC, Uber's auditor, suggests aggregating losses as a way to provide sufficient data without prejudicing legal matters. Uber's 2Q 10-Q mentions an agreement in principle to resolve a matter with the New York Attorney General, but the specific amount accrued for this resolution is not disclosed. Uber's upcoming 3Q earnings report will be closely watched for further insights into its legal contingencies."
+    },
+    {
+        "feed_id": 195,
+        "article_id": 5,
+        "title": "Problems at Progress Software (PRGS)",
+        "guid": "https://thebearcave.substack.com/p/problems-at-progress-software-prgs",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "Progress Software, a company that produces enterprise software products, recently experienced a data breach in its secure file transfer service, MOVEit. The breach, which involved a zero-day vulnerability, has raised concerns about the privacy of millions of Americans and the security of important government agencies. Progress Software's website highlights the role of MOVEit in handling sensitive data for both large corporations and the U.S. government. The breach was discovered on May 30, and two days later, the U.S. Cybersecurity & Infrastructure Security Agency (CISA) released an advisory on the CL0P Ransomware Gang exploiting the MOVEit vulnerability. CISA is working closely with Progress Software and the FBI to understand the extent of the breach within federal agencies and critical infrastructure. In response to the breach, the U.S. Department of State's Rewards for Justice account posted a reward of up to $10 million for information linking the CL0P Ransomware Gang or any other malicious cyber actors to a foreign government."
+    },
+    {
+        "feed_id": 194,
+        "article_id": 11,
+        "title": "CURRENCIES IN A PRO-LABOUR WORLD",
+        "guid": "https://www.russell-clark.com/p/currencies-in-a-pro-labour-world",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the changing dynamics of currency trading and the lack of correlation between macroeconomic data and currency movements. The author mentions Brett Johnson's \"Dollar Milkshake\" theory, which suggests that divergent monetary policies can lead to a strong US dollar. However, the author questions why this theory is working now and not in the past. The article also highlights the unusual strength of the Mexican Peso and the Japanese Yen, despite historical trends. The author suggests that currency movements no longer reflect macroeconomics and discusses the impact of political factors, such as tariffs and trade relationships, on currency values. The article concludes by emphasizing the importance of political analysis in currency analysis."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 18,
+        "title": "One Thing: 11/02/23",
+        "guid": "https://pau1.substack.com/p/one-thing-110223",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "I'm sorry, but I am unable to access external websites. If you can provide me with the text of the article, I would be happy to help you summarize it."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 34,
+        "title": "The Tendentious US-Vietnam Rights Relationship",
+        "guid": "https://www.asiasentinel.com/p/usa-vietnam-tendentious-rights-relationship",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The United States and Vietnam have been increasingly aligned on strategic issues in the South China Sea, but the US has had to overlook human rights concerns in order to maintain this partnership. During President Joe Biden's visit to Vietnam in September, he barely mentioned human rights in his speech, disappointing rights activists who see the US as their most important hope. The Vietnamese government has been cracking down on religious freedoms, leading to increased international criticism. The US Commission on International Religious Freedom recommended that Vietnam be reinstated onto the list of \"Countries of Particular Concern\" for its repression of religious groups. The US has been the most outspoken critic of Vietnam's human rights record, while other comprehensive partners like the EU and Japan have embraced silent diplomacy. Despite the US government's limited response, it remains a common destination for Vietnamese refugees and a major donor for civil society actors. Vietnam has two other strategic comprehensive partnerships with China and Russia. Recently, a Vietnamese delegation visited the US to discuss religious matters, marking the first religious dialogue between Vietnam and a strategic comprehensive partner."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 33,
+        "title": "BOOK REVIEW: Spies (The Epic Intelligence War Between East and West)",
+        "guid": "https://www.asiasentinel.com/p/book-review-spies-intelligence-war-east-west",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the characteristics of the best espionage novels and the protagonists that populate them. These novels feature characters like George Smiley, Holly Martens, and Alden Pyle, who navigate shadowy worlds filled with betrayal and unexpected consequences. The authors of these novels, such as Graham Greene, excel at portraying the raw display of conscience in their characters."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 32,
+        "title": "Singapore's PM Lee Passes Torch to Finance Minister Wong",
+        "guid": "https://www.asiasentinel.com/p/lee-hsien-loong-pass-torch-lawrence-wong",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "Singapore's Prime Minister Lee Hsien Loong has announced that he will step down by November 2024, ending speculation over the country's political succession. He will pass the baton to Deputy Prime Minister and Minister of Finance Lawrence Wong. The choice of Wong as the next premier was not clear-cut, as original plans to hand over power to then-Deputy Prime Minister Heng Swee Keat fell through. Wong won the contest to be Singapore's fourth premier in April 2022. However, it remains to be seen if his selection will be a smooth transition in terms of popular voter appeal, as his flagship policy of raising Singapore's Goods and Services Tax (GST) has faced criticism. Wong will have to politically own the GST tax rise and its potential consequences on the ruling People's Action Party's political fortunes. Opinion polls suggest that Wong may struggle to convince voters that he and his leadership team have what it takes to lead the country."
+    },
+    {
+        "feed_id": 169,
+        "article_id": 4,
+        "title": "Investment Idea #13",
+        "guid": "https://8percentpa.substack.com/p/investment-idea-13",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "The author argues against the prediction of the death of cinemas, stating that while ticket sales have dropped in the US and Canada, box office revenue has continued to grow. The growth is attributed to increasing ticket prices and the rise of moviegoers in developing countries like China and India. Despite the impact of COVID-19 and the popularity of streaming services like Netflix, the author believes that cinemas will not die out. They argue that going to the movies is an experience that people still value, and that the industry will continue to grow. The article introduces a company that aligns with this investment thesis, highlighting its financials and potential for exponential growth as the cinema industry recovers. The company sells intellectual property that can be utilized in various venues and opportunities beyond cinemas."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 24,
+        "title": "The Lund Loop Daily Update - 11/02/23",
+        "guid": "https://www.thelundloop.com/p/the-lund-loop-daily-update-110223",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "The article is not provided. Please provide the article that you would like me to summarize."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 23,
+        "title": "Charts In Focus: 11-03-2023",
+        "guid": "https://www.thelundloop.com/p/charts-in-focus-11-03-2023",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article is missing. Please provide the article that needs to be summarized."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 22,
+        "title": "Let The Goddamn Candles Finish!",
+        "guid": "https://www.thelundloop.com/p/let-the-goddamn-candles-finish-0ee",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "Sorry, but I can't generate a summary without the article."
+    },
+    {
+        "feed_id": 158,
+        "article_id": 6,
+        "title": "What happens in China may not stay in China",
+        "guid": "https://vitaliy.substack.com/p/what-happens-in-china-may-not-stay",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "The bursting of China's housing bubble is putting strain on the country's economy and internal demand, which will likely have a global impact. The banking system and Chinese consumers will bear the brunt of the situation, but the effects will be felt worldwide. The decline in Chinese demand for industrial commodities will also affect countries like Australia and Brazil that benefited from China's growth. However, selective deglobalization and infrastructure upgrades in countries like India may offset some of the decline. China's tech sector, which was once a bright spot, has been cracked down on by President Xi, reducing its competitiveness. The slowing economy, bad debt, and broken banking system increase the risk of social instability in China. Conducting business in China is becoming more dangerous, with restrictions on capital and foreign employees leaving the country. China's troubling demographics, including a gender imbalance and an aging workforce, also pose challenges. China's growing navy and the possibility of a Chinese invasion of Taiwan are important geopolitical risks."
+    },
+    {
+        "feed_id": 157,
+        "article_id": 3,
+        "title": "Pulling Yourself Out of a Funk",
+        "guid": "https://www.thenewfatherhood.org/p/pulling-yourself-out-of-a-funk",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The author reflects on feeling stuck in a funk and seeks advice from other dads in a community forum. Some of the advice includes engaging in social activities, finding a hobby, reaching out to friends, journaling, prioritizing self-care, and celebrating small wins. The author takes some of the advice and goes for a walk in the mountains, which helps improve their mood. The article emphasizes the importance of seeking support and finding ways to bring positivity into fatherhood."
+    },
+    {
+        "feed_id": 125,
+        "article_id": 14,
+        "title": "Yet Another Value Blog announces temporary suspension of trading alongside spin-off",
+        "guid": "https://www.yetanothervalueblog.com/p/yet-another-value-blog-announces",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The author announces the birth of their child and mentions that they will be taking time off for family. They also mention that their blog posts and podcasts will be less frequent for the next few weeks. The author expresses their love for the podcast and their desire to make it even better when they return from their break. They invite good investors to reach out and be guests on the podcast. The author asks for feedback on how they can improve the podcast, such as guest audio quality and the length and focus of episodes. They mention the idea of having non-finance experts as guests to discuss topics related to finance. The author also asks for advice on being a dad and balancing work and family."
+    },
+    {
+        "feed_id": 110,
+        "article_id": 1,
+        "title": "Fundasy - Margin of Safety Investing Podcast Ep. 04",
+        "guid": "https://www.marginofsafetyinvesting.com/p/fundasy-margin-of-safety-investing",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the use of two affiliate sponsors, Stratoshphere and Quartr, for stock research and fundamental analysis. The author recommends these platforms for their research tools and insights. The article also introduces a guest from Fundasy Investor, who focuses on high-quality individual businesses globally. The guest has written an article about Evolution Gaming, analyzing its moat. The article encourages readers to check out the guest's work and provides a link to the article."
+    },
+    {
+        "feed_id": 106,
+        "article_id": 5,
+        "title": "Sad News",
+        "guid": "https://behindthebalancesheet.substack.com/p/sad-news",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "Byron Wien, the former Chief U.S. Investment Strategist at Morgan Stanley, recently passed away. Wien was known for his annual list of Ten Surprises for the year ahead, which he published 38 times. These surprises were events that had a better than 50% likelihood of happening but were only assigned a one out of three chance by the average investor. Wien's predictions for 2023 include multiple candidates organizing campaigns for the presidential nomination, the Federal Reserve remaining in a tug-of-war with inflation, a market recovery comparable to 2009, and Elon Musk getting Twitter back on the path to recovery. Wien also published a list of also-rans, which included surprises that did not make the top ten. Charles Feeney, the co-founder of Duty Free Shoppers, also recently passed away. Feeney gave away his fortune to charities in his lifetime, donating an estimated $8 billion."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 16,
+        "title": "The U.S. economy shrugged off the tech bust",
+        "guid": "https://www.noahpinion.blog/p/the-us-economy-shrugged-off-the-tech",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the misconception that the U.S. is in a recession when it is actually experiencing a boom. The author provides evidence of the strong state of the U.S. economy, including high GDP growth, low unemployment rates, and narrowing wealth inequality. However, the tech industry, particularly venture-funded startups, has been struggling since the end of 2021, leading some to believe in a \"rolling recession.\" The article explores why the tech bust did not drag the entire U.S. economy into a recession, citing macroeconomic models that explain how shocks in individual industries can propagate throughout the economy. The author acknowledges that there are various macro models with different assumptions, making it difficult to empirically test their validity. The article then delves into the details of the tech bust of 2022-23, which was triggered by investors realizing that interest rates would increase. This realization negatively impacted stock prices and affected industries such as consumer internet, SaaS, fintech, and crypto. Despite the tech bust, the U.S. economy as a whole did not experience significant negative consequences."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 15,
+        "title": "The Middle East is getting older",
+        "guid": "https://www.noahpinion.blog/p/the-middle-east-is-getting-older",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "The Israel-Gaza war has not spread throughout the Middle East, with Hezbollah and Iran choosing to stay out of the conflict. The peaceful protests in support of Palestinians and Saudi Arabia's desire to normalize relations with Israel indicate a positive sign. The article suggests that population aging may be a contributing factor to the lack of widespread conflict in the region. Studies have shown a correlation between youthful population bulges and elevated risk of conflict. Countries with a younger population are more susceptible to political violence, revolutions, and civil conflict. The theory suggests that resource scarcity, lack of economic and social opportunities, and a surplus of young men contribute to instability and violence. However, the Middle East is steadily getting older, with countries like Iran experiencing a shift in demographics. Falling fertility rates have taken the edge off the youth bulge, making war less likely. While there are still war-torn countries with young populations, the overall trend towards an aging society in the Middle East is seen as a positive development."
+    },
+    {
+        "feed_id": 91,
+        "article_id": 5,
+        "title": "Is the Fed Peaking Too Soon?",
+        "guid": "https://theovershoot.co/p/is-the-fed-peaking-too-soon",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Federal Reserve officials are facing a favorable operating environment with a growing economy, ample cash flow, and reduced disruptions to production and consumption. The main challenge now is to calibrate policy to sustain the positive momentum. Market prices suggest that short-term interest rates should be lowered to achieve this. However, there is a possibility that the risk goes the other way, as data shows that policy has not been restrictive this year. The strong growth momentum may require interest rates to stay the same or even increase to prevent excessive borrowing and spending. Despite a deceleration in the rate of price increases, the growth rate of spending and incomes has slowed by a smaller margin, resulting in a significant acceleration in Americans' living standards. While it would be desirable to sustain this combination of moderate inflation and strong growth, it may not be consistent with 2% yearly inflation over time. The article explores the potential risks of financial and real constraints that could slow down nominal spending and growth. However, it is unclear why nominal growth would slow, as American workers' wage income continues to grow in line with their spending."
+    },
+    {
+        "feed_id": 85,
+        "article_id": 4,
+        "title": "Super-Spiked Videopods (EP32): Energy M&A Q&A",
+        "guid": "https://arjunmurti.substack.com/p/super-spiked-videopods-ep32-energy",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "This article is a follow-up to a previous post that discussed the takeaways from recent Super Major M&A activity. The article aims to address several key questions regarding M&A activity in the energy sector. These questions include the goal of recent M&A activity, the consensus media or Street views on M&A that the author disagrees with, whether bigger is better in M&A, and the implications for SMID-cap traditional energy companies. The article provides various ways to access the content, including subscribing via email, accessing it on the Super-Spiked website, subscribing through the Veriten website, or watching the video on the author's YouTube channel. The author also includes a disclaimer stating that the views expressed are their own and not affiliated with any organization, and that the article does not provide financial advice."
+    },
+    {
+        "feed_id": 80,
+        "article_id": 12,
+        "title": "Research Notes: More Ozempic Updates",
+        "guid": "https://www.overlookedalpha.com/p/research-notes-more-ozempic-updates",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the impact of GLP-1 drugs on various companies and their potential for growth. It highlights SENECA as a company that has experienced a significant rally, but still offers value. The article also mentions the potential for GLP-1 drugs to mitigate sleep apnea, which poses a risk for QIPT. Additionally, it discusses the different exposures and bullish cases for DXLG and AMBP."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 44,
+        "title": "Guest Editorial: Want to know more about Anwar? Check his response to threats",
+        "guid": "https://murrayhunter.substack.com/p/guest-editorial-want-to-know-more",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "Prime Minister Anwar Ibrahim's response to threats reveals a lot about him. When a vocal critic received a bomb threat, Anwar remained silent and did not condemn the act. However, when he claimed to be threatened by European governments and the US over his stance on Gaza, he portrayed himself as a hero of the Palestinian cause. The critic, Siti Kasim, is a prominent human rights lawyer and activist who survived the assassination attempt. Anwar's silence on the threat against her life exposes his vanity and ego. The police also failed to properly investigate the incident. Anwar's response to the Middle East crisis is disappointing, as he refuses to brand Hamas as a terrorist organization and organizes events promoting Palestine in schools. Critics argue that he should focus on Malaysian issues, such as the economy and cost of living crisis, instead of trying to score political points with radical Muslims."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 43,
+        "title": "Fahmi Fadzil is a liar",
+        "guid": "https://murrayhunter.substack.com/p/fahmi-fadzil-is-a-liar",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The article is not provided. Please provide the article that you would like me to summarize."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 42,
+        "title": "Zaliha Mustafa Minister of Health",
+        "guid": "https://murrayhunter.substack.com/p/zaliha-mustafa-minister-of-health",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "Dr. Zaliha Mustafa, a medical doctor and member of Parti Keadilan Rakyat (PKR), was appointed as the Minister of Health in Malaysia. During her tenure, she announced the distribution of free sanitary towels to civil servants as a measure to fight poverty, but the scheme has not been expanded as promised. She also prioritized the digitalization of patient medical records and offered permanent positions to contract doctors to resolve a dispute. However, there are concerns that she has not taken action to investigate issues such as the government's response to the Covid-19 pandemic, the purchase of defective ventilators, and the disposal of unused vaccines. Dr. Noor Hisham Abdullah, the former director general of the Ministry of Health, still appears to be running the ministry by proxy. Overall, Dr. Zaliha has been criticized for not pursuing visionary improvements within the health sector and for lacking control over the ministry."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 41,
+        "title": "The law of relativity",
+        "guid": "https://murrayhunter.substack.com/p/the-law-of-relativity",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "The article discusses the difficulty of objectively measuring popularity and how social media \"like\" buttons have become a proxy measure for it. The author uses snapshots from Facebook to illustrate how popularity dynamics can influence the fate of the Anwar government, although it is unclear how exactly. The author suggests that Members of Parliament will consider this when making future decisions, indicating a problem that Anwar must address. The article concludes by mentioning the possibility of Fahmi Fadzil blocking Najib Razak's Facebook page, but doubts that it would solve the problem."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 40,
+        "title": "The tragedy of Rafizi Ramli",
+        "guid": "https://murrayhunter.substack.com/p/the-tragedy-of-rafizi-ramli",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "Rafizi Ramli, a prominent Malaysian politician, has faced challenges and setbacks in his political career. Despite being seen as a potential future prime minister, he was sidelined by the finance minister and excluded from major initiatives. As a minister of economy, Rafizi made several mistakes and showed a lack of empathy towards the economic struggles of Malaysians. His energy transition blueprint and targeted subsidy schemes were criticized for their lack of clarity and effectiveness. One of his controversial policies, the Menu Rahmah scheme, hurt small businesses and benefited fast-food chains. Rafizi's relationship with Anwar Ibrahim and his daughter Nurul Izzah Anwar has deteriorated, leaving him isolated in the cabinet. His recent heart attack may have been partly caused by the strain and disappointment of his position. It is suggested that Rafizi should resign from the cabinet, focus on his health, and return to politics in the future. Overall, Rafizi's political career has been marked by challenges and he needs to build his character and leadership skills before making a comeback."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 39,
+        "title": "Imagination is more important than knowledge",
+        "guid": "https://murrayhunter.substack.com/p/imagination-is-more-important-than",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "The article is not provided. Please provide the article that you would like me to summarize."
+    },
+    {
+        "feed_id": 60,
+        "article_id": 8,
+        "title": "Quests And Requests",
+        "guid": "https://www.astralcodexten.com/p/quests-and-requests",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The author presents a list of potential projects that they are unable to pursue themselves but believe could be valuable endeavors. These projects include replicating brain entrainment learning results, creating an open-source polygenic score for educational attainment, running a corporate pressure campaign for lower costs of life-saving drugs, testing a new language instruction technique, developing an automatic Implicit Association Test generator, building a good dating site, establishing a foundation to promote classical art and architecture, and writing a primer on political change. The author invites others to take on these projects and offers to provide publicity and connect them with potential funders."
+    },
+    {
+        "feed_id": 52,
+        "article_id": 12,
+        "title": "Medical Facilities Corp: Shares are Cheap After a Dividend Cut",
+        "guid": "https://www.canadiandividendinvesting.com/p/medical-facilities-corp-shares-are",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "I'm sorry, but I cannot generate a summary without the article. Please provide the article for me to summarize."
+    },
+    {
+        "feed_id": 52,
+        "article_id": 11,
+        "title": "Why I'm Not Putting Any Capital Into 5%+ Yielding GICs",
+        "guid": "https://www.canadiandividendinvesting.com/p/why-im-not-putting-any-capital-into",
+        "published_date": "2023-11-05",
+        "summarized_date": "2023-11-05",
+        "summary": "Canadian dividend investors have been facing poor returns compared to the S&P 500 and the NASDAQ index, which have performed exceptionally well. As a result, many investors are considering locking their capital in guaranteed investment certificates (GICs) that offer attractive interest rates. However, the author argues against this strategy, stating that it is not a good long-term approach. GICs do not offer any upside potential when the market recovers, and dividends are taxed more favorably than interest. The author suggests that investing in dividend stocks is a better option, as they have a history of increasing payouts and offer the potential for capital appreciation. Additionally, the author believes that high-yield savings accounts provide a more flexible alternative to GICs, offering comparable interest rates without the commitment of locking up capital. Ultimately, the decision to invest in GICs or dividend stocks depends on individual risk tolerance and investment goals."
+    },
+    {
+        "feed_id": 49,
+        "article_id": 4,
+        "title": "Repo to the Rescue",
+        "guid": "https://www.thelastbearstanding.com/p/repo-to-the-rescue",
+        "published_date": "2023-11-03",
+        "summarized_date": "2023-11-05",
+        "summary": "The United States Treasury has released its latest Quarterly Refunding Announcement (QRA), outlining its debt issuance plans for the coming quarters. The announcement received attention due to concerns about the size and composition of new issuance and its impact on long-term U.S. Treasury yields. However, the Treasury's announcement revealed a lower borrowing need for the current quarter and a smaller increase in coupon auction size than expected. The majority of new debt issuance will come in the form of short-term Treasury bills. The Treasury's decision to focus on short-term debt issuance is aimed at avoiding exacerbating the sell-off in long-term Treasuries and taking advantage of expected interest rate declines in the near term. Additionally, this bill-heavy issuance draws on funds from the Reverse Repo Facility (RRP), putting \"dead money\" back into private market circulation."
+    },
+    {
+        "feed_id": 41,
+        "article_id": 7,
+        "title": "Shoutout Thread \ud83d\udce2",
+        "guid": "https://on.substack.com/p/shoutout-thread-24",
+        "published_date": "2023-11-02",
+        "summarized_date": "2023-11-05",
+        "summary": "Substack is hosting Shoutout Threads to help writers discover great content on the platform. They encourage users to share what they have been reading and inspired by recently on Substack. Participants are asked to reply to a general thread with a shoutout for another writer or podcaster, using @mentions to notify them. They can also quote a favorite line or passage from a recent post. Additionally, Substack is celebrating the generosity of the writer community by inviting users to shoutout a writer who has been an important guide or inspiration to them on their Substack journey."
+    },
+    {
+        "feed_id": 41,
+        "article_id": 6,
+        "title": "Getting started: How three writers found their own paths",
+        "guid": "https://on.substack.com/p/masterclass-uk-30-10-2023",
+        "published_date": "2023-11-04",
+        "summarized_date": "2023-11-05",
+        "summary": "Substack's Head of Writer Partnerships in the U.K. hosted a panel discussion with three successful Substack writers. They discussed their experiences on the platform and shared insights on building a community. The panelists emphasized the importance of experimentation, owning a community, and focusing on personal interests rather than following trends. They also provided tips on finding subscribers, dealing with subscriber loss, and writing for oneself. The panelists included an author and podcast host who earned six figures in her first 18 months on Substack, a BBC presenter who gained hundreds of paid subscribers in six months, and an award-winning author and journalist who started a Substack to share her views on various topics. The discussion aimed to inspire and provide guidance to aspiring Substack writers."
+    },
+    {
         "feed_id": 295,
         "article_id": 20,
         "title": "Mixed Messages From the Fed: Good Enough for Markets",
