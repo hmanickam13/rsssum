@@ -1,4 +1,21 @@
 {
+    "2023-11-07": {
+        "RSSFeedScraper": {
+            "status": "Success",
+            "links_or_feeds_added": 0,
+            "links_or_feeds_deleted": 0
+        },
+        "GetArticles": {
+            "status": "Success",
+            "feeds_processed": 322,
+            "articles_processed": 5334,
+            "articles_with_content_within_last_10_days": 264
+        },
+        "SummarizeArticles": {
+            "status": "Failed",
+            "message": "module 'openai' has no attribute 'Model'"
+        }
+    },
     "2023-11-06": {
         "RSSFeedScraper": {
             "status": "Success",
