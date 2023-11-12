@@ -1,4 +1,21 @@
 {
+    "2023-11-12": {
+        "RSSFeedScraper": {
+            "status": "Success",
+            "links_or_feeds_added": 0,
+            "links_or_feeds_deleted": 0
+        },
+        "GetArticles": {
+            "status": "Success",
+            "feeds_processed": 322,
+            "articles_processed": 5335,
+            "articles_with_content_within_last_10_days": 277
+        },
+        "SummarizeArticles": {
+            "status": "Failed",
+            "message": "\n\nYou tried to access openai.Model, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+        }
+    },
     "2023-11-09": {
         "RSSFeedScraper": {
             "status": "Success",
