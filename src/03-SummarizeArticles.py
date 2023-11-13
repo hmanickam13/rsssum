@@ -45,12 +45,7 @@ class SummarizeArticles:
 
     def api_call(self, content):
         # API call to summarize the content
-        # MODEL = "gpt-3.5-turbo"
-        # MODEL = "gpt-3.5-turbo-16k" # legacy
         MODEL = "gpt-3.5-turbo-1106"
-        # MODEL = "gpt-4"
-        # MODEL = "gpt-4-32k"
-        # openai.Model.list()
         try:
             response = openai.ChatCompletion.create(
                 model=MODEL,
@@ -159,12 +154,6 @@ class SummarizeArticles:
             except:
                 content = article_entry['content'][0]['value']
 
-            # print(f"Content: \n{parsed_content}\n------------------\n")
-            
-            # print(f"Processing content for id: {feed_id}, id_article: {id_article}")
-            # print(f"Title: {title}")
-            # print(f"Content: \n{content}")
-
             # Call the API to summarize the content
             summary, summary_status = self.api_call(content)
             # print(f"Summary: \n{summary}\n------------------\n")
@@ -190,14 +179,6 @@ class SummarizeArticles:
                     os.mkdir('docs')
                 summary_path = os.path.join('docs', 'summaries.json')
                 self.add_summary_to_summaries_json(feed_id, id_article, article_entry['title'], article_entry['guid'], summary, published_date, summarized_date, summary_path)
-
-            # # Extract published_date from sqlite db into feed JSON
-            # self.c.execute('''
-            #     SELECT published
-            #     FROM Metadata
-            #     WHERE id = ? AND id_article = ?
-            # ''', (feed_id, id_article))
-            # published_date = self.c.fetchone()
 
             with open(feed_json_path, 'w', encoding='utf-8') as json_file:
                 json.dump(json_data, json_file, ensure_ascii=False, indent=4)
@@ -225,16 +206,6 @@ class SummarizeArticles:
                     
                     id_article, title, summarize_status, summary_attempts, published_date = row
                     # print(f"Feed ID: {feed_id}: Article: {id_article}: Row length: {len(rows)}")
-                    # check if content exists
-                    # if content_exists == 0:
-                        # print(f"summary_status: {summarize_status}")
-                        # print(f"No content for id: {feed_id}, id_article: {id_article}, skipping...")
-                        # continue
-                    # elif content_exists == 1:
-                        # print(f"summary_status: {summarize_status}")
-                        # If published within 10 days
-                    # if published_within_10_days == 1: # add check with or 0 to test
-                    # self.last_10_days_articles_count += 1
                     # If summary doesn't exist, or failed previously (status 4 or 5)
                     if summarize_status == 0 or summarize_status == 4 or summarize_status == 5:
                         self.trying_to_summarize += 1
@@ -265,9 +236,6 @@ if __name__ == '__main__':
     today_date = datetime.datetime.today().strftime('%Y-%m-%d')
     json_status_file_name = get_filepath('status.json')
 
-    # two_days_ago = datetime.datetime.today() - datetime.timedelta(days=1)
-    # two_days_ago_date = two_days_ago.strftime('%Y-%m-%d')
-
     try:
         with open(json_status_file_name, 'r') as f:
             existing_status = json.load(f)
@@ -291,7 +259,6 @@ if __name__ == '__main__':
                 summarize_articles.conn.close()
                 status_data = {
                     'status': 'Success',
-                    # 'last_10_days_articles_count': summarize_articles.last_10_days_articles_count,
                     'trying_to_summarize': summarize_articles.trying_to_summarize,
                     'summarized_and_relevant': summarize_articles.summarized_and_relevant,
                     'summary_already_exists': summarize_articles.summary_already_exists,

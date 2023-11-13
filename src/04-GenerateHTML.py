@@ -37,10 +37,7 @@ class GenerateHTML:
         self.summary_status_5 = 0
         self.new_summaries_today_counter = 0
         self.last_10_days_summaries_counter = 0
-        self.added_to_wordpress = 0
-        self.could_not_add_to_wordpress = 0
-        self.deleted_from_wordpress = 0
-        self.could_not_delete_from_wordpress = 0
+        self.added_to_wordpress = False
 
     def truncate_summary(self, summary, word_limit=50):
         words = summary.split()
@@ -135,7 +132,6 @@ class GenerateHTML:
 
         current_date = datetime.datetime.today().date()
         ten_days_ago = current_date - datetime.timedelta(days=10)
-        eleven_days_ago = current_date - datetime.timedelta(days=11)
         twelve_days_ago = current_date - datetime.timedelta(days=12)
         twelve_days_counter = 0
 
@@ -155,34 +151,22 @@ class GenerateHTML:
                 if current_date >= summarized_date >= ten_days_ago:
                     self.last_10_days_summaries_counter += 1
                     index_html_content += article_html
-                    if not entry.get('unique_WP_id'):
-                        unique_WP_id = self.create_wordpress_post(entry['feed_id'], entry['article_id'], entry['title'], entry['guid'], entry['published_date'], entry['summary'])
-                        if unique_WP_id:
-                            self.added_to_wordpress += 1
-                            entry['unique_WP_id'] = unique_WP_id
-                        else:
-                            self.could_not_add_to_wordpress += 1
                 if summarized_date == current_date:
                     self.new_summaries_today_counter += 1
                     today_html_content += article_html
-                # if eleven_days_ago == summarized_date:
-                #     if entry.get('unique_WP_id'):
-                #         if(self.delete_wordpress_post(entry['unique_WP_id'])):
-                #             self.deleted_from_wordpress += 1
-                #         else:
-                #             self.could_not_delete_from_wordpress += 1
                 if twelve_days_ago >= summarized_date:
                     twelve_days_counter += 1
                     if twelve_days_counter > 10:
                         break # no more articles to check
 
-        # adding the unique_WP_id to the json file
-        with open(summary_path, 'w', encoding='utf-8') as json_file:
-            json.dump(json_data, json_file, indent=4)
-
         # Inject the accumulated content into the base HTML
         index_html = base_html.format(content=index_html_content)
         today_html = base_html.format(content=today_html_content)
+
+        try:
+            self.added_to_wordpress = self.create_wordpress_post(current_date, index_html)
+        except Exception as e:
+            self.added_to_wordpress = False
 
         # Create directories if they don't exist
         if not os.path.exists('docs'):
@@ -212,40 +196,23 @@ class GenerateHTML:
                 html_file.write(today_html)
                 print(f"\nToday's HTML file created inside oldhtmls: {today_html_path}")
 
-    def create_wordpress_post(self, feed_id, article_id, title, guid, published_date, summary):
+    def create_wordpress_post(self, current_date, complete_html):
 
-        str_feed_id = str(feed_id)
-        str_article_id = str(article_id)
-        str_published_date = str(published_date).replace("-", "")
-        post_id_str = str_feed_id + str_published_date + str_article_id
-        
-        post_id = int(post_id_str)
+        current_date = datetime.datetime.today().date()
+        title = f"Summary for {current_date}"
+
         data = {
         'title' : title,
         'status': 'publish',
         'slug' : 'daily-reflections',
-        'content': summary
+        'content': complete_html
         }
 
         response = requests.post(WP_API_URL,headers=WP_HEADER, json=data)
         if response.status_code == 201:
-            return response.json()['id']
-        else:
-            return None
-
-    def delete_wordpress_post(self, unique_WP_id):
-        # unique_WP_id = "<" + str(unique_WP_id) + ">"
-        unique_WP_id = str(unique_WP_id)
-        # print(f"Deleting post with id: {unique_WP_id}")
-        response = requests.delete(WP_API_URL + unique_WP_id,headers=WP_HEADER)
-        print(response)
-        if response.status_code == 201:
-        #     print(response.json())
             return True
         else:
-        #     # print(f"Error: {response.status_code}")
-        #     # print(response.text)
-            return False
+            return None
 
     def send_email(self, output_dir):
         conn = sqlite3.connect(self.db_filename)
@@ -300,7 +267,6 @@ class GenerateHTML:
             print(f"Error sending message: {response.status_code} - {response.text}")
 
 if __name__ == "__main__":
-    
     today_date = datetime.datetime.today().strftime('%Y-%m-%d')
     json_status_file_name = get_filepath('status.json')
 
@@ -313,16 +279,13 @@ if __name__ == "__main__":
                 'status': 'Did not run',
                 'message': 'if elif conditions not met, check code'
             }
-
         if today_date in existing_status and 'SummarizeArticles' in existing_status[today_date] and existing_status[today_date]['SummarizeArticles']['status'] == 'Failed':
-            print(f"SummarizeArticles failed so this has not run")
             status_data = {
                 'status': 'Failed',
                 'message': 'SummarizeArticles failed so this has not run'
             }
         elif today_date in existing_status and 'SummarizeArticles' in existing_status[today_date] and existing_status[today_date]['SummarizeArticles']['status'] == 'Success':
             try:
-                print(f"Generating HTML...")
                 db_path = get_filepath('dbs/rss_sum.db')
                 generator = GenerateHTML(db_filename=db_path)
                 generator.generate_html()
@@ -332,9 +295,6 @@ if __name__ == "__main__":
                     'new_summaries_today': generator.new_summaries_today_counter,
                     'last_10_days_summaries_counter': generator.last_10_days_summaries_counter,
                     'added_to_wordpress': generator.added_to_wordpress,
-                    'could_not_add_to_wordpress': generator.could_not_add_to_wordpress,
-                    'deleted_from_wordpress': generator.deleted_from_wordpress,
-                    'could_not_delete_from_wordpress': generator.could_not_delete_from_wordpress
                 }
             except Exception as e:
                 status_data = {
