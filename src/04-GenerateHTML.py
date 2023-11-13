@@ -10,18 +10,25 @@ import requests
 import shutil
 from util import get_filepath
 import glob
+import base64
 
 load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
 FROM_EMAIL = os.getenv('FROM_EMAIL')
 TO_EMAIL = os.getenv('TO_EMAIL')
 
+WORDPRESS_USER = os.getenv('WORDPRESS_USER')
+WP_USER_PASS = os.getenv('WP_USER_PASS')
+WP_CREDENTIALS = WORDPRESS_USER + ':' + WP_USER_PASS
+WP_TOKEN = base64.b64encode(WP_CREDENTIALS.encode())
+WP_HEADER = {'Authorization': 'Basic ' + WP_TOKEN.decode('utf-8')}
+WP_API_URL = os.getenv('WP_API_URL')
+
 class GenerateHTML:
     def __init__(self, db_filename):
         self.db_filename = db_filename
         self.conn = sqlite3.connect(self.db_filename)
         self.c = self.conn.cursor()
-        # self.create_newsletter_table()
         self.articles_to_extract = []
         self.summary_status_1 = 0
         self.summary_status_2 = 0
@@ -30,95 +37,10 @@ class GenerateHTML:
         self.summary_status_5 = 0
         self.new_summaries_today_counter = 0
         self.last_10_days_summaries_counter = 0
-
-    def create_newsletter_table(self):
-        self.c.execute('''
-            CREATE TABLE IF NOT EXISTS Newsletter (
-                id INTEGER,
-                id_article INTEGER,
-                published TEXT,
-                updated TEXT,
-                latest_mailing_timestamp TEXT              
-           )
-        ''')
-        self.conn.commit()
-
-    def populate_newsletter_table(self, dict_article):
-        # Check if a row with the same id and id_article exists
-        self.c.execute('''
-            SELECT title
-            FROM Newsletter
-            WHERE id = ? AND id_article = ?
-        ''', (dict_article['id'], dict_article['id_article']))
-
-        current_tmsp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        existing_row = self.c.fetchone()
-
-        if existing_row:
-            print("Row already exists. Skipping...\n---------------------")
-        else:
-            # Insert the new row
-            self.c.execute('''
-                INSERT INTO Newsletter (id, id_article, published, updated, latest_mailing_timestamp)
-                VALUES (?, ?, ?, ?, ?)
-            ''', (
-                dict_article['id'], dict_article['id_article'], dict_article['published'],
-                dict_article['updated'], current_tmsp
-            ))
-            self.conn.commit()
-            print("Newsletter data inserted successfully.\n---------------------")
-
-    def update_generated_html(self, feed_id, article_id, number):
-        self.c.execute('''
-            UPDATE Metadata
-            SET generated_html = ?
-            WHERE id = ? AND id_article = ?
-            ''', (number, feed_id, article_id))
-        self.conn.commit()
-
-    def generate_markdown(self, output_dir):
-        self.c.execute("SELECT id FROM LINKS")
-        feed_ids = [row[0] for row in self.c.fetchall()]
-
-        for feed_id in feed_ids:
-            feed_folder = os.path.join(output_dir, 'dbs/raw_feeds', str(feed_id))
-            feed_json_path = os.path.join(feed_folder, 'feed.json')
-
-            if not os.path.exists(feed_json_path):
-                print(f"JSON file not found for feed {feed_id}. Skipping...")
-                continue
-
-            with open(feed_json_path, 'r', encoding='utf-8') as json_file:
-                json_data = json.load(json_file)
-
-            markdown_content = ""
-            for entry in json_data:
-                self.c.execute('''
-                    SELECT summarize_status
-                    FROM Metadata
-                    WHERE id = ? AND id_article = ?
-                ''', (entry['id'], entry['id_article']))
-                summary_status = self.c.fetchone()
-                print(f"summary_status: {summary_status}")
-
-                if summary_status[0] == 0 or summary_status[0] == 2:
-                    print(f"Summary does not exist for feed {feed_id}, article {entry['id_article']}. Skipping...")
-                elif summary_status[0] == 1:
-                    print(f"Summary exists for feed {feed_id}, article {entry['id_article']}. Adding to Markdown...")
-                    # Customize the subset of variables you want in the Markdown
-                    markdown_content += f"# {entry['title']}\n\n"
-                    markdown_content += f"**Published:** {entry['published']}\n"
-                    markdown_content += f"**Author:** {entry['author']}\n\n"
-                    # markdown_content += f"**Content:** {entry['Content']}\n\n"
-                    markdown_content += f"**Summary:** {entry['summary']}\n\n"
-                    # markdown_content += f"{metadata[0]}\n\n"
-                    markdown_content += "---\n\n"
-                
-            markdown_file_path = os.path.join(feed_folder, 'feed.md')
-            with open(markdown_file_path, 'w', encoding='utf-8') as markdown_file:
-                markdown_file.write(markdown_content)
-
-            print(f"Markdown file for feed {feed_id} created: {markdown_file_path}")
+        self.added_to_wordpress = 0
+        self.could_not_add_to_wordpress = 0
+        self.deleted_from_wordpress = 0
+        self.could_not_delete_from_wordpress = 0
 
     def truncate_summary(self, summary, word_limit=50):
         words = summary.split()
@@ -213,6 +135,9 @@ class GenerateHTML:
 
         current_date = datetime.datetime.today().date()
         ten_days_ago = current_date - datetime.timedelta(days=10)
+        eleven_days_ago = current_date - datetime.timedelta(days=6)
+        twelve_days_ago = current_date - datetime.timedelta(days=12)
+        twelve_days_counter = 0
 
         for entry in json_data:
             summarized_date = (datetime.datetime.strptime(entry["summarized_date"], '%Y-%m-%d')).date()
@@ -230,9 +155,30 @@ class GenerateHTML:
                 if current_date >= summarized_date >= ten_days_ago:
                     self.last_10_days_summaries_counter += 1
                     index_html_content += article_html
+                    if not entry.get('unique_WP_id'):
+                        unique_WP_id = self.create_wordpress_post(entry['feed_id'], entry['article_id'], entry['title'], entry['guid'], entry['published_date'], entry['summary'])
+                        if unique_WP_id:
+                            self.added_to_wordpress += 1
+                            entry['unique_WP_id'] = unique_WP_id
+                        else:
+                            self.could_not_add_to_wordpress += 1
                 if summarized_date == current_date:
                     self.new_summaries_today_counter += 1
                     today_html_content += article_html
+                if eleven_days_ago == summarized_date:
+                    if entry.get('unique_WP_id'):
+                        if(self.delete_wordpress_post(entry['unique_WP_id'])):
+                            self.deleted_from_wordpress += 1
+                        else:
+                            self.could_not_delete_from_wordpress += 1
+                if twelve_days_ago >= summarized_date:
+                    twelve_days_counter += 1
+                    if twelve_days_counter > 10:
+                        break # no more articles to check
+
+        # adding the unique_WP_id to the json file
+        with open(summary_path, 'w', encoding='utf-8') as json_file:
+            json.dump(json_data, json_file, indent=4)
 
         # Inject the accumulated content into the base HTML
         index_html = base_html.format(content=index_html_content)
@@ -266,73 +212,40 @@ class GenerateHTML:
                 html_file.write(today_html)
                 print(f"\nToday's HTML file created inside oldhtmls: {today_html_path}")
 
-    def gpost(self,txt):
-        chat_url = "https://chat.googleapis.com/v1/spaces/AAAA96mzfGA/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Vw0dOFogbncJTJhKf8rhvI6KVqAVRw0z_bEYSZRaxmY"
-        data = {
-                'text': txt
-               }
-        headers = {
-                    'Content-Type': 'application/json'
-                  }
+    def create_wordpress_post(self, feed_id, article_id, title, guid, published_date, summary):
 
-        response = requests.post(chat_url, json=data, headers=headers)
-
-        # Check for successful response
-        if response.status_code == 200:
-            print("Message sent successfully")
-        else:
-            print(f"Error sending message: {response.status_code} - {response.text}")
-
-    def find_statistics(self):
-        self.c.execute('SELECT DISTINCT id FROM LINKS')
-        feed_ids = self.c.fetchall()
-
-        for feed_id in feed_ids[:]:
-            feed_id = feed_id[0]  # Extract the integer value from the tuple
-            # Select all articles for that specific feed
-            self.c.execute('''
-                SELECT id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days, summarized_date
-                FROM Metadata
-                WHERE id = ?
-            ''', (feed_id,))
-            rows = self.c.fetchall()
-            for row in rows[:]:
-                id_article, content_exists, summarize_status, summary_attempts, published_within_10_days, updated_within_10_days, summarized_date = row
-                today_date = str(datetime.datetime.today().strftime('%Y-%m-%d'))
-                if summarized_date == today_date:
-                    if published_within_10_days == 1 and content_exists == 1: # change published_within_10_days to 0 to test
-                        if summarize_status == 1:
-                            self.summary_status_1 += 1
-                            self.articles_to_extract.append((feed_id, id_article))
-                            # print(f"Set: {feed_id}, {id_article}")
-                        elif summarize_status == 2:
-                            self.summary_status_2 += 1
-                        elif summarize_status == 3:
-                            self.summary_status_3 += 1
-                        elif summarize_status == 4:
-                            self.summary_status_4 += 1
-                        elif summarize_status == 5:
-                            self.summary_status_5 += 1
-
-        # self.conn.close()
-
-        # print(f"articles to extract: {self.articles_to_extract}\n")
+        str_feed_id = str(feed_id)
+        str_article_id = str(article_id)
+        str_published_date = str(published_date).replace("-", "")
+        post_id_str = str_feed_id + str_published_date + str_article_id
         
-        print(f"Summary status 1: {self.summary_status_1}")
-        print(f"Summary status 2: {self.summary_status_2}")
-        print(f"Summary status 3: {self.summary_status_3}")
-        print(f"Summary status 4: {self.summary_status_4}")
-        print(f"Summary status 5: {self.summary_status_5}")
-        print(f"Sending summary statistics to google chat...")
-        message_text = f"""Summary Stats for today, {datetime.datetime.now().strftime("%Y-%m-%d")} :
+        post_id = int(post_id_str)
+        data = {
+        'title' : title,
+        'status': 'publish',
+        'slug' : 'daily-reflections',
+        'content': summary
+        }
 
-Successfully summarized : {self.summary_status_1}
-Not relevant            : {self.summary_status_2}
-Exceeded token limit    : {self.summary_status_3}
-Failed to summarize     : {self.summary_status_4}
-API Request timeout     : {self.summary_status_5}
-Link to combined html feed: <link will be inserted>"""
-        # self.gpost(message_text)
+        response = requests.post(WP_API_URL,headers=WP_HEADER, json=data)
+        if response.status_code == 201:
+            return response.json()['id']
+        else:
+            return None
+
+    def delete_wordpress_post(self, unique_WP_id):
+        # unique_WP_id = "<" + str(unique_WP_id) + ">"
+        unique_WP_id = str(unique_WP_id)
+        # print(f"Deleting post with id: {unique_WP_id}")
+        response = requests.delete(WP_API_URL + unique_WP_id,headers=WP_HEADER)
+        print(response)
+        if response.status_code == 201:
+        #     print(response.json())
+            return True
+        else:
+        #     # print(f"Error: {response.status_code}")
+        #     # print(response.text)
+            return False
 
     def send_email(self, output_dir):
         conn = sqlite3.connect(self.db_filename)
@@ -369,21 +282,27 @@ Link to combined html feed: <link will be inserted>"""
                             error_message = str(e)
                         print("Error sending email:", error_message)
 
-if __name__ == "__main__":
-    # generator.generate_markdown(output_directory)
-    # generator.find_statistics()
-    # generator.generate_html()
-    # generator.send_email()
-    # generator.conn.close()
+    def gpost(self,txt):
+        chat_url = "Webhook link"
+        data = {
+                'text': txt
+               }
+        headers = {
+                    'Content-Type': 'application/json'
+                  }
 
-    # print(f"\nNew summaries today: {generator.new_summaries_today_counter}")
-    # print(f"\nLast 10 days summaries: {generator.last_10_days_summaries_counter}\n")
+        response = requests.post(chat_url, json=data, headers=headers)
+
+        # Check for successful response
+        if response.status_code == 200:
+            print("Message sent successfully")
+        else:
+            print(f"Error sending message: {response.status_code} - {response.text}")
+
+if __name__ == "__main__":
     
     today_date = datetime.datetime.today().strftime('%Y-%m-%d')
     json_status_file_name = get_filepath('status.json')
-
-    # two_days_ago = datetime.datetime.today() - datetime.timedelta(days=1)
-    # two_days_ago_date = two_days_ago.strftime('%Y-%m-%d')
 
     try:
         with open(json_status_file_name, 'r') as f:
@@ -394,14 +313,16 @@ if __name__ == "__main__":
                 'status': 'Did not run',
                 'message': 'if elif conditions not met, check code'
             }
-            
+
         if today_date in existing_status and 'SummarizeArticles' in existing_status[today_date] and existing_status[today_date]['SummarizeArticles']['status'] == 'Failed':
+            print(f"SummarizeArticles failed so this has not run")
             status_data = {
                 'status': 'Failed',
                 'message': 'SummarizeArticles failed so this has not run'
             }
         elif today_date in existing_status and 'SummarizeArticles' in existing_status[today_date] and existing_status[today_date]['SummarizeArticles']['status'] == 'Success':
             try:
+                print(f"Generating HTML...")
                 db_path = get_filepath('dbs/rss_sum.db')
                 generator = GenerateHTML(db_filename=db_path)
                 generator.generate_html()
@@ -409,7 +330,11 @@ if __name__ == "__main__":
                 status_data = {
                     'status': 'Success',
                     'new_summaries_today': generator.new_summaries_today_counter,
-                    'last_10_days_summaries_counter': generator.last_10_days_summaries_counter
+                    'last_10_days_summaries_counter': generator.last_10_days_summaries_counter,
+                    'added_to_wordpress': generator.added_to_wordpress,
+                    'could_not_add_to_wordpress': generator.could_not_add_to_wordpress,
+                    'deleted_from_wordpress': generator.deleted_from_wordpress,
+                    'could_not_delete_from_wordpress': generator.could_not_delete_from_wordpress
                 }
             except Exception as e:
                 status_data = {
@@ -420,7 +345,6 @@ if __name__ == "__main__":
             existing_status[today_date]['GenerateHTML'] = status_data
 
         with open(json_status_file_name, 'w') as f:
-            # print(f"Opened file")
             json.dump(existing_status, f, indent=4)
     
     except FileNotFoundError:
