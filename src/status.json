@@ -13,10 +13,10 @@
         },
         "SummarizeArticles": {
             "status": "Success",
-            "trying_to_summarize": 8,
-            "summarized_and_relevant": 4,
-            "summary_already_exists": 808,
-            "summarized_but_not_relevant": 54,
+            "trying_to_summarize": 3,
+            "summarized_and_relevant": 0,
+            "summary_already_exists": 812,
+            "summarized_but_not_relevant": 55,
             "token_limit_exceeded": 0,
             "summary_attempts_limit_exceeded": 0
         }
