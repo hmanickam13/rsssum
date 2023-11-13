@@ -1,5 +1,95 @@
 [
     {
+        "feed_id": 206,
+        "article_id": 10,
+        "title": "The (Unofficial) Art of 'Coraline'",
+        "guid": "https://animationobsessive.substack.com/p/the-unofficial-art-of-coraline",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses the release of \"The Unofficial Art of Coraline,\" a fan-made art book created as a tribute to Laika's work on the film. The book compiles concept art and behind-the-scenes insights, showcasing the collaborative effort of artists like Tadahiro Uesugi, Dan Krall, and Shane Prigmore. It covers the design of the film's style, characters, storyboards, and puppet-making, aiming to credit the artistic talent involved. The PDF is made available as a free educational resource, containing over 150 pages and accessible through the Internet Archive or via direct download.",
+        "unique_WP_id": 938
+    },
+    {
+        "feed_id": 194,
+        "article_id": 14,
+        "title": "SHOULD I SHORT LUXURY?",
+        "guid": "https://www.russell-clark.com/p/should-i-short-luxury",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses the changing dynamics of the luxury market, particularly focusing on LVMH and the shift in consumer behavior. It highlights the premiumization of watches and the success of high-end luxury brands like Hermes and Ferrari, contrasting with the struggles of mass-market luxury brands. The author considers factors such as consumer trading down and potential cash-raising sales by luxury product owners, suggesting a possible downturn in the luxury market. The article concludes by suggesting that the best days for the luxury industry may be behind us, and proposes that luxury could be a good area to short in the current global context.",
+        "unique_WP_id": 939
+    },
+    {
+        "feed_id": 169,
+        "article_id": 6,
+        "title": "[Globe Newswire] HERE Technologies identifies congested roads and optimal departure times for Diwali travel in India",
+        "guid": "https://8percentpa.substack.com/p/globe-newswire-here-technologies",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "HERE Technologies is providing traffic data and analytics to help travelers navigate the congested streets of India during the Diwali celebrations. Historical traffic data reveals significant congestion at Connaught Circle in Delhi, Marine Drive Road in Mumbai, Mahatma Gandhi Marg in Lucknow, and Bellary Road in Bengaluru leading up to Diwali. Traffic congestion was notably high on Thursday and peaked on Fridays and Saturdays, with some areas experiencing up to three times the usual congestion. The data aims to assist travelers in planning optimal departure times.",
+        "unique_WP_id": 940
+    },
+    {
+        "feed_id": 143,
+        "article_id": 4,
+        "title": "Struggles and Setbacks",
+        "guid": "https://gregor.substack.com/p/struggles-and-setbacks",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses the setback faced by NuScale, a small modular reactor (SMR) developer, due to the cancellation of its major project in Utah, attributed to escalating costs. The article also highlights the challenges in the clean energy sector, including declining share prices, offshore wind supply-chain formation, and India's lag in solar deployment. It emphasizes the need for efficient deployment systems and the urgency to address emissions from power sectors in India and existing vehicle fleets in the US. The article underscores the significance of addressing these challenges for global decarbonization efforts.",
+        "unique_WP_id": 941
+    },
+    {
+        "feed_id": 125,
+        "article_id": 16,
+        "title": "MDC Financial Research's Michael Cohen halftime\" report on the $JBLU / $SAVE merger trial (Podcast #204)",
+        "guid": "https://www.yetanothervalueblog.com/p/mdc-financial-researchs-michael-cohen",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "Michael D. Cohen, CEO & Director of Research at MDC Financial Research, LLC, discusses the ongoing JetBlue $JBLU / Spirit Airlines $SAVE merger trial. Cohen and his team specialize in \"Event-Driven Legal\" investment-research and are closely monitoring the $JBLU / $SAVE case. The podcast also mentions the sponsorship of Stream by AlphaSense and invites listeners to explore AlphaSense Expert Insights for investment research. The article does not provide further details on the trial or Cohen's insights.",
+        "unique_WP_id": 942
+    },
+    {
+        "feed_id": 121,
+        "article_id": 8,
+        "title": "Tinder's Melting Ice Cube?",
+        "guid": "https://thescienceofhitting.com/p/tinders-melting-ice-cube",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses Match Group's financial performance, particularly focusing on the trade-off between the growth of paying users (Payers) and revenue per Payer (RPP). Despite a 9% revenue growth in Q3 FY23, the stock fell ~15% due to concerns about management's strategic vision. Tinder's revenue surpassed $500 million for the first time, with a 11% YoY increase, but there was a significant drop in Tinder Payers, offset by a rise in global RPP. The market fears sustained headwinds for Tinder due to recent Payer declines. The article also mentions the author's updated thoughts on Match's competitive position and long-term strategy.",
+        "unique_WP_id": 943
+    },
+    {
+        "feed_id": 70,
+        "article_id": 59,
+        "title": "Was Razak Baginda acquitted because Musa Safri was not called to testify?",
+        "guid": "https://murrayhunter.substack.com/p/was-razak-baginda-acquitted-because",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses the Altantuya murder case, revealing undisclosed information. The judge stated that Razak Baginda was acquitted due to the prosecution's failure to call Najib's aide-de-camp, DSP Musa Safri, as a witness. Musa Safri, who liaised with the UTK Policemen involved in the murder, was deemed critical to the case evidence. The police had early on suspected Razak Baginda's involvement and had evidence of his multiple calls to Musa Safri on the night of the murder. However, since Musa Safri was not called as a witness, this crucial evidence was not presented in court, leading to Razak Baginda's acquittal. The article hints at more undisclosed information to come and prompts readers to subscribe for updates.",
+        "unique_WP_id": 944
+    },
+    {
+        "feed_id": 64,
+        "article_id": 15,
+        "title": "How Do Banks Lend in Inaccurate Flood Zones in the Fed\u2019s Second District?",
+        "guid": "https://libertystreeteconomics.newyorkfed.org/?p=25924",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses the impact of inaccurate flood maps on bank lending in the Federal Reserve's Second District. The authors find that banks are less likely to lend in areas with inaccurate flood maps, demonstrating risk management or risk aversion. The study uses data on flood map accuracy and Home Mortgage Disclosure Act mortgage data to analyze lending patterns. The results show that inaccurately mapped areas experience lower loan acceptance rates, especially for jumbo loans. The study also considers borrower characteristics and regional factors in its analysis. While the reduction in acceptance rates is statistically significant, it is relatively small compared to the effects of applicant income or wealth. The authors conclude that banks are responsive to inaccurately mapped areas, and this behavior is consistent across the Second District and the nation. The findings suggest that banks manage and are aware of flood risk to some extent. The study also highlights the potential impact of future map updates on lending decisions.",
+        "unique_WP_id": 945
+    },
+    {
+        "feed_id": 8,
+        "article_id": 15,
+        "title": "How Do Banks Lend in Inaccurate Flood Zones in the Fed\u2019s Second District?",
+        "guid": "https://libertystreeteconomics.newyorkfed.org/?p=25924",
+        "published_date": "2023-11-13",
+        "summarized_date": "2023-11-13",
+        "summary": "The article discusses the impact of inaccurate flood maps on bank lending in the Federal Reserve's Second District. The authors find that banks are less likely to lend in areas with inaccurate flood maps, demonstrating a degree of flood risk management or risk aversion. The study uses data on flood map accuracy and Home Mortgage Disclosure Act (HMDA) mortgage data to analyze the relationship between inaccurate maps and loan acceptance rates. The results show that areas with inaccurate maps experience a reduction in loan acceptance rates, especially for jumbo loans. The study also suggests that banks may be aware of the inaccurate mapping and expect maps to change in the future. The authors conclude that banks are responsive to inaccurately mapped areas and manage flood risk to some extent. The findings are consistent across the Second District and the rest of the nation, indicating a general risk aversion among banks. The study aims to further explore how firms consider flood risk when choosing business locations.",
+        "unique_WP_id": 946
+    },
+    {
         "feed_id": 273,
         "article_id": 16,
         "title": "Berkshire Hathaway's Q3 2023 Results \u2014 Manufacturing, Service, and Retailing",
