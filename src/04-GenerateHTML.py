@@ -135,7 +135,7 @@ class GenerateHTML:
 
         current_date = datetime.datetime.today().date()
         ten_days_ago = current_date - datetime.timedelta(days=10)
-        eleven_days_ago = current_date - datetime.timedelta(days=6)
+        eleven_days_ago = current_date - datetime.timedelta(days=11)
         twelve_days_ago = current_date - datetime.timedelta(days=12)
         twelve_days_counter = 0
 
@@ -165,12 +165,12 @@ class GenerateHTML:
                 if summarized_date == current_date:
                     self.new_summaries_today_counter += 1
                     today_html_content += article_html
-                if eleven_days_ago == summarized_date:
-                    if entry.get('unique_WP_id'):
-                        if(self.delete_wordpress_post(entry['unique_WP_id'])):
-                            self.deleted_from_wordpress += 1
-                        else:
-                            self.could_not_delete_from_wordpress += 1
+                # if eleven_days_ago == summarized_date:
+                #     if entry.get('unique_WP_id'):
+                #         if(self.delete_wordpress_post(entry['unique_WP_id'])):
+                #             self.deleted_from_wordpress += 1
+                #         else:
+                #             self.could_not_delete_from_wordpress += 1
                 if twelve_days_ago >= summarized_date:
                     twelve_days_counter += 1
                     if twelve_days_counter > 10:
