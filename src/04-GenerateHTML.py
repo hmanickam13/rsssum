@@ -16,9 +16,10 @@ load_dotenv()
 SENDGRID_API_KEY  = os.getenv('SENDGRID_API_KEY')
 FROM_EMAIL = os.getenv('FROM_EMAIL')
 TO_EMAIL = os.getenv('TO_EMAIL')
-
 WORDPRESS_USER = os.getenv('WORDPRESS_USER')
 WP_USER_PASS = os.getenv('WP_USER_PASS')
+print(f"WORDPRESS_USER: {WORDPRESS_USER}")
+print(f"WP_USER_PASS: {str(WP_USER_PASS)[:5]}")
 WP_CREDENTIALS = WORDPRESS_USER + ':' + WP_USER_PASS
 WP_TOKEN = base64.b64encode(WP_CREDENTIALS.encode())
 WP_HEADER = {'Authorization': 'Basic ' + WP_TOKEN.decode('utf-8')}
