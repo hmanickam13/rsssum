@@ -46,10 +46,11 @@ class SummarizeArticles:
     def api_call(self, content):
         # API call to summarize the content
         # MODEL = "gpt-3.5-turbo"
-        MODEL = "gpt-3.5-turbo-16k"
+        # MODEL = "gpt-3.5-turbo-16k" # legacy
+        MODEL = "gpt-3.5-turbo-1106"
         # MODEL = "gpt-4"
         # MODEL = "gpt-4-32k"
-        openai.Model.list()
+        # openai.Model.list()
         try:
             response = openai.ChatCompletion.create(
                 model=MODEL,
@@ -62,10 +63,23 @@ class SummarizeArticles:
                                 2. Write a dense summary, keeping it approximately 200 words long.
 
                                 Guidelines & Characteristics of the summary:
-                                - Relevant to the main article.
-                                - True to the article's content.
+                                - Relevant and true to the main article and it's content.
                                 - Make sure your summaries are self-contained and clear without needing the article.
                                 - Ensure the summary does not contain any irrelevant content, information or characters.
+
+                                Ensure you handle the following special situations you may encounter while summarizing:
+                                
+                                Situation 1:
+                                - Some articles only preview a few sentences and the rest will be hidden behind a paywall.
+                                - Such cases would be abvious as the article would be incomplete.
+                                - In those cases, Your response should exactly be "incomplete article unable to summarize" with no additional words or punctutations.
+
+                                Situation 2:
+                                - Sometimes some articles would be status updates on some logistics or operations regarding the substack of the writer
+                                - In those cases, Your response should exactly be "not relevant unable to summarize" with no additional words or punctutations.
+                                
+                                Situation 3:
+                                - If for any reason you are not able to generate a summary, Your response should exactly be "unable to summarize" with no additional words or punctutations.
                                 """
                             },
                             {"role": "user", "content": f"This is the article that you have to summarize: {content}"}
@@ -73,12 +87,11 @@ class SummarizeArticles:
                 temperature=0,
                 request_timeout=30
             )
-                                # 3. If the content I feed to you is not an article and is instead an update on logistics, DO NOT SUMMARIZE IT. Just print "Not relevant".
-                                # 4. Double check that you don't wrongly misclassify an article as an update on logistics.
+
             summary = response["choices"][0]["message"]["content"]
             # print(f"Summary: \n{summary}\n")
             number = 1
-            if "not relevant" in summary.lower():
+            if "unable to summarize" in summary.lower():
                 number = 2
         except openai.error.InvalidRequestError as e:
             if "maximum context length" in str(e):
