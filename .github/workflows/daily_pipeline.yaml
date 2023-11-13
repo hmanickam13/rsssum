@@ -26,6 +26,9 @@ jobs:
         SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
         FROM_EMAIL: ${{ secrets.FROM_EMAIL }}
         TO_EMAIL: ${{ secrets.TO_EMAIL }}
+        WORDPRESS_USER: ${{ secrets.WORDPRESS_USER }}
+        WP_USER_PASS: ${{ secrets.WP_USER_PASS }}
+        WP_API_URL: ${{ secrets.WP_API_URL }}
     - name: Commit and Push
       run: |
         # Configure git
