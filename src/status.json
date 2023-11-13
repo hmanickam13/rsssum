@@ -19,6 +19,15 @@
             "summarized_but_not_relevant": 55,
             "token_limit_exceeded": 0,
             "summary_attempts_limit_exceeded": 0
+        },
+        "GenerateHTML": {
+            "status": "Success",
+            "new_summaries_today": 115,
+            "last_10_days_summaries_counter": 202,
+            "added_to_wordpress": 202,
+            "could_not_add_to_wordpress": 0,
+            "deleted_from_wordpress": 0,
+            "could_not_delete_from_wordpress": 0
         }
     },
     "2023-11-12": {
