@@ -1,5 +1,347 @@
 [
     {
+        "feed_id": 302,
+        "article_id": 8,
+        "title": "Substack Reads: The reluctant rom-com queen, and sunset at the Holestone",
+        "guid": "https://read.substack.com/p/substack-reads-71",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article is a collection of various pieces from Substack writers. It includes a discussion on Peter Thiel's views on the apocalypse, Meg Ryan's career in rom-coms, the impact of algorithms on mental health, humanist thought, the charm of Siskel & Ebert, Adam Silver's regrets, a recipe for mile-high apple pie, a personal letter, and the Holestone of County Antrim. The article also introduces new podcasts and newsletters on Substack."
+    },
+    {
+        "feed_id": 295,
+        "article_id": 32,
+        "title": "Opportunities in Emerging, Frontier Markets (Full Episode + Transcript + Photo Gallery)",
+        "guid": "https://contrarianpod.substack.com/p/opportunities-in-emerging-frontier",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "Kevin T. Carter, founder and chief investment officer of EMQQ Global, shares insights on emerging and frontier market stocks in a recent podcast. He emphasizes the importance of focusing on individual stocks rather than indexes for finding real opportunities. The full recording of the podcast is available for premium subscribers."
+    },
+    {
+        "feed_id": 294,
+        "article_id": 6,
+        "title": "Oil's Sell-off and Our Business Decision",
+        "guid": "https://openinsights.substack.com/p/oils-sell-off-and-our-business-decision",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the author's experience playing a 2 v 2 basketball game and draws parallels to the decision-making process in trading commodities. The author emphasizes the need for strategic thinking and making \"business decisions\" in both scenarios. The article highlights the importance of understanding opponents' weaknesses and playing to one's strengths. It also delves into the current state of the oil market, emphasizing the significance of inventory levels and the impact of geopolitical factors on prices. The author concludes by emphasizing the need for strategic decision-making and the potential impact of external forces on market dynamics."
+    },
+    {
+        "feed_id": 276,
+        "article_id": 10,
+        "title": "When There is Actionable, Lifesaving Genetic Information",
+        "guid": "https://erictopol.substack.com/p/when-there-is-actionable-lifesaving",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the findings of a study on the impact of pathogenic or likely pathogenic variants in cancer genes on lifespan. The study revealed that individuals with these variants had a higher mortality rate by the age of 65 compared to those without the variants. The report from Iceland, which included data from over 58,000 people, established a link between genomic data and lifespan, identifying specific gene variants associated with reduced lifespan. The study also identified additional genes linked to various health conditions, such as kidney disease, blood clotting, and cardiomyopathy. The implications of the study highlight the potential for genome sequencing to uncover actionable variants that can significantly impact lifespan. The article raises concerns about the lack of data sharing with individuals who may unknowingly harbor medically important variants and emphasizes the need for broader access to genomic information that can be potentially lifesaving. The study's findings suggest that the cost of obtaining such information should no longer be a barrier, especially as genome sequencing becomes more affordable. The article also questions the ethical implications of withholding potentially life-altering genomic data from individuals who have undergone sequencing."
+    },
+    {
+        "feed_id": 273,
+        "article_id": 20,
+        "title": "The Digest #175",
+        "guid": "https://rationalwalk.substack.com/p/the-digest-175",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the historical use of pseudonyms in writing, citing Benjamin Franklin's pen name \"Silence Dogood\" and the use of pen names during the American Revolution. It also addresses the contemporary debate around anonymity on social media, with Nikki Haley advocating for revealing users' identities. The article highlights the irony of this stance given the historical use of pseudonyms in the debate over the Constitution. The article also briefly mentions investment reports and other substack updates. The piece emphasizes the importance of free speech and the historical context of pseudonymous writing, while also touching on contemporary political debates and investment insights."
+    },
+    {
+        "feed_id": 262,
+        "article_id": 6,
+        "title": "Liu Heung Shing, a Pulitzer winning photojournalist, speaking to my MA class at HKBU",
+        "guid": "https://wangxiangwei.substack.com/p/liu-heung-shing-a-pulitzer-winning",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the visit of Pulitzer-winning photojournalist Liu Heung Shing to Hong Kong Baptist University, where he shared his experiences and showcased his work capturing pivotal moments in China's rise and the collapse of the Soviet Union. He discussed his new project, which involves traveling the world over three years to document the impact of China's Belt and Road Initiative in over 150 countries. Liu's career spans Beijing, Los Angeles, New Delhi, Seoul, and Moscow, and he has received accolades for his coverage of events like the 1989 Tiananmen Square protests and the dissolution of the Soviet Union. Now 72, he continues to pursue ambitious projects."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 36,
+        "title": "Woodside Summit and the San Francisco Vision; Fentanyl; Real Estate; Applied Materials and SMIC",
+        "guid": "https://sinocism.com/p/woodside-summit-and-the-san-francisco",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "President Biden concluded that progress was made after meeting with Xi Jinping at the \"Woodside Summit.\" The PRC introduced the \"San Francisco Vision \u65e7\u91d1\u5c71\u613f\u666f,\" which includes five pillars. The US emphasized competition in its readout, while the PRC agreed to include \"responsibly managing competitive aspects of the relationship.\" The meeting also resulted in an agreement to restart coordination on cracking down on Fentanyl-related issues. Specific outcomes include talks on AI, counter-narcotics cooperation, and military communication. Both countries also agreed to increase scheduled passenger flights and expand exchanges. The People\u2019s Daily front page focused on Xi\u2019s visit, suggesting a potential period of relative calm in the US-China relationship, albeit likely a tactical stabilization."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 18,
+        "title": "Myanmar, Israel-Palestine, Malawi.",
+        "guid": "https://proximities.substack.com/p/myanmar-israel-palestine-malawi",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "The article is a collection of updates on various global events. In Myanmar, the civil war intensifies as the government faces heavy assaults and rebel groups claim control of towns and military outposts. In Israel-Palestine, Airwars reports an estimated 126-136 civilians, including 69 children, were killed in Israel's bombing of the Jabalia refugee camp in Gaza. Additionally, 12-24 Hamas members were estimated to have been killed. In Malawi, President Lazarus Chakwera has imposed a travel ban on himself and officials until March 2024 due to the country's economic struggles and cost-of-living crisis. This ban is part of a series of measures to address the crisis."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 17,
+        "title": "Liberia, Israel-Palestine, Argentina.",
+        "guid": "https://proximities.substack.com/p/liberia-israel-palestine-argentina",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "Liberia's President George Weah has gracefully accepted defeat in a closely contested election, marking a rare peaceful transfer of power in a region known for military coups. Weah, a former football star, was beaten by 78-year-old Joseph Boakai, whom he had previously defeated in 2017. Meanwhile, Gaza's al-Shifa hospital is being evacuated after being bombed and raided, with only a few doctors left to care for immobile patients. In Argentina, voters face a stark choice between establishment candidate Sergio Massa and right-wing outsider Javier Milie in the upcoming presidential election run-off. Polls indicate a tightening gap between the two candidates."
+    },
+    {
+        "feed_id": 242,
+        "article_id": 8,
+        "title": "Weekly S&P500 ChartStorm - 19 November 2023",
+        "guid": "https://www.chartstorm.info/p/weekly-s-and-p500-chartstorm-19-november",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the latest Weekly S&P500 #ChartStorm, highlighting the ongoing rebound in the market, potential for a higher path, decrease in Real Estate sector's share in S&P500, and the possibility of bonds gaining advantage over stocks due to the Fed peak. It also emphasizes the broadening rally, positive seasonality, and historical analogs. The article raises concerns about market concentration, roundnumberitis risk, and uncomfortable macro murmurings. It also notes extreme pessimism in real estate sentiment and the potential impact of the end of the rate hiking cycle on stock performance. Overall, the article provides insights into the current market trends and potential future scenarios."
+    },
+    {
+        "feed_id": 228,
+        "article_id": 18,
+        "title": "It\u2019s A Great Time to Be Alive: Opportunity is Everywhere",
+        "guid": "https://hardfork.substack.com/p/its-a-great-time-to-be-alive-opportunity",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the current global challenges such as war, recession, and job loss, but also highlights the opportunities for those who are adaptable and innovative. It emphasizes the potential for adventurous risk-takers to make significant progress amidst the chaos. The author encourages leveraging emerging technologies and marketing tools, as well as accessing knowledge through online resources. The message is to not be overly influenced by negative media headlines, but to recognize personal agency and the potential to contribute positively to the world. The article promotes the idea that providing genuine value and being of service to others can lead to both financial and spiritual rewards."
+    },
+    {
+        "feed_id": 216,
+        "article_id": 9,
+        "title": "Animal Spirits (Part 2)",
+        "guid": "https://www.nexteconomy.co/p/animal-spirits-part-2",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the recent US CPI release and its impact on the equity market. It highlights the disinflationary trend expected in the coming quarter(s) due to factors such as real-time rents, economic momentum, and the potential impact on the Fed's interest rates. The article also delves into the positioning of equity long-short hedge funds and the potential for a short squeeze in beaten-down sectors. It emphasizes the market's indication of a soft landing for the economy, driven by demographic changes and fiscal stimulus. The author outlines their investment strategy, focusing on high beta, out-of-favor areas within equities, and the potential for substantial sector squeezing. The article concludes by emphasizing the need for vigilance and data observation in the face of potential recession risks."
+    },
+    {
+        "feed_id": 215,
+        "article_id": 6,
+        "title": "Slicing and Dicing",
+        "guid": "https://www.netinterest.co/p/slicing-and-dicing",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the shift in the mortgage securitisation business, particularly focusing on Merrill Lynch's expansion into subprime mortgages and the subsequent acquisition of First Franklin. It also highlights the adoption of the \"originate to distribute\" model by other banks, which ultimately led to the collapse of the subprime mortgage market. The piece then transitions to Apollo Global Management's platform origination strategy, detailing its expansion into various asset origination businesses. The firm aims to originate $45 billion of loans this year, with a forecasted growth to $75 billion in the next two to three years. The article raises questions about the sustainability of Apollo's model and its potential to create a deconstructed bank within its operations."
+    },
+    {
+        "feed_id": 205,
+        "article_id": 6,
+        "title": "Zeke Faux talks \"Number Go Up\" at the Pen & Pencil Club",
+        "guid": "https://thedig.substack.com/p/zeke-faux-talks-number-go-up-at-the",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the author's new appearance due to health issues and her recent interview with investigative reporter Zeke Faux. The interview covered various topics, including a proposed journalism startup, comparisons between Zeke's book and Michael Lewis' book, and the issue of Tether's lack of a full financial statement audit. The conversation also delved into the involvement of cryptocurrency companies in Tether, potential money laundering and capital flight, and the reasons behind crypto scams. The author expresses gratitude to the supporters and mentions upcoming events."
+    },
+    {
+        "feed_id": 195,
+        "article_id": 8,
+        "title": "Problems at Axos Financial (AX)",
+        "guid": "https://thebearcave.substack.com/p/problems-at-axos-financial-ax",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses Axos Financial, a technology-driven financial services company, and its performance in the banking industry. The company has faced criticism from short-sellers regarding its culture, loan portfolio, and involvement in crypto ventures. Various research publications have highlighted risks related to the bank's valuation, prepaid card business, and exposure to high-risk foreign nationals. Additionally, there are concerns about Axos's involvement with crypto-exchange Binance U.S. and its regulatory scrutiny. The company's CEO, Greg Garrabrants, has commented on the regulatory landscape for U.S. banks and digital asset companies, indicating a shift in the company's approach. Axos has also ventured into the crypto banking business, launching a stablecoin currency, payment network, and hiring a Digital Asset Vice President from Silvergate. The Bear Cave believes that Axos's appetite for higher-risk business extends beyond its crypto ventures, particularly in its wholesale portfolio lending."
+    },
+    {
+        "feed_id": 189,
+        "article_id": 12,
+        "title": "The Other Strategic Reserve",
+        "guid": "https://doomberg.substack.com/p/the-other-strategic-reserve",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the controversial ideas of Thomas Gold, an astrophysicist, who proposed that life on Earth originated miles below the surface and that methane is primordial, existing deep within the earth. Gold's \"abiotic\" hypothesis of oil, suggesting that oil is not derived from fossils, is also highlighted. The article delves into the association of helium with hydrocarbons, which Gold used as evidence for the abiotic origin of oil. Despite modern geologists and petroleum engineers dismissing Gold's views, the article emphasizes the significance of helium, a commodity produced as a byproduct of hydrocarbon extraction, and the surprising events unfolding in the helium market. It points to a puzzling series of events involving a decades-old legislation draining the world's largest strategic reserve of helium and the potential ceding of market power over it to geopolitical foes."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 23,
+        "title": "100 Years Ago Today: The End of German Hyperinflation",
+        "guid": "https://quoththeraven.substack.com/p/100-years-ago-today-the-end-of-german",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the hyperinflation in the Weimar Republic in 1923, highlighting the events leading to the issuance of the Rentenmark and the end of hyperinflation. It explains the economic and political challenges faced by the Weimar Republic, the role of the Reichsbank in printing money, and the impact of hyperinflation on unemployment and the population. The article emphasizes the man-made nature of the hyperinflation and draws lessons on the unreliability of politically independent central banks and the disruptive nature of fiat paper money. It also discusses the need for monetary reform in the current economic scenario. The author, Dr. Thorsten Polleit, provides insights into the historical events and their implications, drawing parallels to contemporary economic challenges."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 48,
+        "title": "Where is Anwar taking Malaysia?",
+        "guid": "https://www.asiasentinel.com/p/where-anwar-ibrahim-taking-malaysia",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "Malaysian Prime Minister Anwar Ibrahim, once seen as a liberal figure, has shifted towards doctrinaire Islam, causing internal strife with his Pakatan Harapan partners. He has made numerous international trips but has neglected domestic issues. Anwar's support for Hamas and the implementation of Palestine Solidarity Week in schools has raised concerns. His alliance with PAS and potential coalition changes have sparked speculation. The US has urged Malaysia to reverse its support for Hamas, leading to potential sanctions. Anwar's actions have caused unease among coalition parties and citizens, with concerns about the direction of the government and potential betrayal. The article also highlights the strained relationship between Anwar and Sultan Ibrahim Sultan Iskandar, as well as the controversial presence of preacher Zakir Naik in Malaysia."
+    },
+    {
+        "feed_id": 167,
+        "article_id": 34,
+        "title": "South County Weekend",
+        "guid": "https://www.thelundloop.com/p/south-county-weekend",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "La Jolla, a sun-drenched sanctuary in Southern California, is a haven for wanderers and dreamers. It is known for attracting the well-heeled and well-tanned, offering a slice of paradise with the Pacific Ocean stretching out like a shimmering carpet."
+    },
+    {
+        "feed_id": 158,
+        "article_id": 16,
+        "title": "Thoughts on AI and Thoughts on Middle East Conflict",
+        "guid": "https://vitaliy.substack.com/p/thoughts-on-ai-and-thoughts-on-middle",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the ongoing conflict between Israel and Hamas, highlighting the author's efforts to raise funds for Israel and provide insights into the complexity of the situation. The author emphasizes the need for education and understanding, offering recommendations for videos to gain a nuanced perspective. Additionally, the article delves into the impact of AI on jobs and society, drawing parallels with historical technological disruptions. The author also shares thoughts on AI's creative output and its role in writing. The article concludes with a summary of the documentary \"The Return of the Violin,\" which tells the remarkable story of a stolen Stradivarius violin. The article also features performances of Brahms' Violin Concerto and provides information about the author's professional background."
+    },
+    {
+        "feed_id": 125,
+        "article_id": 17,
+        "title": "Weekend thoughts: net cash in a rising rate world",
+        "guid": "https://www.yetanothervalueblog.com/p/weekend-thoughts-net-cash-in-a-rising",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses companies with significant net cash positions on their balance sheets, attributing this to various corporate actions or business outcomes. It highlights two types of such companies: those with corporate governance concerns, and those with a viable business but a large cash component in their market cap. The author argues that having a substantial cash balance is inefficient due to tax implications, management bonuses, and its impact on shareholder returns. They emphasize that a large cash balance can hinder returns and advocate for companies to return excess cash to shareholders or invest it wisely. The article cautions against viewing interest on cash balances as a source of upside, asserting that such balances are inefficient and can drag down returns. The author advises investors to carefully consider the valuation and management's plans before investing in companies with significant net cash balances."
+    },
+    {
+        "feed_id": 112,
+        "article_id": 8,
+        "title": "Got Yen, Got US Equities",
+        "guid": "https://gordianknot.substack.com/p/got-yen-got-us-equities",
+        "published_date": "2023-11-19",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the potential impact of the Bank of Japan's decision on Yield Curve Control (YCC) and inflation outlook on global markets. It also highlights the current bullish stance on bonds despite weak data. The article provides a summary of charts and technical outlooks for various financial indicators, including JGB yields, USDJPY, EURJPY, GBPJPY, TOPIX and TOPIX Banks Indices, S&P Futures, Nasdaq 100 Futures, NASDAQ 100 A/D, and Russell 2000. Key points include the resistance and support levels for these indicators, as well as the potential implications for Japanese and US bonds, Japanese stocks, and the US yield curve. The overall technical outlook suggests a bearish trend in the short term for various financial indicators."
+    },
+    {
+        "feed_id": 106,
+        "article_id": 8,
+        "title": "How to avoid losing money",
+        "guid": "https://behindthebalancesheet.substack.com/p/how-to-avoid-losing-money",
+        "published_date": "2023-11-19",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the book \"What I Learned About Investing from Darwin\" by Pulak Prasad, which emphasizes the importance of avoiding investment losses. Prasad's philosophy aligns with Sebastian Lyon's approach, both focusing on quality investments. The author explains Type 1 and Type 2 investment errors and illustrates how avoiding losers has a greater impact on an investor's hit rate than identifying winners. The article emphasizes the significance of loss avoidance in investment strategies and suggests that spending time on narrowing down a universe of high-quality stocks is crucial. The author contemplates the idea of publishing a global stock universe newsletter for readers. The article concludes with a mention of the Sohn Conference and a book recommendation."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 23,
+        "title": "The Roaring 20s are back on track",
+        "guid": "https://www.noahpinion.blog/p/the-roaring-20s-are-back-on-track",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the resurgence of the \"Roaring 20s\" economic optimism, highlighting recent productivity growth, falling inflation, and technological advancements. It notes a rapid increase in labor productivity, leading to full employment and potential wage growth without stoking inflation. The article attributes this to factors such as remote work, cheaper oil, and the success of MRNA vaccines. It also emphasizes the impact of technologies like solar power, batteries, and AI on corporate investment and future economic growth. Despite prevailing pessimism, the author anticipates a promising future, driven by technological advancements and economic improvements."
+    },
+    {
+        "feed_id": 97,
+        "article_id": 3,
+        "title": "Elon Musk is Above the Law",
+        "guid": "https://blog.esghound.com/p/elon-musk-is-above-the-law",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses Elon Musk's alleged repeated violations of laws and regulations, highlighting instances such as market manipulation, union harassment, animal cruelty, environmental violations, and more. It also delves into SpaceX's alleged violation of the Clean Water Act and the FAA's approval of its launch license. The author criticizes regulatory leniency towards Musk and his companies, questioning the implications of such behavior. Additionally, it touches on Musk's business performance, Twitter controversies, and his alleged alignment with fascist ideologies. The article concludes with a pessimistic outlook on the likelihood of Musk facing consequences for his actions."
+    },
+    {
+        "feed_id": 97,
+        "article_id": 2,
+        "title": "Will Starship Flop or Fly Tomorrow?",
+        "guid": "https://blog.esghound.com/p/will-starship-flop-or-fly-tomorrow",
+        "published_date": "2023-11-18",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the author's prediction for SpaceX's upcoming launch, highlighting concerns about safety and environmental impact. The author criticizes SpaceX's safety measures, particularly the use of a water-cooled steel pad, and questions the company's risk management approach. They express uncertainty about the launch's success and emphasize the potential risks involved. The article also touches on the inadequate environmental impact study for SpaceX's launch site. Overall, the author's prediction for the launch is cautious, expressing doubts about the safety and success of the mission."
+    },
+    {
+        "feed_id": 95,
+        "article_id": 4,
+        "title": "Dream Finders Home Exploratory Report",
+        "guid": "https://speedwellsnippets.substack.com/p/dream-finders-home-exploratory-report",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses Dream Finders Home, a capital-light homebuilder, and its founder, Patrick Zalupski. It outlines the company's history, business model, industry dynamics, and financial performance. Dream Finders Home focuses on affordable housing and has experienced rapid growth through acquisitions and expansion into new markets. The company follows a capital-light strategy, similar to NVR, and operates in six homebuilding segments. It also offers mortgage and title insurance services. The article highlights the challenges and opportunities in the homebuilding industry, emphasizing the need for more housing in the US and the impact of interest rates on home sales. It compares Dream Finders Home with NVR, discussing their business models, operational efficiency, and financial performance. The article concludes with an overview of historical financials, valuation, and the company's future prospects."
+    },
+    {
+        "feed_id": 90,
+        "article_id": 2,
+        "title": "Did Ko betray himself?",
+        "guid": "https://taipology.substack.com/p/did-ko-betray-himself",
+        "published_date": "2023-11-16",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses former Taipei mayor Ko Wen-je's unexpected alliance with KMT candidate Hou You-yi, brokered by former president Ma Ying-jeou. Despite Ko's initial insistence on determining the top candidate through polls, he made concessions favoring Hou. This move has caused disappointment and anger among Ko's supporters, who feel he compromised his independence and the Taiwan People\u2019s Party's insurgent image. The alliance has led to differing reactions from the Blue and White camps, with some vowing not to support a unity ticket with Hou at the top. Ko's intense press conference after the decision revealed his immense pressure and emotional turmoil. The alliance has also impacted Lai Ching-te, Ko's political rival, who now faces a united opposition. Despite the disappointment in Ko's decision, it is suggested that by keeping the possibility of victory alive through this alliance, Ko may have made a strategic move in the art of politics."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 68,
+        "title": "Malaysia\u2019s clandestine censorship and suppression of free speech",
+        "guid": "https://murrayhunter.substack.com/p/malaysias-clandestine-censorship",
+        "published_date": "2023-11-19",
+        "summarized_date": "2023-11-19",
+        "summary": "Malaysia's significant leap of 40 places on the World Press Freedom Index was celebrated by the Communication and Multimedia Minister, Fahmi Fadzil, under the new Anwar Ibrahim government. However, despite this progress, there are concerns about media freedom. The government has warned against discussing sensitive topics such as race, religion, and royalty, leading to self-censorship among news portals. Additionally, several activists and news portals addressing corruption issues have faced legal threats from corporations, resulting in self-censorship and secret agreements. Furthermore, the Malaysian Communications and Multimedia Commission has been accused of blocking various online news portals and bloggers, with the government collaborating with social media platforms to enforce censorship. The recent revocation of press passes for journalists covering the national parliament has also raised concerns about media repression. These developments indicate a return to the censorship practices of past administrations, suggesting that Malaysia's improved press freedom ranking may be short-lived."
+    },
+    {
+        "feed_id": 67,
+        "article_id": 8,
+        "title": "460: Tencent's GPU Hoard, Microsoft's Maia, Amazon to Sell Cars, SpaceX IPO?, Huawei vs Nvidia, DeepMind\u2019s Lyria, and The Abyss",
+        "guid": "https://www.libertyrpf.com/p/460-tencents-gpu-hoard-microsofts",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the concept of solera in the context of Scotch whisky and explores its potential application in other areas such as fuel tanks, batteries, and industrial processes. It also delves into the equation of interestingness, agency, and money, and the strategic challenges facing Ukraine in its conflict with Russia. Additionally, it touches upon Tencent's stockpile of Nvidia GPUs and the impact of the US chip ban. The article concludes with a discussion on CEOs praising their competitors and Amazon's decision to allow auto dealers to sell cars, starting with Hyundai."
+    },
+    {
+        "feed_id": 64,
+        "article_id": 19,
+        "title": "Flood-Prone Basement Housing in New York City and the Impact on Low- and Moderate-Income Renters",
+        "guid": "https://libertystreeteconomics.newyorkfed.org/?p=26342",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the impact of Hurricane Ida on basement housing in New York City, particularly on low-income and immigrant populations. It highlights the vulnerability of basement dwellings to flooding and the increased risk faced by low-income renters. The analysis combines data from FEMA and the First Street Foundation to identify flood-prone areas and assess the potential impact on basement housing. The article estimates that approximately 10% of low-income and immigrant New Yorkers are affected by flood risk. It also emphasizes the importance of considering the vulnerability of these populations in assessing viable basement housing stock. The authors introduce new data to estimate flood risk to basement apartments and emphasize the need to account for both inland and coastal flooding. The article concludes by highlighting the upcoming report on flood risk and basement housing in New York City to be released by the New York Fed\u2019s Community Development & Outreach Group."
+    },
+    {
+        "feed_id": 60,
+        "article_id": 16,
+        "title": "Book Review: I See Satan Fall Like Lightning",
+        "guid": "https://www.astralcodexten.com/p/book-review-i-saw-satan-fall-like",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses Rene Girard's book \"I See Satan Fall Like Lightning,\" which explores the concept of the single-victim process, where societies unite against a victim to relieve tension and found civilization. Girard contrasts pagan myths, which support this process, with the Bible, which opposes it. He argues that Christianity's focus on victims led to the rise of wokeness, excessive concern for victims, and the potential for totalitarianism. However, the author expresses skepticism about Girard's theory, citing examples that do not fit the single-victim process and questioning the link between Christianity and wokeness. The article concludes with a discussion of Girard's struggle to reconcile his conservative Christian beliefs with the implications of wokeness, ultimately highlighting the complexity and lack of a clear solution in addressing modern victimization."
+    },
+    {
+        "feed_id": 59,
+        "article_id": 7,
+        "title": "Is the Age of Deprivation Coming to a Close?",
+        "guid": "https://www.yesigiveafig.com/p/is-the-age-of-deprivation-coming",
+        "published_date": "2023-11-19",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the strong correlation between wealth and energy use, emphasizing the need for increased energy consumption for future material comfort. It critiques the slow progress in developing efficient energy sources and advocates for nuclear power as a solution due to its higher energy density. The article highlights the stagnation of true innovation in the energy field and the need for a more informed public dialogue on energy solutions. It also criticizes the focus on marginal improvements in energy products and the reluctance to embrace nuclear energy. The author emphasizes the importance of embracing exponential improvement in energy solutions and the need for more energy to achieve greater material comfort. The article advocates for a shift towards nuclear power and highlights its potential benefits in various sectors. It also criticizes the current approach to energy transition and the absence of nuclear power as a solution. The article concludes by highlighting the political and societal reluctance to embrace nuclear energy and the need for change in government policies."
+    },
+    {
+        "feed_id": 52,
+        "article_id": 16,
+        "title": "Covered Calls: The Ultimate Guide",
+        "guid": "https://www.canadiandividendinvesting.com/p/covered-calls-the-ultimate-guide",
+        "published_date": "2023-11-19",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the author's feelings of being out of touch with modern society and the investing world due to his preference for high-quality dividend stocks. It explores the strategy of selling covered calls as a means of generating income and the potential benefits and drawbacks of this approach. The covered call strategy involves selling call options on stocks already owned, creating an obligation to sell shares at a certain price. The article highlights the income potential and extra support during market downturns but also emphasizes the trade-off between immediate income and potential future gains. The author ultimately decides to refrain from implementing a covered call strategy due to the effort involved and the reluctance to give up potential upside. The article concludes with the author's vacation in Japan and hints at upcoming changes to the newsletter."
+    },
+    {
+        "feed_id": 50,
+        "article_id": 9,
+        "title": "Alibaba's Reorg Hot Mess",
+        "guid": "https://interconnect.substack.com/p/alibabas-reorg-hot-mess",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "Alibaba's \"1+6+n\" corporate reorg, aiming to break up the company into a single holding entity with six semi-independent businesses, has faced significant challenges. The reorg led to leadership changes, IPO delays, and the cancellation of AliCloud's spinoff. The cancellation was attributed to U.S. export restrictions on advanced computing chips, but it's also seen as a result of financial engineering gone wrong. Alibaba is now navigating an identity crisis, balancing growth and shareholder value narratives, evident in its decision to issue dividends while emphasizing the need for more investments. The company holds a substantial cash reserve, but it's unclear how it will be utilized. These developments have prompted a reassessment of Alibaba's prospects."
+    },
+    {
+        "feed_id": 48,
+        "article_id": 8,
+        "title": "Tamburi",
+        "guid": "https://filpasini.substack.com/p/tamburi",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the financial performance and strategic moves of TIP, Eataly, and Alpitour. TIP's positive financial results for the first 9 months of 2023, including a significant increase in net worth and strategic investments, are highlighted. Eataly's reconstruction journey and the positive performance of its affiliates are also mentioned. Additionally, Alpitour's remarkable growth and positive prospects in the tourism sector are emphasized, along with its strategic exit from TIP. The article also briefly touches on global economic trends, including the expected absence of a recession in 2023 and the potential impact of high interest rates on businesses. Overall, the article provides insights into the financial and operational developments of these companies and their future outlook."
+    },
+    {
+        "feed_id": 48,
+        "article_id": 7,
+        "title": "Riassunto settimanale 19/11/2023",
+        "guid": "https://filpasini.substack.com/p/riassunto-settimanale-19112023",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the investor sentiment towards a soft landing for the US economy, supported by lower-than-expected inflation and retail sales data. The market anticipates further rate cuts by the Fed, while Pimco's CIO, Daniel Ivascyn, remains cautious about inflation. The Biden-Xi meeting resulted in cooperation on drug control and AI governance, but unresolved issues persist, particularly regarding Taiwan. The BofA Global Fund Manager Survey indicates investor expectations for lower inflation, interest rates, and bond yields in 2024. Geopolitical tensions, particularly in the Middle East and the Russia-Ukraine conflict, are identified as the main risk for investors. Additionally, the article provides insights into the macroeconomic outlook for the US, Eurozone, Germany, and Italy, along with retail sales data and luxury sector performance. The upcoming macroeconomic calendar for November 20-25 is also highlighted."
+    },
+    {
+        "feed_id": 8,
+        "article_id": 19,
+        "title": "Flood-Prone Basement Housing in New York City and the Impact on Low- and Moderate-Income Renters",
+        "guid": "https://libertystreeteconomics.newyorkfed.org/?p=26342",
+        "published_date": "2023-11-17",
+        "summarized_date": "2023-11-19",
+        "summary": "The article discusses the impact of Hurricane Ida on basement housing in New York City, particularly on low-income and immigrant populations. It highlights the vulnerability of basement dwellings to flooding and analyzes the flood risk and housing stock in relation to low-income renters. The study combines data from FEMA and the First Street Foundation to identify flood-prone areas and assesses the implications for low-income renters. The article estimates the number of basement units vulnerable to flooding and emphasizes the importance of considering the impact of extreme events on vulnerable populations. The authors stress the need to account for both inland and coastal flooding in assessing viable basement housing stock. The study concludes by highlighting the potential impact on roughly 10 percent of low-income individuals, immigrants, and racial and ethnic minorities. The authors also mention an upcoming report on flood risk and basement housing in New York City to be released by the New York Fed\u2019s Community Development & Outreach Group."
+    },
+    {
         "feed_id": 285,
         "article_id": 7,
         "title": "Semiconductor Cycles: Industrial and EVs",
