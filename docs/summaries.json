@@ -1,5 +1,212 @@
 [
     {
+        "feed_id": 273,
+        "article_id": 26,
+        "title": "Soldier On",
+        "guid": "https://newsletter.rationalwalk.com/p/soldier-on",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses Charlie Munger's final interview before his death, where he candidly shared personal experiences and wisdom. Munger emphasized the importance of soldiering through hardships and recognizing rare opportunities. He reflected on the loss of his son and the significance of independence and rationality. The article draws parallels with Viktor Frankl's philosophy on finding meaning in life, even in extreme circumstances. Munger's regret about not amassing more wealth is interpreted as a desire to serve as an example for others, rather than a pursuit of personal wealth. The article concludes with Munger's emphasis on soldiering through tough times and his appreciation for civilization's progress in medical advancements."
+    },
+    {
+        "feed_id": 268,
+        "article_id": 10,
+        "title": "Shein\u2019s blockbuster IPO is coming soon\u2014expect $100B+ valuation",
+        "guid": "https://www.asiatechreview.com/p/sheins-blockbuster-ipo-is-coming",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "Shein, a fast-fashion e-commerce company, is reportedly filing for a blockbuster IPO in the US, aiming for a valuation well above $100B. The company's financial performance, including $23B in revenue and $800M in net profit in 2022, will be under scrutiny. Meanwhile, Huawei's China-only chip, the Kirin 9000S, has surprised the world with its performance despite US sanctions. Alibaba's cloud unit, valued at $40B, has aborted its IPO due to concerns about its growth and profitability. Additionally, the article covers ByteDance's plans to wind down its Nuverse gaming brand, Nvidia CEO's remarks on US chip supply chain independence, and various tech developments in India and Southeast Asia. The newsletter also includes updates on companies such as Amazon India, Binance, and TikTok in different Asian markets."
+    },
+    {
+        "feed_id": 264,
+        "article_id": 22,
+        "title": "\ud83c\uddf5\ud83c\udded Church blast kills at least four in throwback to Marawi's darkest days",
+        "guid": "https://darimulut.substack.com/p/church-blast-kills-at-least-four",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses recent events in the Philippines, including a church bombing in Marawi City, an update on the ICC investigation and peace talks with the New People\u2019s Army. The bombing, attributed to foreign terrorists, resulted in casualties and heightened security measures. Additionally, it covers former President Duterte's legal issues and the potential resumption of the ICC investigation under the current administration. The article also touches on the renewed peace talks with the New People\u2019s Army, highlighting differing opinions within the government. The political dynamics between the Marcos and Duterte factions are emphasized, with a focus on President Marcos' approach. The article provides insights into the complex and evolving situation in the Philippines."
+    },
+    {
+        "feed_id": 262,
+        "article_id": 15,
+        "title": "For those of you who missed my latest column on SCMP, here it is: China thaw means Beijing can focus on development, not security",
+        "guid": "https://wangxiangwei.substack.com/p/for-those-of-you-who-missed-my-latest",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "President Xi Jinping and US President Joe Biden have held a summit in San Francisco, signaling a reset in US-China relations. The talks resulted in a commitment to ongoing dialogue, offering hope for improved relations. However, underlying systemic divisions remain, raising questions about the longevity of this reset. The article highlights historical instances where US-China relations were managed skillfully during critical moments. It emphasizes the need for China to strike a balance between security and development, as recent focus on security has impacted the economy. The piece underscores the importance of stabilizing US-China ties, given their significant global influence. It also stresses the need for China to prioritize economic development, drawing parallels to Deng Xiaoping's economic focus in the late 1970s. The article concludes by urging China's leadership to seize the current opportunity to recalibrate its focus towards development."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 46,
+        "title": "Xi's Shanghai tour; Lukashenko back in Beijing; EU-PRC Summit; Xinhua interviews top financial regulators",
+        "guid": "https://sinocism.com/p/xis-shanghai-tour-lukashenko-back",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "Xi Jinping visited Shanghai on an inspection tour, emphasizing the need to accelerate the city's construction of the \"five centers\" - international centers of economy, finance, trade, shipping, and science and technology innovation. He also stressed the socialist aim of common prosperity. However, the visit did not meet the high expectations set by some, as it was not seen as a significant reform and opening event akin to Deng Xiaoping's 1992 Southern Tour. Additionally, Belarus President Lukashenko made his second trip to China in 2023, meeting with Xi Jinping."
+    },
+    {
+        "feed_id": 229,
+        "article_id": 9,
+        "title": "Building Moats",
+        "guid": "https://www.investmenttalk.co/p/building-moats",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the concept of moats in investing, focusing on identifying companies in the process of building a moat. It highlights the importance of brand loyalty, customer stickiness, industry leadership, differentiation, and management execution in evaluating a company's moat potential. The author emphasizes the difficulty in finding companies developing moats and provides a framework for investors to systematically assess potential moats. The article encourages thorough research and persistence in identifying companies with future moat potential, drawing insights from successful investors like Charlie Munger. Overall, the article provides a comprehensive guide for investors seeking to identify and evaluate the moats of tomorrow."
+    },
+    {
+        "feed_id": 226,
+        "article_id": 1,
+        "title": "The Quagmire of Backtesting Alternative Data",
+        "guid": "https://dataobservatory.substack.com/p/the-quagmire-of-backtesting-alternative",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the role of alternative data in the finance industry, particularly in the context of hedge funds and backtesting. It highlights the challenges and inefficiencies in the backtesting process, despite technological advancements. The emergence of firms specializing in data scouting has facilitated the connection between data vendors and hedge funds, streamlining the data ingestion and integration process. However, the article emphasizes that while the onboarding process has become more efficient, the backtesting cycle remains time-consuming and rigorous. It explores the complexities of backtesting, including the need for personalized testing due to diverse fund strategies, and the emergence of neutral platforms offering pre-vetted data sets. The article concludes by suggesting that technological advancements and automated tools may be the key to addressing the time and trust challenges in backtesting, ultimately revolutionizing the process in hedge fund operations."
+    },
+    {
+        "feed_id": 193,
+        "article_id": 4,
+        "title": "Vital Suez Trade Route Threatened by Houthi Red Sea Attacks",
+        "guid": "https://eworld.substack.com/p/vital-suez-trade-route-threatened",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "Amid the Israel-Hamas conflict, Yemen-based Houthi militants have intensified attacks on ships in the Red Sea, including a US warship and commercial vessels. The Suez Canal, a vital trade route, accounts for 12% of global trade and 30% of world container traffic. The attacks, believed to be backed by Iran, pose a threat to international commerce and maritime security. The targeting of ships with no apparent links to Israel has raised concerns, with some vessels already diverting from the Red Sea. The attacks have implications for global trade, leading to higher insurance rates and tough decisions for shippers. The situation also impacts global shipping companies, with potential earnings weakness in 2024. The attacks come at a time when the shipping industry is already facing challenges due to decreased demand and trade volume contraction. The article highlights the potential impact on global trade and the tough decisions faced by shippers in navigating the Red Sea."
+    },
+    {
+        "feed_id": 189,
+        "article_id": 17,
+        "title": "Insane in the Methane",
+        "guid": "https://doomberg.substack.com/p/insane-in-the-methane",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the paradox of non-profit organizations, which are meant to work towards solving a specific issue and then disband, but often perpetuate their existence for financial and professional reasons. It highlights the conflict between donors' objectives and employees' incentives. The focus then shifts to the COP28 climate summit, where 300 environmental non-profits express outrage over a pledge by oil and gas companies to cut emissions without reducing production. The article questions the environmentalists' opposition to methane abatement and the industry's proposed solutions. It raises the debate on whether the COP28 breakthrough should be celebrated or criticized."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 36,
+        "title": "the SEO list",
+        "guid": "https://pau1.substack.com/p/the-seo-list",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the concept of \"link juice\" in SEO, referring to the authority or value of a weblink. The author laments the changes made to Twitter by a new owner, affecting their resource website that showcased tweets from a list of 40 top SEO professionals. Due to the alterations, the list stopped working, prompting the author to build a new website to feature the SEO experts. The upcoming website aims to provide insights and knowledge about SEO from these experts. The article also lists the 40 SEO professionals and their respective websites. Additionally, it mentions resources for Substack SEO, including steps for gaining more subscribers and integrating Google tools."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 36,
+        "title": "The Destruction of the American Middle Class",
+        "guid": "https://quoththeraven.substack.com/p/the-destruction-of-the-american-middle",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the significant wealth disparity in the US, highlighting how the top 1% and 0.1% have experienced substantial inflation-adjusted net worth gains, while the median real annual wage has only risen by 14.5% in the last 22 years. It emphasizes the impact of the Federal Reserve's policies on wealth distribution, with the bottom 50% of workers generating only 15% of the total wage income. The piece also addresses the need for more productive investment on Main Street and less speculation on Wall Street to create middle-income jobs. The author suggests that the US economy needs to shift its focus from speculative excess to productive investment to address the widening wealth gap."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 70,
+        "title": "South Korea\u2019s Immigrant Inflows: Realities and Strategies",
+        "guid": "https://www.asiasentinel.com/p/south-korea-immigration-realities-strategies",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "South Korea is experiencing a severe demographic crisis with a significant decline in the number of babies born, dropping by 61.1 percent from 2000 to 2022. This decline is anticipated to lead to various risk factors such as reduced new labor supply, an aging workforce, and a decrease in the school-age population."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 69,
+        "title": "Hong Kong-based Reporter\u2019s Disappearance May be Linked to PLA Turmoil",
+        "guid": "https://www.asiasentinel.com/p/reporter-minnie-chan-disappearance-pla-turmoil",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The sudden disappearance of Minnie Chan, a South China Morning Post defense reporter, has raised concerns over press freedom in Hong Kong. Chan, uncontactable since her assignment to the Xiangshan forum in Beijing, has prompted international press watchdogs to call for Chinese authorities to disclose her location and ensure her safety. Her disappearance comes amidst uncertainty within the People\u2019s Liberation Army (PLA) and Chinese government, following the dismissal of defense minister Li Shangfu and a new round of military purges led by President Xi Jinping. Chan's knowledge of the PLA and her pro-China reporting may have led to her detention or questioning in mainland China. The prolonged absence of a reporter from a well-known international newspaper has drawn attention globally. Additionally, the postponement of the third plenum of the Central Committee and economic challenges in China have raised concerns about the country's political trajectory. The South China Morning Post has a history of its reporters facing issues with Chinese authorities, as seen in the case of Didi Kirsten Tatlow's detention in 2005."
+    },
+    {
+        "feed_id": 173,
+        "article_id": 16,
+        "title": "State of Affairs: Dec 5",
+        "guid": "https://yourlocalepidemiologist.substack.com/p/state-of-affairs-dec-5",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the increasing respiratory illnesses in the United States, including influenza-like illnesses, Covid-19, RSV, and flu. It highlights the exponential growth of respiratory illnesses, particularly in the South, and the impact of Covid-19, RSV, and flu on hospitalizations and deaths. The article also addresses the emergence of a highly mutated Covid-19 variant, JN.1, and its potential impact on the upcoming peak in late December. Additionally, it mentions the increasing RSV cases, flu infections, and other respiratory viruses like norovirus and pneumonia. The author emphasizes the importance of getting vaccinated and taking protective measures during the holiday season. The article is written by Dr. Katelyn Jetelina, an epidemiologist, and consultant to the CDC."
+    },
+    {
+        "feed_id": 157,
+        "article_id": 7,
+        "title": "Golden Brown \ud83d\udca9",
+        "guid": "https://www.thenewfatherhood.org/p/golden-brown",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the challenges and experiences of fatherhood, particularly focusing on the aspect of dealing with children's excrement. It reflects on the evolving role of fathers and the emotional journey of parenting, emphasizing the need for support and understanding. The author also shares insights on male mental health and provides recommendations for further reading on related topics. The piece concludes with a reflection on the impact of the pandemic on spiritual matters and personal growth. Throughout the article, the author maintains a candid and relatable tone, engaging with the readers on a personal level."
+    },
+    {
+        "feed_id": 124,
+        "article_id": 5,
+        "title": "\u270d\ufe0f Research and General Tools That I Use",
+        "guid": "https://maverickequityresearch.substack.com/p/research-and-general-tools-that-i",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the author's experience with various high-end research and analytics tools used in banking, brokerage, and investment funds. The author recommends Koyfin and FinChat as valuable platforms for investment research, offering discounts on premium plans. Both platforms are praised for their features and institutional-level quality. The author also mentions exploring macro, exclusive databases, and niche tools, with plans to update the post with new findings. The article concludes with an invitation for product recommendations and user experiences."
+    },
+    {
+        "feed_id": 112,
+        "article_id": 11,
+        "title": "A Perilous Pursuit: Catching Falling Knives",
+        "guid": "https://gordianknot.substack.com/p/a-perilous-pursuit-catching-falling",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the current market trends and potential turning points amidst significant volatility in interest rates and commodities. It explores various key markets such as Aussie yield curve, Germany's yields, US yield curves, equities, and oil. The article also provides technical analysis and predictions for Australia and Germany's yield curves, US yield curves, Nasdaq 100 Futures, US Regional Banks ETF, KBW Bank Index, and WTI oil. Key takeaways include the continued focus on interest rates and oil prices in the macro landscape, evolving expectations for inflation, growth, and Fed rate hikes, and the possibility of a period of inflation concerns despite the expectation of peak inflation."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 96,
+        "title": "Malaysia\u2019s new digital ID system disturbingly shaped by WEF",
+        "guid": "https://murrayhunter.substack.com/p/malaysias-new-digital-id-system-disturbingly",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "Malaysia has launched its own digital ID system, with Prime Minister Anwar Ibrahim being the first to register. The system aims to provide identification and verification for online transactions, with RM80 million allocated for its development. It will link with government databases and incorporate a national biometric database. The system is expected to support targeted subsidies, digital currency, and potentially a social credit system. The Communication and Digital Minister Fahmi Fadzil oversees the system, which was developed in collaboration with World Economic Forum (WEF) partners. This move aligns with other government decisions, such as ceding emergency action authority to the World Health Organization, and involves several cabinet ministers and civil servants affiliated with the WEF."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 95,
+        "title": "Another WEF corporation scores massive contract from Madani government",
+        "guid": "https://murrayhunter.substack.com/p/another-wef-corporation-scores-massive",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The government has surprised the industry by appointing a non-affiliated company, KJS-SEP Synergy (M) dn. Bhd., a subsidiary of YTL Corporation, to implement a RM3.46 billion multi-lane free flow (MLFF) system for all highways in Malaysia. This move takes toll collection power away from existing operators and gives it to the new concessionaire, which is affiliated with the World Economic Forum (WEF). This indicates increased WEF influence over Malaysian government and commerce, potentially impacting Bumiputera companies. The article also highlights the influence of WEF-affiliated companies in setting up the new Malaysian digital ID and accepting new WHO IHR amendments. This suggests Malaysia's increasing alignment with WEF interests at the expense of national control."
+    },
+    {
+        "feed_id": 60,
+        "article_id": 28,
+        "title": "Mantic Monday 12/4/23",
+        "guid": "https://www.astralcodexten.com/p/mantic-monday-12423",
+        "published_date": "2023-12-05",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the challenges of designing prediction markets for \"why\" questions, using the example of the OpenAI situation. It highlights the difficulty of managing user-generated options and the need for mutually exclusive answers. The article also touches on various attempted OpenAI-related markets and the appointment of new board members. Additionally, it mentions the progress of Manifold's dating site and updates to the Metaculus platform. The article concludes with insights into various geopolitical forecasts and updates on regulatory issues with prediction markets. The content also includes a graph of different people's probability estimates of AI causing human extinction and announcements of new Metaculus tournaments."
+    },
+    {
+        "feed_id": 53,
+        "article_id": 2,
+        "title": "Tencent Holdings-TCEHY",
+        "guid": "https://investingwithwes.substack.com/p/tencent-holdings-tcehy",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the fundamental health of Tencent, a Chinese technology and entertainment conglomerate. It evaluates the company's free cash flow yield, business overview, business segments, and management. The company's core operations, including value-added services, online advertising, FinTech, and social networks, are also detailed. Additionally, the article presents a bull and bear case for Tencent, regulatory challenges, and the company's valuation. The author emphasizes that the newsletter is for educational purposes and not financial advice. The article provides insights into Tencent's business and financial aspects, including its management, investment portfolio, and potential risks."
+    },
+    {
+        "feed_id": 51,
+        "article_id": 14,
+        "title": "Making Hay Monday - December 4th, 2023",
+        "guid": "https://haymaker.substack.com/p/making-hay-monday-december-4th-2023",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses the importance of paying attention to revisions in jobs' numbers during economic transitions, highlighting the BLS's downward revisions to Nonfarm Payrolls in 2023. It also emphasizes the surge in \"Buy Now, Pay Later\" programs and the potential impact on consumer spending. Additionally, it presents a summary of Michael Lewitt's analysis on global economic trends, including sustained higher inflation, increasing government interest costs, and the challenges posed by high global debt levels. The article underscores the need for investors to understand these macroeconomic forces for successful investment strategies."
+    },
+    {
+        "feed_id": 48,
+        "article_id": 11,
+        "title": "Exor Investor Day 2023",
+        "guid": "https://filpasini.substack.com/p/exor-investor-day-2023",
+        "published_date": "2023-12-04",
+        "summarized_date": "2023-12-05",
+        "summary": "The article discusses Exor's Investor Day, highlighting its successful 2023 performance and strategic investments. Notable points include the acquisition of a 15% stake in Philips, the creation of Lingotto for alternative investments, and the growth in private company investments. The focus on luxury, technology, and health sectors is emphasized, with plans to increase the Net Asset Value (NAV) and maintain disciplined capital allocation. Discussions also cover the significant discount to NAV, the rationale behind the Philips investment, and the preference for share buybacks over dividends. Additionally, insights on Ferrari, Juventus, and the editorial sector are provided. The article concludes with a reference to Marchionne's iconic quote, reflecting Exor's future prospects."
+    },
+    {
         "feed_id": 296,
         "article_id": 19,
         "title": "DISNEY: What If You Could Buy Coca-Cola Together With Buffett In 1988? (Part II)",
