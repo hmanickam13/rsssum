@@ -1,4 +1,32 @@
 {
+    "2023-12-06": {
+        "RSSFeedScraper": {
+            "status": "Success",
+            "links_or_feeds_added": 0,
+            "links_or_feeds_deleted": 0
+        },
+        "GetArticles": {
+            "status": "Success",
+            "feeds_processed": 322,
+            "articles_processed": 5315,
+            "articles_with_content_within_last_10_days": 317
+        },
+        "SummarizeArticles": {
+            "status": "Success",
+            "trying_to_summarize": 34,
+            "summarized_and_relevant": 16,
+            "summary_already_exists": 1206,
+            "summarized_but_not_relevant": 256,
+            "token_limit_exceeded": 0,
+            "summary_attempts_limit_exceeded": 0
+        },
+        "GenerateHTML": {
+            "status": "Success",
+            "new_summaries_today": 16,
+            "last_10_days_summaries_counter": 230,
+            "added_to_wordpress": true
+        }
+    },
     "2023-12-05": {
         "RSSFeedScraper": {
             "status": "Success",
