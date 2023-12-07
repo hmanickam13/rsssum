@@ -1,5 +1,149 @@
 [
     {
+        "feed_id": 317,
+        "article_id": 2,
+        "title": "Roving Around Riyadh - A Look into a Kingdom Forging its Future Through Reform (Part 1)",
+        "guid": "https://www.pyramidsandpagodas.com/p/roving-around-riyadh-a-look-into",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses Desertfox's recent trip to Riyadh, Saudi Arabia, where he gained insights into the country's soft power push and growing consumer market. The trip involved consulting on strategic communications for a major international event hosted in Riyadh, shedding light on the Kingdom's efforts to diversify its economy and reduce dependence on oil through Vision 2030. The article also highlights the influx of foreign consultants and the challenges faced in implementing Vision 2030. Additionally, it explores the potential investment opportunities in Pico Far East (0752.HK) and the rise of Chinese automakers in the Saudi market. The piece emphasizes the Kingdom's increasing engagement with China and the geopolitical implications of this shift. The article concludes with a teaser for the next installment, promising insights into the hypermarket, convenience store, and food delivery space in Riyadh."
+    },
+    {
+        "feed_id": 302,
+        "article_id": 13,
+        "title": "Substack is the new business section of the bookstore",
+        "guid": "https://read.substack.com/p/best-tech-writers-substack",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the emergence of a new wave of experts in the tech industry who offer real-time guidance and best practices through platforms like Substack. These experts, including former professionals from companies like Airbnb and Amazon, share their expertise through newsletters, podcasts, and community memberships. They aim to provide current and relevant career advice, covering a wide range of tech-related topics such as B2B growth strategies, sales prospecting hacks, product-led growth, programming, and company culture building. Substack has become a platform for these experts to scale their knowledge, build communities, and make career advice more accessible in real-time. The traditional model of waiting for professional advice to be produced in books is being replaced by this direct and immediate access to industry insights. The article encourages individuals in the tech industry to consider starting their own Substack to share their expertise."
+    },
+    {
+        "feed_id": 288,
+        "article_id": 2,
+        "title": "Patents Cut Both Ways",
+        "guid": "https://polymerist.substack.com/p/patents-cut-both-ways",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the author's initial aspirations to become a patent attorney, which did not materialize due to lack of interest and advice from disillusioned patent lawyers. The author then delves into the purpose and structure of patents, using an example of a patent related to industrial chemistry. The article highlights the importance of strategic patent filing for startups and the potential costs involved. It also emphasizes the temporary nature of patent protection and the eventual public domain access. The author concludes by pointing out the financial benefits for patent lawyers and litigators, while emphasizing the long-term advantages for the public."
+    },
+    {
+        "feed_id": 271,
+        "article_id": 1,
+        "title": "EUV Lithography. But With a Free Electron Laser",
+        "guid": "https://www.asianometry.com/p/euv-lithography-but-with-a-free-electron",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the challenges and potential alternatives to Extreme Ultraviolet (EUV) lithography in semiconductor manufacturing. It questions the effectiveness of EUV lithography and expresses concerns about High-NA EUV. The focus then shifts to TSMC's N3 process, highlighting issues and differences between N3B and N3E. The article delves into the limitations of the current method of generating EUV light and explores the concept of Free Electron Lasers for EUV lithography. It explains the principles of Free Electron Lasers, their advantages over the current approach, and ongoing research in this area. The potential cost and electricity usage advantages of Free Electron Lasers are also discussed. The article concludes by mentioning the historical background of Free Electron Lasers and the ongoing research in Europe and the United States."
+    },
+    {
+        "feed_id": 264,
+        "article_id": 23,
+        "title": "\ud83c\uddf9\ud83c\udded Someone will make a movie about Hamas-Thailand talks, for sure",
+        "guid": "https://darimulut.substack.com/p/someone-will-make-a-movie-about-hamas",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the controversial legacy of former US Secretary of State Henry Kissinger, focusing on his involvement in the Vietnam War and the impact of his decisions on Southeast Asia. It highlights the devastating consequences of Kissinger's actions, including the bombing of Cambodia and the long-lasting effects on the region. The article also touches on other regional developments, such as the environmental challenges faced by fishing communities in Cambodia, the repatriation of Thai hostages from Gaza, and various domestic issues in Thailand and Vietnam. Additionally, it mentions the expansion of VinFast, a Vietnamese car manufacturer, into the US and a major corruption scandal in Vietnam."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 48,
+        "title": "Finance with Chinese characteristics; Politico on recent elite rumors; Wang-Blinken chat; Nuclear power; Vaping; Moody's",
+        "guid": "https://sinocism.com/p/finance-with-chinese-characteristics",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "The article is about the latest issue of Qiushi, discussing the path of financial development with Chinese characteristics. It is based on Xi's speech at the recent Central Financial Work Conference and emphasizes more Party control, rejection of Western financial theory, risk prevention, finance serving the real economy, and the formation of an independently controllable and secure financial infrastructure system. The article was written by the Office of the Central Financial Commission and the Central Financial Work Commission. Both the New York Times and the South China Morning Post have articles discussing this."
+    },
+    {
+        "feed_id": 205,
+        "article_id": 12,
+        "title": "Shared auditors may signal opportunities for bargain purchases, and deals also more likely to close",
+        "guid": "https://thedig.substack.com/p/shared-auditors-may-signal-opportunities",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the impact of shared auditors in mergers and acquisitions, highlighting that targets are more likely to receive a bid from a firm with the same auditor. The study warns about potential conflicts of interest and the violation of client confidentiality. It also emphasizes that shared auditor deals favor acquirers, especially when the target is small. The researchers found that auditors facilitate the flow of information between bidders and targets, giving bidders an advantage and reducing bid competition. The article provides examples of deals such as Verizon-AOL and Dell-EMC, where shared auditors influenced the deal premiums. It also mentions the potential impact on subsequent audit quality and the need for future research on conflict of interest violations. The study's authors are Dan S. Dhaliwal, Lubomir P. Litov, Phil Lamoreaux, and Jordan B. Neyland. The article concludes with details about Dell's spin-off of its stake in VMware and the complex financial engineering involved in the EMC deal."
+    },
+    {
+        "feed_id": 194,
+        "article_id": 22,
+        "title": "WHY I AM FILLED WITH EXISTENTIAL DREAD",
+        "guid": "https://www.russell-clark.com/p/why-i-am-filled-with-existential",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the historical context and current implications of capitalism, highlighting its benefits such as efficient resource use and decentralized decision-making, but also addressing its negative aspects like income inequality and concentration of power. The author expresses concern about the political consequences of rising inequality and falling wages, citing examples from the UK, US, and China. They fear that the current trend may lead to political and economic conflict, potentially resulting in revolution. The article also references the late historian Eric Hobsbawm's views on the impact of the collapse of socialism on capitalism. Overall, the author expresses apprehension about the future of the economic and political system, emphasizing the need for rising wages and interest rates to address the existing imbalances."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 38,
+        "title": "Illustrated Frankenstein - Chapter 23",
+        "guid": "https://pau1.substack.com/p/illustrated-frankenstein-chapter-245",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article is an excerpt from Chapter 23 of a book, depicting a scene where the protagonist, Victor, experiences intense fear and anxiety at an inn during a stormy night. His wife, Elizabeth, is found lifeless, and he vows revenge on the murderer. The narrative unfolds with Victor's overwhelming grief and his determination to seek retribution. The story culminates with Victor's decision to pursue the monster he created, despite skepticism from the magistrate. The chapter ends with a teaser for the final chapter and a note about republishing the entire project in 2024."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 38,
+        "title": "Had You Known, Would You Have Taken the Jab?",
+        "guid": "https://quoththeraven.substack.com/p/had-you-known-would-you-have-taken",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "Texas Attorney General Ken Paxton has filed a lawsuit against Pfizer, alleging that the company deceived the public about the efficacy of its Covid vaccine and engaged in censorship to promote sales. The lawsuit claims that Pfizer's vaccine offered only a 0.85% reduction in risk and did not prevent transmission, despite marketing claims. Paxton aims to hold Pfizer accountable for its alleged deceit, seeking fines and restitution. The lawsuit also highlights Pfizer's efforts to silence dissenting voices, including journalists and scientists. This legal action represents a significant offensive move against the alleged corruption and deception behind the Covid regime, signaling a rare opportunity for accountability. Despite facing opposition, Paxton's suit signifies a shift towards holding Big Pharma accountable for alleged fraudulent practices."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 73,
+        "title": "Gaza War Reinforcing Qatar\u2019s Gulf Clout",
+        "guid": "https://www.asiasentinel.com/p/gaza-war-reinforcing-qatar-gulf-clout",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses Qatar's growing influence in the Middle East, particularly in mediating conflicts and negotiations. Despite past isolation, Qatar has rehabilitated itself as a key player in regional and global affairs. It has successfully mediated between Iran and the US, facilitated talks with the Taliban, and is currently mediating between Hamas and Israel. Qatar's stable ties with the US and its role as a major gas supplier to Europe further strengthen its position. In contrast, Saudi Arabia's declining ties with the US have weakened its mediation credentials. Qatar's support for Hamas also undermines Saudi interests and marginalizes its role in Palestine. The article emphasizes that Qatar's mediation skills are crucial for its foreign policy and security strategy, allowing it to maintain relevance and strategic importance in the face of larger and more powerful neighboring states."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 72,
+        "title": "Money Laundering Out of China via Insurance",
+        "guid": "https://www.asiasentinel.com/p/money-laundering-out-china-via-insurance",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "A litigation lawyer sought assistance for a banker client facing a countersuit from a mainland China client. The client accused the banker of forging her signature on financial products and laundering millions of dollars per transaction. The banker sought an investigation into the matter."
+    },
+    {
+        "feed_id": 173,
+        "article_id": 17,
+        "title": "Is public health becoming illiberal?",
+        "guid": "https://yourlocalepidemiologist.substack.com/p/is-public-health-becoming-illiberal",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses a review of the book \"Within Reason\" by Dr. Sandro Galea, which examines the impact of the pandemic on public health and the need to reimagine public health for the 21st century. The book highlights the shift towards illiberalism in the public health field and the loss of trust among Americans. It emphasizes the importance of open-mindedness, humility, and constructive dialogue in public health decision-making. The author agrees with many points in the book but disagrees on certain details, particularly regarding the response to the Great Barrington Declaration. The book is seen as a catalyst for much-needed conversation and provides tangible solutions for returning to public health's liberal roots. It raises critical questions about the future of public health in the face of emerging health threats and a politicized environment. The author emphasizes the need to learn, strive for hope, and make evidence-based decisions."
+    },
+    {
+        "feed_id": 97,
+        "article_id": 5,
+        "title": "That \u201cHamas Shortseller\u201d Study is Impossibly Bad",
+        "guid": "https://blog.esghound.com/p/that-hamas-shortseller-study-is-impossibly",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses Joshua Mitts, a law professor at Columbia Law School, who has gained attention for his work in the legal field and financial markets. Despite his impressive credentials, Mitts has faced criticism for making repeated errors in his work and for engaging in questionable consulting activities. He gained fame for uncovering suspicious activity related to stock options on Farmland Partners in 2018, leading to a lawsuit against a short-seller. Mitts has since been involved in consulting for companies seeking to sue short-sellers and has positioned himself as a critic of unethical short-selling practices. However, his recent study on short-selling and the 2023 terror attacks on Israel has been heavily criticized for flawed methodology and inaccurate conclusions. The study's findings have been disputed by the head of the Israeli stock exchange, highlighting significant errors in Mitts' work. The article questions Mitts' credibility and ethical conduct, pointing out conflicts of interest and flawed research practices."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 98,
+        "title": "Some ideas on transforming the nature of the Malaysian economy",
+        "guid": "https://murrayhunter.substack.com/p/some-ideas-on-transforming-the-nature",
+        "published_date": "2023-12-07",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses the need for Malaysia to transform its economy to enhance citizens' welfare and regional position. It emphasizes the importance of developing creativity and innovation in education, deregulating the economy, improving land security for farmers, and leveraging the East Coast Rail Link for trade. It also suggests turning Halal certification into a competitive advantage, promoting frugal innovation, engaging the BRICS trade block, and increasing gold reserves to strengthen the economy. These measures aim to address economic decline, enhance competitiveness, and prepare for future uncertainties. The article advocates for these strategies to be considered in future economic policy discussions."
+    },
+    {
+        "feed_id": 38,
+        "article_id": 4,
+        "title": "Important Update",
+        "guid": "https://findingmoatsinternational.substack.com/p/important-update",
+        "published_date": "2023-12-06",
+        "summarized_date": "2023-12-07",
+        "summary": "The article discusses a price increase for the annual subscription to the blog, \"Finding Moats,\" from $180 to $200, effective December 13. However, those who subscribe before this date will be locked in at the $180 rate. The author also outlines upcoming content, including analyses of companies like Est\u00e9e Lauder, Canadian Pacific Kansas City, and LVMH. Additionally, the article highlights the author's investment performance and promises to continue providing in-depth analyses, portfolio updates, and investment ideas. The author also offers access to an archive of past content and positive subscriber testimonials."
+    },
+    {
         "feed_id": 276,
         "article_id": 14,
         "title": "From a Detour to Global Dominance",
