@@ -1,5 +1,239 @@
 [
     {
+        "feed_id": 295,
+        "article_id": 46,
+        "title": "Fed, Inflation, \u2018Triple Witching\u2019",
+        "guid": "https://contrarianpod.substack.com/p/fed-inflation-triple-witching",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article is a market update discussing the current state of play in the financial markets. It highlights a developing risk-off sentiment with stock index futures pointing to a lower open, cryptocurrencies and commodities selling off, and bonds remaining unchanged. It also mentions upcoming events such as the CPI reading, the Fed meeting, and 'triple witching day' on Friday. The article provides a snapshot of the market indicators and known events for the week."
+    },
+    {
+        "feed_id": 276,
+        "article_id": 16,
+        "title": "David Liu: A Master Class on the Future of Genome Editing",
+        "guid": "https://erictopol.substack.com/p/david-liu-a-master-class-on-the-future",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses an interview with David Liu, a molecular biologist and chemist, who has made significant advancements in genome editing. The interview covers the recent approval of genome editing for sickle cell disease, the limitations of CRISPR Cas9, and the development of base and prime editing methods. Liu explains the challenges of precise gene editing, ethical considerations, and the potential for somatic cell genome editing to address various genetic diseases. He also discusses the progress in delivery methods for gene editing agents, including lipid nanoparticles, viral vectors, and virus-like particles. The conversation delves into the future possibilities of genome editing, such as treating chronic pain, preventing Alzheimer's disease, and enhancing human capabilities. The interview highlights the ethical and societal implications of genome editing and the need for careful consideration as the field continues to progress."
+    },
+    {
+        "feed_id": 273,
+        "article_id": 29,
+        "title": "The Digest #180",
+        "guid": "https://newsletter.rationalwalk.com/p/the-digest-180",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the ongoing United Nations Climate Change Conference, COP28, and highlights the attention it receives compared to the progress on decarbonization at companies like Berkshire Hathaway Energy (BHE). BHE's impressive decarbonization initiatives aim for \"net zero\" by 2050, but the company faces criticism from the \"ESG\" movement. The writer questions whether activists truly care about decarbonization progress or are using climate change to attack capitalism. While COP28 concludes, the private sector's continued progress on decarbonization goals is noted. The full article is available for paid subscribers, and a free introduction is accessible to all readers. The Rational Walk is a reader-supported publication."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 25,
+        "title": "Iran, Israel-Palestine, DRC.",
+        "guid": "https://proximities.substack.com/p/iran-israel-palestine-drc",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "Narges Mohammadi, an Iranian Nobel Peace Prize winner, criticized Iran's government as \"tyrannical and anti-women\" in a speech smuggled out of prison. She has been held in Tehran's Evin prison since 2021 and was awarded the prize for her work against the oppression of women in Iran. Meanwhile, in Gaza, a senior UN official stated that half of the population is starving, with minimal aid reaching the enclave. Israel intensified attacks on Khan Younis, and Prime Minister Benjamin Netanyahu urged Hamas to surrender. Additionally, the M23 rebel group seized a key town in eastern Democratic Republic of Congo, following renewed fighting as UN and regional peacekeepers withdraw from the country. This comes as the DRC prepares for presidential elections later this month."
+    },
+    {
+        "feed_id": 256,
+        "article_id": 10,
+        "title": "Ideastorm #7",
+        "guid": "https://www.marketsentiment.co/p/ideastorm-7",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the decline in the golden age of investing, with lower expected returns for stocks and bonds. It emphasizes the need for conservative long-term investment goals and warns against obsessing over daily stock prices due to loss aversion. The index inclusion effect is also highlighted, with Uber's upcoming addition to the S&P 500 and the diminishing impact of such inclusions. The article provides insights into market sentiment and actionable financial research, urging investors to plan better for long-term investing. It also mentions the impact of stock age on performance and the relationship between market additions and deletions to the S&P 500."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 30,
+        "title": "\ud83d\udca5New Chapter 11 Bankruptcy Filing - Nogin Inc. \ud83d\udca5",
+        "guid": "https://petition.substack.com/p/nogin-bankruptcy",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "NY-based Nogin Inc., Nogin Commerce Inc., and Native Brands Group LLC filed for chapter 11 bankruptcy in the District of Delaware. The bankruptcy cases involve a deSPAC, with professional services firms like Jefferies, Stifel, and Latham & Watkins listed as top general unsecured creditors. Shareholders are also expected to be affected."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 29,
+        "title": "\ud83d\udca5New Chapter 11 Bankruptcy Filing - Inversiones Latin America Power Ltda\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/inversiones-latin-america-power-ltda",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "In November 2023, Inversiones Latin America Power Ltda., San Juan S.A., and Norvind S.A. filed for prepackaged chapter 11 bankruptcy in the Southern District of New York. The debtors, based in northern Chile, are a clean energy company primarily involved in wind generation with an installed capacity of 239.2 megawatts from two projects. Their revenue model is based on 15-year \"take-and-pay\" purchase agreements with distribution companies, which accounted for approximately 95% of their total revenue in the nine months ended Sep. 30, '23. These agreements are set to expire between '31 and '33."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 28,
+        "title": "\ud83d\udca5Retailers Stumble into '24\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/retailers-stumble-into-24",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the recent chapter 11 bankruptcy activity, highlighting WeWork Inc. and Anagram Holdings LLC. JPMorgan reports a 3% default rate for the year, with $82.1bn in defaults/distressed exchanges, ranking as the 4th largest on record. JPM forecasts a decline in high-yield bond and leveraged loan default rates in 2024, while Fitch Ratings predicts a rise in default rates before a decline in 2025. FTI discusses Cano Health's potential filing and other tracked names. Additionally, Nogin Inc., Nogin Commerce Inc., and Native Brands Group LLC filed chapter 11 bankruptcy cases on December 5, 2023, in the District of Delaware. The debtors are another deSPAC bankruptcy, with professional services firms listed as top general unsecured creditors. Shareholders are also expected to be affected."
+    },
+    {
+        "feed_id": 206,
+        "article_id": 18,
+        "title": "Time and Space the Miyazaki Way",
+        "guid": "https://animationobsessive.substack.com/p/time-and-space-the-miyazaki-way",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the roots of Hayao Miyazaki's filmmaking and the week's animation news. Miyazaki's approach to time and space in his films is highlighted, emphasizing a sense of reality and concreteness. The article also features global animation news, including the success of Studio Ghibli's film in Spain, Nigeria's animated film \"Hanky Panky,\" and various updates from the animation industry worldwide. The piece provides insights into the challenges and achievements of animators, studios, and films across different countries."
+    },
+    {
+        "feed_id": 195,
+        "article_id": 13,
+        "title": "The Bear Cave #199",
+        "guid": "https://thebearcave.substack.com/p/the-bear-cave-199",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses recent reports by activist research firms Muddy Waters, Viceroy Research, and Bleecker Street Research on various companies. It highlights concerns about Blackstone Mortgage Trust, Arbor Realty Trust, and NextNav. Additionally, it mentions notable executive resignations from Lanvin Group Holdings, Veradigm Inc, L3Harris Technologies, Madison Square Garden Entertainment, Peloton Interactive, SunPower Corp, Korea Electric Power, and Legacy Housing Corp. The article also recommends reading about a bipartisan probe into private equity's role in U.S. healthcare and the decline of a Chinese amusement park operator. The Tel Aviv Stock Exchange refutes a report suggesting prior knowledge of a Hamas attack. The article concludes with tweets of the week and a disclaimer that \"The Bear Cave\" is not investment advice."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 40,
+        "title": "The Global Wave of Childhood Pneumonia",
+        "guid": "https://quoththeraven.substack.com/p/the-global-wave-of-childhood-pneumonia",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses a rise in respiratory illnesses among children in various countries, including China, the Netherlands, Denmark, England, and the US. The increase is attributed to a weakened immune system caused by chronic fear, anxiety, and pandemic measures, leading to a surge in pneumonia and sepsis cases. The article highlights the impact of pandemic restrictions on children's health, the challenges in diagnosing and treating bacterial infections, and the need for immediate action to address the rising healthcare burden. It also emphasizes the detrimental effects of poverty, malnutrition, and disrupted microbiota on children's immune systems. The author, Carla Peeters, a PhD in Immunology, urges public health authorities and medical professionals to acknowledge the risks and take urgent action to safeguard children's health. The article also raises concerns about the potential consequences of mandates and interventions without considering the child's health condition and informed consent."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 78,
+        "title": "Hamas Changes the Trajectory of Global Diplomacy",
+        "guid": "https://www.asiasentinel.com/p/hamas-change-trajectory-global-diplomacy",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article is about the aftermath of the conflict between Israel and Hamas, and its impact on US diplomacy and global politics. The author highlights how the conflict has disrupted US plans for the Middle East, including the Abraham Accords and efforts to contain China. The Biden administration's diplomatic efforts have been derailed, and the conflict has strained US-Israel relations. The situation has also affected US domestic politics, with potential implications for Biden's reelection and the return of former President Trump. Additionally, the conflict has emboldened Russia and China, stalled aid to Ukraine, and raised concerns about potential Taiwanese invasion. The US vetoed a UN resolution for a cease-fire, leading to accusations of complicity in war crimes. The article also discusses the internal divisions within the Democratic Party regarding the conflict. The situation in Gaza is dire, with widespread casualties and destruction, and the article concludes with a grim outlook for finding a resolution."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 77,
+        "title": "Hong Kong Embarrassed by Another Low Election Turnout",
+        "guid": "https://www.asiasentinel.com/p/hong-kong-low-election-turnout",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the 2019 Hong Kong District Council elections, where pro-democracy candidates won a majority of seats, leading to Beijing's imposition of the National Security Law. The government's recent attempt to hold elections involved changes to the electoral system, reducing the number of popularly elected seats and screening candidates to ensure only \"patriots\" could participate. Despite official campaigns and coercive measures, voter turnout was the lowest on record at 27 percent, indicating continued resistance to Beijing's influence. The article highlights the diminishing democratic rights in Hong Kong and the government's desperation to maintain control, ultimately questioning the legitimacy of the electoral process under Beijing's rule."
+    },
+    {
+        "feed_id": 163,
+        "article_id": 27,
+        "title": "Singapore Stocks: The Edge Billion Dollar Club 2023 Award Winners",
+        "guid": "https://emergingmarketskeptic.substack.com/p/the-edge-billion-dollar-club-2023-award-winners",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses The Edge Singapore Billion Dollar Club, an event recognizing excellence among companies listed on the Singapore Exchange. The winners are based on growth in profit after tax, returns to shareholders, and weighted return on equity. The Billion Dollar Club recognizes companies with a market cap above $1 billion, while the Centurion Club recognizes those with a market value between $100 million and $1 billion. Notable winners include The Hour Glass, City Developments Limited, Sri Trang-Agro Industry, and Singapore Post Limited. Each winner is described along with their stock metrics and Wikipedia page. The article also provides forward or trailing P/E and dividend yields linked back to Yahoo! Finance statistics page."
+    },
+    {
+        "feed_id": 151,
+        "article_id": 5,
+        "title": "Issue #124 - 10 Tourism Talking Points in Asia Pacific That Will Always Remind Us of 2023!",
+        "guid": "https://asiatravelreset.substack.com/p/issue-124-10-tourism-talking-points",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the significant tourism developments in the Asia Pacific region in 2023. It highlights key events such as Japan's tourism recovery, Air India's aircraft purchase, Indonesia's high-speed rail, and Macau's shift to music tourism. The article also mentions the resurgence of Chinese tourists, Taylor Swift's impact on Singapore's hotel occupancy, and the influence of Chinese movies on tourism. Additionally, it covers the return of visa waivers and Bhutan's adjustment of its sustainable development fee. The newsletter concludes with a note on the temporary break and return date."
+    },
+    {
+        "feed_id": 143,
+        "article_id": 8,
+        "title": "Fog Lifting",
+        "guid": "https://gregor.substack.com/p/fog-lifting",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the global decline in interest rates and its impact on the political and economic landscape for 2024. It highlights the potential improvement in American economic sentiment due to falling inflation expectations and positive consumer sentiment. The \"Vibecession\" phenomenon, where negative sentiment persisted despite economic improvements, is also addressed. The impact of inflation on consumer sentiment and the influence of interest rates on prices and sentiment are explored. The article emphasizes the changing economic environment, with falling interest rates, oil prices, and inflation readings, as well as a positive productivity report. It also mentions the late Byron Wien's \"Ten Surprises for 2024.\" Overall, the article delves into the complex interplay between economic indicators, consumer sentiment, and media influence."
+    },
+    {
+        "feed_id": 124,
+        "article_id": 6,
+        "title": "\u270d\ufe0f The S&P 500 Report: Performance, Profitability & Special Metrics - #Ed 4",
+        "guid": "https://maverickequityresearch.substack.com/p/the-s-and-p-500-report-performance-700",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article is a thank you note to donors and an introduction to the 4th edition of the S&P 500 Report, focusing on independent investment research. It encourages readers to support local communities during the holiday season. The report delves into the S&P 500's performance, profitability, flows, value, growth, sentiment, chatter, seasonality, volatility, breadth, technical analysis, sector performance breakdown, and special metrics. It provides insights into earnings growth, profitability, financial flows, value, growth, sentiment, and chatter. The report also discusses seasonality, volatility, breadth, technical analysis, sector performance breakdown, and special metrics, including the impact of AI, recession scenarios, and the power of dividends in the S&P 500. The article concludes with bonus charts and encourages sharing the research to support independent investment research."
+    },
+    {
+        "feed_id": 121,
+        "article_id": 16,
+        "title": "\"Back To The Basics\"",
+        "guid": "https://thescienceofhitting.com/p/back-to-the-basics",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the challenges faced by Family Dollar and Dollar Tree, with Family Dollar experiencing declining sales in non-consumable categories and operating losses. Dollar Tree has initiated a review of its Family Dollar portfolio due to weak performance, with a focus on optimizing stores. The article questions the timing of this review and speculates on potential actions. Additionally, Dollar General has ceased its \"buy online, pickup in store\" service, prompting further analysis. The article highlights the impact of these developments on the companies' financial goals and competitive positions."
+    },
+    {
+        "feed_id": 112,
+        "article_id": 13,
+        "title": "Instruments Showing Possible Reversal Patterns",
+        "guid": "https://gordianknot.substack.com/p/instruments-showing-possible-reversal",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the recent decline in yield due to soft sentiment and expectations of early rate cuts. It highlights a shift in investor behavior following a news headline about a ceasefire in the Middle East. The article also provides insights into hedge fund activities, technical analysis of US, UK, France, Germany, and Japan yields, and potential scenarios for various yield levels. It concludes with observations on the USDJPY and EURJPY currency pairs, suggesting a potential reversal from their recent trends."
+    },
+    {
+        "feed_id": 112,
+        "article_id": 12,
+        "title": "China Aggregate Finance Under the Hood",
+        "guid": "https://gordianknot.substack.com/p/china-aggregate-finance-under-the",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The recent Xi-Biden summit aimed to ease geopolitical tensions, with discussions on fentanyl, military matters, and artificial intelligence. While the summit has contributed to a more relaxed atmosphere, underlying issues persist. China stands to gain economically from the outcomes, with potential benefits including a revival of foreign investment and economic activity. To stimulate economic growth, China is considering a \"holy trinity\" of policy measures, including higher fiscal and budget deficit, lower yields, and a stable Chinese Yuan. The Chinese government is increasingly significant in stimulating the economy through increased borrowing and financing. However, there are concerns about local government debt, government revenues, and balance of foreign-related receipts. The article also covers China's bond yields, the Shanghai Banks Index, Ping An, and household loans, highlighting implications and takeaways such as the challenges of replacing GDP loss and the strategy for unwinding real estate leverage. Overall, the article provides a comprehensive analysis of the economic and geopolitical implications of the Xi-Biden summit and China's economic situation."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 38,
+        "title": "Uphold territorial integrity",
+        "guid": "https://www.noahpinion.blog/p/uphold-territorial-integrity",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "Venezuela's recent claim to two-thirds of Guyana's territory, and Brazil's military response, highlights the breakdown of territorial integrity norms in the 21st century. This shift is evident in Russia's annexation of Crimea and China's incremental land grabs. The author argues for the U.S. to prioritize territorial integrity as a guiding principle in the face of Cold War 2, emphasizing its potential to rally allies and distinguish American values from those of Russia and China. The article dismisses liberal interventionism and indigenism as flawed alternatives, advocating for a U.S. foreign policy centered on helping countries defend themselves against powerful neighbors. The U.S. is urged to support territorial integrity through military assistance, diplomacy, and a stance against conquests, positioning itself as a defender of the weak and a spoiler of empires. While acknowledging territorial integrity's imperfections, the author contends that it offers a better solution than other principles."
+    },
+    {
+        "feed_id": 98,
+        "article_id": 1,
+        "title": "University Grads Flock to Food Delivery as China's Job Market Dries Up",
+        "guid": "https://chinarrative.substack.com/p/university-grads-flock-to-food-delivery",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the challenging job market in China, particularly focusing on the food-delivery industry. It highlights the increasing number of highly educated individuals, including university graduates, turning to food delivery due to the lack of job opportunities. The piece profiles the experiences of several food-delivery workers, shedding light on the tough employment situation they face. The phenomenon of \"involution\" in the food-delivery sector is described as a reflection of broader employment issues in China. The article also emphasizes the need for colleges and universities to provide better support for students in their job search. The challenges faced by food-delivery workers, including declining income, increased competition, and the impact of the pandemic, are detailed. The article concludes by highlighting the decision of some veteran food-delivery workers to leave the industry and pursue alternative livelihoods."
+    },
+    {
+        "feed_id": 91,
+        "article_id": 10,
+        "title": "Argentina and the Limits of Fiscal Space",
+        "guid": "https://theovershoot.co/p/argentina-and-the-limits-of-fiscal",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "Javier Milei, an eccentric politician in Argentina, claims to have entered politics after his dead dog advised him to do so. He won the presidency with unconventional campaign tactics and aims to switch to the U.S. dollar, legalize organ sales, and address economic hardships. Argentina faces severe economic challenges, including high inflation, poverty rates, and capital flight. The central bank's extensive purchase of government bonds to compensate for capital flight and monetize the budget deficit is unsustainable. The government's borrowing appears low, but the central bank's large-scale bond purchases indicate a different reality. The majority of these bonds are denominated in hard currencies, posing significant risks. The central bank's financing of these purchases is unsustainable, and the country is likely to face debt writedowns, exchange rate depreciation, and severe budgetary tightening. The situation in Argentina is crucial not only for its citizens but also for others seeking to avoid similar economic pitfalls."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 100,
+        "title": "#10 most read article in 2023: Farewell Tan Sri Dr Noor Hisham",
+        "guid": "https://murrayhunter.substack.com/p/10-most-read-article-in-2023-farewell",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the controversial tenure of Dr. Noor Hisham as the director-general of Malaysia's Ministry of Health. It highlights his role during the Covid-19 pandemic, political bias, management of the healthcare sector, Covid-19 response, vaccine procurement, safety issues, profiteering, and failure to address medical malpractice. The article calls for urgent inquiries and criticizes Dr. Noor Hisham's leadership, emphasizing the need for accountability and transparency."
+    },
+    {
+        "feed_id": 59,
+        "article_id": 10,
+        "title": "And who by FIRE...",
+        "guid": "https://www.yesigiveafig.com/p/and-who-by-fire",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the resignation of Liz Magill and its implications on academic leadership. It highlights the misinterpretation of her resignation by the academic community and society. The piece also addresses the uniformity in academic backgrounds among university presidents, emphasizing the need for distinct leadership skills. It raises concerns about the influence of wealthy donors and alumni on university leadership decisions. The author criticizes the perceived requirement for university leaders to have a traditional academic career path and questions the emphasis on gender parity in academic leadership. The article also presents a historical overview of leadership at the University of Pennsylvania and expresses skepticism about the skills required for effective leadership in academic institutions. Overall, the piece challenges traditional notions of academic leadership and raises questions about the impact of gender and academic background on leadership effectiveness."
+    },
+    {
+        "feed_id": 50,
+        "article_id": 14,
+        "title": "November Review: Micro Plus Macro and the Roblox Story",
+        "guid": "https://interconnect.substack.com/p/november-review-micro-plus-macro",
+        "published_date": "2023-12-10",
+        "summarized_date": "2023-12-11",
+        "summary": "The article discusses the market observations and investment research undertaken in November 2023 by Interconnected 2.0, focusing on the interconnected global digital AI economy. The 10-year US Treasury yield reaching 5% in October and the Federal Reserve's reaction affected share prices, creating investment opportunities. The article emphasizes the importance of combining micro and macro knowledge for successful investing. It highlights the impact of interest rates on companies, particularly those sensitive to interest rates, and discusses Roblox's infrastructure overhaul and its potential implications for AI investments in 2024. The article also mentions the uncertainty surrounding the Fed's future interest rate decisions."
+    },
+    {
         "feed_id": 319,
         "article_id": 9,
         "title": "How Low Wages Made Japan A Deficit Addict",
