@@ -1,5 +1,131 @@
 [
     {
+        "feed_id": 290,
+        "article_id": 10,
+        "title": "my first TV appearance",
+        "guid": "https://www.karlstack.com/p/my-first-tv-appearance-harvard-insider",
+        "published_date": "2023-12-12",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the impact of an interview, highlighting Dr. Carol Swain's courageous defense of truth after her work was plagiarized. The author also reflects on their personal growth in public speaking, having previously struggled with it. Additionally, they mention the decline in Fox's ratings since Tucker's departure and their upcoming appearance on Newsmax. Overall, the article touches on the interview's significance, personal growth, and the shifting landscape of news networks."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 53,
+        "title": "Central Economic Work Conference; Xi in Vietnam; Short video crackdown",
+        "guid": "https://sinocism.com/p/central-economic-work-conference-b28",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the Central Economic Work Conference (CEWC) readout, highlighting the ambitious yet vague nature of the document. It emphasizes the need for economic recovery, improvement, and overcoming challenges in the PRC economy. The CEWC outlines nine key points for 2024 economic work, including modern industrial system construction, domestic demand expansion, and ecological civilization development. Notably, it stresses the interaction between high-quality development and high-level security. The article also mentions the need for a proactive fiscal policy and fiscal sustainability. However, it points out the absence of clear measures addressing risks related to an expanding definition of national security, especially for foreign investors and businesses. The commentary highlights the skewed nature of PRC's economic policy guidance and the promotion of the \"Invest in China\" brand. The article recommends reading the full CEWC document for a comprehensive understanding."
+    },
+    {
+        "feed_id": 255,
+        "article_id": 16,
+        "title": "Librarian Capital's Monthly Ranked Top Buys - November 2023 (Extracts Only)",
+        "guid": "https://librariancapital.substack.com/p/librarian-capitals-monthly-ranked-9c7",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the upcoming December edition of the \"Monthly Ranked Top Buys\" newsletter, providing a recap of market developments in October. It highlights the recent market performance, the concentration of gains in specific stocks, and the impact of interest rates and inflation. The update also covers the Q3 results of various portfolio companies, including Admiral, Alphabet, Bank of America, Diageo, Est\u00e9e Lauder, Mastercard, Microsoft, Otis, Philip Morris, Rightmove, RTX, and Visa. The article emphasizes the unchanged investment thesis for the holdings and concludes with a disclaimer."
+    },
+    {
+        "feed_id": 228,
+        "article_id": 28,
+        "title": "Time is Luck: Being Present in Life",
+        "guid": "https://hardfork.substack.com/p/time-is-luck-being-present-in-life",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the author's reflection on the concept of time and the importance of living in the present. The author shares insights from rewatching the movie \"Miami Vice\" and emphasizes the fleeting nature of magical experiences. They express a tendency to focus too much on the future due to their involvement in tech and investing, leading to overlooking everyday moments. The author acknowledges the need to be more mindful and present in daily life, savoring moments and experiences. The article serves as a reminder to treasure time and live in the moment for a more enjoyable life."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 33,
+        "title": "\ud83d\udca5New Chapter 11 Bankruptcy Filing - Troika Media Group Inc ($TRKA)\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/troika-media-group-inc-chapter-11-bankruptcy",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses Troika Media Group Inc's bankruptcy filing and the events leading up to it. Troika acquired Converge Direct LLC for $125mm, but the acquisition led to financial struggles due to increased competition and industry slowdown. The company defaulted on its financing agreement with Blue Torch Capital, leading to ongoing disputes. Additionally, key leadership personnel were terminated due to a consensual relationship, resulting in further complications. Blue Torch is providing debtor-in-possession financing and is set to be the stalking horse bidder in the bankruptcy sale. The article also mentions the legal representation and financial details related to the bankruptcy proceedings."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 32,
+        "title": "\ud83d\udca5New Chapter 11 Bankruptcy Filing - Near Intelligence Inc. ($NIR)\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/near-intelligence-in-chapter-11-bankruptcy",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "Near Intelligence Inc and its affiliates have filed for chapter 11 bankruptcy, with Blue Torch Capital as a significant creditor. The company's former CEO and CFO are accused of fraud and embezzlement, leading to the bankruptcy filing. Blue Torch holds $76.7 million in prepetition first lien debt and is offering a debtor-in-possession (DIP) facility. The proposed plan includes a 363 sale and liquidating chapter 11 wind-down, with Blue Torch serving as the stalking horse bidder. The debtors are represented by legal counsel and financial advisors, while Blue Torch is represented by its own legal team. The case highlights Blue Torch's increasing involvement as a distressed asset buyer."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 31,
+        "title": "\ud83d\udca5The \"Golden Age.\" Part II.\ud83d\udca5",
+        "guid": "https://petition.substack.com/p/golden-age-of-private-credit",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the growing influence of private credit in the financial world, particularly in the context of post-2008 economic crisis regulations. It highlights the emergence of private credit as an alternative source of capital for business clients, with firms like Apollo, Blackstone, and Goldman Sachs leading the way. However, it also points out potential risks, such as competition with higher yielding Treasury bonds, difficulty in offloading loans, and the impact of rising interest rates on portfolio companies. The article also delves into specific cases of private-equity-backed companies facing bankruptcy, and predicts an increase in speculative-grade loan defaults. It emphasizes the differences in defaults and re-defaults among borrowers with and without private credit funding. Additionally, it discusses the dynamics of distressed exchanges and the alignment of incentives between lenders and borrowers. The article concludes with real-time examples of private credit-powered companies filing for chapter 11 bankruptcy, shedding light on the intricate details of their financial struggles and legal proceedings."
+    },
+    {
+        "feed_id": 194,
+        "article_id": 25,
+        "title": "I'M TOO OLD FOR THIS SHIT",
+        "guid": "https://www.russell-clark.com/p/im-too-old-for-this-shit",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the author's feeling of being \"too old for this shit\" while contemplating investment decisions. The author reflects on past \"no-brainer\" trades like gold in the 1970s, Japan in the 1980s, and emerging markets in 2011, cautioning against the current no-brainer trade of buying the Nasdaq 100. They highlight the changing political landscape affecting US large-cap tech and the impact of pro-capital policies on the bull market. The author predicts a shift from the 40-year bull market in bonds to a period of gold outperforming treasuries. Despite feeling too old for certain trades, they express a desire to short businesses and remain active in the market, feeling both too old and too young for the current investment landscape."
+    },
+    {
+        "feed_id": 189,
+        "article_id": 20,
+        "title": "Liquefied Natural Glut [Resend]",
+        "guid": "https://doomberg.substack.com/p/liquefied-natural-glut-resend",
+        "published_date": "2023-12-12",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the interconnectedness of global energy markets, particularly focusing on the impact of precipitation levels in Sichuan on coal prices in Appalachia. It highlights the inelastic demand for primary energy and the fungibility of energy sources, emphasizing how small shortages can lead to significant price increases. The piece also delves into the influence of Chinese hydropower on global coal prices, the global energy crisis of 2021-2022, and the subsequent over-investment by commodity producers. The article underscores the ripple effects of extreme energy shortages and the wave of new natural gas projects coming online. It references a November edition of a Pro tier Doom Zoom presentation that provides a comprehensive review of natural gas and its implications for energy markets."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 41,
+        "title": "Headless Market Chickens, Cluckin' Like Crazy",
+        "guid": "https://quoththeraven.substack.com/p/headless-market-chickens-cluckin",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the concept of Non-Playable Characters (NPCs) in video games and extends the analogy to passive stock market investors. The writer shares their favorite NPC from the game Grand Theft Auto and compares passive stock market investors to headless chickens, highlighting the unpredictability of the market. The writer expresses skepticism about the market's resilience, inflationary expectations, and the potential consequences of government policies. They also critique passive ETF investors and express doubt about the effectiveness of traditional solutions to economic challenges. The article concludes with the writer's predictions for the stock market in 2024."
+    },
+    {
+        "feed_id": 172,
+        "article_id": 5,
+        "title": "Let's Talk Retail",
+        "guid": "https://hiddenrockcapital.substack.com/p/lets-talk-retail",
+        "published_date": "2023-12-12",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the shift in focus from the energy sector to the retail sector for investment opportunities. It highlights the challenges faced by the retail sector in recent times, such as high interest rates, inflation, and peak shipping costs, leading to underperformance. The author sees potential in the retail space due to reversing headwinds and identifies specific investment opportunities, including Children\u2019s Place (PLCE) and Academy Sports & Outdoors (ASO). PLCE's earnings are expected to rebound, while ASO is seen as a growth story with favorable valuation. The article also mentions Kohl\u2019s (KSS) as a potential investment due to its real estate assets and strategic partnerships. The author emphasizes the need for a discerning approach in retail investing, considering factors like execution and industry trends. The Hidden Rock Capital Model portfolio includes PLCE, and ASO is on the watchlist, while Kohl\u2019s is being monitored for potential inclusion."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 40,
+        "title": "At least five interesting things for the middle of your week (#22)",
+        "guid": "https://www.noahpinion.blog/p/at-least-five-interesting-things-e3b",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses various topics, including the decline in global test scores due to smartphone usage, the debate about the economy led by Will Stancil, U.S. dependence on Chinese imports, the impact of housing regulation on the economy, the misconception about immigrants taking U.S. jobs, and the rise in global conflicts. It also touches on the debate about zoning regulation and its economic impact, highlighting a critique of a famous paper and the need for a more comprehensive approach. The article emphasizes the need for a bipartisan compromise to reform the asylum system and addresses concerns about the rise in global conflicts and the need for major democracies to restore global order."
+    },
+    {
+        "feed_id": 80,
+        "article_id": 27,
+        "title": "Fundamentals: Understanding Yield",
+        "guid": "https://www.overlookedalpha.com/p/fundamentals-understanding-yield",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "The article discusses the misconceptions surrounding yield in banking accounts and dividend stocks. It highlights the differences between interest payments from savings accounts and dividend payments from stocks, emphasizing that dividend stocks are just stocks and not equivalent to a savings account. The article warns against the assumption that high dividend yield indicates a good investment, pointing out that high yield often signals higher risk. It also explains that dividend payments come out of the value of the business and are not additive like interest payments. The piece concludes by cautioning investors to be wary of high dividend yield as a reason to buy a stock, as it may not reflect the true value of the investment. Overall, the article aims to debunk the myth that dividend stocks are inherently better and emphasizes the importance of understanding the underlying mechanics and risks associated with dividend investments."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 105,
+        "title": "Anwar\u2019s cabinet reshuffle lacks any inspiration",
+        "guid": "https://murrayhunter.substack.com/p/anwars-cabinet-reshuffle-lacks-any",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-13",
+        "summary": "Prime Minister Anwar Ibrahim announced a long-awaited cabinet reshuffle, increasing the number of ministers and deputy ministers. The reshuffle is seen as a move to address failures and fine-tune policies. Notable changes include the appointment of Amir Hamzah Azizan as finance minister II, and shifts in portfolios for several ministers. The reshuffle aims to address weaknesses and gain popularity with the Malay constituency, with a focus on sustainability and energy transition. However, it does not signal major policy changes, and key ministers remain unchanged. The reshuffle has drawn criticism for not addressing certain issues and is viewed as an anticlimax."
+    },
+    {
         "feed_id": 288,
         "article_id": 3,
         "title": "Scoring My Predictions for 2023",
