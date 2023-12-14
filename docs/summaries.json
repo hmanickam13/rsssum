@@ -1,5 +1,113 @@
 [
     {
+        "feed_id": 295,
+        "article_id": 49,
+        "title": "Santa Arrives",
+        "guid": "https://contrarianpod.substack.com/p/santa-arrives",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The article is not relevant for summarization."
+    },
+    {
+        "feed_id": 276,
+        "article_id": 17,
+        "title": "The TED A.I. Conference",
+        "guid": "https://erictopol.substack.com/p/the-ted-ai-conference",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the recent dedicated A.I. meeting organized by Sam DeBrower and Chris Anderson, covering topics such as large language models, A.I. controversies, and the future of medicine with A.I. The conference featured a debate on A.I. accelerationism versus effective altruism, with perspectives from Andrew Ng and Max Tegmark. It also delved into Artificial General Intelligence (AGI), A.I. chip vulnerabilities, and the need for A.I. safety. The article highlights the challenges of fact-checking for a TED talk and emphasizes the importance of addressing the risks and benefits of A.I., as well as the European Union's A.I. Act. The piece concludes with insights from Geoffrey Hinton on the potential of medical A.I. and the positive impact it can have."
+    },
+    {
+        "feed_id": 273,
+        "article_id": 30,
+        "title": "Concentrated Investments",
+        "guid": "https://newsletter.rationalwalk.com/p/concentrated-investments",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the Capital Asset Pricing Model (CAPM) and its reliance on Beta (\u03b2) to measure the correlation of a security's historic volatility to the overall market. It highlights the criticism of CAPM for being backward-looking and not considering actual business risk. The distinction between systematic and unsystematic risk is explained, emphasizing the role of diversification in reducing unsystematic risk. The author argues that investors should demand higher returns from securities with higher \u03b2 due to their sensitivity to systematic risk. The article also questions whether volatility is a good proxy for true business risk and discusses the implications of owning individual stocks versus broad-based index funds. It concludes by raising questions about owning conglomerates and their level of internal diversification. The rest of the article is available only to paid subscribers."
+    },
+    {
+        "feed_id": 216,
+        "article_id": 14,
+        "title": "The Most Important Chart for 2024",
+        "guid": "https://www.nexteconomy.co/p/the-most-important-chart-for-2024",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the Federal Reserve's recent decision and its potential impact on the economy. It highlights the Fed's failure to counter the easing of financial conditions, leading to a potential surge in inflation. The author predicts a rise in the NY Fed Supply Chain index and subsequent inflation due to the Fed's policy pivot and the revival of the industrial cycle. The article also emphasizes the potential impact on the housing sector and the likelihood of increased credit demand. The author concludes by discussing the implications for markets and shares adjustments made to their investment positions post-FOMC. The article provides insights for professional investors and emphasizes the potential risks and opportunities in commodities and equities."
+    },
+    {
+        "feed_id": 194,
+        "article_id": 26,
+        "title": "HAS INFLATION BEEN CONQUERED?",
+        "guid": "https://www.russell-clark.com/p/has-inflation-been-conquered",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the impact of the Federal Reserve's dovish stance on the US 10-year yield, which has dropped below 4%. The author reflects on the reversal of their GLD/TLT trades and the deflationary effects of the strong US dollar. They also highlight China's role in global macroeconomics, the shale revolution's impact on energy prices, and the potential implications of UK politics on inflation. The author expresses optimism about their investment strategy despite recent setbacks."
+    },
+    {
+        "feed_id": 187,
+        "article_id": 43,
+        "title": "Final Instalment - Illustrated Frankenstein - Chapter 24",
+        "guid": "https://pau1.substack.com/p/final-instalment-illustrated-frankenstein",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-14",
+        "summary": "The article is an excerpt from Chapter 24 of the novel \"Frankenstein\" by Mary Shelley. It depicts the protagonist's relentless pursuit of his adversary, the monster he created, across various terrains and hardships. Fueled by revenge and despair, he vows to destroy the monster and endures extreme physical and emotional challenges. The protagonist's narrative is filled with grief, rage, and a sense of duty to seek vengeance. The story culminates in a dramatic encounter with the monster, where the monster expresses deep remorse and decides to end his own life. The protagonist is left with a profound sense of loss and despair as the monster disappears into the darkness."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 83,
+        "title": "At least 70 arrested in China Rocket Force Scandal",
+        "guid": "https://www.asiasentinel.com/p/arrest-china-rocket-force-scandal",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The Chinese government's investigation of the Rocket Force has led to the arrest of at least 70 individuals, including suspicions of leaking missile secrets to the US. The investigation is driven by concerns of corruption, political loyalty, and weapon quality within the force. The leaked secrets may cost China trillions to reconfigure its missile system. Former foreign minister Qin Gang and Lieutenant General Li Yuchao have been implicated, with rumors of Qin's execution. However, there is doubt about the validity of these rumors, with suggestions that they may be a propaganda ploy to undermine Chinese President Xi Jinping. The situation also involves the disappearance of a reporter believed to have had an affair with Qin, adding to the intrigue surrounding the investigation. The Chinese government has not publicly announced the reasons for the dismissals and detentions, leading to speculation about the true motives behind these actions."
+    },
+    {
+        "feed_id": 121,
+        "article_id": 18,
+        "title": "BJ's Wholesale Club: Transformation?",
+        "guid": "https://thescienceofhitting.com/p/bjs-warehouse-club-transformation",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "BJ\u2019s Wholesale Club, after being acquired by PE firms in 2011, experienced slow unit growth and went public again in 2018. However, the pandemic led to a significant surge in sales and stock price. The company's competitive position is heavily focused on grocery sales, but it lags in non-food categories compared to competitors like Costco. BJ\u2019s faces challenges in improving its general merchandise assortment and customer renewal rates. Despite offering attractive prices, its renewal rates lag behind Costco's. The company's pricing model and financial data suggest it falls short of its peers. While BJ\u2019s has benefited from industry growth, it faces the challenge of sustaining its pandemic-related strength and addressing long-term competitive dynamics. The article raises the question of whether BJ\u2019s transformation efforts have fundamentally changed the company or if the pandemic's strength masks a tough long-term hand. The company's future success may hinge on its ability to improve in key areas and compete effectively with its peers in the warehouse club industry."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 108,
+        "title": "#9 most read article 2023: Who hijacked the Shah Alam Stadium tender process?",
+        "guid": "https://murrayhunter.substack.com/p/9-most-read-article-2023-who-hijacked",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the controversy surrounding the refurbishment of the Shah Alam Stadium in Malaysia. It highlights the discrepancies between the tender documents issued by MBI and the contract awarded to Malaysian Resources Corporation Berhad (MRCB) for a different project concept. The article questions the involvement of high-ranking officials in the Selangor government in overriding the tender process and awarding the contract. It also raises concerns about the lack of due diligence in the RM 787 million project and the intimidation of those questioning the process. The article emphasizes the need for transparency and accountability in the awarding of the contract and the development concept."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 107,
+        "title": "MRCB\u2019s attempt to silence critics during the Selangor state election is thrown out by the High Court",
+        "guid": "https://murrayhunter.substack.com/p/mrcbs-attempt-to-silence-critics",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the controversy surrounding the redevelopment of the Shah Alam Stadium complex in Malaysia. MRCB, the company contracted for the project, attempted to silence activist Abdul Razak Ismail's criticism of the development. The project, initially estimated at RM 150 million, escalated to RM 3.28 billion, involving a land swap with the state. The High Court rejected MRCB's application to silence Razak, awarding him RM 7,000 in costs. The company's lawyers were criticized for unethical conduct, and the opposition leader raised concerns about the project in the state parliament. The article highlights the ethical implications of legal representation and the need for transparency in such large-scale developments."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 106,
+        "title": "New Health Minister Dzulkefly Ahmad quickly losses credibility",
+        "guid": "https://murrayhunter.substack.com/p/new-health-minister-dzulkefly-ahmad",
+        "published_date": "2023-12-14",
+        "summarized_date": "2023-12-14",
+        "summary": "The Health Minister of Malaysia, Dr. Dzulkefly Ahmad, is considering issuing new directives to address low uptake of Covid-19 boosters, despite evidence of low vaccine efficacy. This decision comes amid reports of mild symptoms in most cases and a rise in Covid-19 infections after the 4th booster dose. Concerns have been raised about the effectiveness of Pfizer and Moderna vaccines, with studies showing poor efficacy and no reduction in deaths. The country's Covid-19 vaccine strategy, which involves significant spending and disposal of vaccines, is being questioned due to growing evidence of adverse effects. Sales of Pfizer's Covid-19 vaccines have dropped, and there is a push for new vaccine purchases despite concerns. The Health Minister is urged to personally research these issues, as there are growing concerns among medical practitioners and skepticism about the motives behind vaccine directives. The article emphasizes the need for an urgent review of Malaysia's Covid-19 vaccine strategy in light of the emerging evidence."
+    },
+    {
+        "feed_id": 41,
+        "article_id": 10,
+        "title": "The AI revolution is an opportunity for writers (the human kind)",
+        "guid": "https://on.substack.com/p/the-ai-revolution-is-an-opportunity",
+        "published_date": "2023-12-13",
+        "summarized_date": "2023-12-14",
+        "summary": "The article discusses the impact of AI on the writing industry, focusing on the rise of AI startups like Writer that offer automated writing tools. It highlights concerns about job displacement and the commoditization of creative work. However, it also argues that AI will enhance original work and increase its value. The article emphasizes the importance of human connection and predicts a surge in demand for cultural content. It draws parallels to the industrial revolution and asserts that AI cannot replace the human connections central to platforms like Substack. Ultimately, it posits that the true opportunity lies in preserving the human element in creative endeavors, despite the advancements in AI technology."
+    },
+    {
         "feed_id": 290,
         "article_id": 10,
         "title": "my first TV appearance",
