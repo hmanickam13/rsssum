@@ -1,5 +1,185 @@
 [
     {
+        "feed_id": 306,
+        "article_id": 10,
+        "title": "Announcement: Launching a new Newsletter \ud83d\udce3",
+        "guid": "https://www.capitalemployed.com/p/announcement-launching-a-new-newsletter",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the growth of the Capital Employed newsletter from 1,000 to nearly 5,000 subscribers, expressing gratitude to paid subscribers. It announces the spin-off of the Bargain Stocks Radar report into a separate, free newsletter to focus on underfollowed companies. Subscribers to Capital Employed will automatically receive the new newsletter. The article concludes with holiday wishes and a toast to a peaceful and prosperous 2024."
+    },
+    {
+        "feed_id": 285,
+        "article_id": 10,
+        "title": "Marvell Industry Analyst Day",
+        "guid": "https://www.fabricatedknowledge.com/p/marvell-industry-analyst-day-b46",
+        "published_date": "2023-12-17",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses Marvell's Industry Analyst Day, focusing on AI and its impact on the company's financial guidance. Marvell's exposure to AI is driven by networking and custom silicon, particularly in the context of AI training and inference clusters. The company's strategy includes leveraging high-speed optics and transceivers for AI servers, as well as offering custom computing solutions to hyperscalers. Marvell anticipates significant revenue growth from AI, with a projected run rate of over 200 million in Q4 and over two billion dollars in AI revenue in 2024. The article emphasizes Marvell's positioning in the AI semiconductor market and its potential for future growth. In conclusion, Marvell's analyst day highlights the transformative impact of AI on the company, with pluggable transceivers and custom silicon identified as key growth areas."
+    },
+    {
+        "feed_id": 259,
+        "article_id": 59,
+        "title": "\ud83d\udd25China's top internet buzzwords of 2023",
+        "guid": "https://sinocism.com/p/chinas-top-internet-buzzwords-of",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the top ten Chinese buzzwords of 2023, compiled from three different lists. Some notable buzzwords include \"Kong Yiji Literature\" referring to academic qualifications, \"Introvert / extroverti\u4eba/e\u4eba\" describing personality types, and \"Special forces-style tourism\" for intense travel. Other buzzwords cover various aspects such as marketing, social media memes, life in China, and politics. The article also provides additional buzzwords that didn't make the top ten lists. These phrases reflect social trends, political concepts, and technological advancements. The author encourages readers to incorporate these buzzwords into their Chinese conversations to impress others."
+    },
+    {
+        "feed_id": 258,
+        "article_id": 28,
+        "title": "Hong Kong, Uganda, Iran.",
+        "guid": "https://proximities.substack.com/p/hong-kong-uganda-iran",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "The article is about three different trials and hearings in different countries. In Hong Kong, media tycoon and pro-democracy activist Jimmy Lai is on trial for breaching state security, facing a possible life sentence under a national security law. In Uganda, the constitutional court is hearing a challenge to the country's anti-gay legislation, which has caused global outrage and led to visa restrictions and aid funding cuts. In Iran, the country's oil minister stated that a cyber attack caused nationwide disruption to gas stations, with a group called \"Predatory Sparrow\" claiming responsibility, leading to accusations and denials of involvement from Israel."
+    },
+    {
+        "feed_id": 216,
+        "article_id": 16,
+        "title": "Always Reflexivity",
+        "guid": "https://www.nexteconomy.co/p/always-reflexivity",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the concept of reflexivity in the economy and financial markets, highlighting the impact of feedback loops on economic truths and market pricing. It challenges the consensus outlook for the New Year, suggesting that sell-side economists' view of a soft landing with a side order of recession may not materialize due to various factors. The article emphasizes the proactive measures taken by the Treasury and the Fed to prevent a recession and presents reasons supporting the likelihood of the US economy re-accelerating in response to fiscal and monetary stimulus. It also addresses the risk of growth accidents due to rapidly slowing corporate revenue growth and the potential impact on markets. The author expresses confidence in the re-acceleration of the US economy but acknowledges the need to monitor closely for potential risks. The article concludes with insights for professional investors, discussing the impact of the Fed's rate cuts and the potential inflationary effects on asset prices."
+    },
+    {
+        "feed_id": 212,
+        "article_id": 43,
+        "title": "\ud83d\uded2New Chapter 22 Bankruptcy Filing - Pennsylvania Real Estate Investment Trust ($PRET)\ud83d\uded2",
+        "guid": "https://petition.substack.com/p/preit-bankruptcy-2023",
+        "published_date": "2023-12-11",
+        "summarized_date": "2023-12-19",
+        "summary": "Pennsylvania Real Estate Trust (PREIT) and its affiliates filed for chapter 11 bankruptcy in Delaware, marking its second filing in three years. The company's previous restructuring in 2020 did not alleviate its financial struggles, as it overestimated revenue and bottom-line forecasts. The bankruptcy filing aims to eliminate $880 million of debt and restructure with a $135 million exit plan. The plan involves a DIP-to-exit term loan and a new money exit revolver, with first lien lenders being made whole or converting their claims. Second lien lenders will equitize into 65% of the new equity, while the company will become private, and preferred and common shares will be eliminated. The debtors are represented by legal counsel and an investment banker, with support from an ad hoc group of lenders. Notably, Chick-fil-A Inc. is involved in the proceedings."
+    },
+    {
+        "feed_id": 194,
+        "article_id": 27,
+        "title": "WHY \"MACRO\" FAILED AND THE MEANING OF GLD/TLT",
+        "guid": "https://www.russell-clark.com/p/why-macro-failed-and-the-meaning",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "The article reflects on the author's trading experiences and market insights, particularly focusing on the GLD/TLT trade. The author discusses the impact of liquidity-driven assets, the influence of macro analysis and hedge funds, and the relationship between energy prices, Federal Reserve policy, and equity market performance. The article also delves into the connection between US politics, energy constraints, and market behavior. It concludes with an analysis of the implications of energy prices on the GLD/TLT trade and the potential impact of US oil industry consolidation. The author emphasizes the significance of energy prices in understanding market dynamics and the limitations of traditional macro tools in the current bull market."
+    },
+    {
+        "feed_id": 189,
+        "article_id": 21,
+        "title": "Bury the Lede",
+        "guid": "https://doomberg.substack.com/p/bury-the-lede",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the 28th session of the Conference of the Parties (COP28) to the UN Framework Convention on Climate Change, highlighting the debate over a non-binding declaration and the focus on transitioning away from fossil fuels. It also mentions the potential of the US to remove 1 billion tons of carbon annually using existing technologies, particularly through biomass carbon removal and storage. The article aims to analyze the proposed solutions to the carbon challenge and offers insights into the Lawrence Livermore National Laboratory's report on carbon removal."
+    },
+    {
+        "feed_id": 185,
+        "article_id": 43,
+        "title": "Underestimating Washington D.C.'s Debt Trap",
+        "guid": "https://quoththeraven.substack.com/p/underestimating-washington-dcs-debt",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the escalating US government debt, which is projected to reach $34,000 billion by the end of the first quarter of the fiscal year. The Congressional Budget Office's forecasted debt interest costs were significantly lower than the actual $980 billion incurred, leading to concerns about the debt's sustainability. With a substantial amount of debt needing refinancing and a growing budget deficit, the Treasury's reliance on short-term T-bill financing is raising funding challenges. The article also highlights the potential impact of rising interest rates, foreign participation in US government funding, and the risk of a monetary crisis similar to the Triffin dilemma. The author emphasizes the potential consequences of foreign holders losing faith in the US government's finances and its statistical manipulation. The piece warns of a looming crisis, drawing parallels to the Triffin crisis of the 1970s."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 88,
+        "title": "Malaysia\u2019s Incoming Agong: Changes Coming",
+        "guid": "https://www.asiasentinel.com/p/malaysia-incoming-agong-changes-coming",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the rise of Sultan Ibrahim Ismail Ibni Almarhum Sultan Iskandar Al-Haj as the next Yang di-Pertuan Agong of Malaysia, with concerns about his unprecedented power and influence. Sultan Ibrahim has defied the Malaysian Constitution, appointed controversial figures as advisors, and expressed intentions to combat corruption. There are fears that his appetite for power may extend to the national stage, with potential control over national institutions and corporations. The Sultan's extensive business interests and influence in major projects raise concerns about his impact on the country's governance. Additionally, his family's actions have prompted former Prime Minister Mahathir Mohamad to campaign for limiting the power of all sultans. The article highlights the potential implications of Sultan Ibrahim's reign and the challenges it may pose to Malaysia's political landscape."
+    },
+    {
+        "feed_id": 179,
+        "article_id": 87,
+        "title": "New Singapore Measure Tightens Foreign Contact",
+        "guid": "https://www.asiasentinel.com/p/new-singapore-measure-tightens-foreign-contact",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "Shanmugam, the Foreign Interference Countermeasures Act (FICA) in Singapore is causing concern among press, human rights critics, and opposition politicians due to its potential to restrict Singaporeans and permanent residents. The act, set to take full effect by the end of the year, imposes severe penalties including heavy fines and jail terms."
+    },
+    {
+        "feed_id": 163,
+        "article_id": 31,
+        "title": "Emerging Market Links + The Week Ahead (December 18, 2023)",
+        "guid": "https://emergingmarketskeptic.substack.com/p/emerging-markets-week-december-18-2023",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "Bloomberg has highlighted how persistent high rates could lead to a 2024 reckoning for frontier markets, particularly in Africa, Latin America, and Asia. These markets are facing the challenge of repaying about $200 billion in bonds and other loans in 2024, with countries like Bolivia, Ethiopia, and Tunisia already in default or at risk of missing payments. Argentina, under newly elected Javier Milei, is facing a $400 billion 'debt bomb' with $16 billion in debt payments due next year. The only real solution for \"odious debts\" in places like Argentina is either default or reforming Western-controlled institutions by changing legal frameworks or shifting alliances towards the BRICs. However, Argentina is unlikely to be the first country to force change or reckoning when it comes to foreign debt. The article also includes a list of emerging market stock picks and stock research, as well as updates on logistics and operations in China and Hong Kong."
+    },
+    {
+        "feed_id": 105,
+        "article_id": 43,
+        "title": "Six reasons chipmakers should put their fabs in Japan",
+        "guid": "https://www.noahpinion.blog/p/six-reasons-chipmakers-should-put",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the potential for semiconductor manufacturers to invest in Japan for chipmaking plants due to various advantages. It highlights TSMC's plans to build advanced chip plants in Japan, along with investments from other major companies. The weak yen, existing supply chain for tools and materials, skilled yet affordable workforce, fewer construction barriers, government support, and hunger for innovation are cited as key factors making Japan an attractive investment destination. The article emphasizes Japan's potential to reintegrate into a globally distributed web of high-tech companies and predicts continued investment in the country."
+    },
+    {
+        "feed_id": 81,
+        "article_id": 2,
+        "title": "Asagami Corporation (TYO 9311) is an Example of Widespread Undervaluation of Land on Japanese Balance Sheets. Disparity Between Book & Market Value is 3x Market Cap On Just 3 Properties",
+        "guid": "https://altaycap.substack.com/p/asagami-corporation-tyo-9311-is-an",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses Asagami Corporation's undervalued land assets, particularly its three warehouses on Tokyo Harbor. The company's land assets, valued at \u00a57.9 billion on its books, are estimated to be worth closer to \u00a529.5 billion, significantly higher than the company's market cap of just \u00a57.16 billion. The valuation is based on a comparable property owned by a Japanese REIT. The article emphasizes that land assets are likely understated on the balance sheets of many Japanese companies, providing an additional margin of safety to deep value names. The writer highlights the potential undervaluation of Asagami and other Japanese companies with significant land assets, despite not conducting a deep dive into Asagami's business. The article concludes by stating that the undervaluation of land assets makes these cheap Japanese companies even cheaper than they appear at first glance. The writer discloses owning a few hundred shares of Asagami and emphasizes that the post is not financial advice."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 120,
+        "title": "#6 most read article 2023: Mapping out the deep state",
+        "guid": "https://murrayhunter.substack.com/p/6-most-read-article-2023-mapping",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the concept of the 'deep state' in Malaysia, comprising institutions, agencies, corporations, and individuals pursuing profits within the political-institutional environment. It highlights the influence and activities of major players such as prime ministers, key ministers, political benefactors, the criminal underworld, facilitators, royal families, civil service, Special Branch, and crony capitalists. The deep state is involved in rent-seeking activities, manipulation of public funds, and selective prosecution, contributing to a rent-seeking economy. The article emphasizes the lack of intervention by the new government and the perpetuation of deep state culture through privileged education and the belief in authority leading to wealth. The deep state's influence is evident in various sectors, including finance, communications, defense, and health ministries. The article also touches on the power dynamics and relationships within the deep state, shedding light on the complex and intertwined nature of its operations."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 119,
+        "title": "Has Malaysia been sold into a state of neo-colonialism?",
+        "guid": "https://murrayhunter.substack.com/p/has-malaysia-been-plunged-into-a",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the public statement made by former health minister Zaliha Mustafa regarding the World Health Organization's International Health Regulations (IHR) and its impact on Malaysia's sovereignty. The article raises concerns about Malaysia's acceptance of the IHR amendments and the potential implications of this decision, emphasizing the need for transparency from the current health minister, Dzulkefly Ahmand, regarding Malaysia's position on the matter. The article highlights the urgency of addressing the issue to safeguard Malaysia's future and questions the government's stance on neo-colonialism."
+    },
+    {
+        "feed_id": 70,
+        "article_id": 118,
+        "title": "Sirul still waiting for his millions? But what has he done with the thousands he has received?",
+        "guid": "https://murrayhunter.substack.com/p/sirul-still-waiting-for-his-millions",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the revelation of pay-in slips totaling RM$200K deposited into the accounts of two companies, both of which are linked to Mohd Fakri Bin Mat Ali. The author questions the source of the money, the identity of the depositor, and whether Hasnal Rezua Merican is aware of these transactions. Additionally, the article raises concerns about whether Sirul Azhar Umar received any money as a result of these transactions. The author hints at a continuation of the discussion and encourages readers to subscribe for further updates."
+    },
+    {
+        "feed_id": 64,
+        "article_id": 30,
+        "title": "Dropping Like a Stone: ON RRP Take-up in the Second Half of 2023",
+        "guid": "https://libertystreeteconomics.newyorkfed.org/?p=27621",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the significant decrease in take-up at the Overnight Reverse Repo Facility (ON RRP) over the past six months, attributing it to various factors. These include the expansion of bank reserves, increased balance-sheet costs for banks, changes in monetary policy, and the supply of T-bills. The authors, Gara Afonso, Marco Cipriani, and Gabriele La Spada from the Federal Reserve Bank of New York, analyze the decline in ON RRP take-up and its drivers. They highlight the reversal of factors that drove the increase in ON RRP take-up between 2021 and May 2023, suggesting a potential continued decrease in take-up if current dynamics persist. The authors also discuss the impact of these changes on the money market fund industry and the potential implications for the future."
+    },
+    {
+        "feed_id": 51,
+        "article_id": 17,
+        "title": "Haymaker Chart Book - December 18th, 2023",
+        "guid": "https://haymaker.substack.com/p/haymaker-chart-book-december-18th",
+        "published_date": "2023-12-18",
+        "summarized_date": "2023-12-19",
+        "summary": "The article is a final Monday post for the year, with a reminder of the upcoming Friday post. It also mentions the publication of the first official chart book entry and provides insights on various topics. These include the bond market's reaction to the Fed's pivot, the federal deficit, oil prices, central bank balance sheets, bankruptcy filings by U.S. businesses, and consumer credit card balances. The article also discusses the impact of the recent bond market rally on U.S. banks' holdings of U.S. Treasuries."
+    },
+    {
+        "feed_id": 8,
+        "article_id": 30,
+        "title": "Dropping Like a Stone: ON RRP Take-up in the Second Half of 2023",
+        "guid": "https://libertystreeteconomics.newyorkfed.org/?p=27621",
+        "published_date": "2023-12-19",
+        "summarized_date": "2023-12-19",
+        "summary": "The article discusses the significant decrease in take-up at the Overnight Reverse Repo Facility (ON RRP) over the past six months, attributing it to various factors. These include the expansion of bank reserves, increased balance-sheet costs for banks, changes in monetary policy, and the supply of T-bills. The authors interpret the decline in ON RRP take-up through the lens of these factors, highlighting the impact of these dynamics on the banking system and money market funds. The decrease in ON RRP take-up is seen as consistent with previous patterns observed during the normalization of the Federal Reserve's balance sheet. The authors, Gara Afonso, Marco Cipriani, and Gabriele La Spada, are affiliated with the Federal Reserve Bank of New York's Research and Statistics Group. Their analysis provides insights into the evolving dynamics of the ON RRP and its implications for the broader financial system."
+    },
+    {
         "feed_id": 308,
         "article_id": 2,
         "title": "Dollar General: Opportunity or Trap?",
